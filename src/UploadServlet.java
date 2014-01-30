@@ -63,7 +63,7 @@ public class UploadServlet extends HttpServlet {
       out.println("<title>Servlet upload</title>");
       out.println("</head>");
       out.println("<body>");
-      
+
       while (i.hasNext()) {
         FileItem fi = (FileItem) i.next();
         if (!fi.isFormField()) {
@@ -81,6 +81,7 @@ public class UploadServlet extends HttpServlet {
           }
           fi.write(file);
           out.println("Uploaded Filename: " + fileName + "<br>");
+          new ClientSaxParser(filePath + fileName.substring(fileName.lastIndexOf("\\") + 1));
         }
       }
       out.println("</body>");
