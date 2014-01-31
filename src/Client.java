@@ -55,8 +55,13 @@ public class Client {
     this.accounts = accounts;
   }
 
+  @Override
   public String toString() {
     return "\nClient:" + "\nName: " + getName() + "\nSurname: " + getSurname() + "\nDate of birth: " + getDateOfBirth()
         + "\nCards: " + getCards() + "\nAccounts: " + getAccounts();
+  }
+  
+  public String toXML() {
+    return "";
   }
 }
