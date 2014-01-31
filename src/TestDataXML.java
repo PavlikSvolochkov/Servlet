@@ -30,10 +30,14 @@ public class TestDataXML {
     outputFactory = XMLOutputFactory.newInstance();
     writer = outputFactory.createXMLStreamWriter(new FileWriter("d:\\temp\\data\\output2.xml"));
   }
+    
+  public void setFileLocation(String file_location) {
+    this.file_location = file_location;
+  }
 
   public void toXML() throws XMLStreamException, IOException, SQLException, ClassNotFoundException {
 
-    writer.writeStartDocument();
+    writer.writeStartDocument("UTF-8", "1.0");
     writer.writeStartElement("clients");
 
     while (connectionDB.getClientResultSet().next()) {
@@ -42,8 +46,6 @@ public class TestDataXML {
       String name = connectionDB.getClientResultSet().getString("name");
       String surName = connectionDB.getClientResultSet().getString("surname");
       Date birthDate = connectionDB.getClientResultSet().getDate("dateOfBirth");
-//      int card = connectionDB.getResultSet().getInt("cards");
-//      int account = connectionDB.getResultSet().getInt("account");
 
       writer.writeStartElement("client");
 
@@ -60,8 +62,10 @@ public class TestDataXML {
       writer.writeEndElement();
 
       writer.writeStartElement("cards");
+
       connectionDB.setCardsQuery("SELECT * FROM CARDS WHERE ID_CLIENT=" + id_client);
       connectionDB.cardsResultSet = connectionDB.statementCards.executeQuery(connectionDB.getCardsQuery());
+
       while (connectionDB.getCardsResultSet().next()) {
         writer.writeStartElement("card");
         writer.writeCharacters(connectionDB.getCardsResultSet().getString("CARD"));
@@ -69,13 +73,17 @@ public class TestDataXML {
       }
       writer.writeEndElement();
 //      
-//      writer.writeStartElement("accounts");
-//      writer.writeStartElement("account");
-//      writer.writeCharacters(connectionDB.getResultSet().getString("account"));
-//      writer.writeEndElement();
-//      writer.writeStartElement("account");
-//      writer.writeCharacters("124");
-//      writer.writeEndElement();
+
+      connectionDB.setAccountQuery("SELECT * FROM ACCOUNTS WHERE ID_CLIENT=" + id_client);
+      connectionDB.accountsResultSet = connectionDB.statementAccounts.executeQuery(connectionDB.getAccountsQuery());
+
+      writer.writeStartElement("accounts");
+      while (connectionDB.getAccountsResultSet().next()) {
+        writer.writeStartElement("account");
+        writer.writeCharacters(connectionDB.getAccountsResultSet().getString("account"));
+        writer.writeEndElement();
+      }
+      writer.writeEndElement();
 
       writer.writeEndElement(); // EndElement <client>
 
@@ -87,9 +95,6 @@ public class TestDataXML {
     writer.writeEndElement();
     writer.writeEndDocument();
     writer.close();
-//
-//    File inserFile = new File(LOCATION);
-//    inserFile.createNewFile();
 
     connectionDB.close();
 
@@ -99,9 +104,5 @@ public class TestDataXML {
   public static void main(String[] args) throws ClassNotFoundException, SQLException, ParserConfigurationException, XMLStreamException, IOException {
     TestDataXML dataXML = new TestDataXML();
     dataXML.toXML();
-  }
-
-  public void setFileLocation(String file_location) {
-    this.file_location = file_location;
   }
 }

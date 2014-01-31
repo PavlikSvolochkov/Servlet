@@ -1,3 +1,4 @@
+
 import java.io.IOException;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -54,8 +55,9 @@ public class ClientSaxParser extends DefaultHandler {
 
     if (qName.equalsIgnoreCase("client")) {
       client = new Client();
-      if (clientList == null)
+      if (clientList == null) {
         clientList = new ArrayList<>();
+      }
     }
   }
 
@@ -89,5 +91,11 @@ public class ClientSaxParser extends DefaultHandler {
     if (qName.equalsIgnoreCase("account")) {
       client.getAccounts().add(tmpValue);
     }
+  }
+  
+  public static void main(String[] args) {
+    ClientSaxParser parser = new ClientSaxParser("d:\\dev\\Project\\ClientsServlet\\src\\clients.xml");
+    parser.parseDocument();
+    parser.printDatas();
   }
 }
