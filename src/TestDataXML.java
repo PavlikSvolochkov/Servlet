@@ -17,16 +17,16 @@ public class TestDataXML {
   String query = "SELECT * FROM clients";
   private String file_location = null;
 
-  ConnectionDB connectionDB;
+  ConnectionDB connectDB;
 
   XMLOutputFactory outputFactory;
 
   XMLStreamWriter writer;
 
   public TestDataXML() throws ClassNotFoundException, SQLException, ParserConfigurationException, XMLStreamException, IOException {
-    connectionDB = new ConnectionDB();
-    connectionDB.setClienQuery(query);
-    connectionDB.connect();
+    connectDB = new ConnectionDB();
+    connectDB.setClienQuery(query);
+    connectDB.connect();
     outputFactory = XMLOutputFactory.newInstance();
     writer = outputFactory.createXMLStreamWriter(new FileWriter("d:\\temp\\data\\output2.xml"));
   }
@@ -40,47 +40,47 @@ public class TestDataXML {
     writer.writeStartDocument("UTF-8", "1.0");
     writer.writeStartElement("clients");
 
-    while (connectionDB.getClientResultSet().next()) {
+    while (connectDB.getClientRS().next()) {
 
-      int id_client = connectionDB.getClientResultSet().getInt("id_client");
-      String name = connectionDB.getClientResultSet().getString("name");
-      String surName = connectionDB.getClientResultSet().getString("surname");
-      Date birthDate = connectionDB.getClientResultSet().getDate("dateOfBirth");
+      int id_client = connectDB.getClientRS().getInt("id_client");
+      String name = connectDB.getClientRS().getString("name");
+      String surName = connectDB.getClientRS().getString("surname");
+      Date birthDate = connectDB.getClientRS().getDate("dateOfBirth");
 
       writer.writeStartElement("client");
 
       writer.writeStartElement("name");
-      writer.writeCharacters(connectionDB.getClientResultSet().getString("name"));
+      writer.writeCharacters(connectDB.getClientRS().getString("name"));
       writer.writeEndElement();
 
       writer.writeStartElement("surname");
-      writer.writeCharacters(connectionDB.getClientResultSet().getString("surname"));
+      writer.writeCharacters(connectDB.getClientRS().getString("surname"));
       writer.writeEndElement();
 
       writer.writeStartElement("dateOfBirth");
-      writer.writeCharacters(connectionDB.getClientResultSet().getString("dateOfBirth"));
+      writer.writeCharacters(connectDB.getClientRS().getString("dateOfBirth"));
       writer.writeEndElement();
 
       writer.writeStartElement("cards");
 
-      connectionDB.setCardsQuery("SELECT * FROM CARDS WHERE ID_CLIENT=" + id_client);
-      connectionDB.cardsResultSet = connectionDB.statementCards.executeQuery(connectionDB.getCardsQuery());
+      connectDB.setCardsQuery("SELECT * FROM CARDS WHERE ID_CLIENT=" + id_client);
+      connectDB.cardsRS = connectDB.stmtCards.executeQuery(connectDB.getCardsQuery());
 
-      while (connectionDB.getCardsResultSet().next()) {
+      while (connectDB.getCardsRS().next()) {
         writer.writeStartElement("card");
-        writer.writeCharacters(connectionDB.getCardsResultSet().getString("CARD"));
+        writer.writeCharacters(connectDB.getCardsRS().getString("CARD"));
         writer.writeEndElement();
       }
       writer.writeEndElement();
 //      
 
-      connectionDB.setAccountQuery("SELECT * FROM ACCOUNTS WHERE ID_CLIENT=" + id_client);
-      connectionDB.accountsResultSet = connectionDB.statementAccounts.executeQuery(connectionDB.getAccountsQuery());
+      connectDB.setAccountQuery("SELECT * FROM ACCOUNTS WHERE ID_CLIENT=" + id_client);
+      connectDB.accountsRS = connectDB.stmtAccounts.executeQuery(connectDB.getAccountsQuery());
 
       writer.writeStartElement("accounts");
-      while (connectionDB.getAccountsResultSet().next()) {
+      while (connectDB.getAccountsRS().next()) {
         writer.writeStartElement("account");
-        writer.writeCharacters(connectionDB.getAccountsResultSet().getString("account"));
+        writer.writeCharacters(connectDB.getAccountsRS().getString("account"));
         writer.writeEndElement();
       }
       writer.writeEndElement();
@@ -96,7 +96,7 @@ public class TestDataXML {
     writer.writeEndDocument();
     writer.close();
 
-    connectionDB.close();
+    connectDB.close();
 
     System.out.println("Insert data in file complite");
   }

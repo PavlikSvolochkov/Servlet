@@ -16,12 +16,12 @@ public class ConnectionDB {
 
   Connection connection;
   Statement statement;
-  ResultSet clientResultSet;
-  ResultSet cardsResultSet;
-  ResultSet accountsResultSet;
-  Statement statementClient;
-  Statement statementCards;
-  Statement statementAccounts;
+  ResultSet clientRS;
+  ResultSet cardsRS;
+  ResultSet accountsRS;
+  Statement stmtClient;
+  Statement stmtCards;
+  Statement stmtAccounts;
 
   public ConnectionDB() {
     this.URL = "jdbc:oracle:thin:@193.8.203.37:1522/PS";
@@ -39,13 +39,13 @@ public class ConnectionDB {
     Class.forName("oracle.jdbc.driver.OracleDriver");
     this.connection = DriverManager.getConnection(URL, USER, PASSWORD);
     
-    this.statementClient = connection.createStatement();
-    this.statementCards = connection.createStatement();
-    this.statementAccounts = connection.createStatement();
+    this.stmtClient = connection.createStatement();
+    this.stmtCards = connection.createStatement();
+    this.stmtAccounts = connection.createStatement();
     
-    this.clientResultSet = statementClient.executeQuery(getClientQuery());
-    this.cardsResultSet = statementCards.executeQuery(getCardsQuery());
-    this.accountsResultSet = statementAccounts.executeQuery(getAccountsQuery());
+    this.clientRS = stmtClient.executeQuery(getClientQuery());
+    this.cardsRS = stmtCards.executeQuery(getCardsQuery());
+    this.accountsRS = stmtAccounts.executeQuery(getAccountsQuery());
     System.out.println("Connection Well Done!");
   }
 
@@ -81,16 +81,16 @@ public class ConnectionDB {
     return ACCOUNTS_QUERY;
   }
 
-  public ResultSet getClientResultSet() {
-    return clientResultSet;
+  public ResultSet getClientRS() {
+    return clientRS;
   }
 
-  public ResultSet getCardsResultSet() {
-    return cardsResultSet;
+  public ResultSet getCardsRS() {
+    return cardsRS;
   }
 
-  public ResultSet getAccountsResultSet() {
-    return accountsResultSet;
+  public ResultSet getAccountsRS() {
+    return accountsRS;
   }
 
   public void setClienQuery(String CLIENT_QUERY) {
