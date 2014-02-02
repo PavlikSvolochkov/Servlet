@@ -16,9 +16,11 @@ public class ConnectionDB {
 
   Connection connection;
   Statement statement;
+  
   ResultSet clientRS;
   ResultSet cardsRS;
   ResultSet accountsRS;
+  
   Statement stmtClient;
   Statement stmtCards;
   Statement stmtAccounts;
