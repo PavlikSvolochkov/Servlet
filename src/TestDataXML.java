@@ -1,10 +1,12 @@
 
 import java.io.FileWriter;
 import java.io.IOException;
+import java.sql.Connection;
+import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.sql.Statement;
 import java.util.Date;
 import java.util.List;
-import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.stream.XMLOutputFactory;
 import javax.xml.stream.XMLStreamException;
 import javax.xml.stream.XMLStreamWriter;
@@ -14,25 +16,47 @@ public class TestDataXML {
   private List<Client> clientList = null;
   private Client client = null;
 
-  String query = "SELECT * FROM clients";
-  private String file_location = null;
+  private String clientQuery = "SELECT * FROM CLIENTS";
+  private String cardsQuery = "SELECT * FROM CARDS";
+  private String accountQuery = "SELECT * FROM ACCOUNTS";
+  private String fileLocation = null;
 
-  ConnectionDB connectDB;
+  Connection conn = null;
 
-  XMLOutputFactory outputFactory;
+  ResultSet clientRS = null;
+  ResultSet cardsRS = null;
+  ResultSet accountsRS = null;
 
-  XMLStreamWriter writer;
+  Statement stmtClient = null;
+  Statement stmtCards = null;
+  Statement stmtAccounts = null;
 
-  public TestDataXML() throws ClassNotFoundException, SQLException, ParserConfigurationException, XMLStreamException, IOException {
-    connectDB = new ConnectionDB();
-    connectDB.setClienQuery(query);
-    connectDB.connect();
+  XMLOutputFactory outputFactory = null;
+  XMLStreamWriter writer = null;
+
+  public TestDataXML() {
+
     outputFactory = XMLOutputFactory.newInstance();
-    writer = outputFactory.createXMLStreamWriter(new FileWriter("d:\\temp\\data\\output2.xml"));
+
+    try {
+      
+      writer = outputFactory.createXMLStreamWriter(new FileWriter("d:\\temp\\data\\output2.xml"));
+
+      this.stmtClient = conn.createStatement();
+      this.stmtCards = conn.createStatement();
+      this.stmtAccounts = conn.createStatement();
+
+      this.clientRS = stmtClient.executeQuery(getClientQuery());
+      this.cardsRS = stmtCards.executeQuery(getCardsQuery());
+      this.accountsRS = stmtAccounts.executeQuery(getAccountQuery());
+
+    } catch (IOException | XMLStreamException | SQLException e) {
+      e.printStackTrace();
+    }
   }
-    
+
   public void setFileLocation(String file_location) {
-    this.file_location = file_location;
+    this.fileLocation = file_location;
   }
 
   public void toXML() throws XMLStreamException, IOException, SQLException, ClassNotFoundException {
@@ -40,47 +64,46 @@ public class TestDataXML {
     writer.writeStartDocument("UTF-8", "1.0");
     writer.writeStartElement("clients");
 
-    while (connectDB.getClientRS().next()) {
+    while (clientRS.next()) {
 
-      int id_client = connectDB.getClientRS().getInt("id_client");
-      String name = connectDB.getClientRS().getString("name");
-      String surName = connectDB.getClientRS().getString("surname");
-      Date birthDate = connectDB.getClientRS().getDate("dateOfBirth");
+      int id_client = clientRS.getInt("id_client");
+      String name = clientRS.getString("name");
+      String surname = clientRS.getString("surname");
+      Date birthDate = clientRS.getDate("dateOfBirth");
 
       writer.writeStartElement("client");
 
       writer.writeStartElement("name");
-      writer.writeCharacters(connectDB.getClientRS().getString("name"));
+      writer.writeCharacters(clientRS.getString("name"));
       writer.writeEndElement();
 
       writer.writeStartElement("surname");
-      writer.writeCharacters(connectDB.getClientRS().getString("surname"));
+      writer.writeCharacters(clientRS.getString("surname"));
       writer.writeEndElement();
 
       writer.writeStartElement("dateOfBirth");
-      writer.writeCharacters(connectDB.getClientRS().getString("dateOfBirth"));
+      writer.writeCharacters(clientRS.getString("dateOfBirth"));
       writer.writeEndElement();
 
       writer.writeStartElement("cards");
 
-      connectDB.setCardsQuery("SELECT * FROM CARDS WHERE ID_CLIENT=" + id_client);
-      connectDB.cardsRS = connectDB.stmtCards.executeQuery(connectDB.getCardsQuery());
+      cardsQuery = "SELECT * FROM CARDS WHERE ID_CLIENT=" + id_client;
+      cardsRS = stmtCards.executeQuery(cardsQuery);
 
-      while (connectDB.getCardsRS().next()) {
+      while (cardsRS.next()) {
         writer.writeStartElement("card");
-        writer.writeCharacters(connectDB.getCardsRS().getString("CARD"));
+        writer.writeCharacters(cardsRS.getString("CARD"));
         writer.writeEndElement();
       }
       writer.writeEndElement();
-//      
 
-      connectDB.setAccountQuery("SELECT * FROM ACCOUNTS WHERE ID_CLIENT=" + id_client);
-      connectDB.accountsRS = connectDB.stmtAccounts.executeQuery(connectDB.getAccountsQuery());
+      accountQuery = "SELECT * FROM ACCOUNTS WHERE ID_CLIENT=" + id_client;
+      accountsRS = stmtAccounts.executeQuery(accountQuery);
 
       writer.writeStartElement("accounts");
-      while (connectDB.getAccountsRS().next()) {
+      while (accountsRS.next()) {
         writer.writeStartElement("account");
-        writer.writeCharacters(connectDB.getAccountsRS().getString("account"));
+        writer.writeCharacters(accountsRS.getString("account"));
         writer.writeEndElement();
       }
       writer.writeEndElement();
@@ -90,19 +113,53 @@ public class TestDataXML {
       writer.flush();
 
       // print the results
-      System.out.format("%s, %s, %s, %s\n", id_client, name, surName, birthDate);
+      System.out.format("%s, %s, %s, %s\n", id_client, name, surname, birthDate);
     }
     writer.writeEndElement();
     writer.writeEndDocument();
     writer.close();
 
-    connectDB.close();
-
+    //conn.close();
     System.out.println("Insert data in file complite");
   }
 
-  public static void main(String[] args) throws ClassNotFoundException, SQLException, ParserConfigurationException, XMLStreamException, IOException {
-    TestDataXML dataXML = new TestDataXML();
-    dataXML.toXML();
+  public String getClientQuery() {
+    return clientQuery;
+  }
+
+  public String getCardsQuery() {
+    return cardsQuery;
+  }
+
+  public String getAccountQuery() {
+    return accountQuery;
+  }
+
+  public ResultSet getClientRS() {
+    return clientRS;
+  }
+
+  public ResultSet getCardsRS() {
+    return cardsRS;
+  }
+
+  public ResultSet getAccountsRS() {
+    return accountsRS;
+  }
+
+  public void setClienQuery(String clientQuery) {
+    this.clientQuery = clientQuery;
+  }
+
+  public void setCardsQuery(String cardsQuery) {
+    this.cardsQuery = cardsQuery;
+  }
+
+  public void setAccountQuery(String accountQuery) {
+    this.accountQuery = accountQuery;
+  }
+
+  public void setConnection(Connection conn) {
+    this.conn = conn;
   }
 }

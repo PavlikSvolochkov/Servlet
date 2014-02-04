@@ -23,7 +23,7 @@ public class DataXML extends Thread {
   String query = "SELECT * FROM clients";
   private String LOCATION = null;
 
-  ConnectionDB connectionDB;
+  DBConnection connectionDB;
 
   DocumentBuilderFactory factory;
   DocumentBuilder builder;
@@ -33,7 +33,7 @@ public class DataXML extends Thread {
   Element clientTitle;
 
   public DataXML() throws ClassNotFoundException, SQLException, ParserConfigurationException {
-    connectionDB = new ConnectionDB();
+    connectionDB = new DBConnection();
     connectionDB.setQuery(query);
     connectionDB.connect();
     factory = DocumentBuilderFactory.newInstance();
