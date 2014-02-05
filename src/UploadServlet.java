@@ -1,5 +1,6 @@
 
 import java.io.File;
+import java.io.PrintWriter;
 import java.util.Iterator;
 import java.util.List;
 import javax.servlet.ServletException;
@@ -19,16 +20,18 @@ public class UploadServlet extends HttpServlet {
   private int maxMemSize = 14 * 1024;
   private File file;
 
+  @Override
   public void init() {
     // Get the file location where it would be stored.
     filePath = getServletContext().getInitParameter("file-upload");
   }
 
+  @Override
   public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, java.io.IOException {
     // Check that we have a file upload request
     isMultipart = ServletFileUpload.isMultipartContent(request);
     response.setContentType("text/html");
-    java.io.PrintWriter out = response.getWriter();
+    PrintWriter out = response.getWriter();
     if (!isMultipart) {
       out.println("<html>");
       out.println("<head>");
@@ -73,6 +76,7 @@ public class UploadServlet extends HttpServlet {
           String contentType = fi.getContentType();
           boolean isInMemory = fi.isInMemory();
           long sizeInBytes = fi.getSize();
+          System.out.println("FILE PARAMETERS:: " + " " + fieldName + " "  + fileName + " "  + contentType + " "  + isInMemory + " "  + sizeInBytes);
           // Write the file
           if (fileName.lastIndexOf("\\") >= 0) {
             file = new File(filePath + fileName.substring(fileName.lastIndexOf("\\")));
@@ -81,8 +85,6 @@ public class UploadServlet extends HttpServlet {
           }
           fi.write(file);
           out.println("Uploaded Filename: " + fileName + "<br>");
-          Old_Data_XML dataXML = new Old_Data_XML();
-          dataXML.getFileLocation(filePath + fileName.substring(fileName.lastIndexOf("\\") + 1));
         }
       }
       out.println("</body>");
@@ -92,6 +94,7 @@ public class UploadServlet extends HttpServlet {
     }
   }
 
+  @Override
   public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, java.io.IOException {
     throw new ServletException("GET method used with " + getClass().getName() + ": POST method required.");
   }

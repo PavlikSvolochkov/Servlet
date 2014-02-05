@@ -50,8 +50,8 @@ public class DataXML {
     this.accountsRS = stmtAccounts.executeQuery(getAccountQuery());
   }
 
-  public void setFileLocation(String file_location) {
-    this.fileLocation = file_location;
+  public void setFileLocation(String fileLocation) {
+    this.fileLocation = fileLocation;
   }
 
   public void toXML() throws XMLStreamException, IOException, SQLException, ClassNotFoundException {
