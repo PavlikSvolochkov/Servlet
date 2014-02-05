@@ -81,7 +81,7 @@ public class UploadServlet extends HttpServlet {
           }
           fi.write(file);
           out.println("Uploaded Filename: " + fileName + "<br>");
-          DataXML dataXML = new DataXML();
+          Old_Data_XML dataXML = new Old_Data_XML();
           dataXML.getFileLocation(filePath + fileName.substring(fileName.lastIndexOf("\\") + 1));
         }
       }

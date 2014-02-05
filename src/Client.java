@@ -60,8 +60,4 @@ public class Client {
     return "\nClient:" + "\nName: " + getName() + "\nSurname: " + getSurname() + "\nDate of birth: " + getDateOfBirth()
         + "\nCards: " + getCards() + "\nAccounts: " + getAccounts();
   }
-  
-  public String toXML() {
-    return "";
-  }
 }

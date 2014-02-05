@@ -9,12 +9,12 @@ public class DBConnection {
   private String user;
   private String pass;
 
-  static Connection conn;
+  Connection conn = null;
 
   public DBConnection() {
-    this.url = "jdbc:oracle:thin:@localhost:1521/orcl";
-    this.user = "sys as sysdba";
-    this.pass = "111";
+    this.url = "jdbc:oracle:thin:@193.8.203.37:1522/PS";
+    this.user = "monservice";
+    this.pass = "monservice";
   }
 
   public DBConnection(String dbUrl, String user, String password) {
@@ -47,6 +47,6 @@ public class DBConnection {
   }
 
   public Connection getConnection() {
-    return conn;
+    return this.conn;
   }
 }

@@ -1,93 +1,161 @@
 
-import java.io.File;
-import java.io.FileOutputStream;
+import java.io.FileWriter;
 import java.io.IOException;
+import java.sql.Connection;
+import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.Date;
+import java.util.List;
+import javax.xml.stream.XMLOutputFactory;
+import javax.xml.stream.XMLStreamException;
+import javax.xml.stream.XMLStreamWriter;
 
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.parsers.ParserConfigurationException;
-import javax.xml.transform.OutputKeys;
-import javax.xml.transform.Transformer;
-import javax.xml.transform.TransformerException;
-import javax.xml.transform.TransformerFactory;
-import javax.xml.transform.TransformerFactoryConfigurationError;
-import javax.xml.transform.dom.DOMSource;
-import javax.xml.transform.stream.StreamResult;
+public class DataXML {
 
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
+  private List<Client> clientList = null;
+  private Client client = null;
 
-public class DataXML extends Thread {
+  private String clientQuery = "SELECT * FROM CLIENTS";
+  private String cardsQuery = "SELECT * FROM CARDS";
+  private String accountQuery = "SELECT * FROM ACCOUNTS";
+  private String fileLocation = null;
 
-  String query = "SELECT * FROM clients";
-  private String LOCATION = null;
+  Connection conn = null;
 
-  DBConnection connectionDB;
+  ResultSet clientRS = null;
+  ResultSet cardsRS = null;
+  ResultSet accountsRS = null;
 
-  DocumentBuilderFactory factory;
-  DocumentBuilder builder;
-  Document doc;
+  Statement stmtClient = null;
+  Statement stmtCards = null;
+  Statement stmtAccounts = null;
 
-  Element rootElement;
-  Element clientTitle;
+  XMLOutputFactory outputFactory = null;
+  XMLStreamWriter writer = null;
 
-  public DataXML() throws ClassNotFoundException, SQLException, ParserConfigurationException {
-    connectionDB = new DBConnection();
-    connectionDB.setQuery(query);
-    connectionDB.connect();
-    factory = DocumentBuilderFactory.newInstance();
-    builder = factory.newDocumentBuilder();
-    doc = builder.newDocument();
-
-    rootElement = doc.createElement("clients");
-    clientTitle = doc.createElement("client");
+  public DataXML() throws XMLStreamException, IOException {
+    outputFactory = XMLOutputFactory.newInstance();
+    writer = outputFactory.createXMLStreamWriter(new FileWriter("d:\\temp\\data\\output2.xml"));
   }
 
-  public void getFileLocation(String location) {
-    LOCATION = location;
+  void build() throws SQLException {
+
+    this.stmtClient = conn.createStatement();
+    this.stmtCards = conn.createStatement();
+    this.stmtAccounts = conn.createStatement();
+
+    this.clientRS = stmtClient.executeQuery(getClientQuery());
+    this.cardsRS = stmtCards.executeQuery(getCardsQuery());
+    this.accountsRS = stmtAccounts.executeQuery(getAccountQuery());
   }
 
-  @Override
-  public void run() {
-    try {
+  public void setFileLocation(String file_location) {
+    this.fileLocation = file_location;
+  }
 
-      while (connectionDB.getResultSet().next()) {
-        rootElement.appendChild(clientTitle);
+  public void toXML() throws XMLStreamException, IOException, SQLException, ClassNotFoundException {
 
-        int id = connectionDB.getResultSet().getInt("id");
-        String name = connectionDB.getResultSet().getString("name");
-        String surName = connectionDB.getResultSet().getString("surname");
-        String birthDate = connectionDB.getResultSet().getString("dateofbirth");
+    writer.writeStartDocument("UTF-8", "1.0");
+    writer.writeStartElement("clients");
 
-        Element nameTitle = doc.createElement("name");
-        nameTitle.appendChild(doc.createTextNode(name));
-        clientTitle.appendChild(nameTitle);
+    while (clientRS.next()) {
 
-        Element surnameTitle = doc.createElement("surname");
-        surnameTitle.appendChild(doc.createTextNode(surName));
-        clientTitle.appendChild(surnameTitle);
+      int id_client = clientRS.getInt("id_client");
+      String name = clientRS.getString("name");
+      String surname = clientRS.getString("surname");
+      Date birthDate = clientRS.getDate("dateOfBirth");
 
-        Element birthdateTitle = doc.createElement("dateOfBirth");
-        birthdateTitle.appendChild(doc.createTextNode(birthDate));
-        clientTitle.appendChild(birthdateTitle);
+      writer.writeStartElement("client");
 
-        rootElement.appendChild(clientTitle);
-        clientTitle = doc.createElement("client");
+      writer.writeStartElement("name");
+      writer.writeCharacters(clientRS.getString("name"));
+      writer.writeEndElement();
 
-        // print the results
-        System.out.format("%s, %s, %s, %s\n", id, name, surName, birthDate);
+      writer.writeStartElement("surname");
+      writer.writeCharacters(clientRS.getString("surname"));
+      writer.writeEndElement();
+
+      writer.writeStartElement("dateOfBirth");
+      writer.writeCharacters(clientRS.getString("dateOfBirth"));
+      writer.writeEndElement();
+
+      writer.writeStartElement("cards");
+
+      cardsQuery = "SELECT * FROM CARDS WHERE ID_CLIENT=" + id_client;
+      cardsRS = stmtCards.executeQuery(cardsQuery);
+
+      while (cardsRS.next()) {
+        writer.writeStartElement("card");
+        writer.writeCharacters(cardsRS.getString("CARD"));
+        writer.writeEndElement();
       }
-      doc.appendChild(rootElement);
-      File inserFile = new File(LOCATION);
-      inserFile.createNewFile();
-      Transformer t = TransformerFactory.newInstance().newTransformer();
-      t.setOutputProperty(OutputKeys.INDENT, "yes");
-      t.transform(new DOMSource(doc), new StreamResult(new FileOutputStream(LOCATION)));
-      connectionDB.close();
-      System.out.println("Insert data in file complite");
-    } catch (SQLException | TransformerFactoryConfigurationError | TransformerException | IOException e) {
-      e.toString();
+      writer.writeEndElement();
+
+      accountQuery = "SELECT * FROM ACCOUNTS WHERE ID_CLIENT=" + id_client;
+      accountsRS = stmtAccounts.executeQuery(accountQuery);
+
+      writer.writeStartElement("accounts");
+      while (accountsRS.next()) {
+        writer.writeStartElement("account");
+        writer.writeCharacters(accountsRS.getString("account"));
+        writer.writeEndElement();
+      }
+      writer.writeEndElement();
+      writer.writeEndElement(); // EndElement <client>
+
+      writer.flush();
+
+      // print the results
+      System.out.format("%s, %s, %s, %s\n", id_client, name, surname, birthDate);
     }
+    writer.writeEndElement();
+    writer.writeEndDocument();
+    writer.close();
+    System.out.println("Insert data in file complite");
+  }
+
+  public String getClientQuery() {
+    return clientQuery;
+  }
+
+  public String getCardsQuery() {
+    return cardsQuery;
+  }
+
+  public String getAccountQuery() {
+    return accountQuery;
+  }
+
+  public ResultSet getClientRS() {
+    return clientRS;
+  }
+
+  public ResultSet getCardsRS() {
+    return cardsRS;
+  }
+
+  public ResultSet getAccountsRS() {
+    return accountsRS;
+  }
+
+  public void setClienQuery(String clientQuery) {
+    this.clientQuery = clientQuery;
+  }
+
+  public void setCardsQuery(String cardsQuery) {
+    this.cardsQuery = cardsQuery;
+  }
+
+  public void setAccountQuery(String accountQuery) {
+    this.accountQuery = accountQuery;
+  }
+
+  public void setConnection(Connection conn) {
+    this.conn = conn;
+  }
+
+  public List<Client> getClientList() {
+    return clientList;
   }
 }

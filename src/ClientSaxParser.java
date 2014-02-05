@@ -27,11 +27,10 @@ public class ClientSaxParser extends DefaultHandler {
     return clientList;
   }
 
-  public ClientSaxParser(String bookXmlFileName) {
-    this.xmlFileName = bookXmlFileName;
+  public ClientSaxParser(String xmlFile) {
+    this.xmlFileName = xmlFile;
     clientList = new ArrayList<Client>();
     parseDocument();
-    printDatas();
   }
 
   private void parseDocument() {
@@ -44,7 +43,7 @@ public class ClientSaxParser extends DefaultHandler {
     }
   }
 
-  private void printDatas() {
+  private void printData() {
     for (Client tmpClient : clientList) {
       System.out.println(tmpClient.toString());
     }
@@ -91,11 +90,5 @@ public class ClientSaxParser extends DefaultHandler {
     if (qName.equalsIgnoreCase("account")) {
       client.getAccounts().add(tmpValue);
     }
-  }
-  
-  public static void main(String[] args) {
-    ClientSaxParser parser = new ClientSaxParser("d:\\dev\\Project\\ClientsServlet\\src\\clients.xml");
-    parser.parseDocument();
-    parser.printDatas();
   }
 }
