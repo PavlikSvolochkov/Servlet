@@ -51,7 +51,6 @@ public class Old_Data_XML extends Thread {
   @Override
   public void run() {
     try {
-
       while (connectionDB.getResultSet().next()) {
         rootElement.appendChild(clientTitle);
 

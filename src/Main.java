@@ -1,7 +1,6 @@
 
 import java.util.List;
 
-
 public class Main {
 
   public static void main(String[] args) throws Exception {
@@ -20,8 +19,9 @@ public class Main {
     for (Client client : clientList)
       System.out.println(client.toString());
     
-//    InsertXMLData xmlData = new InsertXMLData();
-//    xmlData.setConn(conn.getConnection());
-    
+//    InsertXMLData insertXMLData = new InsertXMLData();
+//    insertXMLData.setConn(conn.getConnection());
+//    insertXMLData.setClientList(clientList);
+//    insertXMLData.insert("d:\\dev\\Project\\ClientsServlet\\src\\clients.xml");
   }
 }

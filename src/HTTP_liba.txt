@@ -1,1 +1,1 @@
-apache httpcomponents-client
+apache httpcomponents-client //либа для хттп запросов.
