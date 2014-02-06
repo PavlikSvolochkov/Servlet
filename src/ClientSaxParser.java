@@ -3,6 +3,7 @@ import java.io.IOException;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 import javax.xml.parsers.ParserConfigurationException;
@@ -18,18 +19,18 @@ public class ClientSaxParser extends DefaultHandler {
   private String tmpValue;
   private String xmlFileName;
 
-  private List<Client> clientList = null;
+  private List<Client> syncClientList = null;
   private Client client = null;
 
   SimpleDateFormat sdf = new SimpleDateFormat("DD/MM/YY");
 
-  public List<Client> getClientList() {
-    return clientList;
+  public List<Client> getSyncClientList() {
+    return syncClientList;
   }
 
   public ClientSaxParser(String xmlFile) {
     this.xmlFileName = xmlFile;
-    clientList = new ArrayList<Client>();
+    syncClientList = Collections.synchronizedList(new ArrayList<Client>());
     parseDocument();
   }
 
@@ -44,7 +45,7 @@ public class ClientSaxParser extends DefaultHandler {
   }
 
   private void printData() {
-    for (Client tmpClient : clientList) {
+    for (Client tmpClient : syncClientList) {
       System.out.println(tmpClient.toString());
     }
   }
@@ -54,8 +55,8 @@ public class ClientSaxParser extends DefaultHandler {
 
     if (qName.equalsIgnoreCase("client")) {
       client = new Client();
-      if (clientList == null) {
-        clientList = new ArrayList<>();
+      if (syncClientList == null) {
+        syncClientList = Collections.synchronizedList(new ArrayList<Client>());
       }
     }
   }
@@ -68,27 +69,29 @@ public class ClientSaxParser extends DefaultHandler {
   @Override
   public void endElement(String uri, String localName, String qName) throws SAXException {
 
-    if (qName.equals("client")) {
-      clientList.add(client);
-    }
-    if (qName.equalsIgnoreCase("name")) {
-      client.setName(tmpValue);
-    }
-    if (qName.equalsIgnoreCase("surname")) {
-      client.setSurname(tmpValue);
-    }
-    if (qName.equalsIgnoreCase("dateOfBirth")) {
-      try {
-        client.setDateOfBirth(sdf.parse(tmpValue));
-      } catch (ParseException e) {
-        e.printStackTrace();
+    synchronized (syncClientList) {      
+      if (qName.equals("client")) {
+        syncClientList.add(client);
       }
-    }
-    if (qName.equalsIgnoreCase("card")) {
-      client.getCards().add(tmpValue);
-    }
-    if (qName.equalsIgnoreCase("account")) {
-      client.getAccounts().add(tmpValue);
+      if (qName.equalsIgnoreCase("name")) {
+        client.setName(tmpValue);
+      }
+      if (qName.equalsIgnoreCase("surname")) {
+        client.setSurname(tmpValue);
+      }
+      if (qName.equalsIgnoreCase("dateOfBirth")) {
+        try {
+          client.setDateOfBirth(sdf.parse(tmpValue));
+        } catch (ParseException e) {
+          e.printStackTrace();
+        }
+      }
+      if (qName.equalsIgnoreCase("card")) {
+        client.getCards().add(tmpValue);
+      }
+      if (qName.equalsIgnoreCase("account")) {
+        client.getAccounts().add(tmpValue);
+      }
     }
   }
 }

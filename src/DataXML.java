@@ -6,20 +6,17 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.Date;
-import java.util.List;
 import javax.xml.stream.XMLOutputFactory;
 import javax.xml.stream.XMLStreamException;
 import javax.xml.stream.XMLStreamWriter;
 
 public class DataXML {
 
-  private List<Client> clientList = null;
-  private Client client = null;
-
   private String clientQuery = "SELECT * FROM CLIENTS";
   private String cardsQuery = "SELECT * FROM CARDS";
   private String accountQuery = "SELECT * FROM ACCOUNTS";
-  private String fileLocation = null;
+  private String fileLocation = "d:/temp/";
+  private String fileName = "clients.xml";
 
   Connection conn = null;
 
@@ -34,9 +31,15 @@ public class DataXML {
   XMLOutputFactory outputFactory = null;
   XMLStreamWriter writer = null;
 
-  public DataXML() throws XMLStreamException, IOException {
+  public DataXML(String loc, String name) throws XMLStreamException, IOException {
+    if (!"".equals(loc)) {
+      setFileLocation(loc);
+    }
+    if (!"".equals(name)) {
+      setFileName(name);
+    }
     outputFactory = XMLOutputFactory.newInstance();
-    writer = outputFactory.createXMLStreamWriter(new FileWriter("d:\\temp\\data\\output2.xml"));
+    writer = outputFactory.createXMLStreamWriter(new FileWriter(fileLocation + fileName));
   }
 
   void build() throws SQLException {
@@ -61,7 +64,7 @@ public class DataXML {
 
     while (clientRS.next()) {
 
-      int id_client = clientRS.getInt("id_client");
+      int idClient = clientRS.getInt("id_client");
       String name = clientRS.getString("name");
       String surname = clientRS.getString("surname");
       Date birthDate = clientRS.getDate("dateOfBirth");
@@ -82,7 +85,7 @@ public class DataXML {
 
       writer.writeStartElement("cards");
 
-      cardsQuery = "SELECT * FROM CARDS WHERE ID_CLIENT=" + id_client;
+      cardsQuery = "SELECT * FROM CARDS WHERE ID_CLIENT=" + idClient;
       cardsRS = stmtCards.executeQuery(cardsQuery);
 
       while (cardsRS.next()) {
@@ -92,7 +95,7 @@ public class DataXML {
       }
       writer.writeEndElement();
 
-      accountQuery = "SELECT * FROM ACCOUNTS WHERE ID_CLIENT=" + id_client;
+      accountQuery = "SELECT * FROM ACCOUNTS WHERE ID_CLIENT=" + idClient;
       accountsRS = stmtAccounts.executeQuery(accountQuery);
 
       writer.writeStartElement("accounts");
@@ -107,7 +110,7 @@ public class DataXML {
       writer.flush();
 
       // print the results
-      System.out.format("%s, %s, %s, %s\n", id_client, name, surname, birthDate);
+      System.out.format("%s, %s, %s, %s\n", idClient, name, surname, birthDate);
     }
     writer.writeEndElement();
     writer.writeEndDocument();
@@ -155,7 +158,7 @@ public class DataXML {
     this.conn = conn;
   }
 
-  public List<Client> getClientList() {
-    return clientList;
+  private void setFileName(String fileName) {
+    this.fileName = fileName;
   }
 }

@@ -57,9 +57,10 @@ public class DownloadFileServlet extends HttpServlet {
 
   private String getContentType(String fileType) {
     String returnType = null;
-    for (int i = 0; i < contentTypes.length; i++) {
-      if (fileType.equals(contentTypes[i]))
-        returnType = contentTypes[i];
+    for (String contentType : contentTypes) {
+      if (fileType.equals(contentType)) {
+        returnType = contentType;
+      }
     }
     return returnType;
   }
