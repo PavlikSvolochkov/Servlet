@@ -22,7 +22,7 @@ public class ClientSaxParser extends DefaultHandler {
   private List<Client> syncClientList = null;
   private Client client = null;
 
-  SimpleDateFormat sdf = new SimpleDateFormat("DD/MM/YY");
+  SimpleDateFormat sdf = new SimpleDateFormat("DD-MM-YY");
 
   public List<Client> getSyncClientList() {
     return syncClientList;
@@ -44,7 +44,7 @@ public class ClientSaxParser extends DefaultHandler {
     }
   }
 
-  private void printData() {
+  public void printData() {
     for (Client tmpClient : syncClientList) {
       System.out.println(tmpClient.toString());
     }
@@ -69,7 +69,7 @@ public class ClientSaxParser extends DefaultHandler {
   @Override
   public void endElement(String uri, String localName, String qName) throws SAXException {
 
-    synchronized (syncClientList) {      
+    synchronized (syncClientList) {
       if (qName.equals("client")) {
         syncClientList.add(client);
       }

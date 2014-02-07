@@ -59,7 +59,7 @@ public class DataXML {
 
   public void toXML() throws XMLStreamException, IOException, SQLException, ClassNotFoundException {
 
-    writer.writeStartDocument("UTF-8", "1.0");
+    //writer.writeStartDocument("UTF-8", "1.0");
     writer.writeStartElement("clients");
 
     while (clientRS.next()) {
