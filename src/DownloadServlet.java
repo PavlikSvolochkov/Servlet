@@ -16,6 +16,10 @@ public class DownloadServlet extends HttpServlet {
 
     // reads input file from an absolute path
     String filePath = System.getProperty("catalina.base") + "\\webapps\\data\\clients.xml";
+//    System.out.println(filePath);
+    
+//    String testPath = request.getParameter("downFile");
+//    System.out.println("-----------------------------------" + testPath + "-----------------------------------");
 
     File downloadFile = new File(filePath);
     FileInputStream inStream = new FileInputStream(downloadFile);

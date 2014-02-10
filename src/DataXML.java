@@ -18,6 +18,10 @@ public class DataXML {
   private String fileLocation = "d:/temp/";
   private String fileName = "clients.xml";
 
+  private final String testQuery = "SELECT NAME, SURNAME, DATEOFBIRTH, CARDS.CARD, ACCOUNTS.ACCOUNT FROM CLIENTS "
+          + "INNER JOIN CARDS ON CARDS.ID_CLIENT=CLIENTS.ID "
+          + "INNER JOIN ACCOUNTS ON ACCOUNTS.ID_CLIENT=CLIENTS.ID;";
+
   Connection conn = null;
 
   ResultSet clientRS = null;
@@ -64,23 +68,23 @@ public class DataXML {
 
     while (clientRS.next()) {
 
-      int idClient = clientRS.getInt("id_client");
-      String name = clientRS.getString("name");
-      String surname = clientRS.getString("surname");
-      Date birthDate = clientRS.getDate("dateOfBirth");
+      int idClient = clientRS.getInt("ID");
+      String name = clientRS.getString("NAME");
+      String surname = clientRS.getString("SURNAME");
+      Date birthDate = clientRS.getDate("DATEOFBIRTH");
 
       writer.writeStartElement("client");
 
       writer.writeStartElement("name");
-      writer.writeCharacters(clientRS.getString("name"));
+      writer.writeCharacters(clientRS.getString("NAME"));
       writer.writeEndElement();
 
       writer.writeStartElement("surname");
-      writer.writeCharacters(clientRS.getString("surname"));
+      writer.writeCharacters(clientRS.getString("SURNAME"));
       writer.writeEndElement();
 
       writer.writeStartElement("dateOfBirth");
-      writer.writeCharacters(clientRS.getString("dateOfBirth"));
+      writer.writeCharacters(clientRS.getString("DATEOFBIRTH"));
       writer.writeEndElement();
 
       writer.writeStartElement("cards");
@@ -101,7 +105,7 @@ public class DataXML {
       writer.writeStartElement("accounts");
       while (accountsRS.next()) {
         writer.writeStartElement("account");
-        writer.writeCharacters(accountsRS.getString("account"));
+        writer.writeCharacters(accountsRS.getString("ACCOUNT"));
         writer.writeEndElement();
       }
       writer.writeEndElement();

@@ -1,3 +1,4 @@
+
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -58,6 +59,6 @@ public class Client {
   @Override
   public String toString() {
     return "\nClient:" + "\nName: " + getName() + "\nSurname: " + getSurname() + "\nDate of birth: " + getDateOfBirth()
-        + "\nCards: " + getCards() + "\nAccounts: " + getAccounts();
+            + "\nCards: " + getCards() + "\nAccounts: " + getAccounts();
   }
 }
