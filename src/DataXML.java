@@ -18,10 +18,6 @@ public class DataXML {
   private String fileLocation = "d:/temp/";
   private String fileName = "clients.xml";
 
-  private final String testQuery = "SELECT NAME, SURNAME, DATEOFBIRTH, CARDS.CARD, ACCOUNTS.ACCOUNT FROM CLIENTS "
-          + "INNER JOIN CARDS ON CARDS.ID_CLIENT=CLIENTS.ID "
-          + "INNER JOIN ACCOUNTS ON ACCOUNTS.ID_CLIENT=CLIENTS.ID;";
-
   Connection conn = null;
 
   ResultSet clientRS = null;
@@ -35,13 +31,18 @@ public class DataXML {
   XMLOutputFactory outputFactory = null;
   XMLStreamWriter writer = null;
 
+  public static void main(String[] args) throws XMLStreamException, IOException, SQLException, ClassNotFoundException {
+    DBConnection connection = new DBConnection();
+    connection.connect();
+    DataXML dataXML = new DataXML("d:\\temp\\data\\", "output111.xml");
+    dataXML.conn = connection.getConnection();
+    dataXML.build();
+    dataXML.toXML();
+  }
+
   public DataXML(String loc, String name) throws XMLStreamException, IOException {
-    if (!"".equals(loc)) {
-      setFileLocation(loc);
-    }
-    if (!"".equals(name)) {
-      setFileName(name);
-    }
+    setFileLocation(loc);
+    setFileName(name);
     outputFactory = XMLOutputFactory.newInstance();
     writer = outputFactory.createXMLStreamWriter(new FileWriter(fileLocation + fileName));
   }
@@ -57,13 +58,8 @@ public class DataXML {
     this.accountsRS = stmtAccounts.executeQuery(getAccountQuery());
   }
 
-  public void setFileLocation(String fileLocation) {
-    this.fileLocation = fileLocation;
-  }
-
   public void toXML() throws XMLStreamException, IOException, SQLException, ClassNotFoundException {
 
-    //writer.writeStartDocument("UTF-8", "1.0");
     writer.writeStartElement("clients");
 
     while (clientRS.next()) {
@@ -72,6 +68,10 @@ public class DataXML {
       String name = clientRS.getString("NAME");
       String surname = clientRS.getString("SURNAME");
       Date birthDate = clientRS.getDate("DATEOFBIRTH");
+//      int card = cardsRS.getInt("CARD");
+//      int account = accountsRS.getInt("ACCOUNT");
+      // print the results
+      System.out.format("%s, %s, %s, %s\n", idClient, name, surname, birthDate);
 
       writer.writeStartElement("client");
 
@@ -112,14 +112,23 @@ public class DataXML {
       writer.writeEndElement(); // EndElement <client>
 
       writer.flush();
-
-      // print the results
-      System.out.format("%s, %s, %s, %s\n", idClient, name, surname, birthDate);
     }
     writer.writeEndElement();
     writer.writeEndDocument();
     writer.close();
     System.out.println("Insert data in file complite");
+  }
+
+  private void setFileName(String fileName) {
+    if (!"".equals(fileName)) {
+      this.fileName = fileName;
+    }
+  }
+
+  public void setFileLocation(String fileLocation) {
+    if (!"".equals(fileLocation)) {
+      this.fileLocation = fileLocation;
+    }
   }
 
   public String getClientQuery() {
@@ -160,9 +169,5 @@ public class DataXML {
 
   public void setConnection(Connection conn) {
     this.conn = conn;
-  }
-
-  private void setFileName(String fileName) {
-    this.fileName = fileName;
   }
 }

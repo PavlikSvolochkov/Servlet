@@ -14,6 +14,7 @@ public class JoinTest {
 
   private String fileLocation = "d:/temp/";
   private String fileName = "clients.xml";
+  
   private final String testQuery = "SELECT NAME, SURNAME, DATEOFBIRTH, CARDS.CARD, ACCOUNTS.ACCOUNT FROM CLIENTS "
           + "INNER JOIN CARDS ON CARDS.ID_CLIENT=CLIENTS.ID "
           + "INNER JOIN ACCOUNTS ON ACCOUNTS.ID_CLIENT=CLIENTS.ID;";
@@ -44,8 +45,6 @@ public class JoinTest {
       String name = resultSet.getString("NAME");
       String surname = resultSet.getString("SURNAME");
       Date birthDate = resultSet.getDate("DATEOFBIRTH");
-      int card = resultSet.getInt("CARD");
-      int account = resultSet.getInt("ACCOUNT");
 
       writer.writeStartElement("client");
 

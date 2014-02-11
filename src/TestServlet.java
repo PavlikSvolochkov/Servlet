@@ -29,7 +29,7 @@ public class TestServlet extends HttpServlet {
 
   @Override
   public void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException {
-        
+
     response.setCharacterEncoding("UTF-8");
     response.setContentType("text/html");
 
@@ -67,7 +67,8 @@ public class TestServlet extends HttpServlet {
       fw.flush();
       out.println("Файл создан.<br/>");
 
-      System.out.println(testFile.getName());
+      System.out.println("\n------------------------------\nTEST_FILE_NAME >>>> " + testFile.getName()
+              + "\n------------------------------\n");
 
       DBConnection conn = new DBConnection();
       conn.connect();
@@ -82,7 +83,8 @@ public class TestServlet extends HttpServlet {
 
       ClientSaxParser saxParser = new ClientSaxParser(System.getProperty("catalina.base") + "\\webapps\\data\\" + fileItem.getName());
       List<Client> clientList = saxParser.getSyncClientList();
-      System.out.println(clientList.toString());
+      System.out.println("\n------------------------------\nCLIENT_LIST >>>> " + clientList.toString()
+              + "\n------------------------------\n");
 
       conn.close();
 
