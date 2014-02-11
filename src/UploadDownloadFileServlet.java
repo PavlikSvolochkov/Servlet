@@ -33,6 +33,7 @@ public class UploadDownloadFileServlet extends HttpServlet {
     this.uploader = new ServletFileUpload(fileFactory);
   }
 
+  @Override
   protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
     String fileName = request.getParameter("fileName");
     if (fileName == null || fileName.equals("")) {
@@ -62,6 +63,7 @@ public class UploadDownloadFileServlet extends HttpServlet {
     System.out.println("File downloaded at client successfully");
   }
 
+  @Override
   protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
     if (!ServletFileUpload.isMultipartContent(request)) {
       throw new ServletException("Content type is not multipart/form-data");
@@ -91,10 +93,7 @@ public class UploadDownloadFileServlet extends HttpServlet {
       }
     } catch (FileUploadException e) {
       out.write("Exception in uploading file.");
-    } catch (Exception e) {
-      out.write("Exception in uploading file.");
     }
     out.write("</body></html>");
   }
-
 }
