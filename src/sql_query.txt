@@ -7,10 +7,12 @@ BEGIN
   INSERT INTO ACCOUNTS(ACCOUNT, ID_CLIENT) VALUES('1112', id_client);
 END NEW_CLIENT;
 
+
+//----------------------------------------------------------------------------------------------------------------------
 SELECT CLIENTS.ID, CLIENTS.NAME, CLIENTS.SURNAME, CLIENTS.DATEOFBIRTH, CARDS.CARD, ACCOUNTS.ACCOUNT FROM CLIENTS
 RIGHT OUTER JOIN CARDS ON (CLIENTS.ID = CARDS.ID_CLIENT)
 RIGHT OUTER JOIN ACCOUNTS ON (CLIENTS.ID = ACCOUNTS.ID_CLIENT);
-
+//----------------------------------------------------------------------------------------------------------------------
 
 
 create or replace type cards_tab is table of INT;
