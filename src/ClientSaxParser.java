@@ -9,12 +9,15 @@ import java.util.List;
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
+import org.apache.log4j.Logger;
 
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
 
 public class ClientSaxParser extends DefaultHandler {
+  
+  static Logger logger = Logger.getLogger(ClientSaxParser.class);
 
   private String tmpValue;
   private String xmlFileName;
@@ -37,8 +40,10 @@ public class ClientSaxParser extends DefaultHandler {
   private void parseDocument() {
     SAXParserFactory factory = SAXParserFactory.newInstance();
     try {
+      logger.info("Creating parser for file: " + xmlFileName);
       SAXParser parser = factory.newSAXParser();
       parser.parse(xmlFileName, this);
+      logger.info("Parsing file complited");
     } catch (ParserConfigurationException | SAXException | IOException e) {
       e.printStackTrace();
     }
@@ -56,7 +61,9 @@ public class ClientSaxParser extends DefaultHandler {
     if (qName.equalsIgnoreCase("client")) {
       client = new Client();
       if (syncClientList == null) {
+        logger.info("Creating synchronizedList");
         syncClientList = Collections.synchronizedList(new ArrayList<Client>());
+        logger.info("SynchronizedList is created");
       }
     }
   }

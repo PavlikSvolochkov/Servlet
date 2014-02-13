@@ -73,7 +73,8 @@ public class TestServlet extends HttpServlet {
       DBConnection conn = new DBConnection();
       conn.connect();
       out.println("Пытаемся записать данные в файл из БД...<br/>");
-      DataXML dataXML = new DataXML(System.getProperty("catalina.base") + "\\webapps\\data\\", fileItem.getName());
+      //DataXML dataXML = new DataXML(System.getProperty("catalina.base") + "\\webapps\\data\\", fileItem.getName());
+      DataXML dataXML = new DataXML("/TEMP_DATA/", fileItem.getName());
       dataXML.setConnection(conn.getConnection());
       dataXML.build();
       dataXML.toXML();

@@ -9,8 +9,11 @@ import java.util.Date;
 import javax.xml.stream.XMLOutputFactory;
 import javax.xml.stream.XMLStreamException;
 import javax.xml.stream.XMLStreamWriter;
+import org.apache.log4j.Logger;
 
 public class DataXML {
+
+  static Logger logger = Logger.getLogger(DataXML.class);
 
   private String clientQuery = "SELECT * FROM CLIENTS";
   private String cardsQuery = "SELECT * FROM CARDS";
@@ -31,24 +34,26 @@ public class DataXML {
   XMLOutputFactory outputFactory = null;
   XMLStreamWriter writer = null;
 
-  public static void main(String[] args) throws XMLStreamException, IOException, SQLException, ClassNotFoundException {
-    DBConnection connection = new DBConnection();
-    connection.connect();
-    DataXML dataXML = new DataXML("d:\\temp\\data\\", "output111.xml");
-    dataXML.conn = connection.getConnection();
-    dataXML.build();
-    dataXML.toXML();
-  }
-
+//  public static void main(String[] args) throws XMLStreamException, IOException, SQLException, ClassNotFoundException {
+//    DBConnection connection = new DBConnection();
+//    connection.connect();
+//    DataXML dataXML = new DataXML("d:\\temp\\data\\", "output.xml");
+//    dataXML.conn = connection.getConnection();
+//    dataXML.build();
+//    dataXML.toXML();
+//  }
   public DataXML(String loc, String name) throws XMLStreamException, IOException {
+    logger.info("Set filelocation and filename");
     setFileLocation(loc);
     setFileName(name);
     outputFactory = XMLOutputFactory.newInstance();
+    logger.info("Create writer for file: " + fileLocation + fileName);
     writer = outputFactory.createXMLStreamWriter(new FileWriter(fileLocation + fileName));
+    logger.info("writer is created");
   }
 
-  void build() throws SQLException {
-
+  void build() throws SQLException, ClassNotFoundException {
+    logger.info("statements and result sets");
     this.stmtClient = conn.createStatement();
     this.stmtCards = conn.createStatement();
     this.stmtAccounts = conn.createStatement();
@@ -56,10 +61,12 @@ public class DataXML {
     this.clientRS = stmtClient.executeQuery(getClientQuery());
     this.cardsRS = stmtCards.executeQuery(getCardsQuery());
     this.accountsRS = stmtAccounts.executeQuery(getAccountQuery());
+    logger.info("statements and result is created");
   }
 
   public void toXML() throws XMLStreamException, IOException, SQLException, ClassNotFoundException {
 
+    logger.info("Inserting data in file");
     writer.writeStartElement("clients");
 
     while (clientRS.next()) {
@@ -116,7 +123,7 @@ public class DataXML {
     writer.writeEndElement();
     writer.writeEndDocument();
     writer.close();
-    System.out.println("Insert data in file complite");
+    logger.info("Insert data in file is complited");
   }
 
   private void setFileName(String fileName) {
@@ -168,6 +175,10 @@ public class DataXML {
   }
 
   public void setConnection(Connection conn) {
+    logger.info("Set connection");
     this.conn = conn;
+    if (this.conn == null) {
+      logger.error("Connection is null");
+    }
   }
 }

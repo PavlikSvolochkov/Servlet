@@ -6,8 +6,11 @@ import java.sql.Statement;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.List;
+import org.apache.log4j.Logger;
 
 public class XMLData {
+
+  static Logger logger = Logger.getLogger(XMLData.class);
 
   private String fileName;
   private List<Client> clientList = null;
@@ -17,7 +20,7 @@ public class XMLData {
   private Statement statement = null;
 
   public XMLData() {
-    System.out.println("InsertXMLData. Default constructor is empty.");
+    logger.info("Call default constructor. Is empty");
   }
 
   public static void main(String[] args) throws SQLException, ClassNotFoundException, ParseException {
@@ -37,12 +40,17 @@ public class XMLData {
 
   public void insert() throws SQLException, ParseException {
 
+    logger.info("Creating statement");
     statement = conn.createStatement();
+    if (statement == null) {
+      logger.error("Statement is null");
+      System.exit(0);
+    }
 
     for (Client client : clientList) {
-
+      logger.info("Inserting data to xml");
       System.out.println("//----------------------------------------------------------------------------------------------------------------------");
-      
+
       System.out.println("First Name: " + client.getName());
       System.out.println("SurName: " + client.getSurname());
       System.out.println("Date of birth: " + client.getDateOfBirth());
@@ -61,16 +69,21 @@ public class XMLData {
         System.out.println("INSERT INTO CARDS(CARD) VALUES('" + client.getCards().get(i) + "')");
         statement.executeUpdate("INSERT INTO CARDS(CARD) VALUES('" + client.getCards().get(i) + "')");
       }
-      
+
 //      for (int i = 0; i < client.getAccounts().size(); i++) {
 //        statement.executeUpdate("INSERT INTO ACCOUNTS(ID_CLIENT, ACCOUNT) VALUES(CLIENTS.ID, " + client.getAccounts().get(i) + ")");
 //      }
-      System.out.println("Data is successfully inserted!");      
+      logger.info("Data is successfully inserted!");
     }
   }
 
   public void setConn(Connection conn) {
+    logger.info("Set connection");
     this.conn = conn;
+    if (this.conn == null) {
+      logger.error("Connection is null");
+      System.exit(0);
+    }
   }
 
   public void setClientList(List<Client> clientList) {

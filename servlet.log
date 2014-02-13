@@ -1,0 +1,16 @@
+17:15:53,876  INFO main DBConnection:<init>:18 - Defaul constructor with default connection
+17:15:53,877  INFO main DBConnection:<init>:22 - Connection is opened
+17:15:53,877  INFO main DBConnection:connect:32 - Calling connect()method to connecting database
+17:15:54,112  INFO main DBConnection:connect:35 - Connection complited
+17:15:54,113  INFO main ProceduresTests:main:25 - 
+INFO >>> Connection complited.
+17:15:54,138  INFO main ProceduresTests:main:36 - CallableStatement call NEW_CLIENT procedure
+17:15:54,235  INFO main DBConnection:close:40 - Connection is closed
+17:21:41,733  INFO main DBConnection:<init>:18 - Defaul constructor with default connection
+17:21:41,747  INFO main DBConnection:<init>:22 - Connection is opened
+17:21:41,747  INFO main DBConnection:connect:32 - Calling connect()method to connecting database
+17:21:41,970  INFO main DBConnection:connect:35 - Connection complited
+17:21:41,971  INFO main ProceduresTests:main:25 - 
+INFO >>> Connection complited.
+17:21:41,990  INFO main ProceduresTests:main:34 - CallableStatement call NEW_CLIENT procedure
+17:21:42,086  INFO main DBConnection:close:40 - Connection is closed

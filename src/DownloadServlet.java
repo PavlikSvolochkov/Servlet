@@ -1,65 +1,52 @@
 
-import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
-import java.io.OutputStream;
-import javax.servlet.ServletContext;
-import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import java.io.*;
+import java.sql.SQLException;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import javax.servlet.ServletException;
+import javax.xml.stream.XMLStreamException;
+
 public class DownloadServlet extends HttpServlet {
 
   @Override
-  protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+  public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-    // reads input file from an absolute path
-    String filePath = System.getProperty("catalina.base") + "\\webapps\\data\\clients.xml";
-//    System.out.println(filePath);
-    
-//    String testPath = request.getParameter("downFile");
-//    System.out.println("-----------------------------------" + testPath + "-----------------------------------");
-
-    File downloadFile = new File(filePath);
-    FileInputStream inStream = new FileInputStream(downloadFile);
-
-    // if you want to use a relative path to context root:
-    String relativePath = getServletContext().getRealPath("");
-    System.out.println("relativePath = " + relativePath);
-
-    // obtains ServletContext
-    ServletContext context = getServletContext();
-
-    // gets MIME type of the file
-    String mimeType = context.getMimeType(filePath);
-    if (mimeType == null) {
-      // set to binary type if MIME mapping not found
-      mimeType = "application/octet-stream";
-    }
-    System.out.println("MIME type: " + mimeType);
-
-    // modifies response
-    response.setContentType(mimeType);
-    response.setContentLength((int) downloadFile.length());
-
-    // forces download
-    String headerKey = "Content-Disposition";
-    String headerValue = String.format("attachment; filename=\"%s\"", downloadFile.getName());
-    response.setHeader(headerKey, headerValue);
-
-    // obtains response's output stream
-    OutputStream outStream = response.getOutputStream();
-
-    byte[] buffer = new byte[4096];
-    int bytesRead = -1;
-
-    while ((bytesRead = inStream.read(buffer)) != -1) {
-      outStream.write(buffer, 0, bytesRead);
+    DBConnection connection = new DBConnection();
+    try {
+      connection.connect();
+    } catch (SQLException | ClassNotFoundException ex) {
+      Logger.getLogger(DownloadServlet.class.getName()).log(Level.SEVERE, null, ex);
     }
 
-    inStream.close();
-    outStream.close();
+    response.setContentType("text/xml");
+    PrintWriter out = response.getWriter();
+    String filename = "clients.xml";
+    String filepath = "/TEMP_DATA/";
+    response.setContentType("APPLICATION/OCTET-STREAM");
+    response.setHeader("Content-Disposition", "attachment; filename=\"" + filename + "\"");
+
+    FileInputStream fileInputStream = new FileInputStream(filepath + filename);
+    try {
+      DataXML dataXML = new DataXML(filepath, filename);
+      dataXML.conn = connection.getConnection();
+      dataXML.build();
+      dataXML.toXML();
+    } catch (XMLStreamException | SQLException | ClassNotFoundException ex) {
+      Logger.getLogger(DownloadServlet.class.getName()).log(Level.SEVERE, null, ex);
+    }
+
+    int i;
+    while ((i = fileInputStream.read()) != -1) {
+      out.write(i);
+    }
+    fileInputStream.close();
+    out.close();
   }
 
   @Override

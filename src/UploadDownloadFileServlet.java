@@ -85,7 +85,7 @@ public class UploadDownloadFileServlet extends HttpServlet {
         File file = new File(request.getServletContext().getAttribute("FILES_DIR") + File.separator
             + fileItem.getName());
         System.out.println("Absolute Path at server=" + file.getAbsolutePath());
-        fileItem.write(file);
+        //fileItem.write(file);
         out.write("File " + fileItem.getName() + " uploaded successfully.");
         out.write("<br>");
         out.write("<a href=\"UploadDownloadFileServlet?fileName=" + fileItem.getName() + "\">Download "

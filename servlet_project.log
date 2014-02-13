@@ -1,0 +1,47 @@
+17:26:27,847  INFO main DBConnection:<init>:18 - Defaul constructor with default connection
+17:26:27,850  INFO main DBConnection:<init>:22 - Connection is opened
+17:26:27,850  INFO main DBConnection:connect:32 - Calling connect()method to connecting database
+17:26:28,115  INFO main DBConnection:connect:35 - Connection complited
+17:26:28,115  INFO main ProceduresTests:main:25 - 
+INFO >>> Connection complited.
+17:26:28,134  INFO main ProceduresTests:main:34 - CallableStatement call NEW_CLIENT procedure
+17:26:28,238  INFO main DBConnection:close:40 - Connection is closed
+17:30:57,839  INFO main DBConnection:<init>:18 - Defaul constructor with default connection
+17:30:57,841  INFO main DBConnection:<init>:22 - Connection is opened
+17:30:57,841  INFO main DBConnection:connect:32 - Calling connect()method to connecting database
+17:30:58,066  INFO main DBConnection:connect:35 - Connection complited
+17:30:58,068  INFO main ClientSaxParser:parseDocument:43 - Creating parser for file: d:\temp\data\clients.xml
+17:30:58,083  INFO main ClientSaxParser:parseDocument:46 - Parsing file complited
+17:30:58,086  INFO main ProceduresTests:main:33 - CallableStatement call NEW_CLIENT procedure
+17:30:58,198  INFO main DBConnection:close:40 - Connection is closed
+17:40:38,894  INFO main DBConnection:<init>:18 - Default constructor with default connection
+17:40:38,898  INFO main DBConnection:<init>:22 - Connection is opened
+17:40:38,898  INFO main DBConnection:connect:32 - Calling connect()method to connecting database
+17:40:39,125  INFO main DBConnection:connect:35 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PSis opened
+17:40:39,127  INFO main ClientSaxParser:parseDocument:43 - Creating parser for file: d:\temp\data\clients.xml
+17:40:39,145  INFO main ClientSaxParser:parseDocument:46 - Parsing file complited
+17:40:39,148  INFO main ProceduresTests:main:33 - CallableStatement call NEW_CLIENT procedure
+17:40:39,264  INFO main DBConnection:close:40 - Connection is closed
+17:47:37,640  INFO main DBConnection:<init>:18 - Default constructor with default connection
+17:47:37,642  INFO main DBConnection:<init>:22 - Connection is opened
+17:47:37,642  INFO main DBConnection:connect:32 - Calling connect() method to connecting database
+17:47:38,522  INFO main DBConnection:connect:35 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+17:47:38,524  INFO main ClientSaxParser:parseDocument:43 - Creating parser for file: d:\temp\data\clients.xml
+17:47:38,541  INFO main ClientSaxParser:parseDocument:46 - Parsing file complited
+17:47:38,544  INFO main ProceduresTests:main:33 - CallableStatement call NEW_CLIENT procedure
+17:47:38,637  INFO main DBConnection:close:40 - Connection is closed
+18:00:41,357  INFO main DBConnection:<init>:19 - Init default connection
+18:00:41,358  INFO main DBConnection:<init>:24 - Default connection init
+18:00:41,359  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+18:00:41,638  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+18:00:41,641  INFO main ClientSaxParser:parseDocument:43 - Creating parser for file: d:\temp\data\clients.xml
+18:00:41,660  INFO main ClientSaxParser:parseDocument:46 - Parsing file complited
+18:00:41,664  INFO main ProceduresTests:main:33 - CallableStatement call NEW_CLIENT procedure
+18:00:41,801  INFO main DBConnection:close:42 - Connection is closed
+18:02:55,740  INFO main DBConnection:<init>:19 - Init default connection
+18:02:55,742  INFO main DBConnection:<init>:24 - Default connection init
+18:02:55,743  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+18:02:55,981  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+18:02:55,983  INFO main ClientSaxParser:parseDocument:43 - Creating parser for file: d:\temp\data\clients.xml
+18:02:55,999  INFO main ClientSaxParser:parseDocument:46 - Parsing file complited
+18:02:56,236  INFO main DBConnection:close:42 - Connection is closed
