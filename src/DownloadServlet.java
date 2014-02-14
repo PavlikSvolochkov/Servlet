@@ -7,12 +7,13 @@ import javax.servlet.http.HttpServletResponse;
 
 import java.io.*;
 import java.sql.SQLException;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import javax.servlet.ServletException;
 import javax.xml.stream.XMLStreamException;
+import org.apache.log4j.Logger;
 
 public class DownloadServlet extends HttpServlet {
+
+  static Logger logger = Logger.getLogger(XMLData.class.getName());
 
   @Override
   public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -21,24 +22,32 @@ public class DownloadServlet extends HttpServlet {
     try {
       connection.connect();
     } catch (SQLException | ClassNotFoundException ex) {
-      Logger.getLogger(DownloadServlet.class.getName()).log(Level.SEVERE, null, ex);
+      logger.error("ERROR CONNECTION");
     }
 
     response.setContentType("text/xml");
     PrintWriter out = response.getWriter();
-    String filename = "clients.xml";
-    String filepath = "/TEMP_DATA/";
+    String fileName = "clients.xml";
+    String filePath = "/TEMP_DATA/";
     response.setContentType("APPLICATION/OCTET-STREAM");
-    response.setHeader("Content-Disposition", "attachment; filename=\"" + filename + "\"");
+    response.setHeader("Content-Disposition", "attachment; filename=\"" + fileName + "\"");
 
-    FileInputStream fileInputStream = new FileInputStream(filepath + filename);
+    File inputFile = new File(filePath + fileName);
+
+    if (!inputFile.isFile()) {
+      logger.info("Creating inputFile");
+      inputFile.createNewFile();
+      logger.info("inputFiel is created");
+    }
+
+    FileInputStream fileInputStream = new FileInputStream(inputFile);
     try {
-      DataXML dataXML = new DataXML(filepath, filename);
+      DataXML dataXML = new DataXML(filePath, fileName);
       dataXML.conn = connection.getConnection();
       dataXML.build();
       dataXML.toXML();
     } catch (XMLStreamException | SQLException | ClassNotFoundException ex) {
-      Logger.getLogger(DownloadServlet.class.getName()).log(Level.SEVERE, null, ex);
+      logger.error("ERROR BUILD XML");
     }
 
     int i;

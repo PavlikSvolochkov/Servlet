@@ -4,23 +4,26 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.sql.SQLException;
+import java.text.ParseException;
 import java.util.Iterator;
 import java.util.List;
 
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.xml.stream.XMLStreamException;
 
 import org.apache.commons.fileupload.FileItem;
 import org.apache.commons.fileupload.FileItemFactory;
 import org.apache.commons.fileupload.FileUploadException;
 import org.apache.commons.fileupload.disk.DiskFileItemFactory;
 import org.apache.commons.fileupload.servlet.ServletFileUpload;
+import org.apache.log4j.Logger;
 
 public class TestServlet extends HttpServlet {
 
   private static final long serialVersionUID = 1L;
+  
+  static Logger logger = Logger.getLogger(TestServlet.class.getName());
 
   @Override
   public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
@@ -67,30 +70,21 @@ public class TestServlet extends HttpServlet {
       fw.flush();
       out.println("Файл создан.<br/>");
 
-      System.out.println("\n------------------------------\nTEST_FILE_NAME >>>> " + testFile.getName()
-              + "\n------------------------------\n");
+      System.out.println("TEST_FILE_NAME >>>> " + testFile.getName() + "\n------------------------------\n");
 
       DBConnection conn = new DBConnection();
       conn.connect();
-      out.println("Пытаемся записать данные в файл из БД...<br/>");
-      //DataXML dataXML = new DataXML(System.getProperty("catalina.base") + "\\webapps\\data\\", fileItem.getName());
-      DataXML dataXML = new DataXML("/TEMP_DATA/", fileItem.getName());
-      dataXML.setConnection(conn.getConnection());
-      dataXML.build();
-      dataXML.toXML();
-      out.println("Вроде получилось. =)<br/>");
-      out.println("Даныне из файла:<br/><br/>");
-      out.append(fileItem.getString());
+      
+      ClientSaxParser saxParser = new ClientSaxParser("/TEMP_DATA/" + fileItem.getName());
 
-      ClientSaxParser saxParser = new ClientSaxParser(System.getProperty("catalina.base") + "\\webapps\\data\\" + fileItem.getName());
-      List<Client> clientList = saxParser.getSyncClientList();
-      System.out.println("\n------------------------------\nCLIENT_LIST >>>> " + clientList.toString()
-              + "\n------------------------------\n");
+      XMLData insert = new XMLData();
+      insert.setConn(conn.getConnection());
+      insert.setClientList(saxParser.getSyncClientList());
+      insert.insert();
 
       conn.close();
-
-    } catch (XMLStreamException | SQLException | ClassNotFoundException | FileUploadException ex) {
-      ex.printStackTrace();
+    } catch (ParseException | SQLException | ClassNotFoundException | FileUploadException ex) {
+      logger.info("ERROR INSERT DATA FROM XML");
     }
   }
 }

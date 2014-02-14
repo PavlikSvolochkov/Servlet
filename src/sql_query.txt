@@ -52,3 +52,32 @@ BEGIN
   INSERT INTO ACCOUNTS(ID, ACCOUNT, ID_CLIENTS) VALUES(LASTACCID+1, '1112', id_client);
 END NEW_CLIENT;
 -----ðàçúåáåøèë
+
+
+
+
+
+
+-- package spec declare
+  TYPE IntIdxTable IS TABLE OF INTEGER INDEX BY BINARY_INTEGER;
+  TYPE FloatIdxTable IS TABLE OF FLOAT INDEX BY BINARY_INTEGER;
+  TYPE NumberIdxTable IS TABLE OF NUMBER INDEX BY BINARY_INTEGER;
+  TYPE DateIdxTable IS TABLE OF DATE INDEX BY BINARY_INTEGER;
+  TYPE CharIdxTable IS TABLE OF VARCHAR2(512) INDEX BY BINARY_INTEGER;
+ 
+-- в самом пакете вызывает процедуру
+  PROCEDURE AddVarValue(
+    inParamCount IN INTEGER,
+    inTKey IN IntIdxTable,
+    inVAR IN IntIdxTable,
+    inDATE IN DateIdxTable,
+    inAVALUE IN NumberIdxTable)
+  AS
+    i BINARY_INTEGER;
+  BEGIN
+    FORALL i IN 1..inParamCount
+      INSERT INTO varvalue(
+          TKeyClient,VARHASH,DATESTART,AVALUE)
+        VALUES(
+          inTKey(i),inVAR(i),inDATE(i),inAVALUE(i));
+  END AddVarValue;

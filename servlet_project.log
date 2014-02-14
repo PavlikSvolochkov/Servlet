@@ -45,3 +45,117 @@ INFO >>> Connection complited.
 18:02:55,983  INFO main ClientSaxParser:parseDocument:43 - Creating parser for file: d:\temp\data\clients.xml
 18:02:55,999  INFO main ClientSaxParser:parseDocument:46 - Parsing file complited
 18:02:56,236  INFO main DBConnection:close:42 - Connection is closed
+12:32:02,201  INFO main DBConnection:<init>:19 - Init default connection
+12:32:02,202  INFO main DBConnection:<init>:24 - Default connection init
+12:32:02,202  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+12:32:02,490  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+12:32:02,492  INFO main ClientSaxParser:parseDocument:43 - Creating parser for file: d:\temp\data\clients.xml
+12:32:02,509  INFO main ClientSaxParser:parseDocument:46 - Parsing file complited
+12:32:02,512  INFO main ProceduresTests:main:33 - CallableStatement call NEW_CLIENT procedure
+12:32:02,759  INFO main DBConnection:close:41 - Closing connection
+12:32:02,767  INFO main DBConnection:close:43 - Connection is closed
+12:32:31,116  INFO main DBConnection:<init>:19 - Init default connection
+12:32:31,131  INFO main DBConnection:<init>:24 - Default connection init
+12:32:31,131  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+12:32:31,371  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+12:32:31,373  INFO main ClientSaxParser:parseDocument:43 - Creating parser for file: d:\temp\data\clients.xml
+12:32:31,388  INFO main ClientSaxParser:parseDocument:46 - Parsing file complited
+12:32:31,392  INFO main ProceduresTests:main:33 - CallableStatement call NEW_CLIENT procedure
+12:32:31,486  INFO main DBConnection:close:41 - Closing connection
+12:32:31,495  INFO main DBConnection:close:43 - Connection is closed
+12:34:39,473  INFO main DBConnection:<init>:19 - Init default connection
+12:34:39,475  INFO main DBConnection:<init>:24 - Default connection init
+12:34:39,475  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+12:34:39,714  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+12:34:39,716  INFO main ClientSaxParser:parseDocument:43 - Creating parser for file: d:\temp\data\clients.xml
+12:34:39,732  INFO main ClientSaxParser:parseDocument:46 - Parsing file complited
+12:34:39,735  INFO main ProceduresTests:main:34 - CallableStatement call NEW_CLIENT procedure
+12:41:21,252  INFO main DBConnection:<init>:19 - Init default connection
+12:41:21,254  INFO main DBConnection:<init>:24 - Default connection init
+12:41:21,254  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+12:41:21,501  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+12:41:21,503  INFO main ClientSaxParser:parseDocument:43 - Creating parser for file: d:\temp\data\clients.xml
+12:41:21,519  INFO main ClientSaxParser:parseDocument:46 - Parsing file complited
+12:41:21,521  INFO main ProceduresTests:main:34 - CallableStatement call NEW_CLIENT procedure
+12:43:18,528  INFO main DBConnection:<init>:19 - Init default connection
+12:43:18,530  INFO main DBConnection:<init>:24 - Default connection init
+12:43:18,530  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+12:43:18,779  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+12:43:18,782  INFO main ClientSaxParser:parseDocument:43 - Creating parser for file: d:\temp\data\clients.xml
+12:43:18,817  INFO main ClientSaxParser:parseDocument:46 - Parsing file complited
+12:43:18,819  INFO main ProceduresTests:main:34 - CallableStatement call NEW_CLIENT procedure
+12:43:18,927  INFO main ProceduresTests:main:41 - CallableStatement is closed.
+12:43:18,928  INFO main ProceduresTests:main:45 - Call NEW_CLIENT_CARDS_ACCOUNTS() procedure
+12:45:00,843  INFO main DBConnection:<init>:19 - Init default connection
+12:45:00,845  INFO main DBConnection:<init>:24 - Default connection init
+12:45:00,845  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+12:45:01,106  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+12:45:01,108  INFO main ClientSaxParser:parseDocument:43 - Creating parser for file: d:\temp\data\clients.xml
+12:45:01,126  INFO main ClientSaxParser:parseDocument:46 - Parsing file complited
+12:45:01,128  INFO main ProceduresTests:main:34 - Calling NEW_CLIENT procedure
+12:45:01,254  INFO main ProceduresTests:main:41 - NEW_CLIENT procedure is closed.
+12:45:01,255  INFO main ProceduresTests:main:45 - Calling NEW_CLIENT_CARDS_ACCOUNTS() procedure
+13:02:56,752  INFO main DBConnection:<init>:19 - Init default connection
+13:02:56,753  INFO main DBConnection:<init>:24 - Default connection init
+13:02:56,754  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+13:02:56,996  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+13:02:56,998  INFO main ClientSaxParser:parseDocument:43 - Creating parser for file: d:\temp\data\clients.xml
+13:02:57,014  INFO main ClientSaxParser:parseDocument:46 - Parsing file complited
+13:02:57,014  INFO main XMLData:<init>:23 - Call default constructor. Is empty
+13:02:57,014  INFO main XMLData:setConn:81 - Set connection
+13:02:57,015  INFO main XMLData:insert:43 - Creating statement
+13:02:57,068  INFO main XMLData:insert:51 - Inserting data to xml
+13:02:57,220  INFO main XMLData:insert:76 - Data is successfully inserted!
+13:02:57,220  INFO main XMLData:insert:51 - Inserting data to xml
+13:02:57,270  INFO main XMLData:insert:76 - Data is successfully inserted!
+13:02:57,270  INFO main XMLData:insert:51 - Inserting data to xml
+13:02:57,294  INFO main XMLData:insert:76 - Data is successfully inserted!
+13:02:57,295  INFO main XMLData:insert:51 - Inserting data to xml
+13:02:57,320  INFO main XMLData:insert:76 - Data is successfully inserted!
+13:02:57,320  INFO main DBConnection:close:41 - Closing connection
+13:02:57,354  INFO main DBConnection:close:43 - Connection is closed
+15:45:51,026  INFO main DBConnection:<init>:19 - Init default connection
+15:45:51,029  INFO main DBConnection:<init>:24 - Default connection init
+15:45:51,029  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+15:45:51,347  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+15:45:51,349  INFO main ClientSaxParser:parseDocument:43 - Creating parser for file: d:\temp\data\clients.xml
+15:45:51,365  INFO main ClientSaxParser:parseDocument:46 - Parsing file complited
+15:45:51,367  INFO main ProceduresTests:main:34 - Calling NEW_CLIENT procedure
+15:45:51,488  INFO main ProceduresTests:main:41 - NEW_CLIENT procedure is closed.
+15:45:51,488  INFO main ProceduresTests:main:45 - Calling NEW_CLIENT_CARDS_ACCOUNTS() procedure
+16:28:21,837  INFO main DBConnection:<init>:19 - Init default connection
+16:28:21,839  INFO main DBConnection:<init>:24 - Default connection init
+16:28:21,840  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+16:28:22,158  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+16:28:22,161  INFO main ClientSaxParser:parseDocument:43 - Creating parser for file: d:\temp\data\clients.xml
+16:28:22,182  INFO main ClientSaxParser:parseDocument:46 - Parsing file complited
+16:28:22,186  INFO main ProceduresTests:main:34 - Calling NEW_CLIENT procedure
+16:28:22,306  INFO main ProceduresTests:main:41 - NEW_CLIENT procedure is closed.
+16:28:22,307  INFO main ProceduresTests:main:45 - Calling NEW_CLIENT_CARDS_ACCOUNTS() procedure
+16:29:36,522  INFO main DBConnection:<init>:19 - Init default connection
+16:29:36,524  INFO main DBConnection:<init>:24 - Default connection init
+16:29:36,524  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+16:29:36,773  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+16:29:36,775  INFO main ClientSaxParser:parseDocument:43 - Creating parser for file: d:\temp\data\clients.xml
+16:29:36,791  INFO main ClientSaxParser:parseDocument:46 - Parsing file complited
+16:29:36,793  INFO main ProceduresTests:main:34 - Calling NEW_CLIENT procedure
+16:29:36,879  INFO main ProceduresTests:main:41 - NEW_CLIENT procedure is closed.
+16:29:36,879  INFO main ProceduresTests:main:45 - Calling NEW_CLIENT_CARDS_ACCOUNTS() procedure
+16:32:30,035  INFO main DBConnection:<init>:19 - Init default connection
+16:32:30,037  INFO main DBConnection:<init>:24 - Default connection init
+16:32:30,037  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+16:32:30,289  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+16:32:30,291  INFO main ClientSaxParser:parseDocument:43 - Creating parser for file: d:\temp\data\clients.xml
+16:32:30,307  INFO main ClientSaxParser:parseDocument:46 - Parsing file complited
+16:32:30,310  INFO main ProceduresTests:main:34 - Calling NEW_CLIENT procedure
+16:32:30,403  INFO main ProceduresTests:main:41 - NEW_CLIENT procedure is closed.
+16:32:30,403  INFO main ProceduresTests:main:45 - Calling NEW_CLIENT_CARDS_ACCOUNTS() procedure
+16:33:14,457  INFO main DBConnection:<init>:19 - Init default connection
+16:33:14,459  INFO main DBConnection:<init>:24 - Default connection init
+16:33:14,459  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+16:33:14,693  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+16:33:14,695  INFO main ClientSaxParser:parseDocument:43 - Creating parser for file: d:\temp\data\clients.xml
+16:33:14,712  INFO main ClientSaxParser:parseDocument:46 - Parsing file complited
+16:33:14,715  INFO main ProceduresTests:main:34 - Calling NEW_CLIENT procedure
+16:33:14,809  INFO main ProceduresTests:main:41 - NEW_CLIENT procedure is closed.
+16:33:14,810  INFO main ProceduresTests:main:45 - Calling NEW_CLIENT_CARDS_ACCOUNTS() procedure

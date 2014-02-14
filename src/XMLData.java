@@ -23,21 +23,20 @@ public class XMLData {
     logger.info("Call default constructor. Is empty");
   }
 
-  public static void main(String[] args) throws SQLException, ClassNotFoundException, ParseException {
-
-    DBConnection conn = new DBConnection();
-    conn.connect();
-
-    ClientSaxParser saxParser = new ClientSaxParser("d:\\temp\\data\\clients.xml");
-    //saxParser.printData();
-
-    XMLData insert = new XMLData();
-    insert.setConn(conn.getConnection());
-    insert.setClientList(saxParser.getSyncClientList());
-    insert.insert();
-    conn.close();
-  }
-
+//  public static void main(String[] args) throws SQLException, ClassNotFoundException, ParseException {
+//
+//    DBConnection conn = new DBConnection();
+//    conn.connect();
+//
+//    ClientSaxParser saxParser = new ClientSaxParser("d:\\temp\\data\\clients.xml");
+//    //saxParser.printData();
+//
+//    XMLData insert = new XMLData();
+//    insert.setConn(conn.getConnection());
+//    insert.setClientList(saxParser.getSyncClientList());
+//    insert.insert();
+//    conn.close();
+//  }
   public void insert() throws SQLException, ParseException {
 
     logger.info("Creating statement");
@@ -48,7 +47,6 @@ public class XMLData {
     }
 
     for (Client client : clientList) {
-      logger.info("Inserting data to xml");
       System.out.println("//----------------------------------------------------------------------------------------------------------------------");
 
       System.out.println("First Name: " + client.getName());
@@ -62,6 +60,8 @@ public class XMLData {
       System.out.println("INSERT INTO CLIENTS(NAME, SURNAME, DATEOFBIRTH) " + "VALUES('" + client.getName()
               + "', '" + client.getSurname() + "', '" + sdf.format(client.getDateOfBirth()) + "')");
 
+      logger.info("Inserting data to xml");
+      
       statement.executeUpdate("INSERT INTO CLIENTS(NAME, SURNAME, DATEOFBIRTH) " + "VALUES('" + client.getName()
               + "', '" + client.getSurname() + "', '" + sdf.format(client.getDateOfBirth()) + "')");
 
