@@ -16,20 +16,17 @@ import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
 
 public class ClientSaxParser extends DefaultHandler {
-  
+
   static Logger logger = Logger.getLogger(ClientSaxParser.class);
 
   private String tmpValue;
   private String xmlFileName;
 
-  private List<Client> syncClientList = null;
   private Client client = null;
+  private List<Client> syncClientList = null;
+  private ClientQueue queue;
 
-  SimpleDateFormat sdf = new SimpleDateFormat("DD-MM-YY");
-
-  public List<Client> getSyncClientList() {
-    return syncClientList;
-  }
+  SimpleDateFormat sdf = new SimpleDateFormat("dd-Mmm-yyyy");
 
   public ClientSaxParser(String xmlFile) {
     this.xmlFileName = xmlFile;
@@ -37,6 +34,10 @@ public class ClientSaxParser extends DefaultHandler {
     parseDocument();
   }
 
+  public void setQueue(ClientQueue q) {
+    this.queue = q;
+  }
+  
   private void parseDocument() {
     SAXParserFactory factory = SAXParserFactory.newInstance();
     try {
@@ -47,6 +48,10 @@ public class ClientSaxParser extends DefaultHandler {
     } catch (ParserConfigurationException | SAXException | IOException e) {
       e.printStackTrace();
     }
+  }
+
+  public List<Client> getSyncClientList() {
+    return syncClientList;
   }
 
   public void printData() {
@@ -99,6 +104,7 @@ public class ClientSaxParser extends DefaultHandler {
       if (qName.equalsIgnoreCase("account")) {
         client.getAccounts().add(tmpValue);
       }
+      queue.putElement(client);
     }
   }
 }

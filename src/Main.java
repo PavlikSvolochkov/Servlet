@@ -7,21 +7,9 @@ public class Main {
 
     DBConnection conn = new DBConnection();
     conn.connect();
-    
-    DataXML dataXML = new DataXML("", "");
-    dataXML.setConnection(conn.getConnection());
-    dataXML.build();
-    dataXML.toXML();
-    
+
     ClientSaxParser saxParser = new ClientSaxParser("d:\\dev\\Project\\ClientsServlet\\src\\clients.xml");
     List<Client> clientList = saxParser.getSyncClientList();
-            
-    for (Client client : clientList)
-      System.out.println(client.toString());
-    
-//    InsertXMLData insertXMLData = new InsertXMLData();
-//    insertXMLData.setConn(conn.getConnection());
-//    insertXMLData.setClientList(clientList);
-//    insertXMLData.insert("d:\\dev\\Project\\ClientsServlet\\src\\clients.xml");
+
   }
 }

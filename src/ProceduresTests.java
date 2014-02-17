@@ -4,6 +4,8 @@ import java.sql.Date;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.text.SimpleDateFormat;
+import oracle.sql.ARRAY;
+import oracle.sql.ArrayDescriptor;
 import org.apache.log4j.BasicConfigurator;
 import org.apache.log4j.Logger;
 import org.apache.log4j.NDC;
@@ -13,16 +15,16 @@ public class ProceduresTests {
   static Logger logger = Logger.getLogger(ProceduresTests.class.getName());
 
   public static void main(String[] args) throws SQLException, ClassNotFoundException {
-    
+
     BasicConfigurator.configure();
-    
+
     NDC.push("Client #111");
 //    logger.info("\nINFO >>> Connecting to database...");
 //    logger.debug("DEBUG >>> Hello, world");
-    
+
     DBConnection conn = new DBConnection();
     conn.connect();
-    
+
     ClientSaxParser clientSaxParser = new ClientSaxParser("d:\\temp\\data\\clients.xml");
     clientSaxParser.printData();
 
@@ -31,27 +33,37 @@ public class ProceduresTests {
     sdf.format(date);
     System.out.println(sdf.format(date));
 
-    logger.info("Calling NEW_CLIENT procedure");
-    CallableStatement new_client = conn.getConnection().prepareCall("{call NEW_CLIENT(?, ?, ?)}");
-    new_client.setString(1, "Tosh");
-    new_client.setString(2, "Kengur");
-    new_client.setString(3, sdf.format(date));
-    new_client.execute();
-    new_client.close();
-    logger.info("NEW_CLIENT procedure is closed.");
+//    logger.info("Calling NEW_CLIENT procedure");
+//    CallableStatement new_client = conn.getConnection().prepareCall("{call NEW_CLIENT(?, ?, ?)}");
+//    new_client.setString(1, "Tosh");
+//    new_client.setString(2, "Kengur");
+//    new_client.setString(3, sdf.format(date));
+//    new_client.execute();
+//    new_client.close();
+//    logger.info("NEW_CLIENT procedure is closed.");
+
+    String[] cards = {"1000", "2000", "3000", "4000", "5000"};
+    oracle.sql.ArrayDescriptor arrayDesc = ArrayDescriptor.createDescriptor("cards_tab", conn.getConnection());
+    ARRAY array = new ARRAY(arrayDesc, conn.getConnection(), cards);
     
-    String[] cards = {"1000", "2000", "3000", "4000", "5000"};    
-    
-    logger.info("Calling NEW_CLIENT_CARDS_ACCOUNTS() procedure");
-    PreparedStatement new_client_cards_acc = conn.getConnection().prepareStatement("{call NEW_CLIENT_CARDS_ACCOUNTS(?, ?, ?, ?, ?)}");
-    new_client_cards_acc.setString(1, "Benedict");
-    new_client_cards_acc.setString(2, "Ermolaev");
-    new_client_cards_acc.setString(3, sdf.format(date));
-    new_client_cards_acc.setString(4, cards);
-    new_client_cards_acc.setString(5, cards);
-    new_client_cards_acc.execute();
-    new_client_cards_acc.close();
-    logger.info("NEW_CLIENT_CARDS_ACCOUNTS() procedure is close");
+    PreparedStatement ps = conn.getConnection().prepareStatement("{call FULL_CLIENT(?, ?, ?, ?, ?)}");
+    ps.setString(1, "Benedict");
+    ps.setString(2, "Ermolaev");
+    ps.setString(3, sdf.format(date));
+    ps.setArray(4, array);
+    ps.setArray(5, array);
+
+    logger.info("Calling FULL_CLIENT() procedure");
+
+    PreparedStatement statement = conn.getConnection().prepareCall("{call FULL_CLIENT(?, ?, ?, ?, ?)}");
+    statement.setString(1, "Benedict");
+    statement.setString(2, "Ermolaev");
+    statement.setString(3, sdf.format(date));
+    statement.setObject(4, cards);
+    statement.setObject(5, cards);
+    statement.execute();
+    statement.close();
+    logger.info("FULL_CLIENT() procedure is close");
 
     conn.close();
   }

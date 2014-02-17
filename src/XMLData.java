@@ -1,5 +1,6 @@
 
 import java.io.File;
+import java.sql.Array;
 import java.sql.Connection;
 import java.sql.SQLException;
 import java.sql.Statement;
@@ -23,20 +24,21 @@ public class XMLData {
     logger.info("Call default constructor. Is empty");
   }
 
-//  public static void main(String[] args) throws SQLException, ClassNotFoundException, ParseException {
-//
-//    DBConnection conn = new DBConnection();
-//    conn.connect();
-//
-//    ClientSaxParser saxParser = new ClientSaxParser("d:\\temp\\data\\clients.xml");
-//    //saxParser.printData();
-//
-//    XMLData insert = new XMLData();
-//    insert.setConn(conn.getConnection());
-//    insert.setClientList(saxParser.getSyncClientList());
-//    insert.insert();
-//    conn.close();
-//  }
+  public static void main(String[] args) throws SQLException, ClassNotFoundException, ParseException {
+
+    DBConnection conn = new DBConnection();
+    conn.connect();
+
+    ClientSaxParser saxParser = new ClientSaxParser("d:\\temp\\data\\clients.xml");
+    //saxParser.printData();
+
+    XMLData insert = new XMLData();
+    insert.setConn(conn.getConnection());
+    insert.setClientList(saxParser.getSyncClientList());
+    insert.insert();
+    conn.close();
+  }
+
   public void insert() throws SQLException, ParseException {
 
     logger.info("Creating statement");
@@ -56,20 +58,28 @@ public class XMLData {
       System.out.println("Accounts: " + client.getAccounts());
 
       SimpleDateFormat sdf = new SimpleDateFormat("dd-MMM-yyyy");
+      //Array array = conn.createArrayOf("NVARCHAR2", client.getCards().toArray());
 
+      System.out.println("ARRAY OF CARDS >>> " + client.getCards().toString());
       System.out.println("INSERT INTO CLIENTS(NAME, SURNAME, DATEOFBIRTH) " + "VALUES('" + client.getName()
               + "', '" + client.getSurname() + "', '" + sdf.format(client.getDateOfBirth()) + "')");
 
       logger.info("Inserting data to xml");
-      
+
       statement.executeUpdate("INSERT INTO CLIENTS(NAME, SURNAME, DATEOFBIRTH) " + "VALUES('" + client.getName()
               + "', '" + client.getSurname() + "', '" + sdf.format(client.getDateOfBirth()) + "')");
 
-      for (int i = 0; i < client.getCards().size(); i++) {
-        System.out.println("INSERT INTO CARDS(CARD) VALUES('" + client.getCards().get(i) + "')");
-        statement.executeUpdate("INSERT INTO CARDS(CARD) VALUES('" + client.getCards().get(i) + "')");
-      }
+//----------------------------------------------------------------------------------------------------------------------
+      System.out.println("CALL NEW_CLIENT_CARDS_ACCOUNTS('" + client.getName() + "', '" + client.getSurname() + "', '"
+              + sdf.format(client.getDateOfBirth()) + "', " + client.getCards().toArray() + ", " + client.getAccounts().toArray() + ");");
+      
+//      statement.executeUpdate("CALL FULL_CLIENT('" + client.getName() + "', '" + client.getSurname() + "', '"
+//              + sdf.format(client.getDateOfBirth()) + "', " + client.getCards().toArray() + ", " + client.getAccounts().toArray() + ");");
 
+//      for (int i = 0; i < client.getCards().size(); i++) {
+//        System.out.println("INSERT INTO CARDS(CARD) VALUES('" + client.getCards().get(i) + "')");
+//        statement.executeUpdate("INSERT INTO CARDS(CARD) VALUES('" + client.getCards().toArray() + "')");
+//      }
 //      for (int i = 0; i < client.getAccounts().size(); i++) {
 //        statement.executeUpdate("INSERT INTO ACCOUNTS(ID_CLIENT, ACCOUNT) VALUES(CLIENTS.ID, " + client.getAccounts().get(i) + ")");
 //      }

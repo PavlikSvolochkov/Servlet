@@ -159,3 +159,293 @@ INFO >>> Connection complited.
 16:33:14,715  INFO main ProceduresTests:main:34 - Calling NEW_CLIENT procedure
 16:33:14,809  INFO main ProceduresTests:main:41 - NEW_CLIENT procedure is closed.
 16:33:14,810  INFO main ProceduresTests:main:45 - Calling NEW_CLIENT_CARDS_ACCOUNTS() procedure
+12:39:23,108  INFO main DBConnection:<init>:19 - Init default connection
+12:39:23,109  INFO main DBConnection:<init>:24 - Default connection init
+12:39:23,110  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+12:39:23,391  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+12:39:23,394  INFO main ClientSaxParser:parseDocument:43 - Creating parser for file: d:\temp\data\clients.xml
+12:39:23,411  INFO main ClientSaxParser:parseDocument:46 - Parsing file complited
+12:39:23,412  INFO main XMLData:<init>:23 - Call default constructor. Is empty
+12:39:23,412  INFO main XMLData:setConn:82 - Set connection
+12:39:23,412  INFO main XMLData:insert:42 - Creating statement
+12:39:23,471  INFO main XMLData:insert:63 - Inserting data to xml
+12:43:12,175  INFO main DBConnection:<init>:19 - Init default connection
+12:43:12,177  INFO main DBConnection:<init>:24 - Default connection init
+12:43:12,177  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+12:43:12,411  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+12:43:12,414  INFO main ClientSaxParser:parseDocument:43 - Creating parser for file: d:\temp\data\clients.xml
+12:43:12,430  INFO main ClientSaxParser:parseDocument:46 - Parsing file complited
+12:43:12,430  INFO main XMLData:<init>:23 - Call default constructor. Is empty
+12:43:12,430  INFO main XMLData:setConn:83 - Set connection
+12:43:12,430  INFO main XMLData:insert:43 - Creating statement
+12:44:13,991  INFO main DBConnection:<init>:19 - Init default connection
+12:44:13,993  INFO main DBConnection:<init>:24 - Default connection init
+12:44:13,993  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+12:44:14,240  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+12:44:14,242  INFO main ClientSaxParser:parseDocument:43 - Creating parser for file: d:\temp\data\clients.xml
+12:44:14,259  INFO main ClientSaxParser:parseDocument:46 - Parsing file complited
+12:44:14,259  INFO main XMLData:<init>:23 - Call default constructor. Is empty
+12:44:14,259  INFO main XMLData:setConn:83 - Set connection
+12:44:14,259  INFO main XMLData:insert:43 - Creating statement
+12:45:21,895  INFO main DBConnection:<init>:19 - Init default connection
+12:45:21,898  INFO main DBConnection:<init>:24 - Default connection init
+12:45:21,898  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+12:45:22,115  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+12:45:22,118  INFO main ClientSaxParser:parseDocument:43 - Creating parser for file: d:\temp\data\clients.xml
+12:45:22,135  INFO main ClientSaxParser:parseDocument:46 - Parsing file complited
+12:45:22,135  INFO main XMLData:<init>:23 - Call default constructor. Is empty
+12:45:22,135  INFO main XMLData:setConn:83 - Set connection
+12:45:22,135  INFO main XMLData:insert:43 - Creating statement
+12:45:36,846  INFO main DBConnection:<init>:19 - Init default connection
+12:45:36,848  INFO main DBConnection:<init>:24 - Default connection init
+12:45:36,848  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+12:45:37,098  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+12:45:37,100  INFO main ClientSaxParser:parseDocument:43 - Creating parser for file: d:\temp\data\clients.xml
+12:45:37,115  INFO main ClientSaxParser:parseDocument:46 - Parsing file complited
+12:45:37,115  INFO main XMLData:<init>:23 - Call default constructor. Is empty
+12:45:37,115  INFO main XMLData:setConn:83 - Set connection
+12:45:37,115  INFO main XMLData:insert:43 - Creating statement
+12:45:37,167  INFO main XMLData:insert:65 - Inserting data to xml
+12:45:37,179  INFO main XMLData:insert:78 - Data is successfully inserted!
+12:45:37,180  INFO main XMLData:insert:65 - Inserting data to xml
+12:45:37,186  INFO main XMLData:insert:78 - Data is successfully inserted!
+12:45:37,187  INFO main XMLData:insert:65 - Inserting data to xml
+12:45:37,220  INFO main XMLData:insert:78 - Data is successfully inserted!
+12:45:37,220  INFO main XMLData:insert:65 - Inserting data to xml
+12:45:37,254  INFO main XMLData:insert:78 - Data is successfully inserted!
+12:45:37,254  INFO main DBConnection:close:41 - Closing connection
+12:45:37,288  INFO main DBConnection:close:43 - Connection is closed
+12:46:55,042  INFO main DBConnection:<init>:19 - Init default connection
+12:46:55,044  INFO main DBConnection:<init>:24 - Default connection init
+12:46:55,044  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+12:46:55,269  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+12:46:55,271  INFO main ClientSaxParser:parseDocument:43 - Creating parser for file: d:\temp\data\clients.xml
+12:46:55,288  INFO main ClientSaxParser:parseDocument:46 - Parsing file complited
+12:46:55,288  INFO main XMLData:<init>:24 - Call default constructor. Is empty
+12:46:55,288  INFO main XMLData:setConn:84 - Set connection
+12:46:55,288  INFO main XMLData:insert:44 - Creating statement
+12:53:29,581  INFO main DBConnection:<init>:19 - Init default connection
+12:53:29,583  INFO main DBConnection:<init>:24 - Default connection init
+12:53:29,583  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+12:53:29,810  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+12:53:29,812  INFO main ClientSaxParser:parseDocument:43 - Creating parser for file: d:\temp\data\clients.xml
+12:53:29,828  INFO main ClientSaxParser:parseDocument:46 - Parsing file complited
+12:53:29,829  INFO main XMLData:<init>:24 - Call default constructor. Is empty
+12:53:29,829  INFO main XMLData:setConn:86 - Set connection
+12:53:29,829  INFO main XMLData:insert:44 - Creating statement
+12:53:44,855  INFO main DBConnection:<init>:19 - Init default connection
+12:53:44,856  INFO main DBConnection:<init>:24 - Default connection init
+12:53:44,857  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+12:53:45,111  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+12:53:45,113  INFO main ClientSaxParser:parseDocument:43 - Creating parser for file: d:\temp\data\clients.xml
+12:53:45,131  INFO main ClientSaxParser:parseDocument:46 - Parsing file complited
+12:53:45,131  INFO main XMLData:<init>:24 - Call default constructor. Is empty
+12:53:45,131  INFO main XMLData:setConn:86 - Set connection
+12:53:45,132  INFO main XMLData:insert:44 - Creating statement
+12:53:45,205  INFO main XMLData:insert:68 - Inserting data to xml
+12:54:03,438  INFO main DBConnection:<init>:19 - Init default connection
+12:54:03,439  INFO main DBConnection:<init>:24 - Default connection init
+12:54:03,439  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+12:54:03,733  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+12:54:03,741  INFO main ClientSaxParser:parseDocument:43 - Creating parser for file: d:\temp\data\clients.xml
+12:54:03,783  INFO main ClientSaxParser:parseDocument:46 - Parsing file complited
+12:54:03,784  INFO main XMLData:<init>:24 - Call default constructor. Is empty
+12:54:03,784  INFO main XMLData:setConn:86 - Set connection
+12:54:03,784  INFO main XMLData:insert:44 - Creating statement
+12:54:03,860  INFO main XMLData:insert:68 - Inserting data to xml
+12:54:30,827  INFO main DBConnection:<init>:19 - Init default connection
+12:54:30,829  INFO main DBConnection:<init>:24 - Default connection init
+12:54:30,829  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+12:54:31,062  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+12:54:31,064  INFO main ClientSaxParser:parseDocument:43 - Creating parser for file: d:\temp\data\clients.xml
+12:54:31,080  INFO main ClientSaxParser:parseDocument:46 - Parsing file complited
+12:54:31,080  INFO main XMLData:<init>:24 - Call default constructor. Is empty
+12:54:31,080  INFO main XMLData:setConn:86 - Set connection
+12:54:31,080  INFO main XMLData:insert:44 - Creating statement
+12:54:31,130  INFO main XMLData:insert:68 - Inserting data to xml
+12:55:49,092  INFO main DBConnection:<init>:19 - Init default connection
+12:55:49,094  INFO main DBConnection:<init>:24 - Default connection init
+12:55:49,094  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+12:55:49,366  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+12:55:49,368  INFO main ClientSaxParser:parseDocument:43 - Creating parser for file: d:\temp\data\clients.xml
+12:55:49,385  INFO main ClientSaxParser:parseDocument:46 - Parsing file complited
+12:55:49,386  INFO main XMLData:<init>:24 - Call default constructor. Is empty
+12:55:49,386  INFO main XMLData:setConn:86 - Set connection
+12:55:49,386  INFO main XMLData:insert:44 - Creating statement
+12:59:09,502  INFO main DBConnection:<init>:19 - Init default connection
+12:59:09,504  INFO main DBConnection:<init>:24 - Default connection init
+12:59:09,504  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+12:59:09,736  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+12:59:09,738  INFO main ClientSaxParser:parseDocument:43 - Creating parser for file: d:\temp\data\clients.xml
+12:59:09,754  INFO main ClientSaxParser:parseDocument:46 - Parsing file complited
+12:59:09,754  INFO main XMLData:<init>:24 - Call default constructor. Is empty
+12:59:09,754  INFO main XMLData:setConn:86 - Set connection
+12:59:09,754  INFO main XMLData:insert:44 - Creating statement
+13:19:09,215  INFO main DBConnection:<init>:19 - Init default connection
+13:19:09,217  INFO main DBConnection:<init>:24 - Default connection init
+13:19:09,217  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+13:19:09,466  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+13:19:09,469  INFO main ClientSaxParser:parseDocument:43 - Creating parser for file: d:\temp\data\clients.xml
+13:19:09,486  INFO main ClientSaxParser:parseDocument:46 - Parsing file complited
+13:19:09,486  INFO main XMLData:<init>:24 - Call default constructor. Is empty
+13:19:09,486  INFO main XMLData:setConn:86 - Set connection
+13:19:09,486  INFO main XMLData:insert:44 - Creating statement
+13:20:28,238  INFO main DBConnection:<init>:19 - Init default connection
+13:20:28,239  INFO main DBConnection:<init>:24 - Default connection init
+13:20:28,239  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+13:20:28,468  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+13:20:28,470  INFO main ClientSaxParser:parseDocument:43 - Creating parser for file: d:\temp\data\clients.xml
+13:20:28,486  INFO main ClientSaxParser:parseDocument:46 - Parsing file complited
+13:20:28,486  INFO main XMLData:<init>:24 - Call default constructor. Is empty
+13:20:28,486  INFO main XMLData:setConn:85 - Set connection
+13:20:28,486  INFO main XMLData:insert:44 - Creating statement
+13:20:28,546  INFO main XMLData:insert:67 - Inserting data to xml
+13:20:58,744  INFO main DBConnection:<init>:19 - Init default connection
+13:20:58,745  INFO main DBConnection:<init>:24 - Default connection init
+13:20:58,746  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+13:20:59,085  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+13:20:59,090  INFO main ClientSaxParser:parseDocument:43 - Creating parser for file: d:\temp\data\clients.xml
+13:20:59,114  INFO main ClientSaxParser:parseDocument:46 - Parsing file complited
+13:20:59,115  INFO main XMLData:<init>:24 - Call default constructor. Is empty
+13:20:59,115  INFO main XMLData:setConn:85 - Set connection
+13:20:59,115  INFO main XMLData:insert:44 - Creating statement
+13:20:59,192  INFO main XMLData:insert:67 - Inserting data to xml
+13:24:45,028  INFO main DBConnection:<init>:19 - Init default connection
+13:24:45,030  INFO main DBConnection:<init>:24 - Default connection init
+13:24:45,030  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+13:24:45,249  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+13:24:45,252  INFO main ClientSaxParser:parseDocument:43 - Creating parser for file: d:\temp\data\clients.xml
+13:24:45,271  INFO main ClientSaxParser:parseDocument:46 - Parsing file complited
+13:24:45,271  INFO main XMLData:<init>:24 - Call default constructor. Is empty
+13:24:45,271  INFO main XMLData:setConn:87 - Set connection
+13:24:45,271  INFO main XMLData:insert:44 - Creating statement
+13:24:45,320  INFO main XMLData:insert:67 - Inserting data to xml
+13:25:14,402  INFO main DBConnection:<init>:19 - Init default connection
+13:25:14,404  INFO main DBConnection:<init>:24 - Default connection init
+13:25:14,404  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+13:25:14,714  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+13:25:14,716  INFO main ClientSaxParser:parseDocument:43 - Creating parser for file: d:\temp\data\clients.xml
+13:25:14,739  INFO main ClientSaxParser:parseDocument:46 - Parsing file complited
+13:25:14,739  INFO main XMLData:<init>:24 - Call default constructor. Is empty
+13:25:14,740  INFO main XMLData:setConn:87 - Set connection
+13:25:14,740  INFO main XMLData:insert:44 - Creating statement
+13:25:14,820  INFO main XMLData:insert:67 - Inserting data to xml
+13:25:45,794  INFO main DBConnection:<init>:19 - Init default connection
+13:25:45,796  INFO main DBConnection:<init>:24 - Default connection init
+13:25:45,796  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+13:25:46,036  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+13:25:46,039  INFO main ClientSaxParser:parseDocument:43 - Creating parser for file: d:\temp\data\clients.xml
+13:25:46,056  INFO main ClientSaxParser:parseDocument:46 - Parsing file complited
+13:25:46,056  INFO main XMLData:<init>:24 - Call default constructor. Is empty
+13:25:46,056  INFO main XMLData:setConn:90 - Set connection
+13:25:46,056  INFO main XMLData:insert:44 - Creating statement
+13:25:46,111  INFO main XMLData:insert:67 - Inserting data to xml
+13:31:45,013  INFO main DBConnection:<init>:19 - Init default connection
+13:31:45,015  INFO main DBConnection:<init>:24 - Default connection init
+13:31:45,015  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+13:31:45,257  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+13:31:45,259  INFO main ClientSaxParser:parseDocument:43 - Creating parser for file: d:\temp\data\clients.xml
+13:31:45,275  INFO main ClientSaxParser:parseDocument:46 - Parsing file complited
+13:31:45,276  INFO main XMLData:<init>:24 - Call default constructor. Is empty
+13:31:45,276  INFO main XMLData:setConn:91 - Set connection
+13:31:45,276  INFO main XMLData:insert:44 - Creating statement
+13:31:45,343  INFO main XMLData:insert:67 - Inserting data to xml
+13:32:33,039  INFO main DBConnection:<init>:19 - Init default connection
+13:32:33,041  INFO main DBConnection:<init>:24 - Default connection init
+13:32:33,041  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+13:32:33,276  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+13:32:33,279  INFO main ClientSaxParser:parseDocument:43 - Creating parser for file: d:\temp\data\clients.xml
+13:32:33,314  INFO main ClientSaxParser:parseDocument:46 - Parsing file complited
+13:32:33,314  INFO main XMLData:<init>:24 - Call default constructor. Is empty
+13:32:33,314  INFO main XMLData:setConn:91 - Set connection
+13:32:33,314  INFO main XMLData:insert:44 - Creating statement
+13:32:33,399  INFO main XMLData:insert:67 - Inserting data to xml
+13:32:51,840  INFO main DBConnection:<init>:19 - Init default connection
+13:32:51,842  INFO main DBConnection:<init>:24 - Default connection init
+13:32:51,842  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+13:32:52,082  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+13:32:52,085  INFO main ClientSaxParser:parseDocument:43 - Creating parser for file: d:\temp\data\clients.xml
+13:32:52,106  INFO main ClientSaxParser:parseDocument:46 - Parsing file complited
+13:32:52,106  INFO main XMLData:<init>:24 - Call default constructor. Is empty
+13:32:52,106  INFO main XMLData:setConn:91 - Set connection
+13:32:52,106  INFO main XMLData:insert:44 - Creating statement
+13:32:52,209  INFO main XMLData:insert:67 - Inserting data to xml
+13:33:47,634  INFO main DBConnection:<init>:19 - Init default connection
+13:33:47,635  INFO main DBConnection:<init>:24 - Default connection init
+13:33:47,636  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+13:33:47,922  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+13:33:47,924  INFO main ClientSaxParser:parseDocument:43 - Creating parser for file: d:\temp\data\clients.xml
+13:33:47,941  INFO main ClientSaxParser:parseDocument:46 - Parsing file complited
+13:33:47,941  INFO main XMLData:<init>:24 - Call default constructor. Is empty
+13:33:47,941  INFO main XMLData:setConn:91 - Set connection
+13:33:47,941  INFO main XMLData:insert:44 - Creating statement
+13:33:48,017  INFO main XMLData:insert:67 - Inserting data to xml
+14:21:27,127  INFO main DBConnection:<init>:19 - Init default connection
+14:21:27,128  INFO main DBConnection:<init>:24 - Default connection init
+14:21:27,128  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+14:21:27,405  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+14:21:27,407  INFO main ClientSaxParser:parseDocument:43 - Creating parser for file: d:\temp\data\clients.xml
+14:21:27,426  INFO main ClientSaxParser:parseDocument:46 - Parsing file complited
+14:21:27,427  INFO main XMLData:<init>:24 - Call default constructor. Is empty
+14:21:27,427  INFO main XMLData:setConn:91 - Set connection
+14:21:27,427  INFO main XMLData:insert:44 - Creating statement
+14:21:27,509  INFO main XMLData:insert:67 - Inserting data to xml
+14:21:52,021  INFO main DBConnection:<init>:19 - Init default connection
+14:21:52,023  INFO main DBConnection:<init>:24 - Default connection init
+14:21:52,023  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+14:21:52,280  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+14:21:52,282  INFO main ClientSaxParser:parseDocument:43 - Creating parser for file: d:\temp\data\clients.xml
+14:21:52,298  INFO main ClientSaxParser:parseDocument:46 - Parsing file complited
+14:21:52,298  INFO main XMLData:<init>:24 - Call default constructor. Is empty
+14:21:52,298  INFO main XMLData:setConn:91 - Set connection
+14:21:52,298  INFO main XMLData:insert:44 - Creating statement
+14:21:52,350  INFO main XMLData:insert:67 - Inserting data to xml
+14:22:07,725  INFO main DBConnection:<init>:19 - Init default connection
+14:22:07,726  INFO main DBConnection:<init>:24 - Default connection init
+14:22:07,727  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+14:22:07,945  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+14:22:07,947  INFO main ClientSaxParser:parseDocument:43 - Creating parser for file: d:\temp\data\clients.xml
+14:22:07,963  INFO main ClientSaxParser:parseDocument:46 - Parsing file complited
+14:22:07,963  INFO main XMLData:<init>:24 - Call default constructor. Is empty
+14:22:07,964  INFO main XMLData:setConn:91 - Set connection
+14:22:07,964  INFO main XMLData:insert:44 - Creating statement
+14:22:08,013  INFO main XMLData:insert:67 - Inserting data to xml
+14:41:58,096  INFO main DBConnection:<init>:19 - Init default connection
+14:41:58,098  INFO main DBConnection:<init>:24 - Default connection init
+14:41:58,098  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+14:41:58,412  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+14:41:58,416  INFO main ClientSaxParser:parseDocument:43 - Creating parser for file: d:\temp\data\clients.xml
+14:41:58,435  INFO main ClientSaxParser:parseDocument:46 - Parsing file complited
+14:41:58,438  INFO main ProceduresTests:main:45 - Calling NEW_CLIENT_CARDS_ACCOUNTS() procedure
+14:42:27,650  INFO main DBConnection:<init>:19 - Init default connection
+14:42:27,652  INFO main DBConnection:<init>:24 - Default connection init
+14:42:27,652  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+14:42:27,886  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+14:42:27,888  INFO main ClientSaxParser:parseDocument:43 - Creating parser for file: d:\temp\data\clients.xml
+14:42:27,905  INFO main ClientSaxParser:parseDocument:46 - Parsing file complited
+14:42:27,907  INFO main ProceduresTests:main:45 - Calling NEW_CLIENT_CARDS_ACCOUNTS() procedure
+14:43:48,660  INFO main DBConnection:<init>:19 - Init default connection
+14:43:48,662  INFO main DBConnection:<init>:24 - Default connection init
+14:43:48,662  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+14:43:48,933  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+14:43:48,941  INFO main ClientSaxParser:parseDocument:43 - Creating parser for file: d:\temp\data\clients.xml
+14:43:48,979  INFO main ClientSaxParser:parseDocument:46 - Parsing file complited
+14:43:48,983  INFO main ProceduresTests:main:45 - Calling NEW_CLIENT_CARDS_ACCOUNTS() procedure
+15:06:33,488  INFO main DBConnection:<init>:19 - Init default connection
+15:06:33,490  INFO main DBConnection:<init>:24 - Default connection init
+15:06:33,490  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+15:06:33,841  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+15:06:33,845  INFO main ClientSaxParser:parseDocument:43 - Creating parser for file: d:\temp\data\clients.xml
+15:06:33,868  INFO main ClientSaxParser:parseDocument:46 - Parsing file complited
+15:07:50,609  INFO main DBConnection:<init>:19 - Init default connection
+15:07:50,611  INFO main DBConnection:<init>:24 - Default connection init
+15:07:50,611  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+15:07:51,001  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+15:07:51,006  INFO main ClientSaxParser:parseDocument:43 - Creating parser for file: d:\temp\data\clients.xml
+15:07:51,047  INFO main ClientSaxParser:parseDocument:46 - Parsing file complited
+15:09:00,437  INFO main DBConnection:<init>:19 - Init default connection
+15:09:00,440  INFO main DBConnection:<init>:24 - Default connection init
+15:09:00,440  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+15:09:00,797  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+15:09:00,801  INFO main ClientSaxParser:parseDocument:43 - Creating parser for file: d:\temp\data\clients.xml
+15:09:00,840  INFO main ClientSaxParser:parseDocument:46 - Parsing file complited
