@@ -3,7 +3,6 @@ import java.io.IOException;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 import javax.xml.parsers.ParserConfigurationException;
@@ -15,47 +14,42 @@ import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
 
-public class ClientSaxParser extends DefaultHandler {
+public class ClientSaxParser extends DefaultHandler implements Runnable {
 
   static Logger logger = Logger.getLogger(ClientSaxParser.class);
 
   private String tmpValue;
-  private String xmlFileName;
+  private String fileName;
 
+  private List<Client> clientList = null;
   private Client client = null;
-  private List<Client> syncClientList = null;
-  private ClientQueue queue;
 
-  SimpleDateFormat sdf = new SimpleDateFormat("dd-Mmm-yyyy");
+  private Queue queue;
+  SimpleDateFormat sdf = new SimpleDateFormat("DD-MM-YY");
+
+  public List<Client> getClientList() {
+    return clientList;
+  }
 
   public ClientSaxParser(String xmlFile) {
-    this.xmlFileName = xmlFile;
-    syncClientList = Collections.synchronizedList(new ArrayList<Client>());
-    parseDocument();
+    this.fileName = xmlFile;
+    clientList = new ArrayList<Client>();
   }
 
-  public void setQueue(ClientQueue q) {
-    this.queue = q;
-  }
-  
-  private void parseDocument() {
+  public void parseDocument() {
     SAXParserFactory factory = SAXParserFactory.newInstance();
     try {
-      logger.info("Creating parser for file: " + xmlFileName);
+      logger.info("Creating parser for file: " + fileName);
       SAXParser parser = factory.newSAXParser();
-      parser.parse(xmlFileName, this);
+      parser.parse(fileName, this);
       logger.info("Parsing file complited");
     } catch (ParserConfigurationException | SAXException | IOException e) {
-      e.printStackTrace();
+      logger.error("ERROR PARSE DOCUMENT", e);
     }
   }
 
-  public List<Client> getSyncClientList() {
-    return syncClientList;
-  }
-
   public void printData() {
-    for (Client tmpClient : syncClientList) {
+    for (Client tmpClient : clientList) {
       System.out.println(tmpClient.toString());
     }
   }
@@ -65,9 +59,9 @@ public class ClientSaxParser extends DefaultHandler {
 
     if (qName.equalsIgnoreCase("client")) {
       client = new Client();
-      if (syncClientList == null) {
+      if (clientList == null) {
         logger.info("Creating synchronizedList");
-        syncClientList = Collections.synchronizedList(new ArrayList<Client>());
+        clientList = new ArrayList<Client>();
         logger.info("SynchronizedList is created");
       }
     }
@@ -81,30 +75,39 @@ public class ClientSaxParser extends DefaultHandler {
   @Override
   public void endElement(String uri, String localName, String qName) throws SAXException {
 
-    synchronized (syncClientList) {
-      if (qName.equals("client")) {
-        syncClientList.add(client);
+    if (qName.equals("client")) {
+      clientList.add(client);
+      //queue.put(client);
+    }
+    if (qName.equalsIgnoreCase("name")) {
+      client.setName(tmpValue);
+    }
+    if (qName.equalsIgnoreCase("surname")) {
+      client.setSurname(tmpValue);
+    }
+    if (qName.equalsIgnoreCase("dateOfBirth")) {
+      try {
+        client.setDateOfBirth(sdf.parse(tmpValue));
+      } catch (ParseException e) {
+        logger.error("ERROR PARSE DATE", e);
       }
-      if (qName.equalsIgnoreCase("name")) {
-        client.setName(tmpValue);
-      }
-      if (qName.equalsIgnoreCase("surname")) {
-        client.setSurname(tmpValue);
-      }
-      if (qName.equalsIgnoreCase("dateOfBirth")) {
-        try {
-          client.setDateOfBirth(sdf.parse(tmpValue));
-        } catch (ParseException e) {
-          e.printStackTrace();
-        }
-      }
-      if (qName.equalsIgnoreCase("card")) {
-        client.getCards().add(tmpValue);
-      }
-      if (qName.equalsIgnoreCase("account")) {
-        client.getAccounts().add(tmpValue);
-      }
-      queue.putElement(client);
+    }
+    if (qName.equalsIgnoreCase("card")) {
+      client.getCards().add(tmpValue);
+    }
+    if (qName.equalsIgnoreCase("account")) {
+      client.getAccounts().add(tmpValue);
+    }
+  }
+
+  public void setQueue(Queue queue) {
+    this.queue = queue;
+  }
+
+  @Override
+  public void run() {
+    while (true) {
+      queue.put(client);
     }
   }
 }

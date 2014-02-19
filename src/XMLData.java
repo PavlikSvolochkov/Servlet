@@ -34,7 +34,7 @@ public class XMLData {
 
     XMLData insert = new XMLData();
     insert.setConn(conn.getConnection());
-    insert.setClientList(saxParser.getSyncClientList());
+    insert.setClientList(saxParser.getClientList());
     insert.insert();
     conn.close();
   }

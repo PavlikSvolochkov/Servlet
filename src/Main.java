@@ -1,15 +1,16 @@
 
-import java.util.List;
 
 public class Main {
 
   public static void main(String[] args) throws Exception {
+    
+    Queue queue = new Queue();
 
-    DBConnection conn = new DBConnection();
-    conn.connect();
-
-    ClientSaxParser saxParser = new ClientSaxParser("d:\\dev\\Project\\ClientsServlet\\src\\clients.xml");
-    List<Client> clientList = saxParser.getSyncClientList();
-
+    ClientSaxParser saxParser = new ClientSaxParser("d:\\temp\\data\\clients.xml");
+    saxParser.setQueue(queue);
+    saxParser.parseDocument();
+    
+    new Consumer(queue);
+    
   }
 }

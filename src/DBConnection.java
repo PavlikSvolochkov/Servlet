@@ -17,9 +17,13 @@ public class DBConnection {
 
   public DBConnection() {
     logger.info("Init default connection");
-    this.url = "jdbc:oracle:thin:@193.8.203.37:1522/PS";
-    this.user = "monservice";
-    this.pass = "monservice";
+    //this.url = "jdbc:oracle:thin:@193.8.203.37:1522/PS";
+    this.url = "jdbc:oracle:thin:@localhost:1521/orcl";
+    //this.user = "monservice";
+    this.user = "SYS as SYSDBA";
+    
+    //this.pass = "monservice";
+    this.pass = "111";
     this.driver = "oracle.jdbc.driver.OracleDriver";
     logger.info("Default connection init");
   }

@@ -449,3 +449,84 @@ INFO >>> Connection complited.
 15:09:00,797  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
 15:09:00,801  INFO main ClientSaxParser:parseDocument:43 - Creating parser for file: d:\temp\data\clients.xml
 15:09:00,840  INFO main ClientSaxParser:parseDocument:46 - Parsing file complited
+13:49:59,867  INFO main ClientSaxParser:parseDocument:44 - Creating parser for file: d:\temp\data\clients.xml
+13:50:08,994  INFO main ClientSaxParser:parseDocument:44 - Creating parser for file: d:\temp\data\clients.xml
+13:50:09,015  INFO main ClientSaxParser:parseDocument:47 - Parsing file complited
+13:50:09,015  INFO main ClientSaxParser:parseDocument:44 - Creating parser for file: d:\temp\data\clients.xml
+13:50:09,017  INFO main ClientSaxParser:parseDocument:47 - Parsing file complited
+13:50:28,799  INFO main ClientSaxParser:parseDocument:44 - Creating parser for file: d:\temp\data\clients.xml
+13:50:28,816  INFO main ClientSaxParser:parseDocument:47 - Parsing file complited
+13:50:28,817  INFO main ClientSaxParser:parseDocument:44 - Creating parser for file: d:\temp\data\clients.xml
+13:50:28,818  INFO main ClientSaxParser:parseDocument:47 - Parsing file complited
+13:51:04,500  INFO main ClientSaxParser:parseDocument:44 - Creating parser for file: d:\temp\data\clients.xml
+13:51:04,522  INFO main ClientSaxParser:parseDocument:47 - Parsing file complited
+13:51:04,523  INFO main ClientSaxParser:parseDocument:44 - Creating parser for file: d:\temp\data\clients.xml
+13:51:04,525  INFO main ClientSaxParser:parseDocument:47 - Parsing file complited
+13:51:31,081  INFO main ClientSaxParser:parseDocument:44 - Creating parser for file: d:\temp\data\clients.xml
+13:51:31,109  INFO main ClientSaxParser:parseDocument:47 - Parsing file complited
+13:51:31,110  INFO main ClientSaxParser:parseDocument:44 - Creating parser for file: d:\temp\data\clients.xml
+13:51:31,115  INFO main ClientSaxParser:parseDocument:47 - Parsing file complited
+13:53:03,118  INFO main ClientSaxParser:parseDocument:44 - Creating parser for file: d:\temp\data\clients.xml
+13:53:03,145  INFO main ClientSaxParser:parseDocument:47 - Parsing file complited
+13:53:03,145  INFO main ClientSaxParser:parseDocument:44 - Creating parser for file: d:\temp\data\clients.xml
+13:53:03,147  INFO main ClientSaxParser:parseDocument:47 - Parsing file complited
+13:56:20,679  INFO main ClientSaxParser:parseDocument:44 - Creating parser for file: d:\temp\data\clients.xml
+13:56:20,700  INFO main ClientSaxParser:parseDocument:47 - Parsing file complited
+13:56:20,700  INFO main ClientSaxParser:parseDocument:44 - Creating parser for file: d:\temp\data\clients.xml
+13:56:20,702  INFO main ClientSaxParser:parseDocument:47 - Parsing file complited
+14:13:27,198  INFO main ClientSaxParser:parseDocument:43 - Creating parser for file: d:\temp\data\clients.xml
+14:15:34,695  INFO main ClientSaxParser:parseDocument:43 - Creating parser for file: d:\temp\data\clients.xml
+14:17:30,411  INFO main ClientSaxParser:parseDocument:43 - Creating parser for file: d:\temp\data\clients.xml
+14:22:27,287  INFO main ClientSaxParser:parseDocument:43 - Creating parser for file: d:\temp\data\clients.xml
+14:26:08,622  INFO main ClientSaxParser:parseDocument:43 - Creating parser for file: d:\temp\data\clients.xml
+14:26:08,643  INFO main ClientSaxParser:parseDocument:46 - Parsing file complited
+14:26:08,643  INFO main ClientSaxParser:parseDocument:43 - Creating parser for file: d:\temp\data\clients.xml
+14:26:08,645  INFO main ClientSaxParser:parseDocument:46 - Parsing file complited
+14:36:01,114  INFO main ClientSaxParser:parseDocument:43 - Creating parser for file: d:\temp\data\clients.xml
+14:36:01,132  INFO main ClientSaxParser:parseDocument:46 - Parsing file complited
+14:36:01,132  INFO main ClientSaxParser:parseDocument:43 - Creating parser for file: d:\temp\data\clients.xml
+14:36:01,134  INFO main ClientSaxParser:parseDocument:46 - Parsing file complited
+14:36:54,081  INFO main ClientSaxParser:parseDocument:43 - Creating parser for file: d:\temp\data\clients.xml
+14:36:54,098  INFO main ClientSaxParser:parseDocument:46 - Parsing file complited
+14:36:54,098  INFO main ClientSaxParser:parseDocument:43 - Creating parser for file: d:\temp\data\clients.xml
+14:36:54,100  INFO main ClientSaxParser:parseDocument:46 - Parsing file complited
+14:38:41,423  INFO main ClientSaxParser:parseDocument:43 - Creating parser for file: d:\temp\data\clients.xml
+14:38:41,440  INFO main ClientSaxParser:parseDocument:46 - Parsing file complited
+14:38:41,440  INFO main ClientSaxParser:parseDocument:43 - Creating parser for file: d:\temp\data\clients.xml
+14:38:41,442  INFO main ClientSaxParser:parseDocument:46 - Parsing file complited
+14:39:29,586  INFO main ClientSaxParser:parseDocument:43 - Creating parser for file: d:\temp\data\clients.xml
+14:39:29,603  INFO main ClientSaxParser:parseDocument:46 - Parsing file complited
+14:39:29,604  INFO main ClientSaxParser:parseDocument:43 - Creating parser for file: d:\temp\data\clients.xml
+14:39:29,606  INFO main ClientSaxParser:parseDocument:46 - Parsing file complited
+14:39:52,786  INFO main ClientSaxParser:parseDocument:43 - Creating parser for file: d:\temp\data\clients.xml
+14:39:52,810  INFO main ClientSaxParser:parseDocument:46 - Parsing file complited
+14:39:52,810  INFO main ClientSaxParser:parseDocument:43 - Creating parser for file: d:\temp\data\clients.xml
+14:39:52,812  INFO main ClientSaxParser:parseDocument:46 - Parsing file complited
+14:47:17,871  INFO main ClientSaxParser:parseDocument:43 - Creating parser for file: d:\temp\data\clients.xml
+14:47:17,887  INFO main ClientSaxParser:parseDocument:46 - Parsing file complited
+14:47:17,888  INFO main ClientSaxParser:parseDocument:43 - Creating parser for file: d:\temp\data\clients.xml
+14:47:17,890  INFO main ClientSaxParser:parseDocument:46 - Parsing file complited
+14:48:43,402  INFO main ClientSaxParser:parseDocument:43 - Creating parser for file: d:\temp\data\clients.xml
+14:48:43,419  INFO main ClientSaxParser:parseDocument:46 - Parsing file complited
+14:48:43,420  INFO main ClientSaxParser:parseDocument:43 - Creating parser for file: d:\temp\data\clients.xml
+14:48:43,421  INFO main ClientSaxParser:parseDocument:46 - Parsing file complited
+14:49:50,157  INFO main ClientSaxParser:parseDocument:43 - Creating parser for file: d:\temp\data\clients.xml
+14:49:50,175  INFO main ClientSaxParser:parseDocument:46 - Parsing file complited
+14:49:50,175  INFO main ClientSaxParser:parseDocument:43 - Creating parser for file: d:\temp\data\clients.xml
+14:49:50,177  INFO main ClientSaxParser:parseDocument:46 - Parsing file complited
+14:52:02,051  INFO main ClientSaxParser:parseDocument:39 - Creating parser for file: d:\temp\data\clients.xml
+14:52:02,070  INFO main ClientSaxParser:parseDocument:42 - Parsing file complited
+14:52:02,071  INFO main ClientSaxParser:parseDocument:39 - Creating parser for file: d:\temp\data\clients.xml
+14:52:02,072  INFO main ClientSaxParser:parseDocument:42 - Parsing file complited
+14:52:59,049  INFO main ClientSaxParser:parseDocument:39 - Creating parser for file: d:\temp\data\clients.xml
+14:52:59,078  INFO main ClientSaxParser:parseDocument:42 - Parsing file complited
+14:52:59,079  INFO main ClientSaxParser:parseDocument:39 - Creating parser for file: d:\temp\data\clients.xml
+14:52:59,081  INFO main ClientSaxParser:parseDocument:42 - Parsing file complited
+14:53:43,402  INFO main ClientSaxParser:parseDocument:39 - Creating parser for file: d:\temp\data\clients.xml
+14:53:43,419  INFO main ClientSaxParser:parseDocument:42 - Parsing file complited
+14:53:43,420  INFO main ClientSaxParser:parseDocument:39 - Creating parser for file: d:\temp\data\clients.xml
+14:53:43,421  INFO main ClientSaxParser:parseDocument:42 - Parsing file complited
+16:09:01,823  INFO main ClientSaxParser:parseDocument:39 - Creating parser for file: d:\temp\data\clients.xml
+16:09:01,844  INFO main ClientSaxParser:parseDocument:42 - Parsing file complited
+16:09:01,845  INFO main ClientSaxParser:parseDocument:39 - Creating parser for file: d:\temp\data\clients.xml
+16:09:01,848  INFO main ClientSaxParser:parseDocument:42 - Parsing file complited
