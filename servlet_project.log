@@ -530,3 +530,2662 @@ INFO >>> Connection complited.
 16:09:01,844  INFO main ClientSaxParser:parseDocument:42 - Parsing file complited
 16:09:01,845  INFO main ClientSaxParser:parseDocument:39 - Creating parser for file: d:\temp\data\clients.xml
 16:09:01,848  INFO main ClientSaxParser:parseDocument:42 - Parsing file complited
+12:35:49,043  INFO main ClientSaxParser:parseDocument:42 - Creating parser for file: d:\temp\data\clients.xml
+12:36:25,318  INFO main ClientSaxParser:parseDocument:42 - Creating parser for file: d:\temp\data\clients.xml
+12:37:26,812  INFO main ClientSaxParser:parseDocument:42 - Creating parser for file: d:\temp\data\clients.xml
+12:38:17,056  INFO main ClientSaxParser:parseDocument:42 - Creating parser for file: d:\temp\data\clients.xml
+12:40:59,539  INFO main ClientSaxParser:parseDocument:42 - Creating parser for file: d:\temp\data\clients.xml
+12:41:17,014  INFO main ClientSaxParser:parseDocument:42 - Creating parser for file: d:\temp\data\clients.xml
+12:44:32,853  INFO main ClientSaxParser:parseDocument:42 - Creating parser for file: d:\temp\data\clients.xml
+12:44:32,868  INFO main ClientSaxParser:parseDocument:45 - Parsing file complited
+12:44:42,774  INFO main ClientSaxParser:parseDocument:42 - Creating parser for file: d:\temp\data\clients.xml
+12:44:42,792  INFO main ClientSaxParser:parseDocument:45 - Parsing file complited
+12:50:12,328  INFO main ClientSaxParser:parseDocument:42 - Creating parser for file: d:\temp\data\clients.xml
+12:50:12,344  INFO main ClientSaxParser:parseDocument:45 - Parsing file complited
+12:50:25,547  INFO main ClientSaxParser:parseDocument:42 - Creating parser for file: d:\temp\data\clients.xml
+12:50:47,457  INFO main ClientSaxParser:parseDocument:42 - Creating parser for file: d:\temp\data\clients.xml
+12:51:00,804  INFO main ClientSaxParser:parseDocument:42 - Creating parser for file: d:\temp\data\clients.xml
+12:52:06,864  INFO main ClientSaxParser:parseDocument:42 - Creating parser for file: d:\temp\data\clients.xml
+12:52:49,406  INFO main ClientSaxParser:parseDocument:42 - Creating parser for file: d:\temp\data\clients.xml
+12:52:49,423  INFO main ClientSaxParser:parseDocument:45 - Parsing file complited
+12:53:43,573  INFO main ClientSaxParser:parseDocument:42 - Creating parser for file: d:\temp\data\clients.xml
+12:53:43,591  INFO main ClientSaxParser:parseDocument:45 - Parsing file complited
+12:55:30,951  INFO main ClientSaxParser:parseDocument:42 - Creating parser for file: d:\temp\data\clients.xml
+12:55:30,969  INFO main ClientSaxParser:parseDocument:45 - Parsing file complited
+12:57:55,634  INFO main ClientSaxParser:parseDocument:42 - Creating parser for file: d:\temp\data\clients.xml
+12:57:55,650  INFO main ClientSaxParser:parseDocument:45 - Parsing file complited
+12:58:08,261  INFO main ClientSaxParser:parseDocument:42 - Creating parser for file: d:\temp\data\clients.xml
+12:58:08,277  INFO main ClientSaxParser:parseDocument:45 - Parsing file complited
+13:00:35,233  INFO main ClientSaxParser:parseDocument:42 - Creating parser for file: d:\temp\data\clients.xml
+13:00:35,249  INFO main ClientSaxParser:parseDocument:45 - Parsing file complited
+13:01:04,368  INFO main ClientSaxParser:parseDocument:42 - Creating parser for file: d:\temp\data\clients.xml
+13:01:04,387  INFO main ClientSaxParser:parseDocument:45 - Parsing file complited
+13:01:31,044  INFO main ClientSaxParser:parseDocument:42 - Creating parser for file: d:\temp\data\clients.xml
+13:01:31,060  INFO main ClientSaxParser:parseDocument:45 - Parsing file complited
+13:02:41,171  INFO main ClientSaxParser:parseDocument:42 - Creating parser for file: d:\temp\data\clients.xml
+13:02:41,186  INFO main ClientSaxParser:parseDocument:45 - Parsing file complited
+13:02:56,646  INFO main ClientSaxParser:parseDocument:42 - Creating parser for file: d:\temp\data\clients.xml
+13:02:56,662  INFO main ClientSaxParser:parseDocument:45 - Parsing file complited
+13:03:42,218  INFO main ClientSaxParser:parseDocument:42 - Creating parser for file: d:\temp\data\clients.xml
+13:03:42,251  INFO main ClientSaxParser:parseDocument:45 - Parsing file complited
+13:23:10,570  INFO main ClientSaxParser:parseDocument:42 - Creating parser for file: d:\temp\data\clients.xml
+13:23:10,589  INFO main ClientSaxParser:parseDocument:45 - Parsing file complited
+13:24:14,086  INFO main ClientSaxParser:parseDocument:42 - Creating parser for file: d:\temp\data\clients.xml
+13:24:14,111  INFO main ClientSaxParser:parseDocument:45 - Parsing file complited
+13:25:16,464  INFO main ClientSaxParser:parseDocument:42 - Creating parser for file: d:\temp\data\clients.xml
+13:25:16,481  INFO main ClientSaxParser:parseDocument:45 - Parsing file complited
+13:28:04,384  INFO main ClientSaxParser:parseDocument:42 - Creating parser for file: d:\temp\data\clients.xml
+13:28:04,400  INFO main ClientSaxParser:parseDocument:45 - Parsing file complited
+13:28:14,395  INFO main ClientSaxParser:parseDocument:42 - Creating parser for file: d:\temp\data\clients.xml
+13:28:14,413  INFO main ClientSaxParser:parseDocument:45 - Parsing file complited
+13:28:27,252  INFO main ClientSaxParser:parseDocument:42 - Creating parser for file: d:\temp\data\clients.xml
+13:28:27,272  INFO main ClientSaxParser:parseDocument:45 - Parsing file complited
+13:28:33,491  INFO main ClientSaxParser:parseDocument:42 - Creating parser for file: d:\temp\data\clients.xml
+13:28:33,508  INFO main ClientSaxParser:parseDocument:45 - Parsing file complited
+13:36:32,315  INFO main ClientSaxParser:parseDocument:42 - Creating parser for file: d:\temp\data\clients.xml
+13:36:32,333  INFO main ClientSaxParser:parseDocument:45 - Parsing file complited
+13:36:51,619  INFO main ClientSaxParser:parseDocument:42 - Creating parser for file: d:\temp\data\clients.xml
+13:36:51,641  INFO main ClientSaxParser:parseDocument:45 - Parsing file complited
+13:37:22,583  INFO main ClientSaxParser:parseDocument:42 - Creating parser for file: d:\temp\data\clients.xml
+13:37:22,600  INFO main ClientSaxParser:parseDocument:45 - Parsing file complited
+13:38:43,203  INFO main ClientSaxParser:parseDocument:42 - Creating parser for file: d:\temp\data\clients.xml
+13:38:43,223  INFO main ClientSaxParser:parseDocument:45 - Parsing file complited
+13:38:56,012  INFO main ClientSaxParser:parseDocument:42 - Creating parser for file: d:\temp\data\clients.xml
+13:38:56,040  INFO main ClientSaxParser:parseDocument:45 - Parsing file complited
+13:39:36,084  INFO main ClientSaxParser:parseDocument:42 - Creating parser for file: d:\temp\data\clients.xml
+13:39:36,101  INFO main ClientSaxParser:parseDocument:45 - Parsing file complited
+13:49:06,149  INFO main ClientSaxParser:parseDocument:42 - Creating parser for file: d:\temp\data\clients.xml
+13:49:06,167  INFO main ClientSaxParser:parseDocument:45 - Parsing file complited
+13:49:26,237  INFO main ClientSaxParser:parseDocument:42 - Creating parser for file: d:\temp\data\clients.xml
+13:49:26,256  INFO main ClientSaxParser:parseDocument:45 - Parsing file complited
+13:49:50,771  INFO main ClientSaxParser:parseDocument:42 - Creating parser for file: d:\temp\data\clients.xml
+13:49:50,790  INFO main ClientSaxParser:parseDocument:45 - Parsing file complited
+14:09:47,510  INFO main ClientSaxParser:parseDocument:42 - Creating parser for file: d:\temp\data\clients.xml
+14:09:47,531  INFO main ClientSaxParser:parseDocument:45 - Parsing file complited
+14:10:05,991  INFO main ClientSaxParser:parseDocument:42 - Creating parser for file: d:\temp\data\clients.xml
+14:10:06,010  INFO main ClientSaxParser:parseDocument:45 - Parsing file complited
+14:14:56,260  INFO main ClientSaxParser:parseDocument:42 - Creating parser for file: d:\temp\data\clients.xml
+14:14:56,278  INFO main ClientSaxParser:parseDocument:45 - Parsing file complited
+14:17:27,475  INFO main ClientSaxParser:parseDocument:47 - Creating parser for file: d:\temp\data\clients.xml
+14:17:27,491  INFO main ClientSaxParser:parseDocument:50 - Parsing file complited
+14:18:50,144  INFO main ClientSaxParser:parseDocument:47 - Creating parser for file: d:\temp\data\clients.xml
+14:18:50,160  INFO main ClientSaxParser:parseDocument:50 - Parsing file complited
+14:20:02,031  INFO main ClientSaxParser:parseDocument:47 - Creating parser for file: d:\temp\data\clients.xml
+14:20:02,048  INFO main ClientSaxParser:parseDocument:50 - Parsing file complited
+14:21:03,531  INFO main ClientSaxParser:parseDocument:49 - Creating parser for file: d:\temp\data\clients.xml
+14:21:03,548  INFO main ClientSaxParser:parseDocument:52 - Parsing file complited
+14:22:07,149  INFO main ClientSaxParser:parseDocument:49 - Creating parser for file: d:\temp\data\clients.xml
+14:22:07,165  INFO main ClientSaxParser:parseDocument:52 - Parsing file complited
+14:23:52,436  INFO main ClientSaxParser:parseDocument:49 - Creating parser for file: d:\temp\data\clients.xml
+14:23:52,453  INFO main ClientSaxParser:parseDocument:52 - Parsing file complited
+14:24:29,344  INFO main ClientSaxParser:parseDocument:49 - Creating parser for file: d:\temp\data\clients.xml
+14:24:29,360  INFO main ClientSaxParser:parseDocument:52 - Parsing file complited
+14:32:22,633  INFO main ClientSaxParser:parseDocument:49 - Creating parser for file: d:\temp\data\clients.xml
+14:32:22,650  INFO main ClientSaxParser:parseDocument:52 - Parsing file complited
+14:32:47,848  INFO main ClientSaxParser:parseDocument:49 - Creating parser for file: d:\temp\data\clients.xml
+14:32:47,864  INFO main ClientSaxParser:parseDocument:52 - Parsing file complited
+14:33:48,066  INFO main ClientSaxParser:parseDocument:49 - Creating parser for file: d:\temp\data\clients.xml
+14:33:48,081  INFO main ClientSaxParser:parseDocument:52 - Parsing file complited
+14:34:21,275  INFO main ClientSaxParser:parseDocument:49 - Creating parser for file: d:\temp\data\clients.xml
+14:34:21,294  INFO main ClientSaxParser:parseDocument:52 - Parsing file complited
+14:34:57,958  INFO main ClientSaxParser:parseDocument:49 - Creating parser for file: d:\temp\data\clients.xml
+14:34:57,978  INFO main ClientSaxParser:parseDocument:52 - Parsing file complited
+14:35:18,540  INFO main ClientSaxParser:parseDocument:49 - Creating parser for file: d:\temp\data\clients.xml
+14:35:18,557  INFO main ClientSaxParser:parseDocument:52 - Parsing file complited
+14:35:36,719  INFO main ClientSaxParser:parseDocument:49 - Creating parser for file: d:\temp\data\clients.xml
+14:35:36,736  INFO main ClientSaxParser:parseDocument:52 - Parsing file complited
+14:42:21,105  INFO main ClientSaxParser:parseDocument:49 - Creating parser for file: d:\temp\data\clients.xml
+14:42:21,121  INFO main ClientSaxParser:parseDocument:52 - Parsing file complited
+14:43:25,102  INFO main ClientSaxParser:parseDocument:49 - Creating parser for file: d:\temp\data\clients.xml
+14:43:25,120  INFO main ClientSaxParser:parseDocument:52 - Parsing file complited
+14:44:32,430  INFO main ClientSaxParser:parseDocument:49 - Creating parser for file: d:\temp\data\clients.xml
+14:44:32,447  INFO main ClientSaxParser:parseDocument:52 - Parsing file complited
+14:44:58,362  INFO main ClientSaxParser:parseDocument:49 - Creating parser for file: d:\temp\data\clients.xml
+14:44:58,380  INFO main ClientSaxParser:parseDocument:52 - Parsing file complited
+14:44:58,383  INFO main DBConnection:<init>:19 - Init default connection
+14:44:58,383  INFO main DBConnection:<init>:24 - Default connection init
+14:44:58,383  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+14:44:58,623  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+14:44:58,624  INFO main XMLData:<init>:25 - Call default constructor. Is empty
+14:44:58,624  INFO main XMLData:setConn:92 - Set connection
+14:46:05,688  INFO main ClientSaxParser:parseDocument:49 - Creating parser for file: d:\temp\data\clients.xml
+14:46:05,706  INFO main ClientSaxParser:parseDocument:52 - Parsing file complited
+14:46:05,709  INFO main DBConnection:<init>:19 - Init default connection
+14:46:05,710  INFO main DBConnection:<init>:24 - Default connection init
+14:46:05,710  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+14:46:05,971  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+14:46:05,972  INFO main XMLData:<init>:25 - Call default constructor. Is empty
+14:46:05,972  INFO main XMLData:setConn:92 - Set connection
+14:46:05,973  INFO main XMLData:insert:45 - Creating statement
+14:46:06,032  INFO main XMLData:insert:68 - Inserting data to xml
+14:46:06,057  INFO main XMLData:insert:87 - Data is successfully inserted!
+14:51:13,743  INFO main DBConnection:<init>:19 - Init default connection
+14:51:13,745  INFO main DBConnection:<init>:24 - Default connection init
+14:51:13,745  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+14:51:13,959  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+14:51:13,962  INFO main ClientSaxParser:parseDocument:49 - Creating parser for file: d:\temp\data\clients.xml
+14:51:13,978  INFO main ClientSaxParser:parseDocument:52 - Parsing file complited
+14:51:13,981  INFO main DBConnection:<init>:19 - Init default connection
+14:51:13,981  INFO main DBConnection:<init>:24 - Default connection init
+14:51:13,982  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+14:51:14,016  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+14:51:14,016  INFO main XMLData:<init>:25 - Call default constructor. Is empty
+14:51:14,017  INFO main XMLData:setConn:92 - Set connection
+14:51:14,017  INFO main XMLData:insert:45 - Creating statement
+14:51:14,067  INFO main XMLData:insert:68 - Inserting data to xml
+14:51:14,082  INFO main XMLData:insert:87 - Data is successfully inserted!
+14:55:23,855  INFO main DBConnection:<init>:19 - Init default connection
+14:55:23,857  INFO main DBConnection:<init>:24 - Default connection init
+14:55:23,857  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+14:55:24,080  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+14:55:24,082  INFO main ClientSaxParser:parseDocument:49 - Creating parser for file: d:\temp\data\clients.xml
+14:55:24,097  INFO main ClientSaxParser:parseDocument:52 - Parsing file complited
+14:55:48,160  INFO main DBConnection:<init>:19 - Init default connection
+14:55:48,162  INFO main DBConnection:<init>:24 - Default connection init
+14:55:48,162  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+14:55:48,398  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+14:55:48,400  INFO main ClientSaxParser:parseDocument:49 - Creating parser for file: d:\temp\data\clients.xml
+14:55:48,414  INFO main ClientSaxParser:parseDocument:52 - Parsing file complited
+14:55:48,417  INFO main DBConnection:<init>:19 - Init default connection
+14:55:48,418  INFO main DBConnection:<init>:24 - Default connection init
+14:55:48,418  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+14:55:48,462  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+14:55:48,464  INFO main XMLData:<init>:25 - Call default constructor. Is empty
+14:55:48,464  INFO main XMLData:setConn:92 - Set connection
+14:55:48,464  INFO main XMLData:insert:45 - Creating statement
+14:55:48,540  INFO main XMLData:insert:68 - Inserting data to xml
+14:55:48,553  INFO main XMLData:insert:87 - Data is successfully inserted!
+14:55:48,554  INFO main DBConnection:<init>:19 - Init default connection
+14:55:48,555  INFO main DBConnection:<init>:24 - Default connection init
+14:55:48,555  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+14:55:48,604  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+14:55:48,604  INFO main XMLData:<init>:25 - Call default constructor. Is empty
+14:55:48,605  INFO main XMLData:setConn:92 - Set connection
+14:55:48,605  INFO main XMLData:insert:45 - Creating statement
+14:55:48,605  INFO main XMLData:insert:68 - Inserting data to xml
+14:55:48,612  INFO main XMLData:insert:87 - Data is successfully inserted!
+14:55:48,613  INFO main XMLData:insert:68 - Inserting data to xml
+14:55:48,628  INFO main XMLData:insert:87 - Data is successfully inserted!
+14:55:48,629  INFO main DBConnection:<init>:19 - Init default connection
+14:55:48,629  INFO main DBConnection:<init>:24 - Default connection init
+14:55:48,629  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+14:55:48,679  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+14:55:48,680  INFO main XMLData:<init>:25 - Call default constructor. Is empty
+14:55:48,680  INFO main XMLData:setConn:92 - Set connection
+14:55:48,681  INFO main XMLData:insert:45 - Creating statement
+14:55:48,682  INFO main XMLData:insert:68 - Inserting data to xml
+14:55:48,694  INFO main XMLData:insert:87 - Data is successfully inserted!
+14:55:48,695  INFO main XMLData:insert:68 - Inserting data to xml
+14:55:48,703  INFO main XMLData:insert:87 - Data is successfully inserted!
+14:55:48,703  INFO main XMLData:insert:68 - Inserting data to xml
+14:55:48,711  INFO main XMLData:insert:87 - Data is successfully inserted!
+14:55:48,712  INFO main DBConnection:<init>:19 - Init default connection
+14:55:48,712  INFO main DBConnection:<init>:24 - Default connection init
+14:55:48,712  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+14:55:48,755  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+14:55:48,755  INFO main XMLData:<init>:25 - Call default constructor. Is empty
+14:55:48,755  INFO main XMLData:setConn:92 - Set connection
+14:55:48,756  INFO main XMLData:insert:45 - Creating statement
+14:55:48,757  INFO main XMLData:insert:68 - Inserting data to xml
+14:55:48,770  INFO main XMLData:insert:87 - Data is successfully inserted!
+14:55:48,771  INFO main XMLData:insert:68 - Inserting data to xml
+14:55:48,778  INFO main XMLData:insert:87 - Data is successfully inserted!
+14:55:48,778  INFO main XMLData:insert:68 - Inserting data to xml
+14:55:48,786  INFO main XMLData:insert:87 - Data is successfully inserted!
+14:55:48,787  INFO main XMLData:insert:68 - Inserting data to xml
+14:55:48,803  INFO main XMLData:insert:87 - Data is successfully inserted!
+14:56:19,894  INFO main DBConnection:<init>:19 - Init default connection
+14:56:19,896  INFO main DBConnection:<init>:24 - Default connection init
+14:56:19,896  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+14:56:20,164  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+14:56:20,166  INFO main ClientSaxParser:parseDocument:49 - Creating parser for file: d:\temp\data\clients.xml
+14:56:20,184  INFO main ClientSaxParser:parseDocument:52 - Parsing file complited
+14:56:20,193  INFO main DBConnection:<init>:19 - Init default connection
+14:56:20,195  INFO main DBConnection:<init>:24 - Default connection init
+14:56:20,195  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+14:56:20,246  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+14:56:20,246  INFO main XMLData:<init>:25 - Call default constructor. Is empty
+14:56:20,247  INFO main XMLData:setConn:92 - Set connection
+14:56:20,247  INFO main XMLData:insert:45 - Creating statement
+14:56:20,301  INFO main XMLData:insert:68 - Inserting data to xml
+14:56:20,312  INFO main XMLData:insert:87 - Data is successfully inserted!
+14:56:20,312  INFO main DBConnection:<init>:19 - Init default connection
+14:56:20,313  INFO main DBConnection:<init>:24 - Default connection init
+14:56:20,313  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+14:56:20,363  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+14:56:20,363  INFO main XMLData:<init>:25 - Call default constructor. Is empty
+14:56:20,364  INFO main XMLData:setConn:92 - Set connection
+14:56:20,364  INFO main XMLData:insert:45 - Creating statement
+14:56:20,365  INFO main XMLData:insert:68 - Inserting data to xml
+14:56:20,378  INFO main XMLData:insert:87 - Data is successfully inserted!
+14:56:20,379  INFO main XMLData:insert:68 - Inserting data to xml
+14:56:20,386  INFO main XMLData:insert:87 - Data is successfully inserted!
+14:56:20,388  INFO main DBConnection:<init>:19 - Init default connection
+14:56:20,389  INFO main DBConnection:<init>:24 - Default connection init
+14:56:20,389  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+14:56:20,447  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+14:56:20,447  INFO main XMLData:<init>:25 - Call default constructor. Is empty
+14:56:20,447  INFO main XMLData:setConn:92 - Set connection
+14:56:20,447  INFO main XMLData:insert:45 - Creating statement
+14:56:20,447  INFO main XMLData:insert:68 - Inserting data to xml
+14:56:20,487  INFO main XMLData:insert:87 - Data is successfully inserted!
+14:56:20,488  INFO main XMLData:insert:68 - Inserting data to xml
+14:56:20,494  INFO main XMLData:insert:87 - Data is successfully inserted!
+14:56:20,496  INFO main XMLData:insert:68 - Inserting data to xml
+14:56:20,503  INFO main XMLData:insert:87 - Data is successfully inserted!
+14:56:20,504  INFO main DBConnection:<init>:19 - Init default connection
+14:56:20,504  INFO main DBConnection:<init>:24 - Default connection init
+14:56:20,505  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+14:56:20,555  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+14:56:20,555  INFO main XMLData:<init>:25 - Call default constructor. Is empty
+14:56:20,556  INFO main XMLData:setConn:92 - Set connection
+14:56:20,556  INFO main XMLData:insert:45 - Creating statement
+14:56:20,557  INFO main XMLData:insert:68 - Inserting data to xml
+14:56:20,570  INFO main XMLData:insert:87 - Data is successfully inserted!
+14:56:20,575  INFO main XMLData:insert:68 - Inserting data to xml
+14:56:20,587  INFO main XMLData:insert:87 - Data is successfully inserted!
+14:56:20,594  INFO main XMLData:insert:68 - Inserting data to xml
+14:56:20,612  INFO main XMLData:insert:87 - Data is successfully inserted!
+14:56:20,613  INFO main XMLData:insert:68 - Inserting data to xml
+14:56:20,621  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:00:28,792  INFO main DBConnection:<init>:19 - Init default connection
+15:00:28,794  INFO main DBConnection:<init>:24 - Default connection init
+15:00:28,794  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+15:00:29,069  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+15:00:29,070  INFO main DBConnection:<init>:19 - Init default connection
+15:00:29,073  INFO main DBConnection:<init>:24 - Default connection init
+15:00:29,074  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+15:00:29,125  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+15:00:29,126  INFO main XMLData:<init>:25 - Call default constructor. Is empty
+15:00:29,127  INFO main XMLData:setConn:92 - Set connection
+15:00:29,129  INFO main ClientSaxParser:parseDocument:49 - Creating parser for file: d:\temp\data\clients.xml
+15:00:29,146  INFO main ClientSaxParser:parseDocument:52 - Parsing file complited
+15:00:29,148  INFO main XMLData:insert:45 - Creating statement
+15:00:29,208  INFO main XMLData:insert:68 - Inserting data to xml
+15:00:29,225  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:00:29,225  INFO main XMLData:insert:45 - Creating statement
+15:00:29,226  INFO main XMLData:insert:68 - Inserting data to xml
+15:00:29,232  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:00:29,233  INFO main XMLData:insert:68 - Inserting data to xml
+15:00:29,241  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:00:29,241  INFO main XMLData:insert:45 - Creating statement
+15:00:29,241  INFO main XMLData:insert:68 - Inserting data to xml
+15:00:29,249  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:00:29,249  INFO main XMLData:insert:68 - Inserting data to xml
+15:00:29,257  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:00:29,258  INFO main XMLData:insert:68 - Inserting data to xml
+15:00:29,266  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:00:29,266  INFO main XMLData:insert:45 - Creating statement
+15:00:29,266  INFO main XMLData:insert:68 - Inserting data to xml
+15:00:29,274  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:00:29,275  INFO main XMLData:insert:68 - Inserting data to xml
+15:00:29,283  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:00:29,284  INFO main XMLData:insert:68 - Inserting data to xml
+15:00:29,291  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:00:29,291  INFO main XMLData:insert:68 - Inserting data to xml
+15:00:29,299  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:00:49,893  INFO main DBConnection:<init>:19 - Init default connection
+15:00:49,895  INFO main DBConnection:<init>:24 - Default connection init
+15:00:49,895  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+15:00:50,138  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+15:00:50,139  INFO main DBConnection:<init>:19 - Init default connection
+15:00:50,140  INFO main DBConnection:<init>:24 - Default connection init
+15:00:50,141  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+15:00:50,194  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+15:00:50,196  INFO main XMLData:<init>:25 - Call default constructor. Is empty
+15:00:50,197  INFO main XMLData:setConn:92 - Set connection
+15:00:50,203  INFO main ClientSaxParser:parseDocument:49 - Creating parser for file: d:\temp\data\clients.xml
+15:00:50,239  INFO main ClientSaxParser:parseDocument:52 - Parsing file complited
+15:00:50,242  INFO main XMLData:insert:45 - Creating statement
+15:00:50,291  INFO main XMLData:insert:68 - Inserting data to xml
+15:00:50,300  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:00:50,300  INFO main XMLData:insert:45 - Creating statement
+15:00:50,301  INFO main XMLData:insert:68 - Inserting data to xml
+15:00:50,308  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:00:50,308  INFO main XMLData:insert:68 - Inserting data to xml
+15:00:50,316  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:00:50,316  INFO main XMLData:insert:45 - Creating statement
+15:00:50,316  INFO main XMLData:insert:68 - Inserting data to xml
+15:00:50,324  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:00:50,325  INFO main XMLData:insert:68 - Inserting data to xml
+15:00:50,333  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:00:50,333  INFO main XMLData:insert:68 - Inserting data to xml
+15:00:50,341  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:00:50,342  INFO main XMLData:insert:45 - Creating statement
+15:00:50,342  INFO main XMLData:insert:68 - Inserting data to xml
+15:00:50,350  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:00:50,350  INFO main XMLData:insert:68 - Inserting data to xml
+15:00:50,358  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:00:50,359  INFO main XMLData:insert:68 - Inserting data to xml
+15:00:50,375  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:00:50,376  INFO main XMLData:insert:68 - Inserting data to xml
+15:00:50,383  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:04:54,589  INFO main DBConnection:<init>:19 - Init default connection
+15:04:54,591  INFO main DBConnection:<init>:24 - Default connection init
+15:04:54,591  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+15:04:54,864  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+15:04:54,865  INFO main DBConnection:<init>:19 - Init default connection
+15:04:54,866  INFO main DBConnection:<init>:24 - Default connection init
+15:04:54,866  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+15:04:54,913  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+15:04:54,913  INFO main XMLData:<init>:25 - Call default constructor. Is empty
+15:04:54,913  INFO main XMLData:setConn:92 - Set connection
+15:04:54,916  INFO main ClientSaxParser:parseDocument:49 - Creating parser for file: d:\temp\data\clients.xml
+15:04:54,933  INFO main ClientSaxParser:parseDocument:52 - Parsing file complited
+15:04:54,936  INFO main XMLData:insert:45 - Creating statement
+15:04:54,991  INFO main XMLData:insert:68 - Inserting data to xml
+15:04:55,004  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:04:55,004  INFO main XMLData:insert:45 - Creating statement
+15:04:55,005  INFO main XMLData:insert:68 - Inserting data to xml
+15:04:55,012  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:04:55,012  INFO main XMLData:insert:68 - Inserting data to xml
+15:04:55,020  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:04:55,020  INFO main XMLData:insert:45 - Creating statement
+15:04:55,020  INFO main XMLData:insert:68 - Inserting data to xml
+15:04:55,028  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:04:55,028  INFO main XMLData:insert:68 - Inserting data to xml
+15:04:55,036  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:04:55,037  INFO main XMLData:insert:68 - Inserting data to xml
+15:04:55,045  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:04:55,045  INFO main XMLData:insert:45 - Creating statement
+15:04:55,046  INFO main XMLData:insert:68 - Inserting data to xml
+15:04:55,054  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:04:55,054  INFO main XMLData:insert:68 - Inserting data to xml
+15:04:55,061  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:04:55,062  INFO main XMLData:insert:68 - Inserting data to xml
+15:04:55,070  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:04:55,070  INFO main XMLData:insert:68 - Inserting data to xml
+15:04:55,078  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:07:35,852  INFO main DBConnection:<init>:19 - Init default connection
+15:07:35,854  INFO main DBConnection:<init>:24 - Default connection init
+15:07:35,854  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+15:07:36,141  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+15:07:36,142  INFO main DBConnection:<init>:19 - Init default connection
+15:07:36,145  INFO main DBConnection:<init>:24 - Default connection init
+15:07:36,146  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+15:07:36,262  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+15:07:36,263  INFO main XMLData:<init>:25 - Call default constructor. Is empty
+15:07:36,263  INFO main XMLData:setConn:92 - Set connection
+15:07:36,265  INFO main ClientSaxParser:parseDocument:49 - Creating parser for file: d:\temp\data\clients.xml
+15:07:36,287  INFO main ClientSaxParser:parseDocument:52 - Parsing file complited
+15:09:32,515  INFO main DBConnection:<init>:19 - Init default connection
+15:09:32,517  INFO main DBConnection:<init>:24 - Default connection init
+15:09:32,517  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+15:09:32,759  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+15:09:32,760  INFO main DBConnection:<init>:19 - Init default connection
+15:09:32,761  INFO main DBConnection:<init>:24 - Default connection init
+15:09:32,762  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+15:09:32,807  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+15:09:32,808  INFO main XMLData:<init>:25 - Call default constructor. Is empty
+15:09:32,809  INFO main XMLData:setConn:92 - Set connection
+15:09:32,811  INFO main ClientSaxParser:parseDocument:49 - Creating parser for file: d:\temp\data\clients.xml
+15:09:32,831  INFO main ClientSaxParser:parseDocument:52 - Parsing file complited
+15:09:32,834  INFO main XMLData:insert:45 - Creating statement
+15:09:32,898  INFO main XMLData:insert:68 - Inserting data to xml
+15:09:32,913  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:09:32,914  INFO main XMLData:insert:45 - Creating statement
+15:09:32,915  INFO main XMLData:insert:68 - Inserting data to xml
+15:09:32,921  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:09:32,921  INFO main XMLData:insert:68 - Inserting data to xml
+15:09:32,929  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:09:32,929  INFO main XMLData:insert:45 - Creating statement
+15:09:32,930  INFO main XMLData:insert:68 - Inserting data to xml
+15:09:32,937  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:09:32,938  INFO main XMLData:insert:68 - Inserting data to xml
+15:09:32,946  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:09:32,946  INFO main XMLData:insert:68 - Inserting data to xml
+15:09:32,954  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:09:32,955  INFO main XMLData:insert:45 - Creating statement
+15:09:32,955  INFO main XMLData:insert:68 - Inserting data to xml
+15:09:32,962  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:09:32,963  INFO main XMLData:insert:68 - Inserting data to xml
+15:09:32,971  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:09:32,971  INFO main XMLData:insert:68 - Inserting data to xml
+15:09:32,987  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:09:32,988  INFO main XMLData:insert:68 - Inserting data to xml
+15:09:32,996  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:09:42,705  INFO main DBConnection:<init>:19 - Init default connection
+15:09:42,707  INFO main DBConnection:<init>:24 - Default connection init
+15:09:42,707  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+15:09:42,932  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+15:09:42,933  INFO main DBConnection:<init>:19 - Init default connection
+15:09:42,934  INFO main DBConnection:<init>:24 - Default connection init
+15:09:42,934  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+15:09:42,971  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+15:09:42,972  INFO main XMLData:<init>:25 - Call default constructor. Is empty
+15:09:42,972  INFO main XMLData:setConn:92 - Set connection
+15:09:42,974  INFO main ClientSaxParser:parseDocument:49 - Creating parser for file: d:\temp\data\clients.xml
+15:09:42,989  INFO main ClientSaxParser:parseDocument:52 - Parsing file complited
+15:09:42,991  INFO main XMLData:insert:45 - Creating statement
+15:09:43,050  INFO main XMLData:insert:68 - Inserting data to xml
+15:09:43,063  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:09:43,063  INFO main XMLData:insert:45 - Creating statement
+15:09:43,064  INFO main XMLData:insert:68 - Inserting data to xml
+15:09:43,070  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:09:43,070  INFO main XMLData:insert:68 - Inserting data to xml
+15:09:43,079  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:09:43,080  INFO main XMLData:insert:45 - Creating statement
+15:09:43,081  INFO main XMLData:insert:68 - Inserting data to xml
+15:09:43,087  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:09:43,088  INFO main XMLData:insert:68 - Inserting data to xml
+15:09:43,095  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:09:43,096  INFO main XMLData:insert:68 - Inserting data to xml
+15:09:43,104  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:09:43,104  INFO main XMLData:insert:45 - Creating statement
+15:09:43,104  INFO main XMLData:insert:68 - Inserting data to xml
+15:09:43,112  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:09:43,112  INFO main XMLData:insert:68 - Inserting data to xml
+15:09:43,120  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:09:43,120  INFO main XMLData:insert:68 - Inserting data to xml
+15:09:43,128  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:09:43,129  INFO main XMLData:insert:68 - Inserting data to xml
+15:09:43,137  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:14:56,890  INFO main DBConnection:<init>:19 - Init default connection
+15:14:56,892  INFO main DBConnection:<init>:24 - Default connection init
+15:14:56,892  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+15:14:57,124  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+15:14:57,124  INFO main DBConnection:<init>:19 - Init default connection
+15:14:57,125  INFO main DBConnection:<init>:24 - Default connection init
+15:14:57,125  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+15:14:57,171  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+15:14:57,171  INFO main XMLData:<init>:25 - Call default constructor. Is empty
+15:14:57,172  INFO main XMLData:setConn:92 - Set connection
+15:14:57,174  INFO main ClientSaxParser:parseDocument:49 - Creating parser for file: d:\temp\data\clients.xml
+15:14:57,189  INFO main ClientSaxParser:parseDocument:52 - Parsing file complited
+15:15:18,978  INFO main DBConnection:<init>:19 - Init default connection
+15:15:18,979  INFO main DBConnection:<init>:24 - Default connection init
+15:15:18,979  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+15:15:19,224  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+15:15:19,224  INFO main DBConnection:<init>:19 - Init default connection
+15:15:19,226  INFO main DBConnection:<init>:24 - Default connection init
+15:15:19,226  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+15:15:19,308  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+15:15:19,311  INFO main XMLData:<init>:25 - Call default constructor. Is empty
+15:15:19,313  INFO main XMLData:setConn:92 - Set connection
+15:15:19,321  INFO main ClientSaxParser:parseDocument:49 - Creating parser for file: d:\temp\data\clients.xml
+15:15:19,357  INFO main ClientSaxParser:parseDocument:52 - Parsing file complited
+15:15:39,801  INFO main DBConnection:<init>:19 - Init default connection
+15:15:39,803  INFO main DBConnection:<init>:24 - Default connection init
+15:15:39,803  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+15:15:40,118  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+15:15:40,119  INFO main DBConnection:<init>:19 - Init default connection
+15:15:40,121  INFO main DBConnection:<init>:24 - Default connection init
+15:15:40,121  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+15:15:40,237  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+15:15:40,238  INFO main XMLData:<init>:25 - Call default constructor. Is empty
+15:15:40,238  INFO main XMLData:setConn:92 - Set connection
+15:15:40,240  INFO main ClientSaxParser:parseDocument:49 - Creating parser for file: d:\temp\data\clients.xml
+15:15:40,254  INFO main ClientSaxParser:parseDocument:52 - Parsing file complited
+15:16:05,381  INFO main DBConnection:<init>:19 - Init default connection
+15:16:05,383  INFO main DBConnection:<init>:24 - Default connection init
+15:16:05,383  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+15:16:05,616  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+15:16:05,617  INFO main DBConnection:<init>:19 - Init default connection
+15:16:05,618  INFO main DBConnection:<init>:24 - Default connection init
+15:16:05,618  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+15:16:05,657  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+15:16:05,659  INFO main XMLData:<init>:25 - Call default constructor. Is empty
+15:16:05,660  INFO main XMLData:setConn:92 - Set connection
+15:16:05,671  INFO main ClientSaxParser:parseDocument:50 - Creating parser for file: d:\temp\data\clients.xml
+15:16:05,689  INFO main ClientSaxParser:parseDocument:53 - Parsing file complited
+15:16:05,691  INFO main XMLData:insert:45 - Creating statement
+15:16:05,751  INFO main XMLData:insert:68 - Inserting data to xml
+15:16:05,764  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:16:05,764  INFO main XMLData:insert:45 - Creating statement
+15:16:05,765  INFO main XMLData:insert:68 - Inserting data to xml
+15:16:05,780  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:16:05,780  INFO main XMLData:insert:68 - Inserting data to xml
+15:16:05,788  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:16:05,789  INFO main XMLData:insert:45 - Creating statement
+15:16:05,790  INFO main XMLData:insert:68 - Inserting data to xml
+15:16:05,797  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:16:05,797  INFO main XMLData:insert:68 - Inserting data to xml
+15:16:05,805  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:16:05,806  INFO main XMLData:insert:68 - Inserting data to xml
+15:16:05,814  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:16:05,814  INFO main XMLData:insert:45 - Creating statement
+15:16:05,815  INFO main XMLData:insert:68 - Inserting data to xml
+15:16:05,821  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:16:05,822  INFO main XMLData:insert:68 - Inserting data to xml
+15:16:05,830  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:16:05,831  INFO main XMLData:insert:68 - Inserting data to xml
+15:16:05,847  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:16:05,848  INFO main XMLData:insert:68 - Inserting data to xml
+15:16:05,855  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:16:05,856  INFO main XMLData:insert:45 - Creating statement
+15:16:05,857  INFO main XMLData:insert:68 - Inserting data to xml
+15:16:05,863  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:16:05,865  INFO main XMLData:insert:68 - Inserting data to xml
+15:16:05,872  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:16:05,873  INFO main XMLData:insert:68 - Inserting data to xml
+15:16:05,880  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:16:05,880  INFO main XMLData:insert:68 - Inserting data to xml
+15:16:05,888  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:16:05,889  INFO main XMLData:insert:68 - Inserting data to xml
+15:16:05,897  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:16:05,897  INFO main XMLData:insert:45 - Creating statement
+15:16:05,898  INFO main XMLData:insert:68 - Inserting data to xml
+15:16:05,905  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:16:05,906  INFO main XMLData:insert:68 - Inserting data to xml
+15:16:05,913  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:16:05,914  INFO main XMLData:insert:68 - Inserting data to xml
+15:16:05,922  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:16:05,922  INFO main XMLData:insert:68 - Inserting data to xml
+15:16:05,930  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:16:05,931  INFO main XMLData:insert:68 - Inserting data to xml
+15:16:05,938  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:16:05,939  INFO main XMLData:insert:68 - Inserting data to xml
+15:16:05,947  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:16:05,947  INFO main XMLData:insert:45 - Creating statement
+15:16:05,948  INFO main XMLData:insert:68 - Inserting data to xml
+15:16:05,955  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:16:05,956  INFO main XMLData:insert:68 - Inserting data to xml
+15:16:05,964  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:16:05,964  INFO main XMLData:insert:68 - Inserting data to xml
+15:16:05,972  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:16:05,972  INFO main XMLData:insert:68 - Inserting data to xml
+15:16:05,980  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:16:05,981  INFO main XMLData:insert:68 - Inserting data to xml
+15:16:05,989  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:16:05,990  INFO main XMLData:insert:68 - Inserting data to xml
+15:16:05,997  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:16:05,998  INFO main XMLData:insert:68 - Inserting data to xml
+15:16:06,005  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:16:06,006  INFO main XMLData:insert:45 - Creating statement
+15:16:06,006  INFO main XMLData:insert:68 - Inserting data to xml
+15:16:06,014  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:16:06,015  INFO main XMLData:insert:68 - Inserting data to xml
+15:16:06,022  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:16:06,022  INFO main XMLData:insert:68 - Inserting data to xml
+15:16:06,031  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:16:06,031  INFO main XMLData:insert:68 - Inserting data to xml
+15:16:06,038  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:16:06,040  INFO main XMLData:insert:68 - Inserting data to xml
+15:16:06,047  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:16:06,048  INFO main XMLData:insert:68 - Inserting data to xml
+15:16:06,055  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:16:06,056  INFO main XMLData:insert:68 - Inserting data to xml
+15:16:06,064  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:16:06,064  INFO main XMLData:insert:68 - Inserting data to xml
+15:16:06,072  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:17:15,579  INFO main DBConnection:<init>:19 - Init default connection
+15:17:15,581  INFO main DBConnection:<init>:24 - Default connection init
+15:17:15,581  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+15:17:15,818  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+15:17:15,818  INFO main DBConnection:<init>:19 - Init default connection
+15:17:15,820  INFO main DBConnection:<init>:24 - Default connection init
+15:17:15,820  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+15:17:15,858  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+15:17:15,859  INFO main XMLData:<init>:25 - Call default constructor. Is empty
+15:17:15,859  INFO main XMLData:setConn:92 - Set connection
+15:17:15,862  INFO main ClientSaxParser:parseDocument:50 - Creating parser for file: d:\temp\data\clients.xml
+15:17:15,885  INFO main ClientSaxParser:parseDocument:53 - Parsing file complited
+15:17:15,887  INFO main XMLData:insert:45 - Creating statement
+15:17:15,944  INFO main XMLData:insert:68 - Inserting data to xml
+15:17:15,957  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:17:15,958  INFO main XMLData:insert:45 - Creating statement
+15:17:15,959  INFO main XMLData:insert:68 - Inserting data to xml
+15:17:15,967  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:17:15,967  INFO main XMLData:insert:68 - Inserting data to xml
+15:17:15,973  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:17:15,974  INFO main XMLData:insert:45 - Creating statement
+15:17:15,974  INFO main XMLData:insert:68 - Inserting data to xml
+15:17:15,982  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:17:15,982  INFO main XMLData:insert:68 - Inserting data to xml
+15:17:15,990  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:17:15,990  INFO main XMLData:insert:68 - Inserting data to xml
+15:17:15,998  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:17:15,998  INFO main XMLData:insert:45 - Creating statement
+15:17:15,999  INFO main XMLData:insert:68 - Inserting data to xml
+15:17:16,007  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:17:16,007  INFO main XMLData:insert:68 - Inserting data to xml
+15:17:16,015  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:17:16,016  INFO main XMLData:insert:68 - Inserting data to xml
+15:17:16,023  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:17:16,024  INFO main XMLData:insert:68 - Inserting data to xml
+15:17:16,032  INFO main XMLData:insert:87 - Data is successfully inserted!
+15:19:18,238  INFO main DBConnection:<init>:19 - Init default connection
+15:19:18,240  INFO main DBConnection:<init>:24 - Default connection init
+15:19:18,240  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+15:19:18,471  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+15:19:18,471  INFO main DBConnection:<init>:19 - Init default connection
+15:19:18,473  INFO main DBConnection:<init>:24 - Default connection init
+15:19:18,473  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+15:19:18,510  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+15:19:18,510  INFO main XMLData:<init>:25 - Call default constructor. Is empty
+15:19:18,510  INFO main XMLData:setConn:89 - Set connection
+15:19:18,512  INFO main ClientSaxParser:parseDocument:50 - Creating parser for file: d:\temp\data\clients.xml
+15:19:18,527  INFO main ClientSaxParser:parseDocument:53 - Parsing file complited
+15:19:18,529  INFO main XMLData:insert:44 - Creating statement
+15:19:18,588  INFO main XMLData:insert:67 - Inserting data to xml
+15:19:18,601  INFO main XMLData:insert:84 - Data is successfully inserted!
+15:19:18,601  INFO main XMLData:insert:44 - Creating statement
+15:19:18,603  INFO main XMLData:insert:67 - Inserting data to xml
+15:19:18,608  INFO main XMLData:insert:84 - Data is successfully inserted!
+15:19:18,609  INFO main XMLData:insert:67 - Inserting data to xml
+15:19:18,626  INFO main XMLData:insert:84 - Data is successfully inserted!
+15:19:18,626  INFO main XMLData:insert:44 - Creating statement
+15:19:18,627  INFO main XMLData:insert:67 - Inserting data to xml
+15:19:18,643  INFO main XMLData:insert:84 - Data is successfully inserted!
+15:19:18,643  INFO main XMLData:insert:67 - Inserting data to xml
+15:19:18,650  INFO main XMLData:insert:84 - Data is successfully inserted!
+15:19:18,651  INFO main XMLData:insert:67 - Inserting data to xml
+15:19:18,658  INFO main XMLData:insert:84 - Data is successfully inserted!
+15:19:18,659  INFO main XMLData:insert:44 - Creating statement
+15:19:18,659  INFO main XMLData:insert:67 - Inserting data to xml
+15:19:18,667  INFO main XMLData:insert:84 - Data is successfully inserted!
+15:19:18,667  INFO main XMLData:insert:67 - Inserting data to xml
+15:19:18,675  INFO main XMLData:insert:84 - Data is successfully inserted!
+15:19:18,676  INFO main XMLData:insert:67 - Inserting data to xml
+15:19:18,684  INFO main XMLData:insert:84 - Data is successfully inserted!
+15:19:18,685  INFO main XMLData:insert:67 - Inserting data to xml
+15:19:18,692  INFO main XMLData:insert:84 - Data is successfully inserted!
+15:19:34,113  INFO main DBConnection:<init>:19 - Init default connection
+15:19:34,114  INFO main DBConnection:<init>:24 - Default connection init
+15:19:34,115  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+15:19:34,387  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+15:19:34,388  INFO main DBConnection:<init>:19 - Init default connection
+15:19:34,389  INFO main DBConnection:<init>:24 - Default connection init
+15:19:34,389  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+15:19:34,463  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+15:19:34,466  INFO main XMLData:<init>:25 - Call default constructor. Is empty
+15:19:34,467  INFO main XMLData:setConn:89 - Set connection
+15:19:34,470  INFO main ClientSaxParser:parseDocument:50 - Creating parser for file: d:\temp\data\clients.xml
+15:19:34,492  INFO main ClientSaxParser:parseDocument:53 - Parsing file complited
+15:19:34,495  INFO main XMLData:insert:44 - Creating statement
+15:19:34,542  INFO main XMLData:insert:67 - Inserting data to xml
+15:19:34,552  INFO main XMLData:insert:84 - Data is successfully inserted!
+15:19:34,552  INFO main XMLData:insert:44 - Creating statement
+15:19:34,553  INFO main XMLData:insert:67 - Inserting data to xml
+15:19:34,559  INFO main XMLData:insert:84 - Data is successfully inserted!
+15:19:34,559  INFO main XMLData:insert:67 - Inserting data to xml
+15:19:34,568  INFO main XMLData:insert:84 - Data is successfully inserted!
+15:19:34,568  INFO main XMLData:insert:44 - Creating statement
+15:19:34,568  INFO main XMLData:insert:67 - Inserting data to xml
+15:19:34,576  INFO main XMLData:insert:84 - Data is successfully inserted!
+15:19:34,576  INFO main XMLData:insert:67 - Inserting data to xml
+15:19:34,585  INFO main XMLData:insert:84 - Data is successfully inserted!
+15:19:34,585  INFO main XMLData:insert:67 - Inserting data to xml
+15:19:34,593  INFO main XMLData:insert:84 - Data is successfully inserted!
+15:19:34,597  INFO main XMLData:insert:44 - Creating statement
+15:19:34,599  INFO main XMLData:insert:67 - Inserting data to xml
+15:19:34,609  INFO main XMLData:insert:84 - Data is successfully inserted!
+15:19:34,610  INFO main XMLData:insert:67 - Inserting data to xml
+15:19:34,618  INFO main XMLData:insert:84 - Data is successfully inserted!
+15:19:34,619  INFO main XMLData:insert:67 - Inserting data to xml
+15:19:34,626  INFO main XMLData:insert:84 - Data is successfully inserted!
+15:19:34,627  INFO main XMLData:insert:67 - Inserting data to xml
+15:19:34,635  INFO main XMLData:insert:84 - Data is successfully inserted!
+15:28:31,813  INFO main DBConnection:<init>:19 - Init default connection
+15:28:31,815  INFO main DBConnection:<init>:24 - Default connection init
+15:28:31,815  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+15:28:32,390  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+15:28:32,391  INFO main DBConnection:<init>:19 - Init default connection
+15:28:32,392  INFO main DBConnection:<init>:24 - Default connection init
+15:28:32,392  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+15:28:32,432  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+15:28:32,435  INFO main XMLData:<init>:25 - Call default constructor. Is empty
+15:28:32,436  INFO main XMLData:setConn:75 - Set connection
+15:28:32,444  INFO main ClientSaxParser:parseDocument:50 - Creating parser for file: d:\temp\data\clients.xml
+15:28:32,470  INFO main ClientSaxParser:parseDocument:53 - Parsing file complited
+15:29:06,434  INFO main DBConnection:<init>:19 - Init default connection
+15:29:06,436  INFO main DBConnection:<init>:24 - Default connection init
+15:29:06,436  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+15:29:06,675  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+15:29:06,675  INFO main DBConnection:<init>:19 - Init default connection
+15:29:06,676  INFO main DBConnection:<init>:24 - Default connection init
+15:29:06,676  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+15:29:06,714  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+15:29:06,715  INFO main XMLData:<init>:25 - Call default constructor. Is empty
+15:29:06,715  INFO main XMLData:setConn:75 - Set connection
+15:29:06,717  INFO main ClientSaxParser:parseDocument:50 - Creating parser for file: d:\temp\data\clients.xml
+15:29:06,750  INFO main ClientSaxParser:parseDocument:53 - Parsing file complited
+15:29:06,753  INFO main XMLData:insert:30 - Creating statement
+15:29:06,817  INFO main XMLData:insert:53 - Inserting data to xml
+15:29:06,831  INFO main XMLData:insert:70 - Data is successfully inserted!
+15:29:06,831  INFO main XMLData:insert:30 - Creating statement
+15:29:06,833  INFO main XMLData:insert:53 - Inserting data to xml
+15:29:06,838  INFO main XMLData:insert:70 - Data is successfully inserted!
+15:29:06,839  INFO main XMLData:insert:53 - Inserting data to xml
+15:29:06,855  INFO main XMLData:insert:70 - Data is successfully inserted!
+15:29:06,855  INFO main XMLData:insert:30 - Creating statement
+15:29:06,856  INFO main XMLData:insert:53 - Inserting data to xml
+15:29:06,863  INFO main XMLData:insert:70 - Data is successfully inserted!
+15:29:06,864  INFO main XMLData:insert:53 - Inserting data to xml
+15:29:06,872  INFO main XMLData:insert:70 - Data is successfully inserted!
+15:29:06,872  INFO main XMLData:insert:53 - Inserting data to xml
+15:29:06,881  INFO main XMLData:insert:70 - Data is successfully inserted!
+15:29:06,881  INFO main XMLData:insert:30 - Creating statement
+15:29:06,882  INFO main XMLData:insert:53 - Inserting data to xml
+15:29:06,889  INFO main XMLData:insert:70 - Data is successfully inserted!
+15:29:06,889  INFO main XMLData:insert:53 - Inserting data to xml
+15:29:06,897  INFO main XMLData:insert:70 - Data is successfully inserted!
+15:29:06,898  INFO main XMLData:insert:53 - Inserting data to xml
+15:29:06,905  INFO main XMLData:insert:70 - Data is successfully inserted!
+15:29:06,905  INFO main XMLData:insert:53 - Inserting data to xml
+15:29:06,914  INFO main XMLData:insert:70 - Data is successfully inserted!
+15:29:24,739  INFO main DBConnection:<init>:19 - Init default connection
+15:29:24,741  INFO main DBConnection:<init>:24 - Default connection init
+15:29:24,741  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+15:29:25,026  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+15:29:25,027  INFO main DBConnection:<init>:19 - Init default connection
+15:29:25,033  INFO main DBConnection:<init>:24 - Default connection init
+15:29:25,033  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+15:29:25,099  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+15:29:25,101  INFO main XMLData:<init>:25 - Call default constructor. Is empty
+15:29:25,102  INFO main XMLData:setConn:75 - Set connection
+15:29:25,108  INFO main ClientSaxParser:parseDocument:50 - Creating parser for file: d:\temp\data\clients.xml
+15:29:25,144  INFO main ClientSaxParser:parseDocument:53 - Parsing file complited
+15:29:25,147  INFO main XMLData:insert:30 - Creating statement
+15:29:25,199  INFO main XMLData:insert:53 - Inserting data to xml
+15:29:25,215  INFO main XMLData:insert:70 - Data is successfully inserted!
+15:29:25,215  INFO main XMLData:insert:30 - Creating statement
+15:29:25,215  INFO main XMLData:insert:53 - Inserting data to xml
+15:29:25,222  INFO main XMLData:insert:70 - Data is successfully inserted!
+15:29:25,222  INFO main XMLData:insert:53 - Inserting data to xml
+15:29:25,231  INFO main XMLData:insert:70 - Data is successfully inserted!
+15:29:25,231  INFO main XMLData:insert:30 - Creating statement
+15:29:25,231  INFO main XMLData:insert:53 - Inserting data to xml
+15:29:25,239  INFO main XMLData:insert:70 - Data is successfully inserted!
+15:29:25,240  INFO main XMLData:insert:53 - Inserting data to xml
+15:29:25,247  INFO main XMLData:insert:70 - Data is successfully inserted!
+15:29:25,248  INFO main XMLData:insert:53 - Inserting data to xml
+15:29:25,256  INFO main XMLData:insert:70 - Data is successfully inserted!
+15:29:25,256  INFO main XMLData:insert:30 - Creating statement
+15:29:25,256  INFO main XMLData:insert:53 - Inserting data to xml
+15:29:25,264  INFO main XMLData:insert:70 - Data is successfully inserted!
+15:29:25,264  INFO main XMLData:insert:53 - Inserting data to xml
+15:29:25,272  INFO main XMLData:insert:70 - Data is successfully inserted!
+15:29:25,273  INFO main XMLData:insert:53 - Inserting data to xml
+15:29:25,281  INFO main XMLData:insert:70 - Data is successfully inserted!
+15:29:25,281  INFO main XMLData:insert:53 - Inserting data to xml
+15:29:25,289  INFO main XMLData:insert:70 - Data is successfully inserted!
+16:15:33,269  INFO main DBConnection:<init>:19 - Init default connection
+16:15:33,270  INFO main DBConnection:<init>:24 - Default connection init
+16:15:33,270  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+16:15:33,577  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+16:15:33,578  INFO main DBConnection:<init>:19 - Init default connection
+16:15:33,580  INFO main DBConnection:<init>:24 - Default connection init
+16:15:33,580  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+16:15:33,669  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+16:15:33,672  INFO main XMLData:<init>:25 - Call default constructor. Is empty
+16:15:33,672  INFO main XMLData:setConn:75 - Set connection
+16:15:33,680  INFO main ClientSaxParser:parseDocument:50 - Creating parser for file: d:\temp\data\clients.xml
+16:15:33,710  INFO main ClientSaxParser:parseDocument:53 - Parsing file complited
+16:15:33,714  INFO main XMLData:insert:30 - Creating statement
+16:15:33,762  INFO main XMLData:insert:53 - Inserting data to xml
+16:15:33,775  INFO main XMLData:insert:70 - Data is successfully inserted!
+16:15:33,775  INFO main XMLData:insert:30 - Creating statement
+16:15:33,776  INFO main XMLData:insert:53 - Inserting data to xml
+16:15:33,782  INFO main XMLData:insert:70 - Data is successfully inserted!
+16:15:33,783  INFO main XMLData:insert:53 - Inserting data to xml
+16:15:33,799  INFO main XMLData:insert:70 - Data is successfully inserted!
+16:15:33,799  INFO main XMLData:insert:30 - Creating statement
+16:15:33,800  INFO main XMLData:insert:53 - Inserting data to xml
+16:15:33,807  INFO main XMLData:insert:70 - Data is successfully inserted!
+16:15:33,807  INFO main XMLData:insert:53 - Inserting data to xml
+16:15:33,816  INFO main XMLData:insert:70 - Data is successfully inserted!
+16:15:33,816  INFO main XMLData:insert:53 - Inserting data to xml
+16:15:33,824  INFO main XMLData:insert:70 - Data is successfully inserted!
+16:15:33,824  INFO main XMLData:insert:30 - Creating statement
+16:15:33,824  INFO main XMLData:insert:53 - Inserting data to xml
+16:15:33,832  INFO main XMLData:insert:70 - Data is successfully inserted!
+16:15:33,833  INFO main XMLData:insert:53 - Inserting data to xml
+16:15:33,841  INFO main XMLData:insert:70 - Data is successfully inserted!
+16:15:33,842  INFO main XMLData:insert:53 - Inserting data to xml
+16:15:33,849  INFO main XMLData:insert:70 - Data is successfully inserted!
+16:15:33,850  INFO main XMLData:insert:53 - Inserting data to xml
+16:15:33,857  INFO main XMLData:insert:70 - Data is successfully inserted!
+16:16:35,629  INFO main DBConnection:<init>:19 - Init default connection
+16:16:35,632  INFO main DBConnection:<init>:24 - Default connection init
+16:16:35,632  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+16:16:35,856  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+16:16:35,856  INFO main DBConnection:<init>:19 - Init default connection
+16:16:35,858  INFO main DBConnection:<init>:24 - Default connection init
+16:16:35,858  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+16:16:35,937  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+16:16:35,940  INFO main XMLData:<init>:25 - Call default constructor. Is empty
+16:16:35,942  INFO main XMLData:setConn:75 - Set connection
+16:16:35,951  INFO main ClientSaxParser:parseDocument:49 - Creating parser for file: d:\temp\data\clients.xml
+16:16:35,988  INFO main ClientSaxParser:parseDocument:52 - Parsing file complited
+16:16:55,696  INFO main DBConnection:<init>:19 - Init default connection
+16:16:55,697  INFO main DBConnection:<init>:24 - Default connection init
+16:16:55,698  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+16:16:55,960  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+16:16:55,960  INFO main DBConnection:<init>:19 - Init default connection
+16:16:55,962  INFO main DBConnection:<init>:24 - Default connection init
+16:16:55,962  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+16:16:56,005  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+16:16:56,006  INFO main XMLData:<init>:25 - Call default constructor. Is empty
+16:16:56,006  INFO main XMLData:setConn:75 - Set connection
+16:16:56,009  INFO main ClientSaxParser:parseDocument:49 - Creating parser for file: d:\temp\data\clients.xml
+16:16:56,039  INFO main ClientSaxParser:parseDocument:52 - Parsing file complited
+16:17:57,529  INFO main DBConnection:<init>:19 - Init default connection
+16:17:57,531  INFO main DBConnection:<init>:24 - Default connection init
+16:17:57,531  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+16:17:57,775  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+16:17:57,775  INFO main DBConnection:<init>:19 - Init default connection
+16:17:57,777  INFO main DBConnection:<init>:24 - Default connection init
+16:17:57,777  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+16:17:57,816  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+16:17:57,818  INFO main XMLData:<init>:25 - Call default constructor. Is empty
+16:17:57,818  INFO main XMLData:setConn:75 - Set connection
+16:17:57,826  INFO main ClientSaxParser:parseDocument:50 - Creating parser for file: d:\temp\data\clients.xml
+16:17:57,863  INFO main ClientSaxParser:parseDocument:53 - Parsing file complited
+16:17:57,868  INFO main XMLData:insert:30 - Creating statement
+16:17:57,933  INFO main XMLData:insert:53 - Inserting data to xml
+16:17:57,948  INFO main XMLData:insert:70 - Data is successfully inserted!
+16:17:57,948  INFO main XMLData:insert:30 - Creating statement
+16:17:57,949  INFO main XMLData:insert:53 - Inserting data to xml
+16:17:57,955  INFO main XMLData:insert:70 - Data is successfully inserted!
+16:17:57,956  INFO main XMLData:insert:53 - Inserting data to xml
+16:17:57,963  INFO main XMLData:insert:70 - Data is successfully inserted!
+16:17:57,964  INFO main XMLData:insert:30 - Creating statement
+16:17:57,964  INFO main XMLData:insert:53 - Inserting data to xml
+16:17:57,972  INFO main XMLData:insert:70 - Data is successfully inserted!
+16:17:57,972  INFO main XMLData:insert:53 - Inserting data to xml
+16:17:57,980  INFO main XMLData:insert:70 - Data is successfully inserted!
+16:17:57,981  INFO main XMLData:insert:53 - Inserting data to xml
+16:17:57,989  INFO main XMLData:insert:70 - Data is successfully inserted!
+16:17:57,990  INFO main XMLData:insert:30 - Creating statement
+16:17:57,990  INFO main XMLData:insert:53 - Inserting data to xml
+16:17:57,997  INFO main XMLData:insert:70 - Data is successfully inserted!
+16:17:57,997  INFO main XMLData:insert:53 - Inserting data to xml
+16:17:58,007  INFO main XMLData:insert:70 - Data is successfully inserted!
+16:17:58,007  INFO main XMLData:insert:53 - Inserting data to xml
+16:17:58,014  INFO main XMLData:insert:70 - Data is successfully inserted!
+16:17:58,014  INFO main XMLData:insert:53 - Inserting data to xml
+16:17:58,022  INFO main XMLData:insert:70 - Data is successfully inserted!
+16:22:00,772  INFO main DBConnection:<init>:19 - Init default connection
+16:22:00,773  INFO main DBConnection:<init>:24 - Default connection init
+16:22:00,773  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+16:22:01,006  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+16:22:01,007  INFO main DBConnection:<init>:19 - Init default connection
+16:22:01,008  INFO main DBConnection:<init>:24 - Default connection init
+16:22:01,008  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+16:22:01,047  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+16:22:01,048  INFO main XMLData:<init>:25 - Call default constructor. Is empty
+16:22:01,049  INFO main XMLData:setConn:77 - Set connection
+16:22:01,054  INFO main ClientSaxParser:parseDocument:50 - Creating parser for file: d:\temp\data\clients.xml
+16:22:01,084  INFO main ClientSaxParser:parseDocument:53 - Parsing file complited
+16:22:01,086  INFO main XMLData:insert:30 - Creating statement
+16:22:01,151  INFO main XMLData:insert:55 - Inserting data to xml
+16:22:01,162  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:22:01,163  INFO main XMLData:insert:30 - Creating statement
+16:22:01,165  INFO main XMLData:insert:55 - Inserting data to xml
+16:22:01,170  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:22:01,170  INFO main XMLData:insert:30 - Creating statement
+16:22:01,171  INFO main XMLData:insert:55 - Inserting data to xml
+16:22:01,187  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:22:01,187  INFO main XMLData:insert:30 - Creating statement
+16:22:01,187  INFO main XMLData:insert:55 - Inserting data to xml
+16:22:01,195  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:22:25,971  INFO main DBConnection:<init>:19 - Init default connection
+16:22:25,973  INFO main DBConnection:<init>:24 - Default connection init
+16:22:25,973  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+16:22:26,248  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+16:22:26,249  INFO main DBConnection:<init>:19 - Init default connection
+16:22:26,252  INFO main DBConnection:<init>:24 - Default connection init
+16:22:26,252  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+16:22:26,297  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+16:22:26,298  INFO main XMLData:<init>:25 - Call default constructor. Is empty
+16:22:26,298  INFO main XMLData:setConn:77 - Set connection
+16:22:26,301  INFO main ClientSaxParser:parseDocument:50 - Creating parser for file: d:\temp\data\clients.xml
+16:22:26,330  INFO main ClientSaxParser:parseDocument:53 - Parsing file complited
+16:22:26,333  INFO main XMLData:insert:30 - Creating statement
+16:22:26,395  INFO main XMLData:insert:55 - Inserting data to xml
+16:22:26,404  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:22:26,405  INFO main XMLData:insert:30 - Creating statement
+16:22:26,406  INFO main XMLData:insert:55 - Inserting data to xml
+16:22:26,412  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:22:26,412  INFO main XMLData:insert:30 - Creating statement
+16:22:26,412  INFO main XMLData:insert:55 - Inserting data to xml
+16:22:26,420  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:22:26,420  INFO main XMLData:insert:30 - Creating statement
+16:22:26,421  INFO main XMLData:insert:55 - Inserting data to xml
+16:22:26,428  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:23:22,887  INFO main DBConnection:<init>:19 - Init default connection
+16:23:22,888  INFO main DBConnection:<init>:24 - Default connection init
+16:23:22,888  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+16:23:23,150  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+16:23:23,150  INFO main DBConnection:<init>:19 - Init default connection
+16:23:23,151  INFO main DBConnection:<init>:24 - Default connection init
+16:23:23,152  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+16:23:23,207  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+16:23:23,209  INFO main XMLData:<init>:25 - Call default constructor. Is empty
+16:23:23,209  INFO main XMLData:setConn:77 - Set connection
+16:23:23,216  INFO main ClientSaxParser:parseDocument:50 - Creating parser for file: d:\temp\data\clients.xml
+16:23:23,256  INFO main ClientSaxParser:parseDocument:53 - Parsing file complited
+16:24:46,133  INFO main DBConnection:<init>:19 - Init default connection
+16:24:46,135  INFO main DBConnection:<init>:24 - Default connection init
+16:24:46,136  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+16:24:46,404  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+16:24:46,404  INFO main DBConnection:<init>:19 - Init default connection
+16:24:46,406  INFO main DBConnection:<init>:24 - Default connection init
+16:24:46,406  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+16:24:46,461  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+16:24:46,462  INFO main XMLData:<init>:25 - Call default constructor. Is empty
+16:24:46,463  INFO main XMLData:setConn:77 - Set connection
+16:24:46,467  INFO main ClientSaxParser:parseDocument:50 - Creating parser for file: d:\temp\data\clients.xml
+16:24:46,484  INFO main ClientSaxParser:parseDocument:53 - Parsing file complited
+16:24:46,487  INFO main XMLData:insert:30 - Creating statement
+16:24:46,549  INFO main XMLData:insert:55 - Inserting data to xml
+16:24:46,560  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:24:46,561  INFO main XMLData:insert:30 - Creating statement
+16:24:46,562  INFO main XMLData:insert:55 - Inserting data to xml
+16:24:46,568  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:24:46,568  INFO main XMLData:insert:30 - Creating statement
+16:24:46,568  INFO main XMLData:insert:55 - Inserting data to xml
+16:24:46,577  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:24:46,577  INFO main XMLData:insert:30 - Creating statement
+16:24:46,577  INFO main XMLData:insert:55 - Inserting data to xml
+16:24:46,584  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:25:24,188  INFO main DBConnection:<init>:19 - Init default connection
+16:25:24,190  INFO main DBConnection:<init>:24 - Default connection init
+16:25:24,190  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+16:25:24,439  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+16:25:24,439  INFO main DBConnection:<init>:19 - Init default connection
+16:25:24,441  INFO main DBConnection:<init>:24 - Default connection init
+16:25:24,441  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+16:25:24,497  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+16:25:24,499  INFO main XMLData:<init>:25 - Call default constructor. Is empty
+16:25:24,500  INFO main XMLData:setConn:77 - Set connection
+16:25:24,507  INFO main ClientSaxParser:parseDocument:50 - Creating parser for file: d:\temp\data\clients.xml
+16:25:24,527  INFO main ClientSaxParser:parseDocument:53 - Parsing file complited
+16:25:24,530  INFO main XMLData:insert:30 - Creating statement
+16:25:24,578  INFO main XMLData:insert:55 - Inserting data to xml
+16:25:24,587  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:25:24,587  INFO main XMLData:insert:30 - Creating statement
+16:25:24,588  INFO main XMLData:insert:55 - Inserting data to xml
+16:25:24,594  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:25:24,595  INFO main XMLData:insert:30 - Creating statement
+16:25:24,595  INFO main XMLData:insert:55 - Inserting data to xml
+16:25:24,603  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:25:24,603  INFO main XMLData:insert:30 - Creating statement
+16:25:24,603  INFO main XMLData:insert:55 - Inserting data to xml
+16:25:24,611  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:31,051  INFO main DBConnection:<init>:19 - Init default connection
+16:26:31,053  INFO main DBConnection:<init>:24 - Default connection init
+16:26:31,053  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+16:26:31,306  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+16:26:31,307  INFO main DBConnection:<init>:19 - Init default connection
+16:26:31,308  INFO main DBConnection:<init>:24 - Default connection init
+16:26:31,308  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+16:26:31,356  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+16:26:31,358  INFO main XMLData:<init>:25 - Call default constructor. Is empty
+16:26:31,360  INFO main XMLData:setConn:77 - Set connection
+16:26:31,367  INFO main ClientSaxParser:parseDocument:50 - Creating parser for file: d:\temp\data\clients.xml
+16:26:31,403  INFO main ClientSaxParser:parseDocument:53 - Parsing file complited
+16:26:31,407  INFO main XMLData:insert:30 - Creating statement
+16:26:31,460  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:31,471  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:31,471  INFO main XMLData:insert:30 - Creating statement
+16:26:31,473  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:31,479  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:31,479  INFO main XMLData:insert:30 - Creating statement
+16:26:31,480  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:31,487  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:31,487  INFO main XMLData:insert:30 - Creating statement
+16:26:31,488  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:31,495  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:54,097  INFO main DBConnection:<init>:19 - Init default connection
+16:26:54,099  INFO main DBConnection:<init>:24 - Default connection init
+16:26:54,099  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+16:26:54,317  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+16:26:54,318  INFO main DBConnection:<init>:19 - Init default connection
+16:26:54,320  INFO main DBConnection:<init>:24 - Default connection init
+16:26:54,320  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+16:26:54,364  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+16:26:54,365  INFO main XMLData:<init>:25 - Call default constructor. Is empty
+16:26:54,365  INFO main XMLData:setConn:77 - Set connection
+16:26:54,367  INFO main ClientSaxParser:parseDocument:50 - Creating parser for file: d:\temp\data\clients.xml
+16:26:54,387  INFO main ClientSaxParser:parseDocument:53 - Parsing file complited
+16:26:54,390  INFO main XMLData:insert:30 - Creating statement
+16:26:54,460  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:54,472  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:54,472  INFO main XMLData:insert:30 - Creating statement
+16:26:54,473  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:54,479  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:54,479  INFO main XMLData:insert:30 - Creating statement
+16:26:54,480  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:54,496  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:54,496  INFO main XMLData:insert:30 - Creating statement
+16:26:54,496  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:54,504  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:54,504  INFO main XMLData:insert:30 - Creating statement
+16:26:54,505  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:54,512  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:54,513  INFO main XMLData:insert:30 - Creating statement
+16:26:54,513  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:54,521  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:54,521  INFO main XMLData:insert:30 - Creating statement
+16:26:54,521  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:54,529  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:54,530  INFO main XMLData:insert:30 - Creating statement
+16:26:54,530  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:54,537  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:54,538  INFO main XMLData:insert:30 - Creating statement
+16:26:54,538  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:54,546  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:54,546  INFO main XMLData:insert:30 - Creating statement
+16:26:54,547  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:54,554  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:54,555  INFO main XMLData:insert:30 - Creating statement
+16:26:54,555  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:54,562  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:54,562  INFO main XMLData:insert:30 - Creating statement
+16:26:54,563  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:54,571  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:54,571  INFO main XMLData:insert:30 - Creating statement
+16:26:54,571  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:54,579  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:54,580  INFO main XMLData:insert:30 - Creating statement
+16:26:54,580  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:54,587  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:54,588  INFO main XMLData:insert:30 - Creating statement
+16:26:54,588  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:54,597  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:54,597  INFO main XMLData:insert:30 - Creating statement
+16:26:54,598  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:54,604  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:54,605  INFO main XMLData:insert:30 - Creating statement
+16:26:54,605  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:54,612  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:54,613  INFO main XMLData:insert:30 - Creating statement
+16:26:54,613  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:54,621  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:54,621  INFO main XMLData:insert:30 - Creating statement
+16:26:54,622  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:54,629  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:54,630  INFO main XMLData:insert:30 - Creating statement
+16:26:54,630  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:54,637  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:54,638  INFO main XMLData:insert:30 - Creating statement
+16:26:54,638  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:54,646  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:54,646  INFO main XMLData:insert:30 - Creating statement
+16:26:54,647  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:54,654  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:54,655  INFO main XMLData:insert:30 - Creating statement
+16:26:54,655  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:54,663  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:54,663  INFO main XMLData:insert:30 - Creating statement
+16:26:54,664  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:54,671  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:54,672  INFO main XMLData:insert:30 - Creating statement
+16:26:54,672  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:54,679  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:54,680  INFO main XMLData:insert:30 - Creating statement
+16:26:54,680  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:54,688  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:54,689  INFO main XMLData:insert:30 - Creating statement
+16:26:54,689  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:54,696  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:54,697  INFO main XMLData:insert:30 - Creating statement
+16:26:54,697  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:54,704  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:54,705  INFO main XMLData:insert:30 - Creating statement
+16:26:54,705  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:54,713  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:54,713  INFO main XMLData:insert:30 - Creating statement
+16:26:54,713  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:54,721  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:54,721  INFO main XMLData:insert:30 - Creating statement
+16:26:54,722  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:54,729  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:54,730  INFO main XMLData:insert:30 - Creating statement
+16:26:54,730  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:54,737  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:54,738  INFO main XMLData:insert:30 - Creating statement
+16:26:54,738  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:54,746  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:54,746  INFO main XMLData:insert:30 - Creating statement
+16:26:54,747  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:54,755  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:54,756  INFO main XMLData:insert:30 - Creating statement
+16:26:54,757  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:54,763  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:54,763  INFO main XMLData:insert:30 - Creating statement
+16:26:54,764  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:54,771  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:54,771  INFO main XMLData:insert:30 - Creating statement
+16:26:54,772  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:54,780  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:54,780  INFO main XMLData:insert:30 - Creating statement
+16:26:54,781  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:54,788  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:54,788  INFO main XMLData:insert:30 - Creating statement
+16:26:54,789  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:54,796  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:54,797  INFO main XMLData:insert:30 - Creating statement
+16:26:54,797  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:54,805  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:54,805  INFO main XMLData:insert:30 - Creating statement
+16:26:54,806  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:54,813  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:54,813  INFO main XMLData:insert:30 - Creating statement
+16:26:54,813  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:54,821  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:54,822  INFO main XMLData:insert:30 - Creating statement
+16:26:54,822  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:54,829  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:54,830  INFO main XMLData:insert:30 - Creating statement
+16:26:54,830  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:54,838  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:54,839  INFO main XMLData:insert:30 - Creating statement
+16:26:54,839  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:54,846  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:54,847  INFO main XMLData:insert:30 - Creating statement
+16:26:54,847  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:54,855  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:54,855  INFO main XMLData:insert:30 - Creating statement
+16:26:54,855  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:54,863  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:54,863  INFO main XMLData:insert:30 - Creating statement
+16:26:54,863  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:54,871  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:54,871  INFO main XMLData:insert:30 - Creating statement
+16:26:54,872  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:54,879  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:54,880  INFO main XMLData:insert:30 - Creating statement
+16:26:54,880  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:54,888  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:54,888  INFO main XMLData:insert:30 - Creating statement
+16:26:54,888  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:54,896  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:54,896  INFO main XMLData:insert:30 - Creating statement
+16:26:54,896  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:54,904  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:54,905  INFO main XMLData:insert:30 - Creating statement
+16:26:54,905  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:54,913  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:54,913  INFO main XMLData:insert:30 - Creating statement
+16:26:54,913  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:54,921  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:54,921  INFO main XMLData:insert:30 - Creating statement
+16:26:54,922  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:54,930  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:54,930  INFO main XMLData:insert:30 - Creating statement
+16:26:54,930  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:54,938  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:54,938  INFO main XMLData:insert:30 - Creating statement
+16:26:54,939  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:54,946  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:54,946  INFO main XMLData:insert:30 - Creating statement
+16:26:54,947  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:54,954  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:54,955  INFO main XMLData:insert:30 - Creating statement
+16:26:54,955  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:54,963  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:54,963  INFO main XMLData:insert:30 - Creating statement
+16:26:54,963  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:54,971  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:54,972  INFO main XMLData:insert:30 - Creating statement
+16:26:54,972  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:54,979  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:54,980  INFO main XMLData:insert:30 - Creating statement
+16:26:54,980  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:54,988  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:54,989  INFO main XMLData:insert:30 - Creating statement
+16:26:54,989  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:54,996  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:54,997  INFO main XMLData:insert:30 - Creating statement
+16:26:54,998  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,004  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,005  INFO main XMLData:insert:30 - Creating statement
+16:26:55,006  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,014  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,014  INFO main XMLData:insert:30 - Creating statement
+16:26:55,015  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,022  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,022  INFO main XMLData:insert:30 - Creating statement
+16:26:55,022  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,030  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,030  INFO main XMLData:insert:30 - Creating statement
+16:26:55,030  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,038  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,038  INFO main XMLData:insert:30 - Creating statement
+16:26:55,039  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,046  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,047  INFO main XMLData:insert:30 - Creating statement
+16:26:55,047  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,055  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,055  INFO main XMLData:insert:30 - Creating statement
+16:26:55,055  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,063  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,063  INFO main XMLData:insert:30 - Creating statement
+16:26:55,064  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,071  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,072  INFO main XMLData:insert:30 - Creating statement
+16:26:55,072  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,080  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,080  INFO main XMLData:insert:30 - Creating statement
+16:26:55,081  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,088  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,089  INFO main XMLData:insert:30 - Creating statement
+16:26:55,089  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,097  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,097  INFO main XMLData:insert:30 - Creating statement
+16:26:55,098  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,105  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,107  INFO main XMLData:insert:30 - Creating statement
+16:26:55,107  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,113  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,114  INFO main XMLData:insert:30 - Creating statement
+16:26:55,114  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,122  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,122  INFO main XMLData:insert:30 - Creating statement
+16:26:55,123  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,130  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,130  INFO main XMLData:insert:30 - Creating statement
+16:26:55,131  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,138  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,139  INFO main XMLData:insert:30 - Creating statement
+16:26:55,139  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,147  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,147  INFO main XMLData:insert:30 - Creating statement
+16:26:55,148  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,155  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,156  INFO main XMLData:insert:30 - Creating statement
+16:26:55,156  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,164  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,164  INFO main XMLData:insert:30 - Creating statement
+16:26:55,164  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,172  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,172  INFO main XMLData:insert:30 - Creating statement
+16:26:55,172  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,180  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,180  INFO main XMLData:insert:30 - Creating statement
+16:26:55,181  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,189  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,189  INFO main XMLData:insert:30 - Creating statement
+16:26:55,189  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,197  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,197  INFO main XMLData:insert:30 - Creating statement
+16:26:55,197  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,205  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,205  INFO main XMLData:insert:30 - Creating statement
+16:26:55,205  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,213  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,214  INFO main XMLData:insert:30 - Creating statement
+16:26:55,214  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,222  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,222  INFO main XMLData:insert:30 - Creating statement
+16:26:55,223  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,230  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,230  INFO main XMLData:insert:30 - Creating statement
+16:26:55,231  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,238  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,239  INFO main XMLData:insert:30 - Creating statement
+16:26:55,239  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,247  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,247  INFO main XMLData:insert:30 - Creating statement
+16:26:55,247  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,255  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,255  INFO main XMLData:insert:30 - Creating statement
+16:26:55,256  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,264  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,264  INFO main XMLData:insert:30 - Creating statement
+16:26:55,265  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,297  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,298  INFO main XMLData:insert:30 - Creating statement
+16:26:55,298  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,331  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,332  INFO main XMLData:insert:30 - Creating statement
+16:26:55,332  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,339  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,340  INFO main XMLData:insert:30 - Creating statement
+16:26:55,350  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,372  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,373  INFO main XMLData:insert:30 - Creating statement
+16:26:55,374  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,414  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,415  INFO main XMLData:insert:30 - Creating statement
+16:26:55,416  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,422  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,423  INFO main XMLData:insert:30 - Creating statement
+16:26:55,424  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,430  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,431  INFO main XMLData:insert:30 - Creating statement
+16:26:55,432  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,439  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,439  INFO main XMLData:insert:30 - Creating statement
+16:26:55,440  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,447  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,447  INFO main XMLData:insert:30 - Creating statement
+16:26:55,448  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,455  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,456  INFO main XMLData:insert:30 - Creating statement
+16:26:55,456  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,464  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,464  INFO main XMLData:insert:30 - Creating statement
+16:26:55,465  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,472  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,472  INFO main XMLData:insert:30 - Creating statement
+16:26:55,473  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,480  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,481  INFO main XMLData:insert:30 - Creating statement
+16:26:55,482  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,489  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,489  INFO main XMLData:insert:30 - Creating statement
+16:26:55,490  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,497  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,498  INFO main XMLData:insert:30 - Creating statement
+16:26:55,498  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,505  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,506  INFO main XMLData:insert:30 - Creating statement
+16:26:55,507  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,514  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,514  INFO main XMLData:insert:30 - Creating statement
+16:26:55,515  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,523  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,523  INFO main XMLData:insert:30 - Creating statement
+16:26:55,524  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,530  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,531  INFO main XMLData:insert:30 - Creating statement
+16:26:55,531  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,539  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,539  INFO main XMLData:insert:30 - Creating statement
+16:26:55,540  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,549  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,550  INFO main XMLData:insert:30 - Creating statement
+16:26:55,550  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,557  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,558  INFO main XMLData:insert:30 - Creating statement
+16:26:55,559  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,565  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,565  INFO main XMLData:insert:30 - Creating statement
+16:26:55,566  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,574  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,575  INFO main XMLData:insert:30 - Creating statement
+16:26:55,575  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,582  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,582  INFO main XMLData:insert:30 - Creating statement
+16:26:55,583  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,590  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,591  INFO main XMLData:insert:30 - Creating statement
+16:26:55,592  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,598  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,599  INFO main XMLData:insert:30 - Creating statement
+16:26:55,599  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,607  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,607  INFO main XMLData:insert:30 - Creating statement
+16:26:55,607  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,615  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,615  INFO main XMLData:insert:30 - Creating statement
+16:26:55,616  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,624  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,625  INFO main XMLData:insert:30 - Creating statement
+16:26:55,625  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,632  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,632  INFO main XMLData:insert:30 - Creating statement
+16:26:55,632  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,640  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,640  INFO main XMLData:insert:30 - Creating statement
+16:26:55,640  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,649  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,649  INFO main XMLData:insert:30 - Creating statement
+16:26:55,649  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,657  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,657  INFO main XMLData:insert:30 - Creating statement
+16:26:55,658  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,665  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,666  INFO main XMLData:insert:30 - Creating statement
+16:26:55,666  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,673  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,674  INFO main XMLData:insert:30 - Creating statement
+16:26:55,674  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,682  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,682  INFO main XMLData:insert:30 - Creating statement
+16:26:55,682  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,690  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,690  INFO main XMLData:insert:30 - Creating statement
+16:26:55,690  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,698  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,699  INFO main XMLData:insert:30 - Creating statement
+16:26:55,699  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,707  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,707  INFO main XMLData:insert:30 - Creating statement
+16:26:55,708  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,715  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,716  INFO main XMLData:insert:30 - Creating statement
+16:26:55,716  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,723  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,724  INFO main XMLData:insert:30 - Creating statement
+16:26:55,724  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,732  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,732  INFO main XMLData:insert:30 - Creating statement
+16:26:55,733  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,741  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,741  INFO main XMLData:insert:30 - Creating statement
+16:26:55,741  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,749  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,749  INFO main XMLData:insert:30 - Creating statement
+16:26:55,749  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,757  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,759  INFO main XMLData:insert:30 - Creating statement
+16:26:55,760  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,765  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,766  INFO main XMLData:insert:30 - Creating statement
+16:26:55,767  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,774  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,776  INFO main XMLData:insert:30 - Creating statement
+16:26:55,776  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,782  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,782  INFO main XMLData:insert:30 - Creating statement
+16:26:55,782  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,790  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,791  INFO main XMLData:insert:30 - Creating statement
+16:26:55,791  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,799  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,799  INFO main XMLData:insert:30 - Creating statement
+16:26:55,799  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,807  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,808  INFO main XMLData:insert:30 - Creating statement
+16:26:55,808  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,816  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,816  INFO main XMLData:insert:30 - Creating statement
+16:26:55,816  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,824  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,824  INFO main XMLData:insert:30 - Creating statement
+16:26:55,824  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,832  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,832  INFO main XMLData:insert:30 - Creating statement
+16:26:55,832  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,840  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,840  INFO main XMLData:insert:30 - Creating statement
+16:26:55,840  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,848  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,849  INFO main XMLData:insert:30 - Creating statement
+16:26:55,849  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,857  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,857  INFO main XMLData:insert:30 - Creating statement
+16:26:55,858  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,865  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,866  INFO main XMLData:insert:30 - Creating statement
+16:26:55,866  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,874  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,875  INFO main XMLData:insert:30 - Creating statement
+16:26:55,875  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,887  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,888  INFO main XMLData:insert:30 - Creating statement
+16:26:55,888  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,899  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,899  INFO main XMLData:insert:30 - Creating statement
+16:26:55,900  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,909  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,909  INFO main XMLData:insert:30 - Creating statement
+16:26:55,910  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,917  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,918  INFO main XMLData:insert:30 - Creating statement
+16:26:55,918  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,924  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,924  INFO main XMLData:insert:30 - Creating statement
+16:26:55,925  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,932  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,933  INFO main XMLData:insert:30 - Creating statement
+16:26:55,933  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,941  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,943  INFO main XMLData:insert:30 - Creating statement
+16:26:55,944  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,949  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,951  INFO main XMLData:insert:30 - Creating statement
+16:26:55,951  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,957  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,960  INFO main XMLData:insert:30 - Creating statement
+16:26:55,960  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,965  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,967  INFO main XMLData:insert:30 - Creating statement
+16:26:55,969  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,974  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,976  INFO main XMLData:insert:30 - Creating statement
+16:26:55,977  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,982  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,982  INFO main XMLData:insert:30 - Creating statement
+16:26:55,983  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,991  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,992  INFO main XMLData:insert:30 - Creating statement
+16:26:55,992  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:55,999  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:55,999  INFO main XMLData:insert:30 - Creating statement
+16:26:56,000  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,007  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,008  INFO main XMLData:insert:30 - Creating statement
+16:26:56,008  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,016  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,016  INFO main XMLData:insert:30 - Creating statement
+16:26:56,016  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,024  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,024  INFO main XMLData:insert:30 - Creating statement
+16:26:56,025  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,032  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,032  INFO main XMLData:insert:30 - Creating statement
+16:26:56,032  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,041  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,041  INFO main XMLData:insert:30 - Creating statement
+16:26:56,041  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,049  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,049  INFO main XMLData:insert:30 - Creating statement
+16:26:56,049  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,057  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,058  INFO main XMLData:insert:30 - Creating statement
+16:26:56,058  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,066  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,066  INFO main XMLData:insert:30 - Creating statement
+16:26:56,066  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,074  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,074  INFO main XMLData:insert:30 - Creating statement
+16:26:56,074  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,082  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,082  INFO main XMLData:insert:30 - Creating statement
+16:26:56,083  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,091  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,091  INFO main XMLData:insert:30 - Creating statement
+16:26:56,091  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,099  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,099  INFO main XMLData:insert:30 - Creating statement
+16:26:56,099  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,107  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,107  INFO main XMLData:insert:30 - Creating statement
+16:26:56,108  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,115  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,116  INFO main XMLData:insert:30 - Creating statement
+16:26:56,117  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,124  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,124  INFO main XMLData:insert:30 - Creating statement
+16:26:56,124  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,132  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,133  INFO main XMLData:insert:30 - Creating statement
+16:26:56,133  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,141  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,142  INFO main XMLData:insert:30 - Creating statement
+16:26:56,142  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,150  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,151  INFO main XMLData:insert:30 - Creating statement
+16:26:56,152  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,158  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,160  INFO main XMLData:insert:30 - Creating statement
+16:26:56,161  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,174  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,175  INFO main XMLData:insert:30 - Creating statement
+16:26:56,175  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,182  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,183  INFO main XMLData:insert:30 - Creating statement
+16:26:56,183  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,191  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,191  INFO main XMLData:insert:30 - Creating statement
+16:26:56,191  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,199  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,199  INFO main XMLData:insert:30 - Creating statement
+16:26:56,200  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,207  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,208  INFO main XMLData:insert:30 - Creating statement
+16:26:56,208  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,216  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,217  INFO main XMLData:insert:30 - Creating statement
+16:26:56,217  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,225  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,225  INFO main XMLData:insert:30 - Creating statement
+16:26:56,225  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,233  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,234  INFO main XMLData:insert:30 - Creating statement
+16:26:56,234  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,241  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,242  INFO main XMLData:insert:30 - Creating statement
+16:26:56,242  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,249  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,250  INFO main XMLData:insert:30 - Creating statement
+16:26:56,250  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,258  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,258  INFO main XMLData:insert:30 - Creating statement
+16:26:56,259  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,266  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,267  INFO main XMLData:insert:30 - Creating statement
+16:26:56,267  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,274  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,275  INFO main XMLData:insert:30 - Creating statement
+16:26:56,275  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,283  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,283  INFO main XMLData:insert:30 - Creating statement
+16:26:56,284  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,291  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,291  INFO main XMLData:insert:30 - Creating statement
+16:26:56,292  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,299  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,300  INFO main XMLData:insert:30 - Creating statement
+16:26:56,300  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,308  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,308  INFO main XMLData:insert:30 - Creating statement
+16:26:56,309  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,316  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,317  INFO main XMLData:insert:30 - Creating statement
+16:26:56,318  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,324  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,325  INFO main XMLData:insert:30 - Creating statement
+16:26:56,325  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,333  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,333  INFO main XMLData:insert:30 - Creating statement
+16:26:56,333  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,341  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,342  INFO main XMLData:insert:30 - Creating statement
+16:26:56,342  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,349  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,350  INFO main XMLData:insert:30 - Creating statement
+16:26:56,350  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,358  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,358  INFO main XMLData:insert:30 - Creating statement
+16:26:56,358  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,366  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,366  INFO main XMLData:insert:30 - Creating statement
+16:26:56,367  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,377  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,377  INFO main XMLData:insert:30 - Creating statement
+16:26:56,377  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,383  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,383  INFO main XMLData:insert:30 - Creating statement
+16:26:56,383  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,391  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,393  INFO main XMLData:insert:30 - Creating statement
+16:26:56,393  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,399  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,400  INFO main XMLData:insert:30 - Creating statement
+16:26:56,400  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,408  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,409  INFO main XMLData:insert:30 - Creating statement
+16:26:56,410  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,416  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,416  INFO main XMLData:insert:30 - Creating statement
+16:26:56,416  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,424  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,425  INFO main XMLData:insert:30 - Creating statement
+16:26:56,425  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,433  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,433  INFO main XMLData:insert:30 - Creating statement
+16:26:56,433  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,441  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,442  INFO main XMLData:insert:30 - Creating statement
+16:26:56,442  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,450  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,450  INFO main XMLData:insert:30 - Creating statement
+16:26:56,450  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,458  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,458  INFO main XMLData:insert:30 - Creating statement
+16:26:56,459  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,466  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,467  INFO main XMLData:insert:30 - Creating statement
+16:26:56,467  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,475  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,475  INFO main XMLData:insert:30 - Creating statement
+16:26:56,475  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,483  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,483  INFO main XMLData:insert:30 - Creating statement
+16:26:56,483  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,491  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,491  INFO main XMLData:insert:30 - Creating statement
+16:26:56,491  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,500  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,500  INFO main XMLData:insert:30 - Creating statement
+16:26:56,500  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,508  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,508  INFO main XMLData:insert:30 - Creating statement
+16:26:56,508  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,516  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,517  INFO main XMLData:insert:30 - Creating statement
+16:26:56,517  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,525  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,525  INFO main XMLData:insert:30 - Creating statement
+16:26:56,526  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,533  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,534  INFO main XMLData:insert:30 - Creating statement
+16:26:56,534  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,541  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,542  INFO main XMLData:insert:30 - Creating statement
+16:26:56,542  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,550  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,550  INFO main XMLData:insert:30 - Creating statement
+16:26:56,550  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,558  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,560  INFO main XMLData:insert:30 - Creating statement
+16:26:56,560  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,566  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,567  INFO main XMLData:insert:30 - Creating statement
+16:26:56,567  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,575  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,575  INFO main XMLData:insert:30 - Creating statement
+16:26:56,576  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,583  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,583  INFO main XMLData:insert:30 - Creating statement
+16:26:56,583  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,591  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,592  INFO main XMLData:insert:30 - Creating statement
+16:26:56,592  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,600  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,600  INFO main XMLData:insert:30 - Creating statement
+16:26:56,600  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,608  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,608  INFO main XMLData:insert:30 - Creating statement
+16:26:56,608  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,616  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,617  INFO main XMLData:insert:30 - Creating statement
+16:26:56,617  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,625  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,625  INFO main XMLData:insert:30 - Creating statement
+16:26:56,625  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,633  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,633  INFO main XMLData:insert:30 - Creating statement
+16:26:56,634  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,641  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,642  INFO main XMLData:insert:30 - Creating statement
+16:26:56,642  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,650  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,651  INFO main XMLData:insert:30 - Creating statement
+16:26:56,651  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,658  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,658  INFO main XMLData:insert:30 - Creating statement
+16:26:56,659  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,666  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,667  INFO main XMLData:insert:30 - Creating statement
+16:26:56,667  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,675  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,675  INFO main XMLData:insert:30 - Creating statement
+16:26:56,675  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,683  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,683  INFO main XMLData:insert:30 - Creating statement
+16:26:56,684  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,691  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,692  INFO main XMLData:insert:30 - Creating statement
+16:26:56,692  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,700  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,700  INFO main XMLData:insert:30 - Creating statement
+16:26:56,700  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,709  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,709  INFO main XMLData:insert:30 - Creating statement
+16:26:56,709  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,717  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,717  INFO main XMLData:insert:30 - Creating statement
+16:26:56,717  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,725  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,725  INFO main XMLData:insert:30 - Creating statement
+16:26:56,725  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,733  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,734  INFO main XMLData:insert:30 - Creating statement
+16:26:56,734  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,743  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,743  INFO main XMLData:insert:30 - Creating statement
+16:26:56,743  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,758  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,759  INFO main XMLData:insert:30 - Creating statement
+16:26:56,759  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,775  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,775  INFO main XMLData:insert:30 - Creating statement
+16:26:56,776  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,792  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,792  INFO main XMLData:insert:30 - Creating statement
+16:26:56,793  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,800  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,801  INFO main XMLData:insert:30 - Creating statement
+16:26:56,801  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,808  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,809  INFO main XMLData:insert:30 - Creating statement
+16:26:56,809  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,817  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,818  INFO main XMLData:insert:30 - Creating statement
+16:26:56,818  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,825  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,826  INFO main XMLData:insert:30 - Creating statement
+16:26:56,826  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,833  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,834  INFO main XMLData:insert:30 - Creating statement
+16:26:56,835  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,842  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,842  INFO main XMLData:insert:30 - Creating statement
+16:26:56,843  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,850  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,850  INFO main XMLData:insert:30 - Creating statement
+16:26:56,851  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,859  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,859  INFO main XMLData:insert:30 - Creating statement
+16:26:56,859  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,867  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,867  INFO main XMLData:insert:30 - Creating statement
+16:26:56,867  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,900  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,900  INFO main XMLData:insert:30 - Creating statement
+16:26:56,901  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,909  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,909  INFO main XMLData:insert:30 - Creating statement
+16:26:56,909  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,917  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,918  INFO main XMLData:insert:30 - Creating statement
+16:26:56,918  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,925  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,926  INFO main XMLData:insert:30 - Creating statement
+16:26:56,926  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,934  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,935  INFO main XMLData:insert:30 - Creating statement
+16:26:56,935  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,942  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,943  INFO main XMLData:insert:30 - Creating statement
+16:26:56,943  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,951  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,951  INFO main XMLData:insert:30 - Creating statement
+16:26:56,951  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,959  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,960  INFO main XMLData:insert:30 - Creating statement
+16:26:56,961  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,967  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,968  INFO main XMLData:insert:30 - Creating statement
+16:26:56,968  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,976  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,977  INFO main XMLData:insert:30 - Creating statement
+16:26:56,977  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,984  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,984  INFO main XMLData:insert:30 - Creating statement
+16:26:56,984  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:56,992  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:56,992  INFO main XMLData:insert:30 - Creating statement
+16:26:56,993  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,001  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,001  INFO main XMLData:insert:30 - Creating statement
+16:26:57,001  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,009  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,009  INFO main XMLData:insert:30 - Creating statement
+16:26:57,009  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,017  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,018  INFO main XMLData:insert:30 - Creating statement
+16:26:57,018  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,026  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,026  INFO main XMLData:insert:30 - Creating statement
+16:26:57,026  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,034  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,034  INFO main XMLData:insert:30 - Creating statement
+16:26:57,034  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,042  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,043  INFO main XMLData:insert:30 - Creating statement
+16:26:57,043  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,051  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,051  INFO main XMLData:insert:30 - Creating statement
+16:26:57,051  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,059  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,059  INFO main XMLData:insert:30 - Creating statement
+16:26:57,059  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,067  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,068  INFO main XMLData:insert:30 - Creating statement
+16:26:57,068  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,076  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,076  INFO main XMLData:insert:30 - Creating statement
+16:26:57,076  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,084  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,084  INFO main XMLData:insert:30 - Creating statement
+16:26:57,084  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,092  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,093  INFO main XMLData:insert:30 - Creating statement
+16:26:57,093  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,101  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,101  INFO main XMLData:insert:30 - Creating statement
+16:26:57,101  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,109  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,109  INFO main XMLData:insert:30 - Creating statement
+16:26:57,110  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,118  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,118  INFO main XMLData:insert:30 - Creating statement
+16:26:57,118  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,126  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,126  INFO main XMLData:insert:30 - Creating statement
+16:26:57,126  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,134  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,134  INFO main XMLData:insert:30 - Creating statement
+16:26:57,134  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,142  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,143  INFO main XMLData:insert:30 - Creating statement
+16:26:57,143  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,151  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,151  INFO main XMLData:insert:30 - Creating statement
+16:26:57,151  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,159  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,161  INFO main XMLData:insert:30 - Creating statement
+16:26:57,162  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,168  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,168  INFO main XMLData:insert:30 - Creating statement
+16:26:57,168  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,184  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,184  INFO main XMLData:insert:30 - Creating statement
+16:26:57,184  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,194  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,194  INFO main XMLData:insert:30 - Creating statement
+16:26:57,194  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,201  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,201  INFO main XMLData:insert:30 - Creating statement
+16:26:57,201  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,209  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,209  INFO main XMLData:insert:30 - Creating statement
+16:26:57,209  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,217  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,218  INFO main XMLData:insert:30 - Creating statement
+16:26:57,218  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,226  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,226  INFO main XMLData:insert:30 - Creating statement
+16:26:57,226  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,234  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,234  INFO main XMLData:insert:30 - Creating statement
+16:26:57,235  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,243  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,243  INFO main XMLData:insert:30 - Creating statement
+16:26:57,243  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,251  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,253  INFO main XMLData:insert:30 - Creating statement
+16:26:57,254  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,259  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,260  INFO main XMLData:insert:30 - Creating statement
+16:26:57,260  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,269  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,269  INFO main XMLData:insert:30 - Creating statement
+16:26:57,269  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,277  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,277  INFO main XMLData:insert:30 - Creating statement
+16:26:57,277  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,284  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,285  INFO main XMLData:insert:30 - Creating statement
+16:26:57,285  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,293  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,293  INFO main XMLData:insert:30 - Creating statement
+16:26:57,293  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,301  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,301  INFO main XMLData:insert:30 - Creating statement
+16:26:57,301  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,310  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,311  INFO main XMLData:insert:30 - Creating statement
+16:26:57,311  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,318  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,318  INFO main XMLData:insert:30 - Creating statement
+16:26:57,319  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,326  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,326  INFO main XMLData:insert:30 - Creating statement
+16:26:57,326  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,334  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,335  INFO main XMLData:insert:30 - Creating statement
+16:26:57,335  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,343  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,343  INFO main XMLData:insert:30 - Creating statement
+16:26:57,343  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,351  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,351  INFO main XMLData:insert:30 - Creating statement
+16:26:57,352  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,360  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,361  INFO main XMLData:insert:30 - Creating statement
+16:26:57,361  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,368  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,368  INFO main XMLData:insert:30 - Creating statement
+16:26:57,368  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,376  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,376  INFO main XMLData:insert:30 - Creating statement
+16:26:57,376  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,385  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,385  INFO main XMLData:insert:30 - Creating statement
+16:26:57,385  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,393  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,393  INFO main XMLData:insert:30 - Creating statement
+16:26:57,393  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,401  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,401  INFO main XMLData:insert:30 - Creating statement
+16:26:57,403  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,410  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,410  INFO main XMLData:insert:30 - Creating statement
+16:26:57,410  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,418  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,418  INFO main XMLData:insert:30 - Creating statement
+16:26:57,419  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,426  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,427  INFO main XMLData:insert:30 - Creating statement
+16:26:57,427  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,435  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,435  INFO main XMLData:insert:30 - Creating statement
+16:26:57,435  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,443  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,443  INFO main XMLData:insert:30 - Creating statement
+16:26:57,444  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,460  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,460  INFO main XMLData:insert:30 - Creating statement
+16:26:57,460  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,468  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,468  INFO main XMLData:insert:30 - Creating statement
+16:26:57,468  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,476  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,476  INFO main XMLData:insert:30 - Creating statement
+16:26:57,477  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,485  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,485  INFO main XMLData:insert:30 - Creating statement
+16:26:57,486  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,493  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,494  INFO main XMLData:insert:30 - Creating statement
+16:26:57,494  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,502  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,502  INFO main XMLData:insert:30 - Creating statement
+16:26:57,502  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,510  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,510  INFO main XMLData:insert:30 - Creating statement
+16:26:57,511  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,518  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,519  INFO main XMLData:insert:30 - Creating statement
+16:26:57,519  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,527  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,527  INFO main XMLData:insert:30 - Creating statement
+16:26:57,528  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,543  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,544  INFO main XMLData:insert:30 - Creating statement
+16:26:57,546  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,551  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,553  INFO main XMLData:insert:30 - Creating statement
+16:26:57,554  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,560  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,560  INFO main XMLData:insert:30 - Creating statement
+16:26:57,561  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,568  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,569  INFO main XMLData:insert:30 - Creating statement
+16:26:57,569  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,576  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,578  INFO main XMLData:insert:30 - Creating statement
+16:26:57,578  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,585  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,585  INFO main XMLData:insert:30 - Creating statement
+16:26:57,586  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,593  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,595  INFO main XMLData:insert:30 - Creating statement
+16:26:57,595  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,602  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,602  INFO main XMLData:insert:30 - Creating statement
+16:26:57,602  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,610  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,610  INFO main XMLData:insert:30 - Creating statement
+16:26:57,610  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,618  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,619  INFO main XMLData:insert:30 - Creating statement
+16:26:57,619  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,627  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,627  INFO main XMLData:insert:30 - Creating statement
+16:26:57,627  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,635  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,635  INFO main XMLData:insert:30 - Creating statement
+16:26:57,635  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,643  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,644  INFO main XMLData:insert:30 - Creating statement
+16:26:57,644  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,652  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,652  INFO main XMLData:insert:30 - Creating statement
+16:26:57,652  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,660  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,660  INFO main XMLData:insert:30 - Creating statement
+16:26:57,660  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,668  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,669  INFO main XMLData:insert:30 - Creating statement
+16:26:57,669  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,677  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,677  INFO main XMLData:insert:30 - Creating statement
+16:26:57,677  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,685  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,685  INFO main XMLData:insert:30 - Creating statement
+16:26:57,685  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,693  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,694  INFO main XMLData:insert:30 - Creating statement
+16:26:57,694  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,703  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,703  INFO main XMLData:insert:30 - Creating statement
+16:26:57,703  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,711  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,711  INFO main XMLData:insert:30 - Creating statement
+16:26:57,711  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,718  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,719  INFO main XMLData:insert:30 - Creating statement
+16:26:57,719  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,727  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,727  INFO main XMLData:insert:30 - Creating statement
+16:26:57,727  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,735  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,735  INFO main XMLData:insert:30 - Creating statement
+16:26:57,736  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,743  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,744  INFO main XMLData:insert:30 - Creating statement
+16:26:57,744  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,752  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,752  INFO main XMLData:insert:30 - Creating statement
+16:26:57,752  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,760  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,761  INFO main XMLData:insert:30 - Creating statement
+16:26:57,761  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,769  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,769  INFO main XMLData:insert:30 - Creating statement
+16:26:57,770  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,777  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,777  INFO main XMLData:insert:30 - Creating statement
+16:26:57,778  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,785  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,785  INFO main XMLData:insert:30 - Creating statement
+16:26:57,786  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,794  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,794  INFO main XMLData:insert:30 - Creating statement
+16:26:57,794  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,802  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,802  INFO main XMLData:insert:30 - Creating statement
+16:26:57,802  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,811  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,811  INFO main XMLData:insert:30 - Creating statement
+16:26:57,811  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,819  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,819  INFO main XMLData:insert:30 - Creating statement
+16:26:57,819  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,827  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,827  INFO main XMLData:insert:30 - Creating statement
+16:26:57,828  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,836  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,836  INFO main XMLData:insert:30 - Creating statement
+16:26:57,836  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,844  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,844  INFO main XMLData:insert:30 - Creating statement
+16:26:57,844  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,852  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,852  INFO main XMLData:insert:30 - Creating statement
+16:26:57,852  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,860  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,860  INFO main XMLData:insert:30 - Creating statement
+16:26:57,861  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,877  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,877  INFO main XMLData:insert:30 - Creating statement
+16:26:57,877  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,885  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,885  INFO main XMLData:insert:30 - Creating statement
+16:26:57,885  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,893  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,894  INFO main XMLData:insert:30 - Creating statement
+16:26:57,894  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,902  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,902  INFO main XMLData:insert:30 - Creating statement
+16:26:57,902  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,910  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,911  INFO main XMLData:insert:30 - Creating statement
+16:26:57,911  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,919  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,919  INFO main XMLData:insert:30 - Creating statement
+16:26:57,919  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,927  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,928  INFO main XMLData:insert:30 - Creating statement
+16:26:57,928  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,936  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,936  INFO main XMLData:insert:30 - Creating statement
+16:26:57,936  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,944  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,944  INFO main XMLData:insert:30 - Creating statement
+16:26:57,945  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,952  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,952  INFO main XMLData:insert:30 - Creating statement
+16:26:57,953  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,962  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,962  INFO main XMLData:insert:30 - Creating statement
+16:26:57,962  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,970  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,970  INFO main XMLData:insert:30 - Creating statement
+16:26:57,971  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,978  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,978  INFO main XMLData:insert:30 - Creating statement
+16:26:57,979  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,987  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,987  INFO main XMLData:insert:30 - Creating statement
+16:26:57,987  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:57,995  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:57,995  INFO main XMLData:insert:30 - Creating statement
+16:26:57,995  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,003  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,004  INFO main XMLData:insert:30 - Creating statement
+16:26:58,004  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,012  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,012  INFO main XMLData:insert:30 - Creating statement
+16:26:58,012  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,020  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,020  INFO main XMLData:insert:30 - Creating statement
+16:26:58,020  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,028  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,028  INFO main XMLData:insert:30 - Creating statement
+16:26:58,028  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,037  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,037  INFO main XMLData:insert:30 - Creating statement
+16:26:58,037  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,045  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,045  INFO main XMLData:insert:30 - Creating statement
+16:26:58,045  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,062  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,062  INFO main XMLData:insert:30 - Creating statement
+16:26:58,062  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,070  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,070  INFO main XMLData:insert:30 - Creating statement
+16:26:58,071  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,078  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,078  INFO main XMLData:insert:30 - Creating statement
+16:26:58,079  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,086  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,087  INFO main XMLData:insert:30 - Creating statement
+16:26:58,087  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,095  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,095  INFO main XMLData:insert:30 - Creating statement
+16:26:58,095  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,103  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,103  INFO main XMLData:insert:30 - Creating statement
+16:26:58,103  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,111  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,112  INFO main XMLData:insert:30 - Creating statement
+16:26:58,112  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,120  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,120  INFO main XMLData:insert:30 - Creating statement
+16:26:58,120  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,128  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,129  INFO main XMLData:insert:30 - Creating statement
+16:26:58,129  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,137  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,137  INFO main XMLData:insert:30 - Creating statement
+16:26:58,137  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,145  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,145  INFO main XMLData:insert:30 - Creating statement
+16:26:58,146  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,153  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,154  INFO main XMLData:insert:30 - Creating statement
+16:26:58,154  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,162  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,162  INFO main XMLData:insert:30 - Creating statement
+16:26:58,162  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,170  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,173  INFO main XMLData:insert:30 - Creating statement
+16:26:58,173  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,187  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,187  INFO main XMLData:insert:30 - Creating statement
+16:26:58,187  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,195  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,195  INFO main XMLData:insert:30 - Creating statement
+16:26:58,196  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,203  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,204  INFO main XMLData:insert:30 - Creating statement
+16:26:58,204  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,212  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,212  INFO main XMLData:insert:30 - Creating statement
+16:26:58,212  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,222  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,222  INFO main XMLData:insert:30 - Creating statement
+16:26:58,222  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,229  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,229  INFO main XMLData:insert:30 - Creating statement
+16:26:58,229  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,237  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,238  INFO main XMLData:insert:30 - Creating statement
+16:26:58,238  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,245  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,246  INFO main XMLData:insert:30 - Creating statement
+16:26:58,246  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,254  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,254  INFO main XMLData:insert:30 - Creating statement
+16:26:58,254  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,262  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,262  INFO main XMLData:insert:30 - Creating statement
+16:26:58,263  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,270  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,271  INFO main XMLData:insert:30 - Creating statement
+16:26:58,271  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,279  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,279  INFO main XMLData:insert:30 - Creating statement
+16:26:58,279  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,287  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,287  INFO main XMLData:insert:30 - Creating statement
+16:26:58,287  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,295  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,295  INFO main XMLData:insert:30 - Creating statement
+16:26:58,296  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,303  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,304  INFO main XMLData:insert:30 - Creating statement
+16:26:58,304  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,312  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,312  INFO main XMLData:insert:30 - Creating statement
+16:26:58,312  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,320  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,321  INFO main XMLData:insert:30 - Creating statement
+16:26:58,321  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,329  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,329  INFO main XMLData:insert:30 - Creating statement
+16:26:58,329  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,337  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,337  INFO main XMLData:insert:30 - Creating statement
+16:26:58,337  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,346  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,346  INFO main XMLData:insert:30 - Creating statement
+16:26:58,346  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,354  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,354  INFO main XMLData:insert:30 - Creating statement
+16:26:58,354  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,362  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,362  INFO main XMLData:insert:30 - Creating statement
+16:26:58,363  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,371  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,371  INFO main XMLData:insert:30 - Creating statement
+16:26:58,371  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,379  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,380  INFO main XMLData:insert:30 - Creating statement
+16:26:58,380  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,387  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,387  INFO main XMLData:insert:30 - Creating statement
+16:26:58,387  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,395  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,396  INFO main XMLData:insert:30 - Creating statement
+16:26:58,396  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,404  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,404  INFO main XMLData:insert:30 - Creating statement
+16:26:58,404  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,412  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,412  INFO main XMLData:insert:30 - Creating statement
+16:26:58,412  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,421  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,421  INFO main XMLData:insert:30 - Creating statement
+16:26:58,421  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,429  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,429  INFO main XMLData:insert:30 - Creating statement
+16:26:58,429  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,437  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,437  INFO main XMLData:insert:30 - Creating statement
+16:26:58,438  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,446  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,446  INFO main XMLData:insert:30 - Creating statement
+16:26:58,446  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,454  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,454  INFO main XMLData:insert:30 - Creating statement
+16:26:58,454  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,462  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,462  INFO main XMLData:insert:30 - Creating statement
+16:26:58,463  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,471  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,471  INFO main XMLData:insert:30 - Creating statement
+16:26:58,471  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,479  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,479  INFO main XMLData:insert:30 - Creating statement
+16:26:58,479  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,487  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,487  INFO main XMLData:insert:30 - Creating statement
+16:26:58,488  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,496  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,496  INFO main XMLData:insert:30 - Creating statement
+16:26:58,496  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,504  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,504  INFO main XMLData:insert:30 - Creating statement
+16:26:58,504  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,512  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,513  INFO main XMLData:insert:30 - Creating statement
+16:26:58,513  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,521  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,521  INFO main XMLData:insert:30 - Creating statement
+16:26:58,521  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,529  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,529  INFO main XMLData:insert:30 - Creating statement
+16:26:58,530  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,537  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,538  INFO main XMLData:insert:30 - Creating statement
+16:26:58,538  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,546  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,546  INFO main XMLData:insert:30 - Creating statement
+16:26:58,546  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,554  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,554  INFO main XMLData:insert:30 - Creating statement
+16:26:58,555  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,562  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,563  INFO main XMLData:insert:30 - Creating statement
+16:26:58,563  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,571  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,571  INFO main XMLData:insert:30 - Creating statement
+16:26:58,572  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,579  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,580  INFO main XMLData:insert:30 - Creating statement
+16:26:58,580  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,589  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,589  INFO main XMLData:insert:30 - Creating statement
+16:26:58,589  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,596  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,596  INFO main XMLData:insert:30 - Creating statement
+16:26:58,596  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,605  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,609  INFO main XMLData:insert:30 - Creating statement
+16:26:58,609  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,621  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,621  INFO main XMLData:insert:30 - Creating statement
+16:26:58,621  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,629  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,629  INFO main XMLData:insert:30 - Creating statement
+16:26:58,630  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,638  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,638  INFO main XMLData:insert:30 - Creating statement
+16:26:58,638  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,647  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,647  INFO main XMLData:insert:30 - Creating statement
+16:26:58,647  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,654  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,655  INFO main XMLData:insert:30 - Creating statement
+16:26:58,655  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,663  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,663  INFO main XMLData:insert:30 - Creating statement
+16:26:58,663  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,671  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,672  INFO main XMLData:insert:30 - Creating statement
+16:26:58,672  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,679  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,680  INFO main XMLData:insert:30 - Creating statement
+16:26:58,680  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,688  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,688  INFO main XMLData:insert:30 - Creating statement
+16:26:58,688  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,696  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,696  INFO main XMLData:insert:30 - Creating statement
+16:26:58,697  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,704  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,705  INFO main XMLData:insert:30 - Creating statement
+16:26:58,705  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,713  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,713  INFO main XMLData:insert:30 - Creating statement
+16:26:58,714  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,724  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,724  INFO main XMLData:insert:30 - Creating statement
+16:26:58,725  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,780  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,781  INFO main XMLData:insert:30 - Creating statement
+16:26:58,782  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,788  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,792  INFO main XMLData:insert:30 - Creating statement
+16:26:58,794  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,804  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,806  INFO main XMLData:insert:30 - Creating statement
+16:26:58,807  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,813  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,815  INFO main XMLData:insert:30 - Creating statement
+16:26:58,815  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,821  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,823  INFO main XMLData:insert:30 - Creating statement
+16:26:58,823  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,829  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,831  INFO main XMLData:insert:30 - Creating statement
+16:26:58,831  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,838  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,838  INFO main XMLData:insert:30 - Creating statement
+16:26:58,838  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,846  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,846  INFO main XMLData:insert:30 - Creating statement
+16:26:58,847  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,855  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,855  INFO main XMLData:insert:30 - Creating statement
+16:26:58,855  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,863  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,863  INFO main XMLData:insert:30 - Creating statement
+16:26:58,863  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,871  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,871  INFO main XMLData:insert:30 - Creating statement
+16:26:58,872  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,880  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,880  INFO main XMLData:insert:30 - Creating statement
+16:26:58,881  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,888  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,889  INFO main XMLData:insert:30 - Creating statement
+16:26:58,891  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,896  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,897  INFO main XMLData:insert:30 - Creating statement
+16:26:58,898  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,905  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,907  INFO main XMLData:insert:30 - Creating statement
+16:26:58,908  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,913  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,913  INFO main XMLData:insert:30 - Creating statement
+16:26:58,914  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,921  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,922  INFO main XMLData:insert:30 - Creating statement
+16:26:58,922  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,930  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,930  INFO main XMLData:insert:30 - Creating statement
+16:26:58,930  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,938  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,938  INFO main XMLData:insert:30 - Creating statement
+16:26:58,938  INFO main XMLData:insert:55 - Inserting data to xml
+16:26:58,946  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:26:58,947  INFO main XMLData:insert:30 - Creating statement
+16:26:58,947  INFO main XMLData:insert:55 - Inserting data to xml
+16:27:56,763  INFO main DBConnection:<init>:19 - Init default connection
+16:27:56,765  INFO main DBConnection:<init>:24 - Default connection init
+16:27:56,765  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+16:27:57,011  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+16:27:57,011  INFO main DBConnection:<init>:19 - Init default connection
+16:27:57,013  INFO main DBConnection:<init>:24 - Default connection init
+16:27:57,013  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+16:27:57,051  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+16:27:57,052  INFO main XMLData:<init>:25 - Call default constructor. Is empty
+16:27:57,052  INFO main XMLData:setConn:77 - Set connection
+16:27:57,054  INFO main ClientSaxParser:parseDocument:50 - Creating parser for file: d:\temp\data\clients.xml
+16:27:57,076  INFO main ClientSaxParser:parseDocument:53 - Parsing file complited
+16:27:57,080  INFO main XMLData:insert:30 - Creating statement
+16:27:57,145  INFO main XMLData:insert:55 - Inserting data to xml
+16:27:57,167  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:27:57,167  INFO main XMLData:insert:30 - Creating statement
+16:27:57,168  INFO main XMLData:insert:55 - Inserting data to xml
+16:27:57,174  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:27:57,174  INFO main XMLData:insert:30 - Creating statement
+16:27:57,175  INFO main XMLData:insert:55 - Inserting data to xml
+16:27:57,183  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:27:57,183  INFO main XMLData:insert:30 - Creating statement
+16:27:57,183  INFO main XMLData:insert:55 - Inserting data to xml
+16:27:57,192  INFO main XMLData:insert:72 - Data is successfully inserted!
+16:30:32,870  INFO main DBConnection:<init>:19 - Init default connection
+16:30:32,872  INFO main DBConnection:<init>:24 - Default connection init
+16:30:32,872  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+16:30:33,107  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+16:30:33,109  INFO main ClientSaxParser:parseDocument:50 - Creating parser for file: d:\temp\data\clients.xml
+16:30:33,124  INFO main ClientSaxParser:parseDocument:53 - Parsing file complited
+16:31:25,742  INFO main DBConnection:<init>:19 - Init default connection
+16:31:25,744  INFO main DBConnection:<init>:24 - Default connection init
+16:31:25,744  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+16:31:26,027  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+16:31:26,032  INFO main ClientSaxParser:parseDocument:50 - Creating parser for file: d:\temp\data\clients.xml
+16:31:26,066  INFO main ClientSaxParser:parseDocument:53 - Parsing file complited
+16:32:08,627  INFO main DBConnection:<init>:19 - Init default connection
+16:32:08,628  INFO main DBConnection:<init>:24 - Default connection init
+16:32:08,629  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+16:32:08,859  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+16:32:08,860  INFO main XMLData:<init>:25 - Call default constructor. Is empty
+16:32:08,863  INFO main ClientSaxParser:parseDocument:50 - Creating parser for file: d:\temp\data\clients.xml
+16:32:08,878  INFO main ClientSaxParser:parseDocument:53 - Parsing file complited
+16:32:08,881  INFO main XMLData:insert:30 - Creating statement
+16:33:33,858  INFO main DBConnection:<init>:19 - Init default connection
+16:33:33,860  INFO main DBConnection:<init>:24 - Default connection init
+16:33:33,860  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+16:33:34,112  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+16:33:34,113  INFO main XMLData:<init>:25 - Call default constructor. Is empty
+16:33:34,115  INFO main XMLData:setConn:76 - Set connection
+16:33:34,118  INFO main ClientSaxParser:parseDocument:50 - Creating parser for file: d:\temp\data\clients.xml
+16:33:34,139  INFO main ClientSaxParser:parseDocument:53 - Parsing file complited
+16:33:34,141  INFO main XMLData:insert:30 - Creating statement
+16:33:34,210  INFO main XMLData:insert:54 - Inserting data to xml
+16:33:34,224  INFO main XMLData:insert:71 - Data is successfully inserted!
+16:33:34,224  INFO main XMLData:insert:30 - Creating statement
+16:33:34,225  INFO main XMLData:insert:54 - Inserting data to xml
+16:33:34,231  INFO main XMLData:insert:71 - Data is successfully inserted!
+16:33:34,232  INFO main XMLData:insert:30 - Creating statement
+16:33:34,232  INFO main XMLData:insert:54 - Inserting data to xml
+16:33:34,240  INFO main XMLData:insert:71 - Data is successfully inserted!
+16:33:34,240  INFO main XMLData:insert:30 - Creating statement
+16:33:34,241  INFO main XMLData:insert:54 - Inserting data to xml
+16:33:34,249  INFO main XMLData:insert:71 - Data is successfully inserted!
+16:33:55,853  INFO main DBConnection:<init>:19 - Init default connection
+16:33:55,855  INFO main DBConnection:<init>:24 - Default connection init
+16:33:55,855  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+16:33:56,118  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+16:33:56,119  INFO main XMLData:<init>:25 - Call default constructor. Is empty
+16:33:56,121  INFO main XMLData:setConn:76 - Set connection
+16:33:56,123  INFO main ClientSaxParser:parseDocument:50 - Creating parser for file: d:\temp\data\clients.xml
+16:33:56,139  INFO main ClientSaxParser:parseDocument:53 - Parsing file complited
+16:33:56,141  INFO main XMLData:insert:30 - Creating statement
+16:33:56,189  INFO main XMLData:insert:54 - Inserting data to xml
+16:33:56,199  INFO main XMLData:insert:71 - Data is successfully inserted!
+16:33:56,201  INFO main XMLData:insert:30 - Creating statement
+16:33:56,202  INFO main XMLData:insert:54 - Inserting data to xml
+16:33:56,207  INFO main XMLData:insert:71 - Data is successfully inserted!
+16:33:56,208  INFO main XMLData:insert:30 - Creating statement
+16:33:56,208  INFO main XMLData:insert:54 - Inserting data to xml
+16:33:56,215  INFO main XMLData:insert:71 - Data is successfully inserted!
+16:33:56,215  INFO main XMLData:insert:30 - Creating statement
+16:33:56,216  INFO main XMLData:insert:54 - Inserting data to xml
+16:33:56,224  INFO main XMLData:insert:71 - Data is successfully inserted!
+16:42:02,419  INFO main DBConnection:<init>:19 - Init default connection
+16:42:02,421  INFO main DBConnection:<init>:24 - Default connection init
+16:42:02,421  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+16:42:02,642  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+16:42:02,643  INFO main XMLData:<init>:25 - Call default constructor. Is empty
+16:42:02,644  INFO main XMLData:setConn:76 - Set connection
+16:42:02,646  INFO main ClientSaxParser:parseDocument:50 - Creating parser for file: d:\temp\data\clients.xml
+16:42:02,660  INFO main ClientSaxParser:parseDocument:53 - Parsing file complited
+16:42:02,663  INFO main XMLData:insert:30 - Creating statement
+16:42:02,710  INFO main XMLData:insert:54 - Inserting data to xml
+16:42:02,723  INFO main XMLData:insert:71 - Data is successfully inserted!
+16:42:02,723  INFO main XMLData:insert:30 - Creating statement
+16:42:02,724  INFO main XMLData:insert:54 - Inserting data to xml
+16:42:02,731  INFO main XMLData:insert:71 - Data is successfully inserted!
+16:42:02,731  INFO main XMLData:insert:30 - Creating statement
+16:42:02,731  INFO main XMLData:insert:54 - Inserting data to xml
+16:42:02,739  INFO main XMLData:insert:71 - Data is successfully inserted!
+16:42:02,740  INFO main XMLData:insert:30 - Creating statement
+16:42:02,740  INFO main XMLData:insert:54 - Inserting data to xml
+16:42:02,748  INFO main XMLData:insert:71 - Data is successfully inserted!
+16:49:44,453  INFO main DBConnection:<init>:19 - Init default connection
+16:49:44,455  INFO main DBConnection:<init>:24 - Default connection init
+16:49:44,455  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+16:49:44,737  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+16:49:44,738  INFO main XMLData:<init>:25 - Call default constructor. Is empty
+16:49:44,739  INFO main XMLData:setConn:76 - Set connection
+16:49:44,741  INFO main ClientSaxParser:parseDocument:50 - Creating parser for file: d:\temp\data\clients.xml
+16:49:44,756  INFO main ClientSaxParser:parseDocument:53 - Parsing file complited
+16:49:44,758  INFO main XMLData:insert:30 - Creating statement
+16:49:44,805  INFO main XMLData:insert:54 - Inserting data to xml
+16:49:44,814  INFO main XMLData:insert:71 - Data is successfully inserted!
+16:49:44,815  INFO main XMLData:insert:30 - Creating statement
+16:49:44,815  INFO main XMLData:insert:54 - Inserting data to xml
+16:49:44,822  INFO main XMLData:insert:71 - Data is successfully inserted!
+16:49:44,822  INFO main XMLData:insert:30 - Creating statement
+16:49:44,823  INFO main XMLData:insert:54 - Inserting data to xml
+16:49:44,830  INFO main XMLData:insert:71 - Data is successfully inserted!
+16:49:44,831  INFO main XMLData:insert:30 - Creating statement
+16:49:44,831  INFO main XMLData:insert:54 - Inserting data to xml
+16:49:44,839  INFO main XMLData:insert:71 - Data is successfully inserted!
+17:27:19,122  INFO main DBConnection:<init>:19 - Init default connection
+17:27:19,124  INFO main DBConnection:<init>:24 - Default connection init
+17:27:19,124  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+17:27:19,406  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+17:27:19,408  INFO main XMLData:<init>:25 - Call default constructor. Is empty
+17:27:19,412  INFO main XMLData:setConn:76 - Set connection
+17:27:19,416  INFO main ClientSaxParser:parseDocument:50 - Creating parser for file: d:\temp\data\clients.xml
+17:27:19,447  INFO main ClientSaxParser:parseDocument:53 - Parsing file complited
+17:27:19,449  INFO main XMLData:insert:30 - Creating statement
+17:27:19,502  INFO main XMLData:insert:54 - Inserting data to xml
+17:27:19,530  INFO main XMLData:insert:71 - Data is successfully inserted!
+17:27:19,530  INFO main XMLData:insert:30 - Creating statement
+17:27:19,531  INFO main XMLData:insert:54 - Inserting data to xml
+17:27:19,537  INFO main XMLData:insert:71 - Data is successfully inserted!
+17:27:19,537  INFO main XMLData:insert:30 - Creating statement
+17:27:19,537  INFO main XMLData:insert:54 - Inserting data to xml
+17:27:19,545  INFO main XMLData:insert:71 - Data is successfully inserted!
+17:27:19,546  INFO main XMLData:insert:30 - Creating statement
+17:27:19,546  INFO main XMLData:insert:54 - Inserting data to xml
+17:27:19,553  INFO main XMLData:insert:71 - Data is successfully inserted!

@@ -1,6 +1,5 @@
 
 import java.io.File;
-import java.sql.Array;
 import java.sql.Connection;
 import java.sql.SQLException;
 import java.sql.Statement;
@@ -16,6 +15,8 @@ public class XMLData {
   private String fileName;
   private List<Client> clientList = null;
 
+  private Queue queue;
+
   private File file = null;
   private Connection conn = null;
   private Statement statement = null;
@@ -24,22 +25,7 @@ public class XMLData {
     logger.info("Call default constructor. Is empty");
   }
 
-  public static void main(String[] args) throws SQLException, ClassNotFoundException, ParseException {
-
-    DBConnection conn = new DBConnection();
-    conn.connect();
-
-    ClientSaxParser saxParser = new ClientSaxParser("d:\\temp\\data\\clients.xml");
-    //saxParser.printData();
-
-    XMLData insert = new XMLData();
-    insert.setConn(conn.getConnection());
-    insert.setClientList(saxParser.getClientList());
-    insert.insert();
-    conn.close();
-  }
-
-  public void insert() throws SQLException, ParseException {
+  public void insert(Client c) throws SQLException, ParseException {
 
     logger.info("Creating statement");
     statement = conn.createStatement();
@@ -48,34 +34,33 @@ public class XMLData {
       System.exit(0);
     }
 
-    for (Client client : clientList) {
-      System.out.println("//----------------------------------------------------------------------------------------------------------------------");
+    //for (Client client : clientList) {
+//      System.out.println("//----------------------------------------------------------------------------------------------------------------------");
+//
+//      System.out.println("First Name: " + client.getName());
+//      System.out.println("SurName: " + client.getSurname());
+//      System.out.println("Date of birth: " + client.getDateOfBirth());
+//      System.out.println("Cards: " + client.getCards());
+//      System.out.println("Accounts: " + client.getAccounts());
+    Client client = c;
 
-      System.out.println("First Name: " + client.getName());
-      System.out.println("SurName: " + client.getSurname());
-      System.out.println("Date of birth: " + client.getDateOfBirth());
-      System.out.println("Cards: " + client.getCards());
-      System.out.println("Accounts: " + client.getAccounts());
-
-      SimpleDateFormat sdf = new SimpleDateFormat("dd-MMM-yyyy");
+    SimpleDateFormat sdf = new SimpleDateFormat("dd-MMM-yyyy");
       //Array array = conn.createArrayOf("NVARCHAR2", client.getCards().toArray());
 
-      System.out.println("ARRAY OF CARDS >>> " + client.getCards().toString());
-      System.out.println("INSERT INTO CLIENTS(NAME, SURNAME, DATEOFBIRTH) " + "VALUES('" + client.getName()
-              + "', '" + client.getSurname() + "', '" + sdf.format(client.getDateOfBirth()) + "')");
+    //System.out.println("ARRAY OF CARDS >>> " + client.getCards().toString());
+    System.out.println("INSERT INTO CLIENTS(NAME, SURNAME, DATEOFBIRTH) " + "VALUES('" + client.getName()
+            + "', '" + client.getSurname() + "', '" + sdf.format(client.getDateOfBirth()) + "')");
 
-      logger.info("Inserting data to xml");
+    logger.info("Inserting data to xml");
 
-      statement.executeUpdate("INSERT INTO CLIENTS(NAME, SURNAME, DATEOFBIRTH) " + "VALUES('" + client.getName()
-              + "', '" + client.getSurname() + "', '" + sdf.format(client.getDateOfBirth()) + "')");
+    statement.executeUpdate("INSERT INTO CLIENTS(NAME, SURNAME, DATEOFBIRTH) " + "VALUES('" + client.getName()
+            + "', '" + client.getSurname() + "', '" + sdf.format(client.getDateOfBirth()) + "')");
 
 //----------------------------------------------------------------------------------------------------------------------
-      System.out.println("CALL NEW_CLIENT_CARDS_ACCOUNTS('" + client.getName() + "', '" + client.getSurname() + "', '"
-              + sdf.format(client.getDateOfBirth()) + "', " + client.getCards().toArray() + ", " + client.getAccounts().toArray() + ");");
-      
+//      System.out.println("CALL NEW_CLIENT_CARDS_ACCOUNTS('" + client.getName() + "', '" + client.getSurname() + "', '"
+//              + sdf.format(client.getDateOfBirth()) + "', " + client.getCards().toArray() + ", " + client.getAccounts().toArray() + ");");
 //      statement.executeUpdate("CALL FULL_CLIENT('" + client.getName() + "', '" + client.getSurname() + "', '"
 //              + sdf.format(client.getDateOfBirth()) + "', " + client.getCards().toArray() + ", " + client.getAccounts().toArray() + ");");
-
 //      for (int i = 0; i < client.getCards().size(); i++) {
 //        System.out.println("INSERT INTO CARDS(CARD) VALUES('" + client.getCards().get(i) + "')");
 //        statement.executeUpdate("INSERT INTO CARDS(CARD) VALUES('" + client.getCards().toArray() + "')");
@@ -83,8 +68,8 @@ public class XMLData {
 //      for (int i = 0; i < client.getAccounts().size(); i++) {
 //        statement.executeUpdate("INSERT INTO ACCOUNTS(ID_CLIENT, ACCOUNT) VALUES(CLIENTS.ID, " + client.getAccounts().get(i) + ")");
 //      }
-      logger.info("Data is successfully inserted!");
-    }
+    logger.info("Data is successfully inserted!");
+    //}
   }
 
   public void setConn(Connection conn) {
@@ -98,5 +83,9 @@ public class XMLData {
 
   public void setClientList(List<Client> clientList) {
     this.clientList = clientList;
+  }
+
+  public void setQueue(Queue queue) {
+    this.queue = queue;
   }
 }

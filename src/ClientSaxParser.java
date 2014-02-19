@@ -1,5 +1,6 @@
 
 import java.io.IOException;
+import java.sql.SQLException;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -14,7 +15,7 @@ import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
 
-public class ClientSaxParser extends DefaultHandler implements Runnable {
+public class ClientSaxParser extends DefaultHandler {
 
   static Logger logger = Logger.getLogger(ClientSaxParser.class);
 
@@ -31,7 +32,15 @@ public class ClientSaxParser extends DefaultHandler implements Runnable {
     return clientList;
   }
 
+  public void getClients() throws SQLException, ClassNotFoundException, ParseException {
+    for (Client tempC : getClientList()) {
+      queue.put(tempC);
+      queue.get();
+    }
+  }
+
   public ClientSaxParser(String xmlFile) {
+    logger.info("SAXParser created for file: " + xmlFile);
     this.fileName = xmlFile;
     clientList = new ArrayList<Client>();
   }
@@ -77,7 +86,6 @@ public class ClientSaxParser extends DefaultHandler implements Runnable {
 
     if (qName.equals("client")) {
       clientList.add(client);
-      //queue.put(client);
     }
     if (qName.equalsIgnoreCase("name")) {
       client.setName(tmpValue);
@@ -102,12 +110,5 @@ public class ClientSaxParser extends DefaultHandler implements Runnable {
 
   public void setQueue(Queue queue) {
     this.queue = queue;
-  }
-
-  @Override
-  public void run() {
-    while (true) {
-      queue.put(client);
-    }
   }
 }

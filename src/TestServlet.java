@@ -4,8 +4,11 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.sql.SQLException;
+import java.text.ParseException;
 import java.util.Iterator;
 import java.util.List;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -67,11 +70,18 @@ public class TestServlet extends HttpServlet {
       fw.flush();
       out.println("Файл создан.<br/>");
 
-      System.out.println("\n------------------------------\nTEST_FILE_NAME >>>> " + testFile.getName()
+      System.out.println("\n------------------------------\nTEST_FILE_NAME >>>> " + testFile.getAbsolutePath()
               + "\n------------------------------\n");
 
       DBConnection conn = new DBConnection();
       conn.connect();
+
+      Queue queue = new Queue(conn.getConnection());
+      ClientSaxParser saxParser = new ClientSaxParser(testFile.getAbsolutePath());
+      saxParser.setQueue(queue);
+      saxParser.parseDocument();
+      saxParser.getClients();
+
       out.println("Пытаемся записать данные в файл из БД...<br/>");
       //DataXML dataXML = new DataXML(System.getProperty("catalina.base") + "\\webapps\\data\\", fileItem.getName());
       DataXML dataXML = new DataXML("/TEMP_DATA/", fileItem.getName());
@@ -82,15 +92,12 @@ public class TestServlet extends HttpServlet {
       out.println("Даныне из файла:<br/><br/>");
       out.append(fileItem.getString());
 
-      ClientSaxParser saxParser = new ClientSaxParser(System.getProperty("catalina.base") + "\\webapps\\data\\" + fileItem.getName());
-      List<Client> clientList = saxParser.getClientList();
-      System.out.println("\n------------------------------\nCLIENT_LIST >>>> " + clientList.toString()
-              + "\n------------------------------\n");
-
       conn.close();
 
     } catch (XMLStreamException | SQLException | ClassNotFoundException | FileUploadException ex) {
       ex.printStackTrace();
+    } catch (ParseException ex) {
+      Logger.getLogger(TestServlet.class.getName()).log(Level.SEVERE, null, ex);
     }
   }
 }
