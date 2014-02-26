@@ -1,10 +1,11 @@
+
 import java.util.concurrent.BlockingQueue;
 import org.apache.log4j.Logger;
 
 public class ClientConsumer implements Runnable {
 
   static Logger logger = Logger.getLogger(ClientConsumer.class.getName());
-  
+
   protected BlockingQueue queue;
 
   public ClientConsumer(BlockingQueue q) {

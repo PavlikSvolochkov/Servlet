@@ -1,3 +1,4 @@
+
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.List;
@@ -80,7 +81,8 @@ public class ClientHandler extends DefaultHandler {
   @Override
   public void endDocument() throws SAXException {
     System.out.println("END DOCUMENT PARSING");
-    for(Client client : clientList)
+    for (Client client : clientList) {
       client.toString();
+    }
   }
 }

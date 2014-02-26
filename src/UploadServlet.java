@@ -1,3 +1,4 @@
+
 import java.io.File;
 import java.io.PrintWriter;
 import java.util.Iterator;
@@ -75,7 +76,7 @@ public class UploadServlet extends HttpServlet {
           String contentType = fi.getContentType();
           boolean isInMemory = fi.isInMemory();
           long sizeInBytes = fi.getSize();
-          System.out.println("FILE PARAMETERS:: " + " " + fieldName + " "  + fileName + " "  + contentType + " "  + isInMemory + " "  + sizeInBytes);
+          System.out.println("FILE PARAMETERS:: " + " " + fieldName + " " + fileName + " " + contentType + " " + isInMemory + " " + sizeInBytes);
           // Write the file
           if (fileName.lastIndexOf("\\") >= 0) {
             file = new File(filePath + fileName.substring(fileName.lastIndexOf("\\")));

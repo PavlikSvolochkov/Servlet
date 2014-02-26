@@ -1,3 +1,4 @@
+
 import java.io.FileWriter;
 import java.io.IOException;
 import java.sql.Connection;
@@ -38,7 +39,7 @@ public class TestDataXML {
     outputFactory = XMLOutputFactory.newInstance();
 
     try {
-      
+
       writer = outputFactory.createXMLStreamWriter(new FileWriter("d:\\temp\\data\\output2.xml"));
 
       this.stmtClient = conn.createStatement();

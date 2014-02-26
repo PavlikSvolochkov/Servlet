@@ -1,9 +1,10 @@
+
 import java.util.concurrent.BlockingQueue;
 
 public class ClientProducer implements Runnable {
 
   String tempStr = null;
-  
+
   Client client;
 
   protected BlockingQueue queue = null;
@@ -16,7 +17,7 @@ public class ClientProducer implements Runnable {
   @Override
   public void run() {
     while (true) {
-      try {        
+      try {
         System.out.println("Producer put(): " + tempStr);
         queue.put(tempStr);
       } catch (InterruptedException e) {

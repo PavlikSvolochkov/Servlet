@@ -1,3 +1,4 @@
+
 import java.io.FileWriter;
 import java.io.IOException;
 import java.sql.Connection;
@@ -31,15 +32,6 @@ public class DataXML {
 
   XMLOutputFactory outputFactory = null;
   XMLStreamWriter writer = null;
-
-  public static void main(String[] args) throws XMLStreamException, IOException, SQLException, ClassNotFoundException {
-    DBConnection connection = new DBConnection();
-    connection.connect();
-    DataXML dataXML = new DataXML("d:\\temp\\data\\", "output.xml");
-    dataXML.conn = connection.getConnection();
-    dataXML.build();
-    dataXML.toXML();
-  }
 
   public DataXML(String loc, String name) throws XMLStreamException, IOException {
     logger.info("Set filelocation and filename");
