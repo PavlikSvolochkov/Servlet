@@ -1,13 +1,12 @@
 
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 public class Client {
 
   private String name;
   private String surname;
-  private Date dateOfBirth;
+  private String dateOfBirth;
   private List<String> cards;
   private List<String> accounts;
 
@@ -32,12 +31,12 @@ public class Client {
     this.surname = surname;
   }
 
-  public Date getDateOfBirth() {
+  public String getDateOfBirth() {
     return dateOfBirth;
   }
 
-  public void setDateOfBirth(Date dateOfBirth) {
-    this.dateOfBirth = dateOfBirth;
+  public void setDateOfBirth(String birth) {
+    this.dateOfBirth = birth;
   }
 
   public List<String> getCards() {
@@ -58,7 +57,7 @@ public class Client {
 
   @Override
   public String toString() {
-    return "\nClient:" + "\nName: " + getName() + "\nSurname: " + getSurname() + "\nDate of birth: " + getDateOfBirth()
+    return "\nName: " + getName() + "\nSurname: " + getSurname() + "\nDate of birth: " + getDateOfBirth()
             + "\nCards: " + getCards() + "\nAccounts: " + getAccounts();
   }
 }

@@ -1,4 +1,3 @@
-
 import java.io.FileInputStream;
 import java.io.IOException;
 import javax.servlet.http.HttpServlet;
@@ -18,9 +17,9 @@ public class DownloadServlet extends HttpServlet {
   @Override
   public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-    DBConnection connection = new DBConnection();
+    DBConnection conn = new DBConnection();
     try {
-      connection.connect();
+      conn.connect();
     } catch (SQLException | ClassNotFoundException ex) {
       logger.error("ERROR CONNECTION");
     }
@@ -43,7 +42,7 @@ public class DownloadServlet extends HttpServlet {
     FileInputStream fileInputStream = new FileInputStream(inputFile);
     try {
       DataXML dataXML = new DataXML(filePath, fileName);
-      dataXML.conn = connection.getConnection();
+      dataXML.setConnection(conn.getConnection());
       dataXML.build();
       dataXML.toXML();
     } catch (XMLStreamException | SQLException | ClassNotFoundException ex) {

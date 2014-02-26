@@ -1,10 +1,9 @@
-
 import java.io.IOException;
-import java.sql.SQLException;
-import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.ArrayBlockingQueue;
+import java.util.concurrent.BlockingQueue;
 
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.parsers.SAXParser;
@@ -15,7 +14,7 @@ import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
 
-public class ClientSaxParser extends DefaultHandler {
+public class ClientSaxParser extends DefaultHandler implements Runnable {
 
   static Logger logger = Logger.getLogger(ClientSaxParser.class);
 
@@ -25,24 +24,29 @@ public class ClientSaxParser extends DefaultHandler {
   private List<Client> clientList = null;
   private Client client = null;
 
-  private Queue queue;
-  SimpleDateFormat sdf = new SimpleDateFormat("DD-MM-YY");
+  private BlockingQueue queue = new ArrayBlockingQueue<Client>(1024);
+  SimpleDateFormat sdf = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss.S");
 
-  public List<Client> getClientList() {
-    return clientList;
-  }
-
-  public void getClients() throws SQLException, ClassNotFoundException, ParseException {
-    for (Client tempC : getClientList()) {
-      queue.put(tempC);
-      queue.get();
-    }
-  }
-
-  public ClientSaxParser(String xmlFile) {
+  public ClientSaxParser(String xmlFile, BlockingQueue q) {
     logger.info("SAXParser created for file: " + xmlFile);
+    this.queue = q;
     this.fileName = xmlFile;
     clientList = new ArrayList<Client>();
+  }
+
+  @Override
+  public void run() {
+    logger.info("Start ClientSaxParser run() method.");
+    SAXParserFactory factory = SAXParserFactory.newInstance();
+    try {
+      logger.info("Parse file...");
+      SAXParser parser = factory.newSAXParser();
+      parser.parse(fileName, this);
+      logger.info("Parsing file complited");
+    } catch (ParserConfigurationException | SAXException | IOException e) {
+      logger.error("ERROR PARSE DOCUMENT", e);
+    }
+    System.out.println("//----------------------------------------------------------------------------------------------------------------------");
   }
 
   public void parseDocument() {
@@ -63,15 +67,23 @@ public class ClientSaxParser extends DefaultHandler {
     }
   }
 
+  public List<Client> getClientList() {
+    return clientList;
+  }
+
+  public void setQueue(BlockingQueue queue) {
+    this.queue = queue;
+  }
+
   @Override
   public void startElement(String uri, String localName, String qName, Attributes attributes) throws SAXException {
 
     if (qName.equalsIgnoreCase("client")) {
       client = new Client();
       if (clientList == null) {
-        logger.info("Creating synchronizedList");
+        logger.info("Creating ClientList");
         clientList = new ArrayList<Client>();
-        logger.info("SynchronizedList is created");
+        logger.info("ClientList is created");
       }
     }
   }
@@ -86,6 +98,13 @@ public class ClientSaxParser extends DefaultHandler {
 
     if (qName.equals("client")) {
       clientList.add(client);
+      try {
+        System.out.println("put Client into the queue...");
+        queue.put(client);
+        System.out.println("put Client complited");
+      } catch (InterruptedException ex) {
+        logger.info("ERROR in queue.put() method.");
+      }
     }
     if (qName.equalsIgnoreCase("name")) {
       client.setName(tmpValue);
@@ -94,11 +113,7 @@ public class ClientSaxParser extends DefaultHandler {
       client.setSurname(tmpValue);
     }
     if (qName.equalsIgnoreCase("dateOfBirth")) {
-      try {
-        client.setDateOfBirth(sdf.parse(tmpValue));
-      } catch (ParseException e) {
-        logger.error("ERROR PARSE DATE", e);
-      }
+      client.setDateOfBirth(tmpValue);
     }
     if (qName.equalsIgnoreCase("card")) {
       client.getCards().add(tmpValue);
@@ -108,7 +123,13 @@ public class ClientSaxParser extends DefaultHandler {
     }
   }
 
-  public void setQueue(Queue queue) {
-    this.queue = queue;
+  @Override
+  public void startDocument() throws SAXException {
+    System.out.println("START DOCUMENT PARSING");
+  }
+
+  @Override
+  public void endDocument() throws SAXException {
+    System.out.println("END DOCUMENT PARSING");
   }
 }

@@ -1,11 +1,9 @@
-
 import java.io.FileWriter;
 import java.io.IOException;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
-import java.util.Date;
 import javax.xml.stream.XMLOutputFactory;
 import javax.xml.stream.XMLStreamException;
 import javax.xml.stream.XMLStreamWriter;
@@ -21,27 +19,28 @@ public class DataXML {
   private String fileLocation = "d:/temp/";
   private String fileName = "clients.xml";
 
-  Connection conn = null;
+  private Connection conn = null;
 
-  ResultSet clientRS = null;
-  ResultSet cardsRS = null;
-  ResultSet accountsRS = null;
+  private ResultSet clientRS = null;
+  private ResultSet cardsRS = null;
+  private ResultSet accountsRS = null;
 
-  Statement stmtClient = null;
-  Statement stmtCards = null;
-  Statement stmtAccounts = null;
+  private Statement stmtClient = null;
+  private Statement stmtCards = null;
+  private Statement stmtAccounts = null;
 
   XMLOutputFactory outputFactory = null;
   XMLStreamWriter writer = null;
 
-//  public static void main(String[] args) throws XMLStreamException, IOException, SQLException, ClassNotFoundException {
-//    DBConnection connection = new DBConnection();
-//    connection.connect();
-//    DataXML dataXML = new DataXML("d:\\temp\\data\\", "output.xml");
-//    dataXML.conn = connection.getConnection();
-//    dataXML.build();
-//    dataXML.toXML();
-//  }
+  public static void main(String[] args) throws XMLStreamException, IOException, SQLException, ClassNotFoundException {
+    DBConnection connection = new DBConnection();
+    connection.connect();
+    DataXML dataXML = new DataXML("d:\\temp\\data\\", "output.xml");
+    dataXML.conn = connection.getConnection();
+    dataXML.build();
+    dataXML.toXML();
+  }
+
   public DataXML(String loc, String name) throws XMLStreamException, IOException {
     logger.info("Set filelocation and filename");
     setFileLocation(loc);
@@ -53,7 +52,7 @@ public class DataXML {
   }
 
   void build() throws SQLException, ClassNotFoundException {
-    logger.info("statements and result sets");
+    logger.info("Creating statements and resultsets");
     this.stmtClient = conn.createStatement();
     this.stmtCards = conn.createStatement();
     this.stmtAccounts = conn.createStatement();
@@ -61,7 +60,7 @@ public class DataXML {
     this.clientRS = stmtClient.executeQuery(getClientQuery());
     this.cardsRS = stmtCards.executeQuery(getCardsQuery());
     this.accountsRS = stmtAccounts.executeQuery(getAccountQuery());
-    logger.info("statements and result is created");
+    logger.info("statements and resultsets is created");
   }
 
   public void toXML() throws XMLStreamException, IOException, SQLException, ClassNotFoundException {
@@ -74,13 +73,13 @@ public class DataXML {
       int idClient = clientRS.getInt("ID");
       String name = clientRS.getString("NAME");
       String surname = clientRS.getString("SURNAME");
-      Date birthDate = clientRS.getDate("DATEOFBIRTH");
-//      int card = cardsRS.getInt("CARD");
-//      int account = accountsRS.getInt("ACCOUNT");
+      String birthDate = clientRS.getString("DATEOFBIRTH");
+
       // print the results
       System.out.format("%s, %s, %s, %s\n", idClient, name, surname, birthDate);
 
       writer.writeStartElement("client");
+      writer.writeAttribute("id", String.valueOf(clientRS.getInt("ID")));
 
       writer.writeStartElement("name");
       writer.writeCharacters(clientRS.getString("NAME"));

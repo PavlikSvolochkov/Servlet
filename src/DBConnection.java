@@ -1,4 +1,3 @@
-
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -7,7 +6,7 @@ import org.apache.log4j.Logger;
 public class DBConnection {
 
   static Logger logger = Logger.getLogger(DBConnection.class.getName());
-  
+
   private String url;
   private String user;
   private String pass;
@@ -17,13 +16,9 @@ public class DBConnection {
 
   public DBConnection() {
     logger.info("Init default connection");
-    //this.url = "jdbc:oracle:thin:@193.8.203.37:1522/PS";
-    this.url = "jdbc:oracle:thin:@localhost:1521/orcl";
-    //this.user = "monservice";
-    this.user = "SYS as SYSDBA";
-    
-    //this.pass = "monservice";
-    this.pass = "111";
+    this.url = "jdbc:oracle:thin:@193.8.203.37:1522/PS";
+    this.user = "monservice";
+    this.pass = "monservice";
     this.driver = "oracle.jdbc.driver.OracleDriver";
     logger.info("Default connection init");
   }
@@ -39,6 +34,7 @@ public class DBConnection {
     Class.forName(driver);
     this.conn = DriverManager.getConnection(url, user, pass);
     logger.info("Connection to: " + url + " is opened");
+    System.out.println("//----------------------------------------------------------------------------------------------------------------------");
   }
 
   public void close() throws SQLException {

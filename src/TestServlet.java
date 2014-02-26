@@ -7,13 +7,14 @@ import java.sql.SQLException;
 import java.text.ParseException;
 import java.util.Iterator;
 import java.util.List;
+import java.util.concurrent.ArrayBlockingQueue;
+import java.util.concurrent.BlockingQueue;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.xml.stream.XMLStreamException;
 
 import org.apache.commons.fileupload.FileItem;
 import org.apache.commons.fileupload.FileItemFactory;
@@ -24,6 +25,16 @@ import org.apache.commons.fileupload.servlet.ServletFileUpload;
 public class TestServlet extends HttpServlet {
 
   private static final long serialVersionUID = 1L;
+
+  List<FileItem> fields;
+  Iterator<FileItem> iterator;
+
+  FileItemFactory factory;
+  ServletFileUpload upload;
+
+  File testFile;
+  FileWriter fw;
+  FileItem fileItem;
 
   @Override
   public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
@@ -46,56 +57,43 @@ public class TestServlet extends HttpServlet {
     }
     out.println("Пытаешься закачать файл на сервер? О.о<br/>");
 
-    FileItemFactory factory = new DiskFileItemFactory();
-    ServletFileUpload upload = new ServletFileUpload(factory);
+    factory = new DiskFileItemFactory();
+    upload = new ServletFileUpload(factory);
 
     try {
-      List<FileItem> fields = upload.parseRequest(request);
+      fields = upload.parseRequest(request);
       out.println("Количество закаченных файлов: " + fields.size() + "<br/><br/>");
-
-      Iterator<FileItem> it = fields.iterator();
-
-      if (!it.hasNext()) {
+      iterator = fields.iterator();
+      if (!iterator.hasNext()) {
         out.println("Файл не указан");
         return;
       }
-
-      FileItem fileItem = it.next();
-      //  Сохраняем файл в catalina.base\webapps\data\ 
-      //File testFile = new File(System.getProperty("catalina.base") + "\\webapps\\data\\" + fileItem.getName());
-      File testFile = new File("/TEMP_DATA/" + fileItem.getName());
+      fileItem = iterator.next();
+      testFile = new File("/TEMP_DATA/" + fileItem.getName());
       testFile.createNewFile();
-      FileWriter fw = new FileWriter(testFile);
+      fw = new FileWriter(testFile);
       fw.append(fileItem.getString());
       fw.flush();
-      out.println("Файл создан.<br/>");
+    } catch (FileUploadException ex) {
+      Logger.getLogger(TestServlet.class.getName()).log(Level.SEVERE, null, ex);
+    }
 
-      System.out.println("\n------------------------------\nTEST_FILE_NAME >>>> " + testFile.getAbsolutePath()
-              + "\n------------------------------\n");
+    out.println("Файл создан.<br/>");
+    System.out.println("\nTEST_FILE_NAME >>>> " + testFile.getAbsolutePath());
 
+    BlockingQueue<Client> clientsQueue = new ArrayBlockingQueue(4096);
+
+    try {
       DBConnection conn = new DBConnection();
       conn.connect();
+      ClientSaxParser parser = new ClientSaxParser(testFile.getAbsolutePath(), clientsQueue);
+      XMLData data = new XMLData(clientsQueue, conn.getConnection());
+      data.setConn(conn.getConnection());
 
-      Queue queue = new Queue(conn.getConnection());
-      ClientSaxParser saxParser = new ClientSaxParser(testFile.getAbsolutePath());
-      saxParser.setQueue(queue);
-      saxParser.parseDocument();
-      saxParser.getClients();
-
-      out.println("Пытаемся записать данные в файл из БД...<br/>");
-      //DataXML dataXML = new DataXML(System.getProperty("catalina.base") + "\\webapps\\data\\", fileItem.getName());
-      DataXML dataXML = new DataXML("/TEMP_DATA/", fileItem.getName());
-      dataXML.setConnection(conn.getConnection());
-      dataXML.build();
-      dataXML.toXML();
-      out.println("Вроде получилось. =)<br/>");
-      out.println("Даныне из файла:<br/><br/>");
-      out.append(fileItem.getString());
-
-      conn.close();
-
-    } catch (XMLStreamException | SQLException | ClassNotFoundException | FileUploadException ex) {
-      ex.printStackTrace();
+      parser.run();
+      data.run();
+    } catch (SQLException | ClassNotFoundException ex) {
+      System.out.println("");
     } catch (ParseException ex) {
       Logger.getLogger(TestServlet.class.getName()).log(Level.SEVERE, null, ex);
     }

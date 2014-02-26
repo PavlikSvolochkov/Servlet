@@ -1,91 +1,69 @@
-
-import java.io.File;
 import java.sql.Connection;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.List;
+import java.util.concurrent.BlockingQueue;
 import org.apache.log4j.Logger;
 
-public class XMLData {
+public class XMLData implements Runnable {
 
   static Logger logger = Logger.getLogger(XMLData.class);
 
-  private String fileName;
-  private List<Client> clientList = null;
-
-  private Queue queue;
-
-  private File file = null;
+  Client client;
+  BlockingQueue queue;
   private Connection conn = null;
   private Statement statement = null;
 
-  public XMLData() {
-    logger.info("Call default constructor. Is empty");
+  public XMLData(BlockingQueue q, Connection c) throws ParseException, SQLException {
+    logger.info("Call default constructor.");
+    this.queue = q;
+    this.conn = c;
+    this.statement = conn.createStatement();
   }
 
-  public void insert(Client c) throws SQLException, ParseException {
+  @Override
+  public void run() {
+    logger.info("Start run() method.");
+    while (!queue.isEmpty()) {
+      try {
+        client = (Client) queue.take();
+        statement.executeUpdate("CALL MY_TEST_PACKAGE.INSERT_CLIENT('" + client.getName() + "', '"
+                + client.getSurname() + "', '" + client.getDateOfBirth() + "')");
 
-    logger.info("Creating statement");
-    statement = conn.createStatement();
-    if (statement == null) {
-      logger.error("Statement is null");
-      System.exit(0);
+        for (int i = 0; i < client.getCards().size(); i++) {
+          statement.executeUpdate("CALL MY_TEST_PACKAGE.INSERT_CARDS('" + client.getCards().get(i) + "')");
+        }
+
+        for (int i = 0; i < client.getAccounts().size(); i++) {
+          statement.executeUpdate("CALL MY_TEST_PACKAGE.INSERT_ACCOUNTS('" + client.getAccounts().get(i) + "')");
+        }
+      } catch (InterruptedException | SQLException ex) {
+        logger.error("ERROR INSERING DATA");
+        ex.printStackTrace();
+      }
     }
-
-    //for (Client client : clientList) {
-//      System.out.println("//----------------------------------------------------------------------------------------------------------------------");
-//
-//      System.out.println("First Name: " + client.getName());
-//      System.out.println("SurName: " + client.getSurname());
-//      System.out.println("Date of birth: " + client.getDateOfBirth());
-//      System.out.println("Cards: " + client.getCards());
-//      System.out.println("Accounts: " + client.getAccounts());
-    Client client = c;
-
-    SimpleDateFormat sdf = new SimpleDateFormat("dd-MMM-yyyy");
-      //Array array = conn.createArrayOf("NVARCHAR2", client.getCards().toArray());
-
-    //System.out.println("ARRAY OF CARDS >>> " + client.getCards().toString());
-    System.out.println("INSERT INTO CLIENTS(NAME, SURNAME, DATEOFBIRTH) " + "VALUES('" + client.getName()
-            + "', '" + client.getSurname() + "', '" + sdf.format(client.getDateOfBirth()) + "')");
-
-    logger.info("Inserting data to xml");
-
-    statement.executeUpdate("INSERT INTO CLIENTS(NAME, SURNAME, DATEOFBIRTH) " + "VALUES('" + client.getName()
-            + "', '" + client.getSurname() + "', '" + sdf.format(client.getDateOfBirth()) + "')");
-
-//----------------------------------------------------------------------------------------------------------------------
-//      System.out.println("CALL NEW_CLIENT_CARDS_ACCOUNTS('" + client.getName() + "', '" + client.getSurname() + "', '"
-//              + sdf.format(client.getDateOfBirth()) + "', " + client.getCards().toArray() + ", " + client.getAccounts().toArray() + ");");
-//      statement.executeUpdate("CALL FULL_CLIENT('" + client.getName() + "', '" + client.getSurname() + "', '"
-//              + sdf.format(client.getDateOfBirth()) + "', " + client.getCards().toArray() + ", " + client.getAccounts().toArray() + ");");
-//      for (int i = 0; i < client.getCards().size(); i++) {
-//        System.out.println("INSERT INTO CARDS(CARD) VALUES('" + client.getCards().get(i) + "')");
-//        statement.executeUpdate("INSERT INTO CARDS(CARD) VALUES('" + client.getCards().toArray() + "')");
-//      }
-//      for (int i = 0; i < client.getAccounts().size(); i++) {
-//        statement.executeUpdate("INSERT INTO ACCOUNTS(ID_CLIENT, ACCOUNT) VALUES(CLIENTS.ID, " + client.getAccounts().get(i) + ")");
-//      }
-    logger.info("Data is successfully inserted!");
-    //}
+    try {
+      logger.info("Closing statement and connection...");
+      statement.close();
+      conn.close();
+      logger.info("Statement and connection is closed");
+    } catch (SQLException ex) {
+      logger.error("ERROR CLOSING STATEMENT");
+      ex.printStackTrace();
+    }
+    logger.info("Stop run() method.");
   }
 
-  public void setConn(Connection conn) {
+  public void setConn(Connection c) {
     logger.info("Set connection");
-    this.conn = conn;
+    this.conn = c;
     if (this.conn == null) {
       logger.error("Connection is null");
       System.exit(0);
     }
   }
 
-  public void setClientList(List<Client> clientList) {
-    this.clientList = clientList;
-  }
-
-  public void setQueue(Queue queue) {
-    this.queue = queue;
+  public void setQueue(BlockingQueue q) {
+    this.queue = q;
   }
 }
