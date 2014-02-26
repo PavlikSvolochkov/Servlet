@@ -10,8 +10,8 @@ public class XMLData implements Runnable {
 
   static Logger logger = Logger.getLogger(XMLData.class);
 
-  Client client;
-  BlockingQueue queue;
+  private Client client;
+  private BlockingQueue queue;
   private Connection conn = null;
   private Statement statement = null;
 

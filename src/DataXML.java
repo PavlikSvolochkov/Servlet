@@ -123,9 +123,9 @@ public class DataXML {
     }
   }
 
-  public void setFileLocation(String fileLocation) {
-    if (!"".equals(fileLocation)) {
-      this.fileLocation = fileLocation;
+  public void setFileLocation(String fileLoc) {
+    if (!"".equals(fileLoc)) {
+      this.fileLocation = fileLoc;
     }
   }
 
@@ -153,16 +153,16 @@ public class DataXML {
     return accountsRS;
   }
 
-  public void setClienQuery(String clientQuery) {
-    this.clientQuery = clientQuery;
+  public void setClienQuery(String clientQ) {
+    this.clientQuery = clientQ;
   }
 
-  public void setCardsQuery(String cardsQuery) {
-    this.cardsQuery = cardsQuery;
+  public void setCardsQuery(String cardsQ) {
+    this.cardsQuery = cardsQ;
   }
 
-  public void setAccountQuery(String accountQuery) {
-    this.accountQuery = accountQuery;
+  public void setAccountQuery(String accountQ) {
+    this.accountQuery = accountQ;
   }
 
   public void setConnection(Connection conn) {

@@ -25,8 +25,7 @@ public class ClientSaxParser extends DefaultHandler implements Runnable {
   private List<Client> clientList = null;
   private Client client = null;
 
-  private BlockingQueue queue = new ArrayBlockingQueue<Client>(1024);
-  SimpleDateFormat sdf = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss.S");
+  private BlockingQueue queue = new ArrayBlockingQueue<>(1024);
 
   public ClientSaxParser(String xmlFile, BlockingQueue q) {
     logger.info("SAXParser created for file: " + xmlFile);
@@ -83,7 +82,7 @@ public class ClientSaxParser extends DefaultHandler implements Runnable {
       client = new Client();
       if (clientList == null) {
         logger.info("Creating ClientList");
-        clientList = new ArrayList<Client>();
+        clientList = new ArrayList();
         logger.info("ClientList is created");
       }
     }

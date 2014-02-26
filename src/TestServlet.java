@@ -26,15 +26,15 @@ public class TestServlet extends HttpServlet {
 
   private static final long serialVersionUID = 1L;
 
-  List<FileItem> fields;
-  Iterator<FileItem> iterator;
+  private List<FileItem> fields;
+  private Iterator<FileItem> iterator;
 
-  FileItemFactory factory;
-  ServletFileUpload upload;
+  private FileItemFactory factory;
+  private ServletFileUpload upload;
 
-  File testFile;
-  FileWriter fw;
-  FileItem fileItem;
+  private File testFile;
+  private FileWriter fw;
+  private FileItem fileItem;
 
   @Override
   public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
@@ -92,10 +92,8 @@ public class TestServlet extends HttpServlet {
 
       parser.run();
       data.run();
-    } catch (SQLException | ClassNotFoundException ex) {
-      System.out.println("");
-    } catch (ParseException ex) {
-      Logger.getLogger(TestServlet.class.getName()).log(Level.SEVERE, null, ex);
+    } catch (SQLException | ClassNotFoundException | ParseException ex) {
+      ex.printStackTrace();
     }
   }
 }
