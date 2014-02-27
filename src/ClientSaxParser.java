@@ -1,6 +1,5 @@
 
 import java.io.IOException;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.ArrayBlockingQueue;
@@ -19,6 +18,7 @@ public class ClientSaxParser extends DefaultHandler implements Runnable {
 
   static Logger logger = Logger.getLogger(ClientSaxParser.class);
 
+  int clientCount = 0;
   private String tmpValue;
   private String fileName;
 
@@ -98,10 +98,9 @@ public class ClientSaxParser extends DefaultHandler implements Runnable {
 
     if (qName.equals("client")) {
       clientList.add(client);
+      clientCount++;
       try {
-        System.out.println("put Client into the queue...");
         queue.put(client);
-        System.out.println("put Client complited");
       } catch (InterruptedException ex) {
         logger.info("ERROR in queue.put() method.");
       }
@@ -125,6 +124,7 @@ public class ClientSaxParser extends DefaultHandler implements Runnable {
 
   @Override
   public void startDocument() throws SAXException {
+    System.out.println("Clients inserted in queue: " + clientCount);
     System.out.println("START DOCUMENT PARSING");
   }
 

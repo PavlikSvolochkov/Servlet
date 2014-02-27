@@ -16,8 +16,8 @@ public class UploadServlet extends HttpServlet {
 
   private boolean isMultipart;
   private String filePath;
-  private int maxFileSize = 1024 * 1024 * 1024;
-  private int maxMemSize = 14 * 1024;
+  private final int MAX_FILE_SIZE = 1024 * 1024 * 1024;
+  private final int MAX_MEMORY_SIZE = 24 * 1024;
   private File file;
 
   @Override
@@ -45,14 +45,14 @@ public class UploadServlet extends HttpServlet {
     }
     DiskFileItemFactory factory = new DiskFileItemFactory();
     // maximum size that will be stored in memory
-    factory.setSizeThreshold(maxMemSize);
+    factory.setSizeThreshold(MAX_MEMORY_SIZE);
     // Location to save data that is larger than maxMemSize.
     factory.setRepository(new File("c:\\temp"));
 
     // Create a new file upload handler
     ServletFileUpload upload = new ServletFileUpload(factory);
     // maximum file size to be uploaded.
-    upload.setSizeMax(maxFileSize);
+    upload.setSizeMax(MAX_FILE_SIZE);
 
     try {
       // Parse the request to get file items.
