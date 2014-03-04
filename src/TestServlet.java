@@ -7,8 +7,6 @@ import java.sql.SQLException;
 import java.text.ParseException;
 import java.util.Iterator;
 import java.util.List;
-import java.util.concurrent.ArrayBlockingQueue;
-import java.util.concurrent.BlockingQueue;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -81,17 +79,19 @@ public class TestServlet extends HttpServlet {
     out.println("Файл создан.<br/>");
     System.out.println("\nTEST_FILE_NAME >>>> " + testFile.getAbsolutePath());
 
-    BlockingQueue<Client> clientsQueue = new ArrayBlockingQueue(4096);
+    MyQueue queue = new MyQueue();
 
     try {
       DBConnection conn = new DBConnection();
       conn.connect();
-      ClientSaxParser parser = new ClientSaxParser(testFile.getAbsolutePath(), clientsQueue);
-      XMLData data = new XMLData(clientsQueue, conn.getConnection());
-      data.setConn(conn.getConnection());
+      
+      ClientSaxParser parser = new ClientSaxParser(testFile.getAbsolutePath(), queue);
+      
+      XMLData data = new XMLData(queue, conn.getConnection());
 
-      parser.run();
-      data.run();
+      new Thread(parser).start();
+      new Thread(data).start();
+      
     } catch (SQLException | ClassNotFoundException | ParseException ex) {
       ex.printStackTrace();
     }

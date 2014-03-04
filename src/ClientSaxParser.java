@@ -2,8 +2,6 @@
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.ArrayBlockingQueue;
-import java.util.concurrent.BlockingQueue;
 
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.parsers.SAXParser;
@@ -18,16 +16,15 @@ public class ClientSaxParser extends DefaultHandler implements Runnable {
 
   static Logger logger = Logger.getLogger(ClientSaxParser.class);
 
-  int clientCount = 0;
   private String tmpValue;
   private String fileName;
 
   private List<Client> clientList = null;
   private Client client = null;
 
-  private BlockingQueue queue = new ArrayBlockingQueue<>(1024);
+  private MyQueue queue;
 
-  public ClientSaxParser(String xmlFile, BlockingQueue q) {
+  public ClientSaxParser(String xmlFile, MyQueue q) {
     logger.info("SAXParser created for file: " + xmlFile);
     this.queue = q;
     this.fileName = xmlFile;
@@ -37,15 +34,7 @@ public class ClientSaxParser extends DefaultHandler implements Runnable {
   @Override
   public void run() {
     logger.info("Start ClientSaxParser run() method.");
-    SAXParserFactory factory = SAXParserFactory.newInstance();
-    try {
-      logger.info("Parse file...");
-      SAXParser parser = factory.newSAXParser();
-      parser.parse(fileName, this);
-      logger.info("Parsing file complited");
-    } catch (ParserConfigurationException | SAXException | IOException e) {
-      logger.error("ERROR PARSE DOCUMENT", e);
-    }
+    parseDocument();
     System.out.println("//----------------------------------------------------------------------------------------------------------------------");
   }
 
@@ -71,7 +60,7 @@ public class ClientSaxParser extends DefaultHandler implements Runnable {
     return clientList;
   }
 
-  public void setQueue(BlockingQueue queue) {
+  public void setQueue(MyQueue queue) {
     this.queue = queue;
   }
 
@@ -98,12 +87,8 @@ public class ClientSaxParser extends DefaultHandler implements Runnable {
 
     if (qName.equals("client")) {
       clientList.add(client);
-      clientCount++;
-      try {
-        queue.put(client);
-      } catch (InterruptedException ex) {
-        logger.info("ERROR in queue.put() method.");
-      }
+      queue.put(client);
+      System.out.println(MyQueue.clientCount++ + " CUSTOMERS ADDED");
     }
     if (qName.equalsIgnoreCase("name")) {
       client.setName(tmpValue);
@@ -124,12 +109,12 @@ public class ClientSaxParser extends DefaultHandler implements Runnable {
 
   @Override
   public void startDocument() throws SAXException {
-    System.out.println("Clients inserted in queue: " + clientCount);
     System.out.println("START DOCUMENT PARSING");
   }
 
   @Override
   public void endDocument() throws SAXException {
     System.out.println("END DOCUMENT PARSING");
+    System.out.println("Clients inserted in queue: " + MyQueue.clientCount);
   }
 }
