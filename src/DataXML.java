@@ -35,11 +35,11 @@ public class DataXML {
 
   public DataXML(String loc, String name) throws XMLStreamException, IOException {
     logger.info("Set filelocation and filename");
-    setFileLocation(loc);
-    setFileName(name);
-    outputFactory = XMLOutputFactory.newInstance();
+    this.fileLocation = loc;
+    this.fileName = name;
+    this.outputFactory = XMLOutputFactory.newInstance();
     logger.info("Create writer for file: " + fileLocation + fileName);
-    writer = outputFactory.createXMLStreamWriter(new FileWriter(fileLocation + fileName));
+    this.writer = outputFactory.createXMLStreamWriter(new FileWriter(fileLocation + fileName));
     logger.info("writer is created");
   }
 
@@ -117,7 +117,7 @@ public class DataXML {
     logger.info("Insert data in file is complited");
   }
 
-  private void setFileName(String fileName) {
+  public void setFileName(String fileName) {
     if (!"".equals(fileName)) {
       this.fileName = fileName;
     }

@@ -13,7 +13,7 @@ public class DBConnection {
   private String pass;
   private String driver;
 
-  Connection conn = null;
+  private Connection conn = null;
 
   public DBConnection() {
     logger.info("Init default connection");
@@ -25,9 +25,9 @@ public class DBConnection {
   }
 
   public DBConnection(String dbUrl, String user, String password) {
-    setUrl(dbUrl);
-    setUser(user);
-    setPassword(password);
+    this.url = dbUrl;
+    this.user = user;
+    this.pass = password;
   }
 
   public void connect() throws SQLException, ClassNotFoundException {
@@ -36,6 +36,10 @@ public class DBConnection {
     this.conn = DriverManager.getConnection(url, user, pass);
     logger.info("Connection to: " + url + " is opened");
     System.out.println("//----------------------------------------------------------------------------------------------------------------------");
+  }
+
+  public Connection getConnection() {
+    return this.conn;
   }
 
   public void close() throws SQLException {
@@ -54,10 +58,6 @@ public class DBConnection {
 
   public void setPassword(String password) {
     this.pass = password;
-  }
-
-  public Connection getConnection() {
-    return this.conn;
   }
 
   public void setDriver(String driver) {
