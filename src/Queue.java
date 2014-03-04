@@ -2,7 +2,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class MyQueue {
+public class Queue {
 
   public static int clientCount = 0;
 

@@ -11,8 +11,11 @@ import javax.servlet.http.HttpServletResponse;
 import org.apache.commons.fileupload.FileItem;
 import org.apache.commons.fileupload.disk.DiskFileItemFactory;
 import org.apache.commons.fileupload.servlet.ServletFileUpload;
+import org.apache.log4j.Logger;
 
 public class UploadServlet extends HttpServlet {
+  
+  static Logger logger = Logger.getLogger(UploadServlet.class.getName());
 
   private boolean isMultipart;
   private String filePath;

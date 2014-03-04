@@ -10,11 +10,11 @@ public class XMLData implements Runnable {
   static Logger logger = Logger.getLogger(XMLData.class);
 
   private Client client;
-  private MyQueue queue;
+  private Queue queue;
   private Connection conn = null;
   private Statement statement = null;
 
-  public XMLData(MyQueue q, Connection c) throws ParseException, SQLException {
+  public XMLData(Queue q, Connection c) throws ParseException, SQLException {
     logger.info("Call default constructor.");
     this.queue = q;
     this.conn = c;
@@ -24,7 +24,7 @@ public class XMLData implements Runnable {
   @Override
   public void run() {
     logger.info("Start run() method.");
-    System.out.println(MyQueue.clientCount);
+    System.out.println(Queue.clientCount);
     while (true) {
       try {
         client = queue.get();
@@ -52,7 +52,8 @@ public class XMLData implements Runnable {
     }
   }
 
-  public void setQueue(MyQueue q) {
+  public void setQueue(Queue q) {
+    logger.info("Setting a queue...");
     this.queue = q;
   }
 }

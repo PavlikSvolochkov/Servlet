@@ -11,8 +11,8 @@ public class Client {
   private List<String> accounts;
 
   public Client() {
-    cards = new ArrayList<String>();
-    accounts = new ArrayList<String>();
+    cards = new ArrayList<>();
+    accounts = new ArrayList<>();
   }
 
   public String getName() {

@@ -22,13 +22,13 @@ public class ClientSaxParser extends DefaultHandler implements Runnable {
   private List<Client> clientList = null;
   private Client client = null;
 
-  private MyQueue queue;
+  private Queue queue;
 
-  public ClientSaxParser(String xmlFile, MyQueue q) {
+  public ClientSaxParser(String xmlFile, Queue q) {
     logger.info("SAXParser created for file: " + xmlFile);
     this.queue = q;
     this.fileName = xmlFile;
-    clientList = new ArrayList<Client>();
+    clientList = new ArrayList<>();
   }
 
   @Override
@@ -60,7 +60,7 @@ public class ClientSaxParser extends DefaultHandler implements Runnable {
     return clientList;
   }
 
-  public void setQueue(MyQueue queue) {
+  public void setQueue(Queue queue) {
     this.queue = queue;
   }
 
@@ -88,7 +88,7 @@ public class ClientSaxParser extends DefaultHandler implements Runnable {
     if (qName.equals("client")) {
       clientList.add(client);
       queue.put(client);
-      System.out.println(MyQueue.clientCount++ + " CUSTOMERS ADDED");
+      System.out.println(Queue.clientCount++ + " CUSTOMERS ADDED");
     }
     if (qName.equalsIgnoreCase("name")) {
       client.setName(tmpValue);
@@ -115,6 +115,6 @@ public class ClientSaxParser extends DefaultHandler implements Runnable {
   @Override
   public void endDocument() throws SAXException {
     System.out.println("END DOCUMENT PARSING");
-    System.out.println("Clients inserted in queue: " + MyQueue.clientCount);
+    System.out.println("Clients inserted in queue: " + Queue.clientCount);
   }
 }

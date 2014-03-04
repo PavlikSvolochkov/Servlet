@@ -7,8 +7,6 @@ import java.sql.SQLException;
 import java.text.ParseException;
 import java.util.Iterator;
 import java.util.List;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -19,10 +17,13 @@ import org.apache.commons.fileupload.FileItemFactory;
 import org.apache.commons.fileupload.FileUploadException;
 import org.apache.commons.fileupload.disk.DiskFileItemFactory;
 import org.apache.commons.fileupload.servlet.ServletFileUpload;
+import org.apache.log4j.Logger;
 
 public class TestServlet extends HttpServlet {
 
   private static final long serialVersionUID = 1L;
+
+  static Logger logger = Logger.getLogger(TestServlet.class.getName());
 
   private List<FileItem> fields;
   private Iterator<FileItem> iterator;
@@ -73,27 +74,27 @@ public class TestServlet extends HttpServlet {
       fw.append(fileItem.getString());
       fw.flush();
     } catch (FileUploadException ex) {
-      Logger.getLogger(TestServlet.class.getName()).log(Level.SEVERE, null, ex);
+      logger.error("FILEUPLOAD EXCEPTION", ex);
     }
 
     out.println("Файл создан.<br/>");
     System.out.println("\nTEST_FILE_NAME >>>> " + testFile.getAbsolutePath());
 
-    MyQueue queue = new MyQueue();
+    Queue queue = new Queue();
 
     try {
       DBConnection conn = new DBConnection();
       conn.connect();
-      
+
       ClientSaxParser parser = new ClientSaxParser(testFile.getAbsolutePath(), queue);
-      
+
       XMLData data = new XMLData(queue, conn.getConnection());
 
       new Thread(parser).start();
       new Thread(data).start();
-      
+
     } catch (SQLException | ClassNotFoundException | ParseException ex) {
-      ex.printStackTrace();
+      logger.error("SQL/ClassNotFound/ParseException", ex);
     }
   }
 }
