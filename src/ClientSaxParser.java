@@ -22,14 +22,16 @@ public class ClientSaxParser extends DefaultHandler implements Runnable {
   private List<Client> clientList = null;
   private Client client = null;
 
-  private Queue queue;
+  private Queue1 queue;
 
-  public ClientSaxParser(String xmlFile, Queue q) {
+//----------------------------------------------------------------------------------------------------------------------
+  public ClientSaxParser(String xmlFile, Queue1 q) {
     logger.info("SAXParser created for file: " + xmlFile);
     this.queue = q;
     this.fileName = xmlFile;
     clientList = new ArrayList<>();
   }
+//----------------------------------------------------------------------------------------------------------------------  
 
   @Override
   public void run() {
@@ -37,6 +39,7 @@ public class ClientSaxParser extends DefaultHandler implements Runnable {
     parseDocument();
     System.out.println("//----------------------------------------------------------------------------------------------------------------------");
   }
+//----------------------------------------------------------------------------------------------------------------------  
 
   public void parseDocument() {
     SAXParserFactory factory = SAXParserFactory.newInstance();
@@ -49,20 +52,30 @@ public class ClientSaxParser extends DefaultHandler implements Runnable {
       logger.error("ERROR PARSE DOCUMENT", e);
     }
   }
+//----------------------------------------------------------------------------------------------------------------------  
 
   public void printData() {
     for (Client tmpClient : clientList) {
       System.out.println(tmpClient.toString());
     }
   }
+//----------------------------------------------------------------------------------------------------------------------  
 
   public List<Client> getClientList() {
     return clientList;
   }
+//----------------------------------------------------------------------------------------------------------------------  
 
-  public void setQueue(Queue queue) {
+  public void setQueue(Queue1 queue) {
     this.queue = queue;
   }
+//----------------------------------------------------------------------------------------------------------------------  
+
+  @Override
+  public void startDocument() throws SAXException {
+    System.out.println("START DOCUMENT PARSING");
+  }
+//----------------------------------------------------------------------------------------------------------------------  
 
   @Override
   public void startElement(String uri, String localName, String qName, Attributes attributes) throws SAXException {
@@ -76,19 +89,20 @@ public class ClientSaxParser extends DefaultHandler implements Runnable {
       }
     }
   }
+//----------------------------------------------------------------------------------------------------------------------  
 
   @Override
   public void characters(char[] ch, int start, int length) throws SAXException {
     tmpValue = new String(ch, start, length);
   }
+//----------------------------------------------------------------------------------------------------------------------  
 
   @Override
   public void endElement(String uri, String localName, String qName) throws SAXException {
 
     if (qName.equals("client")) {
-      clientList.add(client);
+      //clientList.add(client);
       queue.put(client);
-      System.out.println(Queue.clientCount++ + " CUSTOMERS ADDED");
     }
     if (qName.equalsIgnoreCase("name")) {
       client.setName(tmpValue);
@@ -106,15 +120,11 @@ public class ClientSaxParser extends DefaultHandler implements Runnable {
       client.getAccounts().add(tmpValue);
     }
   }
-
-  @Override
-  public void startDocument() throws SAXException {
-    System.out.println("START DOCUMENT PARSING");
-  }
+//----------------------------------------------------------------------------------------------------------------------  
 
   @Override
   public void endDocument() throws SAXException {
     System.out.println("END DOCUMENT PARSING");
-    System.out.println("Clients inserted in queue: " + Queue.clientCount);
+    System.out.println("Clients inserted in queue: " + Queue1.clientCount);
   }
 }

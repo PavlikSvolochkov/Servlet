@@ -5,16 +5,18 @@
         <param-name>file-upload</param-name>
         <param-value>c:\apache-tomcat-7.0.50\webapps\data</param-value>
     </context-param>
-    
     <servlet>
         <servlet-name>UploadServlet</servlet-name>
         <servlet-class>UploadServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ClientServlet</servlet-name>
+        <servlet-class>ClientServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>UploadServlet</servlet-name>
         <url-pattern>/UploadServlet</url-pattern>
     </servlet-mapping>
-    
     <servlet>
         <servlet-name>DownloadServlet</servlet-name>
         <servlet-class>DownloadServlet</servlet-class>
@@ -23,7 +25,6 @@
         <servlet-name>DownloadServlet</servlet-name>
         <url-pattern>/DownloadServlet</url-pattern>
     </servlet-mapping>
-    
     <servlet>
         <servlet-name>TestServlet</servlet-name>
         <servlet-class>TestServlet</servlet-class>
@@ -31,5 +32,9 @@
     <servlet-mapping>
         <servlet-name>TestServlet</servlet-name>
         <url-pattern>/TestServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ClientServlet</servlet-name>
+        <url-pattern>/ClientServlet</url-pattern>
     </servlet-mapping>
 </web-app>

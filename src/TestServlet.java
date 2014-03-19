@@ -79,20 +79,25 @@ public class TestServlet extends HttpServlet {
 
     out.println("Файл создан.<br/>");
     System.out.println("\nTEST_FILE_NAME >>>> " + testFile.getAbsolutePath());
-
-    Queue queue = new Queue();
+    
+//----------------------------------------------------------------------------------------------------------------------
+    
+    Queue1 queue = new Queue1();
 
     try {
+      
       DBConnection conn = new DBConnection();
       conn.connect();
 
       ClientSaxParser parser = new ClientSaxParser(testFile.getAbsolutePath(), queue);
-
       XMLData data = new XMLData(queue, conn.getConnection());
 
-      new Thread(parser).start();
-      new Thread(data).start();
-
+      
+      Thread t2 = new Thread(data);
+      t2.start();
+      Thread t1 = new Thread(parser);
+      t1.start();
+      
     } catch (SQLException | ClassNotFoundException | ParseException ex) {
       logger.error("SQL/ClassNotFound/ParseException", ex);
     }
