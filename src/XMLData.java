@@ -1,7 +1,6 @@
 
 import java.sql.Connection;
 import java.sql.SQLException;
-import java.sql.Statement;
 import java.text.ParseException;
 import org.apache.log4j.Logger;
 
@@ -9,10 +8,8 @@ public class XMLData implements Runnable {
 
   static Logger logger = Logger.getLogger(XMLData.class);
 
-  private Client client;
   private Queue1 queue;
-  private Connection conn = null;
-  private Statement statement = null;
+  private Connection conn;
   private QueryManager queryManager;
 
   public XMLData(Queue1 q, Connection c) throws ParseException, SQLException {
@@ -33,19 +30,14 @@ public class XMLData implements Runnable {
         queryManager.insertClient();
         queryManager.insertCards();
         queryManager.insertAccounts();
-        
-        //System.out.println("Client from get method: " +client.getDateOfBirth());
-//        statement.executeUpdate("CALL MY_TEST_PACKAGE.INSERT_CLIENT('" + client.getName() + "', '"
-//                + client.getSurname() + "', '" + client.getDateOfBirth() + "')");
-//        for (int i = 0; i < client.getCards().size(); i++) {
-//          statement.executeUpdate("CALL MY_TEST_PACKAGE.INSERT_CARDS('" + client.getCards().get(i) + "')");
-//        }
-//        for (int i = 0; i < client.getAccounts().size(); i++) {
-//          statement.executeUpdate("CALL MY_TEST_PACKAGE.INSERT_ACCOUNTS('" + client.getAccounts().get(i) + "')");
-//        }
       } catch (SQLException ex) {
         logger.debug("SQLException in XMLData.run()", ex);
-        ex.printStackTrace();
+      } finally {
+        try {
+          queryManager.closeStatement();
+        } catch (SQLException ex) {
+          logger.error("ERROR IN CLOSING STATEMENT", ex);
+        }
       }
     }
   }

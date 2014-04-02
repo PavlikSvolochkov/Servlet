@@ -11,11 +11,11 @@ public class QueryManager {
   private Statement statement;
 
   public QueryManager() {
-    System.out.println("Default constructor.");
+    System.out.println("Empty default constructor.");
   }
 
   public QueryManager(Client c) {
-    logger.info("Initialize client in constructor");
+    logger.info("Initialize Client in constructor");
     this.client = c;
   }
 
@@ -23,6 +23,12 @@ public class QueryManager {
     logger.info("Inserting client in DB...");
     statement.executeUpdate("CALL MY_TEST_PACKAGE.INSERT_CLIENT('" + client.getName() + "', '"
             + client.getSurname() + "', '" + client.getDateOfBirth() + "')");
+    logger.info("Insertion client complited");
+  }
+
+  public void insertClient(String nameVal, String surnameVal, String dateofbirthVal) throws SQLException {
+    logger.info("Inserting client in DB...");
+    statement.executeUpdate("CALL MY_TEST_PACKAGE.INSERT_CLIENT('" + nameVal + "', '" + surnameVal + "', '" + dateofbirthVal + "')");
     logger.info("Insertion client complited");
   }
 
@@ -61,5 +67,9 @@ public class QueryManager {
 
   public void setStatement(Statement s) {
     this.statement = s;
+  }
+  
+  public void closeStatement() throws SQLException {
+    statement.close();
   }
 }
