@@ -11,7 +11,7 @@ public class QueryManager {
   private Statement statement;
 
   public QueryManager() {
-    System.out.println("Empty default constructor.");
+    logger.debug("Empty default constructor.");
   }
 
   public QueryManager(Client c) {

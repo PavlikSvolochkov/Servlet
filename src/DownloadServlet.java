@@ -19,6 +19,7 @@ public class DownloadServlet extends HttpServlet {
   public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
     DBConnection conn = new DBConnection();
+    
     try {
       conn.connect();
     } catch (SQLException | ClassNotFoundException ex) {
@@ -41,6 +42,7 @@ public class DownloadServlet extends HttpServlet {
     }
 
     FileInputStream fileInputStream = new FileInputStream(inputFile);
+    
     try {
       DataXML dataXML = new DataXML(filePath, fileName);
       dataXML.setConnection(conn.getConnection());
