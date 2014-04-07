@@ -1,0 +1,23 @@
+
+table.sample {
+  border-width: 1px;
+  border-spacing: 2px;
+  border-style: none;
+  border-color: gray;
+  border-collapse: collapse;
+  background-color: rgb(250, 240, 230);
+}
+table.sample th {
+  border-width: 1px;
+  padding: 5px;
+  border-style: inset;
+  border-color: green;
+  background-color: rgb(250, 240, 230);
+}
+table.sample td {
+  border-width: 1px;
+  padding: 5px;
+  border-style: inset;
+  border-color: green;
+  background-color: rgb(250, 240, 230);
+}

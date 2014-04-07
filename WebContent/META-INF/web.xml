@@ -13,6 +13,14 @@
         <servlet-name>ClientServlet</servlet-name>
         <servlet-class>ClientServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>AddClientServlet</servlet-name>
+        <servlet-class>AddClientServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>UpdateClient</servlet-name>
+        <servlet-class>UpdateClient</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>UploadServlet</servlet-name>
         <url-pattern>/UploadServlet</url-pattern>
@@ -36,5 +44,13 @@
     <servlet-mapping>
         <servlet-name>ClientServlet</servlet-name>
         <url-pattern>/ClientServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AddClientServlet</servlet-name>
+        <url-pattern>/AddClientServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>UpdateClient</servlet-name>
+        <url-pattern>/UpdateClient</url-pattern>
     </servlet-mapping>
 </web-app>

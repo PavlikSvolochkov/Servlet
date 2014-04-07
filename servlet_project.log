@@ -6652,3 +6652,25 @@ java.text.ParseException: Unparseable date: "2026-12-28 00:00:00.0"
 17:21:46,892  INFO main XMLData:run:48 - Closing statement and connection...
 17:21:46,901  INFO main XMLData:run:51 - Statement and connection is closed
 17:21:46,902  INFO main XMLData:run:56 - Stop run() method.
+17:50:32,299  INFO main DBConnection:<init>:19 - Init default connection
+17:50:32,301  INFO main DBConnection:<init>:24 - Default connection init
+17:50:32,301  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+17:50:32,600  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+17:51:43,598  INFO main DBConnection:<init>:19 - Init default connection
+17:51:43,600  INFO main DBConnection:<init>:24 - Default connection init
+17:51:43,600  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+17:51:43,843  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+17:51:43,904  INFO main QueryManager:insertClient:30 - Inserting client in DB...
+17:51:43,924  INFO main QueryManager:insertClient:32 - Insertion client complited
+17:57:11,147  INFO main DBConnection:<init>:19 - Init default connection
+17:57:11,149  INFO main DBConnection:<init>:24 - Default connection init
+17:57:11,150  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+17:57:11,403  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+17:57:11,485  INFO main QueryManager:insertClient:30 - Inserting client in DB...
+17:57:11,496  INFO main QueryManager:insertClient:32 - Insertion client complited
+17:57:20,187  INFO main DBConnection:<init>:19 - Init default connection
+17:57:20,189  INFO main DBConnection:<init>:24 - Default connection init
+17:57:20,189  INFO main DBConnection:connect:34 - Calling connect() method to connecting database
+17:57:20,440  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+17:57:20,487  INFO main QueryManager:insertClient:30 - Inserting client in DB...
+17:57:20,495  INFO main QueryManager:insertClient:32 - Insertion client complited
