@@ -48,14 +48,14 @@ public class QueryManager {
     logger.info("Insertion accounts complited");
   }
 
-  public void updateClient(long id, String name, String surname, String dateofbirth) throws SQLException {
+  public void updateClient(String id, String name, String surname, String dateofbirth) throws SQLException {
     logger.info("Updating client's information id DB...");
-    statement.executeUpdate("CALL MY_TEST_PACKAGE.UPDATE_CLIENT('" + id + "', '" + client.getName() + "', '"
-            + client.getSurname() + "', '" + client.getDateOfBirth() + "')");
+    statement.executeUpdate("CALL MY_TEST_PACKAGE.UPDATE_CLIENT('" + id + "', '" + name + "', '"
+            + surname+ "', '" + dateofbirth + "')");
     logger.info("Updating complited.");
   }
 
-  public void deletClient(long id) throws SQLException {
+  public void deletClient(String id) throws SQLException {
     logger.info("Deleting client with id=" + id + "...");
     statement.executeUpdate("CALL MY_TEST_PACKAGE.DELETE_CLIENT('" + id + "')");
     logger.info("Deleting complited.");

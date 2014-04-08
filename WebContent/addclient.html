@@ -1,45 +1,45 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>AddClientServlet</title>
+    <title>ClientServlet</title>
   </head>
   <body>
     <h1>AddClientServlet</h1>
     //----------------------------------------------------------------------------------------------------------------------
     <br/>
     Add new Client in DataBase:
-    <form name='addClient' action='AddClientServlet' method="get">
-      <input type='text' name='name' value='Tosh'/>
+    <form name='addClient' action='AddClientServlet' method="post">
+      <input type='text' name='add_name' value='Tosh'/>
       <br/>
-      <input type='text' name='surname' value='Kengur'/>
+      <input type='text' name='add_surname' value='Kengur'/>
       <br/>
-      <input type='text' name='dateofbirth' value='2029-01-01'/>
+      <input type='text' name='add_dateofbirth' value='2029-01-01'/>
       <br/>
-      <input type='submit' name='del' value='AddClient'/>
+      <input type='submit' name='add' value='AddClient'/>
     </form>
     <br/>
     //----------------------------------------------------------------------------------------------------------------------
     <br/>
     Update Client in DataBase:
     <br/>
-    <form name='updClient' action=''>
-      <input type='text' name='add' value='idClient'/>
+    <form name='updClient' action='UpdateClient' method="post">
+      <input type='text' name='update_id' value='idClient'/>
       <br/>
-      <input type='text' name='add' value='name'/>
+      <input type='text' name='update_name' value='name'/>
       <br/>
-      <input type='text' name='upd' value='surname'/>
+      <input type='text' name='update_surname' value='surname'/>
       <br/>
-      <input type='text' name='del' value='dateofbirth'/>
+      <input type='text' name='update_dateofbirth' value='dateofbirth'/>
       <br/>
-      <input type='submit' name='del' value='UpdClient'/>
+      <input type='submit' name='upd' value='UpdClient'/>
     </form>
     <br/>
     //----------------------------------------------------------------------------------------------------------------------
     <br/>
     Delete Client from DataBase:
     <br/>
-    <form name='delClient' action=''>
-      <input type='text' name='add' value='idClient'/>
+    <form name='delClient' action='DeleteClient' method="post">
+      <input type='text' name='delete_id' value='idClient'/>
       <br/>
       <input type='submit' name='del' value='DelClient'/>
       <br/>

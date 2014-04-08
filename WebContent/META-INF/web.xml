@@ -15,11 +15,15 @@
     </servlet>
     <servlet>
         <servlet-name>AddClientServlet</servlet-name>
-        <servlet-class>AddClientServlet</servlet-class>
+        <servlet-class>ModifyClientServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>UpdateClient</servlet-name>
         <servlet-class>UpdateClient</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DeleteClient</servlet-name>
+        <servlet-class>DeleteClient</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>UploadServlet</servlet-name>
@@ -52,5 +56,9 @@
     <servlet-mapping>
         <servlet-name>UpdateClient</servlet-name>
         <url-pattern>/UpdateClient</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DeleteClient</servlet-name>
+        <url-pattern>/DeleteClient</url-pattern>
     </servlet-mapping>
 </web-app>
