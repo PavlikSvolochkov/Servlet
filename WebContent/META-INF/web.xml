@@ -10,20 +10,8 @@
         <servlet-class>UploadServlet</servlet-class>
     </servlet>
     <servlet>
-        <servlet-name>ClientServlet</servlet-name>
-        <servlet-class>ClientServlet</servlet-class>
-    </servlet>
-    <servlet>
         <servlet-name>AddClientServlet</servlet-name>
         <servlet-class>ModifyClientServlet</servlet-class>
-    </servlet>
-    <servlet>
-        <servlet-name>UpdateClient</servlet-name>
-        <servlet-class>UpdateClient</servlet-class>
-    </servlet>
-    <servlet>
-        <servlet-name>DeleteClient</servlet-name>
-        <servlet-class>DeleteClient</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>UploadServlet</servlet-name>
@@ -46,19 +34,7 @@
         <url-pattern>/TestServlet</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
-        <servlet-name>ClientServlet</servlet-name>
-        <url-pattern>/ClientServlet</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping>
         <servlet-name>AddClientServlet</servlet-name>
         <url-pattern>/AddClientServlet</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>UpdateClient</servlet-name>
-        <url-pattern>/UpdateClient</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>DeleteClient</servlet-name>
-        <url-pattern>/DeleteClient</url-pattern>
     </servlet-mapping>
 </web-app>

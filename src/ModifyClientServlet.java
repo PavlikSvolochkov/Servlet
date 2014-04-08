@@ -13,12 +13,23 @@ public class ModifyClientServlet extends HttpServlet {
 
   static Logger logger = Logger.getLogger(ModifyClientServlet.class.getName());
 
-  String title = "AddClientServlet";
-  String docType = "<!doctype html public \"-//w3c//dtd html 4.0 transitional//en\">\n";
+  private String add_name;
+  private String add_surname;
+  private String add_dateofbirth;
 
-  PrintWriter out;
-  DBConnection conn;
-  QueryManager manager;
+  private String update_id;
+  private String update_name;
+  private String update_surname;
+  private String update_dateofbirth;
+
+  private String del_id;
+
+  private String title = "AddClientServlet";
+  private String docType = "<!doctype html public \"-//w3c//dtd html 4.0 transitional//en\">\n";
+
+  private PrintWriter out;
+  private DBConnection conn;
+  private QueryManager manager;
 
   @Override
   public void init() throws ServletException {
@@ -40,23 +51,21 @@ public class ModifyClientServlet extends HttpServlet {
   @Override
   protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
     response.setContentType("text/html");
-
     out = response.getWriter();
-
 //----------------------------------------------------------------------------------------------------------------------
     //Variables for inserting client
-    String add_name = request.getParameter("add_name");
-    String add_surname = request.getParameter("add_surname");
-    String add_dateofbirth = request.getParameter("add_dateofbirth");
+    add_name = request.getParameter("add_name");
+    add_surname = request.getParameter("add_surname");
+    add_dateofbirth = request.getParameter("add_dateofbirth");
 //----------------------------------------------------------------------------------------------------------------------
     //Variables for updating client
-    String update_id = request.getParameter("update_id");
-    String update_name = request.getParameter("update_name");
-    String update_surname = request.getParameter("update_surname");
-    String update_dateofbirth = request.getParameter("update_dateofbirth");
+    update_id = request.getParameter("update_id");
+    update_name = request.getParameter("update_name");
+    update_surname = request.getParameter("update_surname");
+    update_dateofbirth = request.getParameter("update_dateofbirth");
 //----------------------------------------------------------------------------------------------------------------------
     //ID for deleting client
-    String del_id = request.getParameter("delete_id");
+    del_id = request.getParameter("delete_id");
 //----------------------------------------------------------------------------------------------------------------------
 
     if (add_name.equalsIgnoreCase("name")) {
@@ -90,7 +99,6 @@ public class ModifyClientServlet extends HttpServlet {
   }
 
   public void printAddHTML(String name, String surname, String dateofbirth) {
-
     out.println(docType
             + "<html>\n<head><title>" + title + "</title></head>\n"
             + "<body bgcolor=\"#f0f0f0\">\n"
