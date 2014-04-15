@@ -31,7 +31,7 @@ public class DBConnection {
   }
 
   public void connect() throws SQLException, ClassNotFoundException {
-    logger.info("Calling connect() method to connecting database");
+    logger.info("Calling connect() method for connection to a database");
     Class.forName(driver);
     this.conn = DriverManager.getConnection(url, user, pass);
     logger.info("Connection to: " + url + " is opened");

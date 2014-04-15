@@ -6674,3 +6674,266 @@ java.text.ParseException: Unparseable date: "2026-12-28 00:00:00.0"
 17:57:20,440  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
 17:57:20,487  INFO main QueryManager:insertClient:30 - Inserting client in DB...
 17:57:20,495  INFO main QueryManager:insertClient:32 - Insertion client complited
+12:43:14,361  INFO main DBConnection:<init>:19 - Init default connection
+12:43:14,363  INFO main DBConnection:<init>:24 - Default connection init
+12:43:14,363  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+12:43:14,588  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+12:43:14,589  INFO main ClientSaxParser:<init>:29 - SAXParser created for file: d:\temp\data\clients.xml
+12:43:35,749  INFO main DBConnection:<init>:19 - Init default connection
+12:43:35,751  INFO main DBConnection:<init>:24 - Default connection init
+12:43:35,752  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+12:43:35,987  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+12:43:35,988  INFO main ClientSaxParser:<init>:29 - SAXParser created for file: d:\temp\data\clients.xml
+12:43:35,989  INFO main ClientSaxParser:parseDocument:47 - Creating parser for file: d:\temp\data\clients.xml
+12:43:36,007  INFO main ClientSaxParser:parseDocument:50 - Parsing file complited
+12:45:44,999  INFO main DBConnection:<init>:19 - Init default connection
+12:45:45,001  INFO main DBConnection:<init>:24 - Default connection init
+12:45:45,001  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+12:45:45,232  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+12:45:45,233  INFO main ClientSaxParser:<init>:28 - SAXParser created for file: d:\temp\data\clients.xml
+12:45:45,234  INFO main ClientSaxParser:parseDocument:53 - Creating parser for file: d:\temp\data\clients.xml
+12:46:17,415  INFO main DBConnection:<init>:19 - Init default connection
+12:46:17,417  INFO main DBConnection:<init>:24 - Default connection init
+12:46:17,417  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+12:46:17,641  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+12:46:17,643  INFO main ClientSaxParser:<init>:28 - SAXParser created for file: d:\temp\data\clients.xml
+12:46:17,644  INFO main ClientSaxParser:parseDocument:53 - Creating parser for file: d:\temp\data\clients.xml
+12:46:17,660  INFO main ClientSaxParser:parseDocument:56 - Parsing file complited
+12:48:08,864  INFO main DBConnection:<init>:19 - Init default connection
+12:48:08,866  INFO main DBConnection:<init>:24 - Default connection init
+12:48:08,866  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+12:48:09,127  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+12:48:09,128  INFO main ClientSaxParser:<init>:28 - SAXParser created for file: d:\temp\data\clients.xml
+12:48:09,128  INFO main ClientSaxParser:run:44 - Start ClientSaxParser run() method.
+12:48:09,131  INFO main ClientSaxParser:parseDocument:53 - Creating parser for file: d:\temp\data\clients.xml
+12:48:09,147  INFO main ClientSaxParser:parseDocument:56 - Parsing file complited
+12:48:09,148  INFO main ClientSaxParser:parseDocument:53 - Creating parser for file: d:\temp\data\clients.xml
+12:48:09,149  INFO main ClientSaxParser:parseDocument:56 - Parsing file complited
+12:50:46,180  INFO main DBConnection:<init>:19 - Init default connection
+12:50:46,182  INFO main DBConnection:<init>:24 - Default connection init
+12:50:46,182  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+12:50:46,403  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+12:50:46,404  INFO main ClientSaxParser:<init>:28 - SAXParser created for file: d:\temp\data\clients.xml
+12:50:46,404  INFO main ClientSaxParser:run:44 - Start ClientSaxParser run() method.
+12:50:46,406  INFO main ClientSaxParser:parseDocument:53 - Creating parser for file: d:\temp\data\clients.xml
+12:50:46,421  INFO main ClientSaxParser:parseDocument:56 - Parsing file complited
+12:50:46,421  INFO main ClientSaxParser:parseDocument:53 - Creating parser for file: d:\temp\data\clients.xml
+12:50:46,423  INFO main ClientSaxParser:parseDocument:56 - Parsing file complited
+12:51:44,686  INFO main DBConnection:<init>:19 - Init default connection
+12:51:44,688  INFO main DBConnection:<init>:24 - Default connection init
+12:51:44,689  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+12:51:44,937  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+12:51:44,938  INFO main ClientSaxParser:<init>:28 - SAXParser created for file: d:\temp\data\clients.xml
+12:51:44,938  INFO main ClientSaxParser:run:44 - Start ClientSaxParser run() method.
+12:51:44,940  INFO main ClientSaxParser:parseDocument:53 - Creating parser for file: d:\temp\data\clients.xml
+12:51:44,955  INFO main ClientSaxParser:parseDocument:56 - Parsing file complited
+14:08:11,301  INFO main DBConnection:<init>:19 - Init default connection
+14:08:11,303  INFO main DBConnection:<init>:24 - Default connection init
+14:08:11,303  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+14:08:11,574  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+14:08:11,620  INFO main XMLData:<init>:14 - Call default constructor.
+14:08:11,621  INFO main ClientSaxParser:<init>:35 - SAXParser created for file: d:\temp\data\clients.xml
+14:08:11,622  INFO Thread-1 XMLData:run:22 - Start run() method.
+14:08:11,622  INFO Thread-2 ClientSaxParser:run:44 - Start ClientSaxParser run() method.
+14:08:11,625  INFO Thread-2 ClientSaxParser:parseDocument:53 - Creating parser for file: d:\temp\data\clients.xml
+14:08:11,640  INFO Thread-2 ClientSaxParser:parseDocument:56 - Parsing file complited
+14:09:54,032  INFO main DBConnection:<init>:19 - Init default connection
+14:09:54,033  INFO main DBConnection:<init>:24 - Default connection init
+14:09:54,033  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+14:09:54,287  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+14:09:54,354  INFO main ClientSaxParser:<init>:35 - SAXParser created for file: d:\temp\data\clients.xml
+14:09:54,355  INFO main XMLData:<init>:14 - Call default constructor.
+14:09:54,355  INFO Thread-1 XMLData:run:22 - Start run() method.
+14:09:54,357  INFO Thread-2 ClientSaxParser:run:44 - Start ClientSaxParser run() method.
+14:09:54,359  INFO Thread-2 ClientSaxParser:parseDocument:53 - Creating parser for file: d:\temp\data\clients.xml
+14:09:54,375  INFO Thread-2 ClientSaxParser:parseDocument:56 - Parsing file complited
+14:21:44,663  INFO main DBConnection:<init>:19 - Init default connection
+14:21:44,665  INFO main DBConnection:<init>:24 - Default connection init
+14:21:44,665  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+14:21:44,895  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+14:21:44,942  INFO main ClientSaxParser:<init>:35 - SAXParser created for file: d:\temp\data\clients.xml
+14:21:44,942  INFO Thread-1 ClientSaxParser:run:44 - Start ClientSaxParser run() method.
+14:21:44,944  INFO Thread-1 ClientSaxParser:parseDocument:53 - Creating parser for file: d:\temp\data\clients.xml
+14:21:44,958  INFO Thread-1 ClientSaxParser:parseDocument:56 - Parsing file complited
+14:23:51,735  INFO main DBConnection:<init>:19 - Init default connection
+14:23:51,737  INFO main DBConnection:<init>:24 - Default connection init
+14:23:51,738  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+14:23:51,965  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+14:23:52,019  INFO main ClientSaxParser:<init>:35 - SAXParser created for file: d:\temp\data\clients.xml
+14:23:52,020  INFO main ClientSaxParser:parseDocument:53 - Creating parser for file: d:\temp\data\clients.xml
+14:23:52,034  INFO main ClientSaxParser:parseDocument:56 - Parsing file complited
+14:23:52,035  INFO Thread-1 ClientSaxParser:run:44 - Start ClientSaxParser run() method.
+14:23:52,035  INFO Thread-1 ClientSaxParser:parseDocument:53 - Creating parser for file: d:\temp\data\clients.xml
+14:23:52,037  INFO Thread-1 ClientSaxParser:parseDocument:56 - Parsing file complited
+14:24:10,615  INFO main DBConnection:<init>:19 - Init default connection
+14:24:10,617  INFO main DBConnection:<init>:24 - Default connection init
+14:24:10,617  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+14:24:10,874  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+14:24:10,931  INFO main ClientSaxParser:<init>:35 - SAXParser created for file: d:\temp\data\clients.xml
+14:24:10,933  INFO main ClientSaxParser:parseDocument:53 - Creating parser for file: d:\temp\data\clients.xml
+14:24:10,948  INFO main ClientSaxParser:parseDocument:56 - Parsing file complited
+14:24:10,949  INFO Thread-1 ClientSaxParser:run:44 - Start ClientSaxParser run() method.
+14:24:10,949  INFO Thread-1 ClientSaxParser:parseDocument:53 - Creating parser for file: d:\temp\data\clients.xml
+14:24:10,951  INFO Thread-1 ClientSaxParser:parseDocument:56 - Parsing file complited
+14:24:39,857  INFO main DBConnection:<init>:19 - Init default connection
+14:24:39,859  INFO main DBConnection:<init>:24 - Default connection init
+14:24:39,859  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+14:24:40,090  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+14:24:40,137  INFO main ClientSaxParser:<init>:35 - SAXParser created for file: d:\temp\data\clients.xml
+14:24:40,137  INFO Thread-1 ClientSaxParser:run:44 - Start ClientSaxParser run() method.
+14:24:40,138  INFO Thread-1 ClientSaxParser:parseDocument:53 - Creating parser for file: d:\temp\data\clients.xml
+14:24:40,153  INFO Thread-1 ClientSaxParser:parseDocument:56 - Parsing file complited
+14:25:06,199  INFO main DBConnection:<init>:19 - Init default connection
+14:25:06,201  INFO main DBConnection:<init>:24 - Default connection init
+14:25:06,201  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+14:25:06,539  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+14:25:06,617  INFO main ClientSaxParser:<init>:35 - SAXParser created for file: d:\temp\data\clients.xml
+14:25:06,618  INFO Thread-1 ClientSaxParser:run:44 - Start ClientSaxParser run() method.
+14:25:06,619  INFO Thread-1 ClientSaxParser:parseDocument:53 - Creating parser for file: d:\temp\data\clients.xml
+14:25:06,634  INFO Thread-1 ClientSaxParser:parseDocument:56 - Parsing file complited
+14:25:23,413  INFO main DBConnection:<init>:19 - Init default connection
+14:25:23,415  INFO main DBConnection:<init>:24 - Default connection init
+14:25:23,415  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+14:25:23,650  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+14:25:23,697  INFO main ClientSaxParser:<init>:35 - SAXParser created for file: d:\temp\data\clients.xml
+14:25:23,699  INFO main ClientSaxParser:parseDocument:53 - Creating parser for file: d:\temp\data\clients.xml
+14:25:23,713  INFO main ClientSaxParser:parseDocument:56 - Parsing file complited
+14:25:23,715  INFO Thread-1 ClientSaxParser:run:44 - Start ClientSaxParser run() method.
+14:25:23,715  INFO Thread-1 ClientSaxParser:parseDocument:53 - Creating parser for file: d:\temp\data\clients.xml
+14:25:23,718  INFO Thread-1 ClientSaxParser:parseDocument:56 - Parsing file complited
+14:27:49,298  INFO main DBConnection:<init>:19 - Init default connection
+14:27:49,300  INFO main DBConnection:<init>:24 - Default connection init
+14:27:49,300  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+14:27:49,526  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+14:27:49,574  INFO main ClientSaxParser:<init>:35 - SAXParser created for file: d:\temp\data\clients.xml
+14:27:49,575  INFO Thread-1 ClientSaxParser:run:44 - Start ClientSaxParser run() method.
+14:27:49,576  INFO Thread-1 ClientSaxParser:parseDocument:54 - Creating parser for file: d:\temp\data\clients.xml
+14:27:49,591  INFO Thread-1 ClientSaxParser:parseDocument:57 - Parsing file complited
+14:29:36,731  INFO main DBConnection:<init>:19 - Init default connection
+14:29:36,733  INFO main DBConnection:<init>:24 - Default connection init
+14:29:36,733  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+14:29:36,969  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+14:29:37,017  INFO main ClientSaxParser:<init>:35 - SAXParser created for file: d:\temp\data\clients.xml
+14:29:37,018  INFO main XMLData:<init>:14 - Call default constructor.
+14:29:37,018  INFO Thread-2 ClientSaxParser:run:44 - Start ClientSaxParser run() method.
+14:29:37,019  INFO Thread-1 XMLData:run:22 - Start run() method.
+14:29:37,021  INFO Thread-2 ClientSaxParser:parseDocument:54 - Creating parser for file: d:\temp\data\clients.xml
+14:29:37,037  INFO Thread-2 ClientSaxParser:parseDocument:57 - Parsing file complited
+14:31:04,017  INFO main DBConnection:<init>:19 - Init default connection
+14:31:04,019  INFO main DBConnection:<init>:24 - Default connection init
+14:31:04,019  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+14:31:04,289  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+14:31:04,352  INFO main ClientSaxParser:<init>:35 - SAXParser created for file: d:\temp\data\clients.xml
+14:31:04,352  INFO Thread-1 ClientSaxParser:run:44 - Start ClientSaxParser run() method.
+14:31:04,353  INFO main XMLData:<init>:14 - Call default constructor.
+14:31:04,353  INFO Thread-2 XMLData:run:22 - Start run() method.
+14:31:04,355  INFO Thread-1 ClientSaxParser:parseDocument:54 - Creating parser for file: d:\temp\data\clients.xml
+14:31:04,374  INFO Thread-1 ClientSaxParser:parseDocument:57 - Parsing file complited
+14:32:27,709  INFO main DBConnection:<init>:19 - Init default connection
+14:32:27,711  INFO main DBConnection:<init>:24 - Default connection init
+14:32:27,711  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+14:32:27,947  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+14:32:27,997  INFO main ClientSaxParser:<init>:35 - SAXParser created for file: d:\temp\data\clients.xml
+14:32:27,997  INFO main XMLData:<init>:14 - Call default constructor.
+14:32:27,997  INFO Thread-1 ClientSaxParser:run:44 - Start ClientSaxParser run() method.
+14:32:27,998  INFO Thread-2 XMLData:run:22 - Start run() method.
+14:32:27,999  INFO Thread-1 ClientSaxParser:parseDocument:54 - Creating parser for file: d:\temp\data\clients.xml
+14:32:28,014  INFO Thread-1 ClientSaxParser:parseDocument:57 - Parsing file complited
+14:35:18,675  INFO main DBConnection:<init>:19 - Init default connection
+14:35:18,676  INFO main DBConnection:<init>:24 - Default connection init
+14:35:18,676  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+14:35:18,910  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+14:35:18,958  INFO main ClientSaxParser:<init>:35 - SAXParser created for file: d:\temp\data\clients.xml
+14:35:18,959  INFO main XMLData:<init>:14 - Call default constructor.
+14:35:18,960  INFO Thread-1 ClientSaxParser:run:44 - Start ClientSaxParser run() method.
+14:35:18,960  INFO Thread-2 XMLData:run:22 - Start run() method.
+14:35:18,962  INFO Thread-1 ClientSaxParser:parseDocument:54 - Creating parser for file: d:\temp\data\clients.xml
+14:35:18,978  INFO Thread-1 ClientSaxParser:parseDocument:57 - Parsing file complited
+14:37:23,862  INFO main DBConnection:<init>:19 - Init default connection
+14:37:23,864  INFO main DBConnection:<init>:24 - Default connection init
+14:37:23,864  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+14:37:24,087  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+14:37:24,134  INFO main ClientSaxParser:<init>:35 - SAXParser created for file: d:\temp\data\clients.xml
+14:37:24,135  INFO main XMLData:<init>:14 - Call default constructor.
+14:37:24,136  INFO Thread-1 ClientSaxParser:run:44 - Start ClientSaxParser run() method.
+14:37:24,136  INFO Thread-2 XMLData:run:22 - Start run() method.
+14:37:24,138  INFO Thread-1 ClientSaxParser:parseDocument:54 - Creating parser for file: d:\temp\data\clients.xml
+14:37:24,153  INFO Thread-1 ClientSaxParser:parseDocument:57 - Parsing file complited
+14:38:00,172  INFO main DBConnection:<init>:19 - Init default connection
+14:38:00,174  INFO main DBConnection:<init>:24 - Default connection init
+14:38:00,174  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+14:38:00,397  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+14:38:00,444  INFO main XMLData:<init>:14 - Call default constructor.
+14:38:00,445  INFO main ClientSaxParser:<init>:35 - SAXParser created for file: d:\temp\data\clients.xml
+14:38:00,446  INFO Thread-2 XMLData:run:22 - Start run() method.
+14:38:00,446  INFO Thread-1 ClientSaxParser:run:44 - Start ClientSaxParser run() method.
+14:38:00,447  INFO Thread-1 ClientSaxParser:parseDocument:54 - Creating parser for file: d:\temp\data\clients.xml
+14:38:00,463  INFO Thread-1 ClientSaxParser:parseDocument:57 - Parsing file complited
+14:42:55,783  INFO main DBConnection:<init>:19 - Init default connection
+14:42:55,785  INFO main DBConnection:<init>:24 - Default connection init
+14:42:55,785  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+14:42:56,018  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+14:42:56,066  INFO main XMLData:<init>:14 - Call default constructor.
+14:42:56,066  INFO main ClientSaxParser:<init>:35 - SAXParser created for file: d:\temp\data\clients.xml
+14:42:56,067  INFO Thread-1 ClientSaxParser:run:44 - Start ClientSaxParser run() method.
+14:42:56,067  INFO Thread-2 XMLData:run:22 - Start run() method.
+14:42:56,068  INFO Thread-1 ClientSaxParser:parseDocument:54 - Creating parser for file: d:\temp\data\clients.xml
+14:42:56,082  INFO Thread-1 ClientSaxParser:parseDocument:57 - Parsing file complited
+14:42:57,067  INFO Thread-2 QueryManager:insertClient:24 - Inserting client in DB...
+14:42:57,259  INFO Thread-2 QueryManager:insertClient:27 - Insertion client complited
+14:42:57,260  INFO Thread-2 QueryManager:insertCards:39 - Inserting client's cards in DB...
+14:42:57,290  INFO Thread-2 QueryManager:insertCards:43 - Insertion cards complited
+14:42:57,291  INFO Thread-2 QueryManager:insertAccounts:48 - Inserting client's accounts in DB...
+14:42:57,340  INFO Thread-2 QueryManager:insertAccounts:52 - Insertion accounts complited
+14:42:57,342  INFO Thread-2 QueryManager:insertClient:24 - Inserting client in DB...
+14:42:57,357  INFO Thread-2 QueryManager:insertClient:27 - Insertion client complited
+14:42:57,358  INFO Thread-2 QueryManager:insertCards:39 - Inserting client's cards in DB...
+14:42:57,366  INFO Thread-2 QueryManager:insertCards:43 - Insertion cards complited
+14:42:57,366  INFO Thread-2 QueryManager:insertAccounts:48 - Inserting client's accounts in DB...
+14:42:57,374  INFO Thread-2 QueryManager:insertAccounts:52 - Insertion accounts complited
+14:42:57,374  INFO Thread-2 QueryManager:insertClient:24 - Inserting client in DB...
+14:42:57,391  INFO Thread-2 QueryManager:insertClient:27 - Insertion client complited
+14:42:57,391  INFO Thread-2 QueryManager:insertCards:39 - Inserting client's cards in DB...
+14:42:57,407  INFO Thread-2 QueryManager:insertCards:43 - Insertion cards complited
+14:42:57,408  INFO Thread-2 QueryManager:insertAccounts:48 - Inserting client's accounts in DB...
+14:42:57,416  INFO Thread-2 QueryManager:insertAccounts:52 - Insertion accounts complited
+14:42:57,416  INFO Thread-2 QueryManager:insertClient:24 - Inserting client in DB...
+14:42:57,424  INFO Thread-2 QueryManager:insertClient:27 - Insertion client complited
+14:42:57,424  INFO Thread-2 QueryManager:insertCards:39 - Inserting client's cards in DB...
+14:42:57,432  INFO Thread-2 QueryManager:insertCards:43 - Insertion cards complited
+14:42:57,433  INFO Thread-2 QueryManager:insertAccounts:48 - Inserting client's accounts in DB...
+14:42:57,440  INFO Thread-2 QueryManager:insertAccounts:52 - Insertion accounts complited
+14:51:58,910  INFO main DBConnection:<init>:19 - Init default connection
+14:51:58,912  INFO main DBConnection:<init>:24 - Default connection init
+14:51:58,912  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+14:51:59,145  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+14:51:59,193  INFO main XMLData:<init>:14 - Call default constructor.
+14:51:59,194  INFO main ClientSaxParser:<init>:35 - SAXParser created for file: d:\temp\data\clients.xml
+14:51:59,194  INFO Thread-1 ClientSaxParser:run:44 - Start ClientSaxParser run() method.
+14:51:59,195  INFO Thread-2 XMLData:run:22 - Start run() method.
+14:51:59,196  INFO Thread-1 ClientSaxParser:parseDocument:54 - Creating parser for file: d:\temp\data\clients.xml
+14:51:59,210  INFO Thread-1 ClientSaxParser:parseDocument:57 - Parsing file complited
+14:52:00,196  INFO Thread-2 QueryManager:insertClient:24 - Inserting client in DB...
+14:52:00,234  INFO Thread-2 QueryManager:insertClient:27 - Insertion client complited
+14:52:00,235  INFO Thread-2 QueryManager:insertCards:39 - Inserting client's cards in DB...
+14:52:00,241  INFO Thread-2 QueryManager:insertCards:43 - Insertion cards complited
+14:52:00,243  INFO Thread-2 QueryManager:insertAccounts:48 - Inserting client's accounts in DB...
+14:52:00,258  INFO Thread-2 QueryManager:insertAccounts:52 - Insertion accounts complited
+14:52:00,261  INFO Thread-2 QueryManager:insertClient:24 - Inserting client in DB...
+14:52:00,266  INFO Thread-2 QueryManager:insertClient:27 - Insertion client complited
+14:52:00,267  INFO Thread-2 QueryManager:insertCards:39 - Inserting client's cards in DB...
+14:52:00,275  INFO Thread-2 QueryManager:insertCards:43 - Insertion cards complited
+14:52:00,275  INFO Thread-2 QueryManager:insertAccounts:48 - Inserting client's accounts in DB...
+14:52:00,283  INFO Thread-2 QueryManager:insertAccounts:52 - Insertion accounts complited
+14:52:00,283  INFO Thread-2 QueryManager:insertClient:24 - Inserting client in DB...
+14:52:00,291  INFO Thread-2 QueryManager:insertClient:27 - Insertion client complited
+14:52:00,292  INFO Thread-2 QueryManager:insertCards:39 - Inserting client's cards in DB...
+14:52:00,308  INFO Thread-2 QueryManager:insertCards:43 - Insertion cards complited
+14:52:00,308  INFO Thread-2 QueryManager:insertAccounts:48 - Inserting client's accounts in DB...
+14:52:00,316  INFO Thread-2 QueryManager:insertAccounts:52 - Insertion accounts complited
+14:52:00,316  INFO Thread-2 QueryManager:insertClient:24 - Inserting client in DB...
+14:52:00,350  INFO Thread-2 QueryManager:insertClient:27 - Insertion client complited
+14:52:00,350  INFO Thread-2 QueryManager:insertCards:39 - Inserting client's cards in DB...
+14:52:00,358  INFO Thread-2 QueryManager:insertCards:43 - Insertion cards complited
+14:52:00,358  INFO Thread-2 QueryManager:insertAccounts:48 - Inserting client's accounts in DB...
+14:52:00,366  INFO Thread-2 QueryManager:insertAccounts:52 - Insertion accounts complited

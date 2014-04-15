@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ModifyServlet</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body bgcolor="#f0f0f0">
+    <div align="center"><h2>Modifying clients info</h2>
+      <form action="ModifyClientServlet" method="post">
+        Add client.<br/>
+        <input type="text" name="add_name" placeholder="Enter name"/><br/>
+        <input type="text" name="add_surname" placeholder="Enter surname"/><br/>
+        <input type="text" name="add_dateofbirth" placeholder="Enter date of birth"/><br/>
+        <input type="submit" name="add" value="Submit"/>
+      </form><br/>
+      <form action="ModifyClientServlet" method="post">
+        Update client.<br/>
+        <input type="text" name="update_id" placeholder="Enter id"/><br/>
+        <input type="text" name="update_name" placeholder="Enter name"/><br/>
+        <input type="text" name="update_surname" placeholder="Enter surname"/><br/>
+        <input type="text" name="update_dateofbirth" placeholder="Enter date of birth"/><br/>
+        <input type="submit" name="upd" value="Submit"/>
+      </form><br/>
+      <form action="ModifyClientServlet" method="post">
+        Delete client.<br/>
+        <input type="text" name="delete_id" placeholder="Enter client id for delete"/><br/>
+        <input type="submit" name="del" value="Delete"/>
+      </form><br/>
+    </div>
+  </body>
+</html>

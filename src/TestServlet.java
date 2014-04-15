@@ -89,17 +89,19 @@ public class TestServlet extends HttpServlet {
       DBConnection conn = new DBConnection();
       conn.connect();
 
-      ClientSaxParser parser = new ClientSaxParser(testFile.getAbsolutePath(), queue);
-      XMLData data = new XMLData(queue, conn.getConnection());
-
+      ClientSaxParser parser = new ClientSaxParser(queue, testFile.getAbsolutePath());
+      QueryManager manager = new QueryManager(conn.getConnection());
+      XMLData data = new XMLData(queue, manager);
       
       Thread t2 = new Thread(data);
       t2.start();
       Thread t1 = new Thread(parser);
       t1.start();
       
-    } catch (SQLException | ClassNotFoundException | ParseException ex) {
-      logger.error("SQL/ClassNotFound/ParseException", ex);
+    } catch (SQLException | ClassNotFoundException ex) {
+      logger.error("SQL/ClassNotFound", ex);
+    } catch (ParseException ex) {
+      logger.error("ParseException", ex);
     }
   }
 }

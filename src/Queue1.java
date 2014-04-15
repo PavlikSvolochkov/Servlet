@@ -16,14 +16,15 @@ public class Queue1 {
 //----------------------------------------------------------------------------------------------------------------------
 
   public synchronized void put(Client c) {
-    this.queueA.add(c);
+    this.client = c;
+    this.queueA.add(client);
     clientCount++;
     System.out.println("SENDED >>> " + queueA.peek().getName());
   }
 //----------------------------------------------------------------------------------------------------------------------
 
   public synchronized Client get() {
-    System.out.println("RECEIVED >>> ");
+    System.out.println("RECEIVED >>> " + queueA.peek().getName());
     return queueA.poll();
   }
 //----------------------------------------------------------------------------------------------------------------------

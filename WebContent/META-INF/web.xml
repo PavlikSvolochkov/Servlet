@@ -37,4 +37,12 @@
         <servlet-name>AddClientServlet</servlet-name>
         <url-pattern>/AddClientServlet</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>ModifyClientServlet</servlet-name>
+        <servlet-class>ModifyClientServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ModifyClientServlet</servlet-name>
+        <url-pattern>/ModifyClientServlet</url-pattern>
+    </servlet-mapping>
 </web-app>

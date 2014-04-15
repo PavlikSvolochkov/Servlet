@@ -24,8 +24,14 @@ public class ClientSaxParser extends DefaultHandler implements Runnable {
 
   private Queue1 queue;
 
+  public ClientSaxParser(String xmlFile) {
+    logger.info("SAXParser created for file: " + xmlFile);
+    this.fileName = xmlFile;
+    clientList = new ArrayList<>();
+  }
+
 //----------------------------------------------------------------------------------------------------------------------
-  public ClientSaxParser(String xmlFile, Queue1 q) {
+  public ClientSaxParser(Queue1 q, String xmlFile) {
     logger.info("SAXParser created for file: " + xmlFile);
     this.queue = q;
     this.fileName = xmlFile;
@@ -37,6 +43,7 @@ public class ClientSaxParser extends DefaultHandler implements Runnable {
   public void run() {
     logger.info("Start ClientSaxParser run() method.");
     parseDocument();
+    //printData();
     System.out.println("//----------------------------------------------------------------------------------------------------------------------");
   }
 //----------------------------------------------------------------------------------------------------------------------  

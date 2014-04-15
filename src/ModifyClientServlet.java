@@ -2,12 +2,11 @@
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.sql.SQLException;
-import java.util.Date;
-import java.util.logging.Logger;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import org.apache.log4j.Logger;
 
 public class ModifyClientServlet extends HttpServlet {
 
@@ -35,12 +34,10 @@ public class ModifyClientServlet extends HttpServlet {
   public void init() throws ServletException {
     super.init(); //To change body of generated methods, choose Tools | Templates.
 
-    conn = new DBConnection();
-    manager = new QueryManager();
-
     try {
+      conn = new DBConnection();
       conn.connect();
-      manager.setStatement(conn.getConnection().createStatement());
+      manager = new QueryManager(conn.getConnection());
     } catch (SQLException ex) {
       logger.info("ERROR INSERT CLIENT");
     } catch (ClassNotFoundException ex) {
@@ -68,12 +65,6 @@ public class ModifyClientServlet extends HttpServlet {
     del_id = request.getParameter("delete_id");
 //----------------------------------------------------------------------------------------------------------------------
 
-    if (add_name.equalsIgnoreCase("name")) {
-      logger.info("Renaming client...");
-      add_name += new Date(System.currentTimeMillis()).toString();
-      logger.info("Client is renamed.");
-    }
-
     if (request.getParameter("add") != null) {
       try {
         manager.insertClient(add_name, add_surname, add_dateofbirth);
@@ -98,7 +89,7 @@ public class ModifyClientServlet extends HttpServlet {
     }
   }
 
-  public void printAddHTML(String name, String surname, String dateofbirth) {
+  public void printAddHTML(String name, String surname, String dateofbirth) throws SQLException {
     out.println(docType
             + "<html>\n<head><title>" + title + "</title></head>\n"
             + "<body bgcolor=\"#f0f0f0\">\n"
@@ -110,7 +101,7 @@ public class ModifyClientServlet extends HttpServlet {
             + "</ul>\n" + "</body></html>");
   }
 
-  public void printUpdateHTML(String id, String name, String surname, String dateofbirth) {
+  public void printUpdateHTML(String id, String name, String surname, String dateofbirth) throws SQLException {
     out.println(docType
             + "<html>\n<head><title>" + title + "</title></head>\n"
             + "<body bgcolor=\"#f0f0f0\">\n"
@@ -124,7 +115,7 @@ public class ModifyClientServlet extends HttpServlet {
             + "</ul>\n" + "</body></html>");
   }
 
-  public void printDelHTML(String id) {
+  public void printDelHTML(String id) throws SQLException {
     out.println(docType
             + "<html>\n<head><title>" + title + "</title></head>\n"
             + "<body bgcolor=\"#f0f0f0\">\n"
