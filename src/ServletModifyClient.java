@@ -8,9 +8,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import org.apache.log4j.Logger;
 
-public class ModifyClientServlet extends HttpServlet {
+public class ServletModifyClient extends HttpServlet {
 
-  static Logger logger = Logger.getLogger(ModifyClientServlet.class.getName());
+  static Logger logger = Logger.getLogger(ServletModifyClient.class.getName());
 
   private String add_name;
   private String add_surname;

@@ -18,8 +18,8 @@ public class Queue1 {
   public synchronized void put(Client c) {
     this.client = c;
     this.queueA.add(client);
+    System.out.println("SENDED >>> " + c.getName());
     clientCount++;
-    System.out.println("SENDED >>> " + queueA.peek().getName());
   }
 //----------------------------------------------------------------------------------------------------------------------
 

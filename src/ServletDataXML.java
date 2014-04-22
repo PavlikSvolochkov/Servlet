@@ -11,7 +11,7 @@ import javax.servlet.ServletException;
 import javax.xml.stream.XMLStreamException;
 import org.apache.log4j.Logger;
 
-public class DownloadServlet extends HttpServlet {
+public class ServletDataXML extends HttpServlet {
 
   static Logger logger = Logger.getLogger(XMLData.class.getName());
 

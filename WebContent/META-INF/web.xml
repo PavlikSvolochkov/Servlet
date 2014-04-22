@@ -6,43 +6,35 @@
         <param-value>c:\apache-tomcat-7.0.50\webapps\data</param-value>
     </context-param>
     <servlet>
-        <servlet-name>UploadServlet</servlet-name>
-        <servlet-class>UploadServlet</servlet-class>
-    </servlet>
-    <servlet>
         <servlet-name>AddClientServlet</servlet-name>
-        <servlet-class>ModifyClientServlet</servlet-class>
+        <servlet-class>ServletModifyClient</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ServletDataXML</servlet-name>
+        <servlet-class>ServletDataXML</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>UploadServlet</servlet-name>
-        <url-pattern>/UploadServlet</url-pattern>
+        <servlet-name>ServletDataXML</servlet-name>
+        <url-pattern>/ServletDataXML</url-pattern>
     </servlet-mapping>
     <servlet>
-        <servlet-name>DownloadServlet</servlet-name>
-        <servlet-class>DownloadServlet</servlet-class>
+        <servlet-name>ServletXMLData</servlet-name>
+        <servlet-class>ServletXMLData</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>DownloadServlet</servlet-name>
-        <url-pattern>/DownloadServlet</url-pattern>
-    </servlet-mapping>
-    <servlet>
-        <servlet-name>TestServlet</servlet-name>
-        <servlet-class>TestServlet</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>TestServlet</servlet-name>
-        <url-pattern>/TestServlet</url-pattern>
+        <servlet-name>ServletXMLData</servlet-name>
+        <url-pattern>/ServletXMLData</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>AddClientServlet</servlet-name>
         <url-pattern>/AddClientServlet</url-pattern>
     </servlet-mapping>
     <servlet>
-        <servlet-name>ModifyClientServlet</servlet-name>
-        <servlet-class>ModifyClientServlet</servlet-class>
+        <servlet-name>ServletModifyClient</servlet-name>
+        <servlet-class>ServletModifyClient</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>ModifyClientServlet</servlet-name>
-        <url-pattern>/ModifyClientServlet</url-pattern>
+        <servlet-name>ServletModifyClient</servlet-name>
+        <url-pattern>/ServletModifyClient</url-pattern>
     </servlet-mapping>
 </web-app>

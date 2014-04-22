@@ -19,11 +19,11 @@ import org.apache.commons.fileupload.disk.DiskFileItemFactory;
 import org.apache.commons.fileupload.servlet.ServletFileUpload;
 import org.apache.log4j.Logger;
 
-public class TestServlet extends HttpServlet {
+public class ServletXMLData extends HttpServlet {
 
   private static final long serialVersionUID = 1L;
 
-  static Logger logger = Logger.getLogger(TestServlet.class.getName());
+  static Logger logger = Logger.getLogger(ServletXMLData.class.getName());
 
   private List<FileItem> fields;
   private Iterator<FileItem> iterator;
