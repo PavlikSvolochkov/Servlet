@@ -45,6 +45,7 @@ public class DataXML {
 
   void build() throws SQLException, ClassNotFoundException {
     logger.info("Creating statements and resultsets");
+    logger.info("Oracle FetchSize >>> " + stmtClient.getFetchSize());
     this.stmtClient = conn.createStatement();
     this.stmtCards = conn.createStatement();
     this.stmtAccounts = conn.createStatement();

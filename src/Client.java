@@ -4,6 +4,7 @@ import java.util.List;
 
 public class Client {
 
+  private int client_id;
   private String name;
   private String surname;
   private String dateOfBirth;
@@ -13,6 +14,14 @@ public class Client {
   public Client() {
     cards = new ArrayList<>();
     accounts = new ArrayList<>();
+  }
+
+  public int getId() {
+    return client_id;
+  }
+
+  public void setId(int client_id) {
+    this.client_id = client_id;
   }
 
   public String getName() {
@@ -57,7 +66,7 @@ public class Client {
 
   @Override
   public String toString() {
-    return "\nName: " + getName() + "\nSurname: " + getSurname() + "\nDate of birth: " + getDateOfBirth()
+    return "\nId: " + getId() + "\nName: " + getName() + "\nSurname: " + getSurname() + "\nDate of birth: " + getDateOfBirth()
             + "\nCards: " + getCards() + "\nAccounts: " + getAccounts();
   }
 }
