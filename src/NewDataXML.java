@@ -81,13 +81,6 @@ public class NewDataXML implements Runnable {
       }
     } catch (SQLException e) {
       logger.debug("SQLException", e);
-    } finally {
-      try {
-        statement.close();
-        conn.close();
-      } catch (SQLException ex) {
-        logger.debug("Exception", ex);
-      }
     }
   }
 
