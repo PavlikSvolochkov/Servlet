@@ -7045,3 +7045,547 @@ java.text.ParseException: Unparseable date: "2026-12-28 00:00:00.0"
 18:25:49,203  INFO main DBConnection:<init>:24 - Default connection init
 18:25:49,203  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
 18:25:49,461  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+12:37:43,843  INFO main DBConnection:<init>:19 - Init default connection
+12:37:43,844  INFO main DBConnection:<init>:24 - Default connection init
+12:37:43,844  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+12:37:44,407  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+12:47:22,808  INFO main DBConnection:<init>:19 - Init default connection
+12:47:22,810  INFO main DBConnection:<init>:24 - Default connection init
+12:47:22,810  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+12:47:23,109  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+12:47:39,007  INFO main DBConnection:<init>:19 - Init default connection
+12:47:39,009  INFO main DBConnection:<init>:24 - Default connection init
+12:47:39,009  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+12:47:39,258  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+12:48:54,896  INFO main DBConnection:<init>:19 - Init default connection
+12:48:54,898  INFO main DBConnection:<init>:24 - Default connection init
+12:48:54,898  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+12:48:55,134  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+12:49:36,819  INFO main DBConnection:<init>:19 - Init default connection
+12:49:36,821  INFO main DBConnection:<init>:24 - Default connection init
+12:49:36,821  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+12:49:37,060  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+12:50:16,638  INFO main DBConnection:<init>:19 - Init default connection
+12:50:16,640  INFO main DBConnection:<init>:24 - Default connection init
+12:50:16,640  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+12:50:16,910  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+12:50:44,761  INFO main DBConnection:<init>:19 - Init default connection
+12:50:44,763  INFO main DBConnection:<init>:24 - Default connection init
+12:50:44,763  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+12:50:45,004  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+13:03:24,285  INFO main DBConnection:<init>:19 - Init default connection
+13:03:24,287  INFO main DBConnection:<init>:24 - Default connection init
+13:03:24,287  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+13:03:24,531  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+13:04:12,818  INFO main DBConnection:<init>:19 - Init default connection
+13:04:12,819  INFO main DBConnection:<init>:24 - Default connection init
+13:04:12,819  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+13:04:13,055  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+13:04:31,436  INFO main DBConnection:<init>:19 - Init default connection
+13:04:31,437  INFO main DBConnection:<init>:24 - Default connection init
+13:04:31,438  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+13:04:31,672  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+13:05:01,738  INFO main DBConnection:<init>:19 - Init default connection
+13:05:01,740  INFO main DBConnection:<init>:24 - Default connection init
+13:05:01,740  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+13:05:01,990  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+13:05:29,391  INFO main DBConnection:<init>:19 - Init default connection
+13:05:29,394  INFO main DBConnection:<init>:24 - Default connection init
+13:05:29,394  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+13:05:29,659  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+13:08:06,978  INFO main DBConnection:<init>:19 - Init default connection
+13:08:06,979  INFO main DBConnection:<init>:24 - Default connection init
+13:08:06,980  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+13:08:07,228  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+13:20:42,376  INFO main DBConnection:<init>:19 - Init default connection
+13:20:42,377  INFO main DBConnection:<init>:24 - Default connection init
+13:20:42,377  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+13:20:42,616  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+13:22:55,096  INFO main DBConnection:<init>:19 - Init default connection
+13:22:55,098  INFO main DBConnection:<init>:24 - Default connection init
+13:22:55,098  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+13:22:55,368  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+13:23:35,463  INFO main DBConnection:<init>:19 - Init default connection
+13:23:35,465  INFO main DBConnection:<init>:24 - Default connection init
+13:23:35,465  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+13:23:35,745  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+13:24:34,408  INFO main DBConnection:<init>:19 - Init default connection
+13:24:34,410  INFO main DBConnection:<init>:24 - Default connection init
+13:24:34,410  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+13:24:34,628  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+13:26:12,747  INFO main DBConnection:<init>:19 - Init default connection
+13:26:12,749  INFO main DBConnection:<init>:24 - Default connection init
+13:26:12,749  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+13:26:13,010  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+13:26:38,864  INFO main DBConnection:<init>:19 - Init default connection
+13:26:38,866  INFO main DBConnection:<init>:24 - Default connection init
+13:26:38,866  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+13:26:39,122  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+13:31:52,702  INFO main DBConnection:<init>:19 - Init default connection
+13:31:52,705  INFO main DBConnection:<init>:24 - Default connection init
+13:31:52,705  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+13:31:52,943  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+13:32:37,698  INFO main DBConnection:<init>:19 - Init default connection
+13:32:37,700  INFO main DBConnection:<init>:24 - Default connection init
+13:32:37,700  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+13:32:37,968  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+13:35:04,728  INFO main DBConnection:<init>:19 - Init default connection
+13:35:04,730  INFO main DBConnection:<init>:24 - Default connection init
+13:35:04,730  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+13:35:05,019  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+13:44:33,891  INFO main DBConnection:<init>:19 - Init default connection
+13:44:33,893  INFO main DBConnection:<init>:24 - Default connection init
+13:44:33,893  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+13:44:34,129  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+13:45:42,201  INFO main DBConnection:<init>:19 - Init default connection
+13:45:42,203  INFO main DBConnection:<init>:24 - Default connection init
+13:45:42,203  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+13:45:42,447  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+13:46:30,162  INFO main DBConnection:<init>:19 - Init default connection
+13:46:30,164  INFO main DBConnection:<init>:24 - Default connection init
+13:46:30,164  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+13:46:30,414  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+13:54:23,770  INFO main DBConnection:<init>:19 - Init default connection
+13:54:23,772  INFO main DBConnection:<init>:24 - Default connection init
+13:54:23,772  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+13:54:24,013  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+13:57:25,303  INFO main DBConnection:<init>:19 - Init default connection
+13:57:25,305  INFO main DBConnection:<init>:24 - Default connection init
+13:57:25,305  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+13:57:25,541  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+13:59:56,353  INFO main DBConnection:<init>:19 - Init default connection
+13:59:56,355  INFO main DBConnection:<init>:24 - Default connection init
+13:59:56,355  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+13:59:56,593  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+14:01:36,922  INFO main DBConnection:<init>:19 - Init default connection
+14:01:36,924  INFO main DBConnection:<init>:24 - Default connection init
+14:01:36,924  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+14:01:37,218  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+14:05:27,233  INFO main DBConnection:<init>:19 - Init default connection
+14:05:27,235  INFO main DBConnection:<init>:24 - Default connection init
+14:05:27,235  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+14:05:27,470  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+14:08:09,906  INFO main DBConnection:<init>:19 - Init default connection
+14:08:09,907  INFO main DBConnection:<init>:24 - Default connection init
+14:08:09,907  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+14:08:10,148  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+14:08:18,290  INFO main DBConnection:<init>:19 - Init default connection
+14:08:18,291  INFO main DBConnection:<init>:24 - Default connection init
+14:08:18,291  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+14:08:18,532  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+14:08:27,797  INFO main DBConnection:<init>:19 - Init default connection
+14:08:27,799  INFO main DBConnection:<init>:24 - Default connection init
+14:08:27,799  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+14:08:28,031  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+14:17:40,113  INFO main DBConnection:<init>:19 - Init default connection
+14:17:40,114  INFO main DBConnection:<init>:24 - Default connection init
+14:17:40,114  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+14:17:40,360  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+14:18:32,581  INFO main DBConnection:<init>:19 - Init default connection
+14:18:32,583  INFO main DBConnection:<init>:24 - Default connection init
+14:18:32,583  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+14:18:32,829  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+14:25:07,038  INFO main DBConnection:<init>:19 - Init default connection
+14:25:07,040  INFO main DBConnection:<init>:24 - Default connection init
+14:25:07,040  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+14:25:07,293  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+14:25:35,824  INFO main DBConnection:<init>:19 - Init default connection
+14:25:35,825  INFO main DBConnection:<init>:24 - Default connection init
+14:25:35,826  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+14:25:36,060  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+14:26:49,726  INFO main DBConnection:<init>:19 - Init default connection
+14:26:49,728  INFO main DBConnection:<init>:24 - Default connection init
+14:26:49,728  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+14:26:49,976  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+16:17:39,968  INFO main DBConnection:<init>:19 - Init default connection
+16:17:39,970  INFO main DBConnection:<init>:24 - Default connection init
+16:17:39,970  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+16:17:40,224  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+16:20:08,135  INFO main DBConnection:<init>:19 - Init default connection
+16:20:08,138  INFO main DBConnection:<init>:24 - Default connection init
+16:20:08,138  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+16:20:08,393  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+16:21:47,629  INFO main DBConnection:<init>:19 - Init default connection
+16:21:47,631  INFO main DBConnection:<init>:24 - Default connection init
+16:21:47,631  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+16:21:47,893  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+16:22:17,940  INFO main DBConnection:<init>:19 - Init default connection
+16:22:17,942  INFO main DBConnection:<init>:24 - Default connection init
+16:22:17,942  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+16:22:18,204  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+16:38:29,395  INFO main DBConnection:<init>:19 - Init default connection
+16:38:29,397  INFO main DBConnection:<init>:24 - Default connection init
+16:38:29,397  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+16:38:29,642  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+16:38:51,075  INFO main DBConnection:<init>:19 - Init default connection
+16:38:51,077  INFO main DBConnection:<init>:24 - Default connection init
+16:38:51,077  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+16:38:51,335  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+16:40:13,255  INFO main DBConnection:<init>:19 - Init default connection
+16:40:13,258  INFO main DBConnection:<init>:24 - Default connection init
+16:40:13,258  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+16:40:13,520  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+16:42:50,005  INFO main DBConnection:<init>:19 - Init default connection
+16:42:50,007  INFO main DBConnection:<init>:24 - Default connection init
+16:42:50,007  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+16:42:50,255  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+16:44:48,195  INFO main DBConnection:<init>:19 - Init default connection
+16:44:48,199  INFO main DBConnection:<init>:24 - Default connection init
+16:44:48,199  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+16:44:48,448  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+16:45:53,824  INFO main DBConnection:<init>:19 - Init default connection
+16:45:53,826  INFO main DBConnection:<init>:24 - Default connection init
+16:45:53,826  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+16:45:54,075  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+16:49:20,591  INFO main DBConnection:<init>:19 - Init default connection
+16:49:20,594  INFO main DBConnection:<init>:24 - Default connection init
+16:49:20,595  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+16:49:20,844  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+16:49:40,772  INFO main DBConnection:<init>:19 - Init default connection
+16:49:40,774  INFO main DBConnection:<init>:24 - Default connection init
+16:49:40,774  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+16:49:41,028  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+17:02:20,564  INFO main DBConnection:<init>:19 - Init default connection
+17:02:20,566  INFO main DBConnection:<init>:24 - Default connection init
+17:02:20,566  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+17:02:20,816  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+17:02:48,111  INFO main DBConnection:<init>:19 - Init default connection
+17:02:48,113  INFO main DBConnection:<init>:24 - Default connection init
+17:02:48,113  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+17:02:48,365  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+17:04:59,422  INFO main DBConnection:<init>:19 - Init default connection
+17:04:59,425  INFO main DBConnection:<init>:24 - Default connection init
+17:04:59,425  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+17:04:59,728  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+17:05:23,779  INFO main DBConnection:<init>:19 - Init default connection
+17:05:23,781  INFO main DBConnection:<init>:24 - Default connection init
+17:05:23,781  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+17:05:24,028  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+17:05:47,185  INFO main DBConnection:<init>:19 - Init default connection
+17:05:47,187  INFO main DBConnection:<init>:24 - Default connection init
+17:05:47,187  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+17:05:47,434  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+17:06:01,215  INFO main DBConnection:<init>:19 - Init default connection
+17:06:01,216  INFO main DBConnection:<init>:24 - Default connection init
+17:06:01,216  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+17:06:01,469  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+17:08:11,504  INFO main DBConnection:<init>:19 - Init default connection
+17:08:11,506  INFO main DBConnection:<init>:24 - Default connection init
+17:08:11,506  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+17:08:11,778  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+17:08:30,887  INFO main DBConnection:<init>:19 - Init default connection
+17:08:30,889  INFO main DBConnection:<init>:24 - Default connection init
+17:08:30,889  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+17:08:31,130  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+17:09:01,493  INFO main DBConnection:<init>:19 - Init default connection
+17:09:01,495  INFO main DBConnection:<init>:24 - Default connection init
+17:09:01,495  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+17:09:01,737  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+17:10:06,375  INFO main DBConnection:<init>:19 - Init default connection
+17:10:06,377  INFO main DBConnection:<init>:24 - Default connection init
+17:10:06,378  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+17:10:06,623  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+17:14:35,135  INFO main DBConnection:<init>:19 - Init default connection
+17:14:35,137  INFO main DBConnection:<init>:24 - Default connection init
+17:14:35,137  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+17:14:35,477  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+17:16:10,132  INFO main DBConnection:<init>:19 - Init default connection
+17:16:10,134  INFO main DBConnection:<init>:24 - Default connection init
+17:16:10,134  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+17:16:10,403  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+17:17:21,570  INFO main DBConnection:<init>:19 - Init default connection
+17:17:21,571  INFO main DBConnection:<init>:24 - Default connection init
+17:17:21,572  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+17:17:21,795  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+17:17:39,573  INFO main DBConnection:<init>:19 - Init default connection
+17:17:39,575  INFO main DBConnection:<init>:24 - Default connection init
+17:17:39,575  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+17:17:39,847  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+17:46:12,406  INFO main DBConnection:<init>:19 - Init default connection
+17:46:12,408  INFO main DBConnection:<init>:24 - Default connection init
+17:46:12,408  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+17:46:12,656  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+17:48:11,908  INFO main DBConnection:<init>:19 - Init default connection
+17:48:11,910  INFO main DBConnection:<init>:24 - Default connection init
+17:48:11,910  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+17:48:12,157  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+17:48:25,335  INFO main DBConnection:<init>:19 - Init default connection
+17:48:25,337  INFO main DBConnection:<init>:24 - Default connection init
+17:48:25,337  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+17:48:25,583  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+17:50:07,925  INFO main DBConnection:<init>:19 - Init default connection
+17:50:07,928  INFO main DBConnection:<init>:24 - Default connection init
+17:50:07,928  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+17:50:08,193  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+17:51:03,871  INFO main DBConnection:<init>:19 - Init default connection
+17:51:03,872  INFO main DBConnection:<init>:24 - Default connection init
+17:51:03,873  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+17:51:04,127  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+17:51:46,952  INFO main DBConnection:<init>:19 - Init default connection
+17:51:46,954  INFO main DBConnection:<init>:24 - Default connection init
+17:51:46,954  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+17:51:47,202  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+17:52:07,337  INFO main DBConnection:<init>:19 - Init default connection
+17:52:07,339  INFO main DBConnection:<init>:24 - Default connection init
+17:52:07,339  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+17:52:07,673  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+17:52:26,232  INFO main DBConnection:<init>:19 - Init default connection
+17:52:26,234  INFO main DBConnection:<init>:24 - Default connection init
+17:52:26,234  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+17:52:26,512  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+17:54:34,937  INFO main DBConnection:<init>:19 - Init default connection
+17:54:34,939  INFO main DBConnection:<init>:24 - Default connection init
+17:54:34,940  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+17:54:35,197  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+17:54:51,445  INFO main DBConnection:<init>:19 - Init default connection
+17:54:51,447  INFO main DBConnection:<init>:24 - Default connection init
+17:54:51,447  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+17:54:51,706  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+17:58:22,927  INFO main DBConnection:<init>:19 - Init default connection
+17:58:22,929  INFO main DBConnection:<init>:24 - Default connection init
+17:58:22,929  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+17:58:23,210  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+17:58:51,254  INFO main DBConnection:<init>:19 - Init default connection
+17:58:51,256  INFO main DBConnection:<init>:24 - Default connection init
+17:58:51,256  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+17:58:51,516  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+17:59:45,994  INFO main DBConnection:<init>:19 - Init default connection
+17:59:45,996  INFO main DBConnection:<init>:24 - Default connection init
+17:59:45,996  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+17:59:46,281  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+18:00:09,751  INFO main DBConnection:<init>:19 - Init default connection
+18:00:09,754  INFO main DBConnection:<init>:24 - Default connection init
+18:00:09,754  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+18:00:10,018  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+18:00:28,826  INFO main DBConnection:<init>:19 - Init default connection
+18:00:28,828  INFO main DBConnection:<init>:24 - Default connection init
+18:00:28,828  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+18:00:29,077  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+18:01:12,402  INFO main DBConnection:<init>:19 - Init default connection
+18:01:12,403  INFO main DBConnection:<init>:24 - Default connection init
+18:01:12,404  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+18:01:12,637  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+18:01:51,446  INFO main DBConnection:<init>:19 - Init default connection
+18:01:51,448  INFO main DBConnection:<init>:24 - Default connection init
+18:01:51,448  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+18:01:51,743  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+18:03:00,334  INFO main DBConnection:<init>:19 - Init default connection
+18:03:00,336  INFO main DBConnection:<init>:24 - Default connection init
+18:03:00,336  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+18:03:00,619  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+18:03:14,391  INFO main DBConnection:<init>:19 - Init default connection
+18:03:14,393  INFO main DBConnection:<init>:24 - Default connection init
+18:03:14,393  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+18:03:14,651  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+18:03:27,178  INFO main DBConnection:<init>:19 - Init default connection
+18:03:27,180  INFO main DBConnection:<init>:24 - Default connection init
+18:03:27,180  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+18:03:27,427  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+18:03:58,370  INFO main DBConnection:<init>:19 - Init default connection
+18:03:58,372  INFO main DBConnection:<init>:24 - Default connection init
+18:03:58,372  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+18:03:58,619  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+18:04:18,783  INFO main DBConnection:<init>:19 - Init default connection
+18:04:18,786  INFO main DBConnection:<init>:24 - Default connection init
+18:04:18,786  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+18:04:19,097  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+12:16:12,733  INFO main DBConnection:<init>:19 - Init default connection
+12:16:12,736  INFO main DBConnection:<init>:24 - Default connection init
+12:16:12,736  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+12:16:14,626  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+12:16:30,876  INFO main DBConnection:<init>:19 - Init default connection
+12:16:30,877  INFO main DBConnection:<init>:24 - Default connection init
+12:16:30,877  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+12:16:31,117  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+12:16:36,790  INFO main DBConnection:<init>:19 - Init default connection
+12:16:36,792  INFO main DBConnection:<init>:24 - Default connection init
+12:16:36,792  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+12:16:37,043  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+12:28:41,037  INFO main DBConnection:<init>:19 - Init default connection
+12:28:41,040  INFO main DBConnection:<init>:24 - Default connection init
+12:28:41,040  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+12:28:41,309  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+12:29:58,278  INFO main DBConnection:<init>:19 - Init default connection
+12:29:58,280  INFO main DBConnection:<init>:24 - Default connection init
+12:29:58,280  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+12:29:58,560  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+12:31:19,081  INFO main DBConnection:<init>:19 - Init default connection
+12:31:19,083  INFO main DBConnection:<init>:24 - Default connection init
+12:31:19,083  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+12:31:19,338  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+12:36:58,905  INFO main DBConnection:<init>:19 - Init default connection
+12:36:58,907  INFO main DBConnection:<init>:24 - Default connection init
+12:36:58,907  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+12:36:59,168  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+12:37:12,950  INFO main DBConnection:<init>:19 - Init default connection
+12:37:12,952  INFO main DBConnection:<init>:24 - Default connection init
+12:37:12,952  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+12:37:13,192  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+12:42:57,630  INFO main DBConnection:<init>:19 - Init default connection
+12:42:57,632  INFO main DBConnection:<init>:24 - Default connection init
+12:42:57,632  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+12:42:57,897  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+12:44:20,263  INFO main DBConnection:<init>:19 - Init default connection
+12:44:20,265  INFO main DBConnection:<init>:24 - Default connection init
+12:44:20,265  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+12:44:20,547  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+12:46:44,577  INFO main DBConnection:<init>:19 - Init default connection
+12:46:44,579  INFO main DBConnection:<init>:24 - Default connection init
+12:46:44,580  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+12:46:44,809  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+12:47:52,455  INFO main DBConnection:<init>:19 - Init default connection
+12:47:52,457  INFO main DBConnection:<init>:24 - Default connection init
+12:47:52,457  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+12:47:52,720  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+12:49:26,818  INFO main DBConnection:<init>:19 - Init default connection
+12:49:26,820  INFO main DBConnection:<init>:24 - Default connection init
+12:49:26,820  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+12:49:27,054  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+12:50:48,622  INFO main DBConnection:<init>:19 - Init default connection
+12:50:48,624  INFO main DBConnection:<init>:24 - Default connection init
+12:50:48,624  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+12:50:48,855  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+12:52:44,223  INFO main DBConnection:<init>:19 - Init default connection
+12:52:44,225  INFO main DBConnection:<init>:24 - Default connection init
+12:52:44,225  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+12:52:44,466  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+12:53:21,756  INFO main DBConnection:<init>:19 - Init default connection
+12:53:21,758  INFO main DBConnection:<init>:24 - Default connection init
+12:53:21,758  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+12:53:21,992  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+12:55:34,154  INFO main DBConnection:<init>:19 - Init default connection
+12:55:34,156  INFO main DBConnection:<init>:24 - Default connection init
+12:55:34,156  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+12:55:34,402  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+12:56:49,935  INFO main DBConnection:<init>:19 - Init default connection
+12:56:49,936  INFO main DBConnection:<init>:24 - Default connection init
+12:56:49,937  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+12:56:50,203  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+12:57:11,116  INFO main DBConnection:<init>:19 - Init default connection
+12:57:11,118  INFO main DBConnection:<init>:24 - Default connection init
+12:57:11,118  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+12:57:11,406  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+12:57:29,719  INFO main DBConnection:<init>:19 - Init default connection
+12:57:29,721  INFO main DBConnection:<init>:24 - Default connection init
+12:57:29,721  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+12:57:30,003  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+12:58:43,714  INFO main DBConnection:<init>:19 - Init default connection
+12:58:43,716  INFO main DBConnection:<init>:24 - Default connection init
+12:58:43,716  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+12:58:43,955  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+12:59:22,216  INFO main DBConnection:<init>:19 - Init default connection
+12:59:22,218  INFO main DBConnection:<init>:24 - Default connection init
+12:59:22,219  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+12:59:22,502  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+13:02:45,514  INFO main DBConnection:<init>:19 - Init default connection
+13:02:45,515  INFO main DBConnection:<init>:24 - Default connection init
+13:02:45,516  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+13:02:45,752  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+13:11:00,930  INFO main DBConnection:<init>:19 - Init default connection
+13:11:00,931  INFO main DBConnection:<init>:24 - Default connection init
+13:11:00,932  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+13:11:01,168  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+13:17:28,761  INFO main DBConnection:<init>:19 - Init default connection
+13:17:28,763  INFO main DBConnection:<init>:24 - Default connection init
+13:17:28,763  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+13:17:29,008  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+13:38:20,726  INFO main DBConnection:<init>:19 - Init default connection
+13:38:20,728  INFO main DBConnection:<init>:24 - Default connection init
+13:38:20,728  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+13:38:20,952  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+13:39:14,605  INFO main DBConnection:<init>:19 - Init default connection
+13:39:14,608  INFO main DBConnection:<init>:24 - Default connection init
+13:39:14,608  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+13:39:14,891  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+13:39:34,825  INFO main DBConnection:<init>:19 - Init default connection
+13:39:34,826  INFO main DBConnection:<init>:24 - Default connection init
+13:39:34,826  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+13:39:35,062  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+14:11:01,674  INFO main DBConnection:<init>:19 - Init default connection
+14:11:01,676  INFO main DBConnection:<init>:24 - Default connection init
+14:11:01,676  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+14:11:01,927  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+14:11:12,190  INFO main DBConnection:<init>:19 - Init default connection
+14:11:12,192  INFO main DBConnection:<init>:24 - Default connection init
+14:11:12,192  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+14:11:12,427  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+14:11:38,467  INFO main DBConnection:<init>:19 - Init default connection
+14:11:38,469  INFO main DBConnection:<init>:24 - Default connection init
+14:11:38,469  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+14:11:38,711  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+14:11:56,272  INFO main DBConnection:<init>:19 - Init default connection
+14:11:56,274  INFO main DBConnection:<init>:24 - Default connection init
+14:11:56,274  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+14:11:56,519  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+14:31:06,052  INFO main DBConnection:<init>:19 - Init default connection
+14:31:06,054  INFO main DBConnection:<init>:24 - Default connection init
+14:31:06,054  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+14:31:06,304  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+14:31:54,783  INFO main DBConnection:<init>:19 - Init default connection
+14:31:54,784  INFO main DBConnection:<init>:24 - Default connection init
+14:31:54,784  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+14:31:55,097  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+14:34:42,914  INFO main DBConnection:<init>:19 - Init default connection
+14:34:42,916  INFO main DBConnection:<init>:24 - Default connection init
+14:34:42,916  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+14:34:43,158  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+14:34:43,259  INFO Thread-1 DBConnection:<init>:19 - Init default connection
+14:34:43,259  INFO Thread-1 DBConnection:<init>:24 - Default connection init
+14:34:43,259  INFO Thread-1 DBConnection:connect:34 - Calling connect() method for connection to a database
+14:34:43,308  INFO Thread-1 DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+14:34:55,321  INFO Thread-0 DBConnection:<init>:19 - Init default connection
+14:34:55,324  INFO Thread-0 DBConnection:<init>:24 - Default connection init
+14:34:55,324  INFO Thread-0 DBConnection:connect:34 - Calling connect() method for connection to a database
+14:34:55,557  INFO Thread-0 DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+14:34:59,720  INFO Thread-0 DBConnection:<init>:19 - Init default connection
+14:34:59,722  INFO Thread-0 DBConnection:<init>:24 - Default connection init
+14:34:59,722  INFO Thread-0 DBConnection:connect:34 - Calling connect() method for connection to a database
+14:35:00,000  INFO Thread-0 DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+14:35:08,446  INFO Thread-0 DBConnection:<init>:19 - Init default connection
+14:35:08,448  INFO Thread-0 DBConnection:<init>:24 - Default connection init
+14:35:08,448  INFO Thread-0 DBConnection:connect:34 - Calling connect() method for connection to a database
+14:35:08,768  INFO Thread-0 DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+14:37:51,074  INFO Thread-0 DBConnection:<init>:19 - Init default connection
+14:37:51,076  INFO Thread-0 DBConnection:<init>:24 - Default connection init
+14:37:51,076  INFO Thread-0 DBConnection:connect:34 - Calling connect() method for connection to a database
+14:37:51,302  INFO Thread-0 DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+14:39:53,686  INFO Thread-0 DBConnection:<init>:19 - Init default connection
+14:39:53,689  INFO Thread-0 DBConnection:<init>:24 - Default connection init
+14:39:53,689  INFO Thread-0 DBConnection:connect:34 - Calling connect() method for connection to a database
+14:39:53,929  INFO Thread-0 DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+14:40:30,853  INFO Thread-0 DBConnection:<init>:19 - Init default connection
+14:40:30,855  INFO Thread-0 DBConnection:<init>:24 - Default connection init
+14:40:30,855  INFO Thread-0 DBConnection:connect:34 - Calling connect() method for connection to a database
+14:40:31,088  INFO Thread-0 DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+14:43:18,029  INFO main DBConnection:<init>:19 - Init default connection
+14:43:18,031  INFO main DBConnection:<init>:24 - Default connection init
+14:43:18,031  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+14:43:18,291  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+14:51:02,038  INFO main DBConnection:<init>:19 - Init default connection
+14:51:02,040  INFO main DBConnection:<init>:24 - Default connection init
+14:51:02,040  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+14:51:02,273  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+14:51:03,369  INFO Thread-1 DBConnection:close:46 - Closing connection
+14:51:03,438  INFO Thread-1 DBConnection:close:48 - Connection is closed
+14:52:46,977  INFO main DBConnection:<init>:19 - Init default connection
+14:52:46,980  INFO main DBConnection:<init>:24 - Default connection init
+14:52:46,980  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+14:52:47,216  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+14:52:47,305  INFO Thread-1 DBConnection:<init>:19 - Init default connection
+14:52:47,305  INFO Thread-1 DBConnection:<init>:24 - Default connection init
+14:52:47,305  INFO Thread-1 DBConnection:connect:34 - Calling connect() method for connection to a database
+14:52:47,340  INFO Thread-1 DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+14:52:48,473  INFO Thread-1 DBConnection:close:46 - Closing connection
+14:52:48,498  INFO Thread-1 DBConnection:close:48 - Connection is closed
+14:54:12,611  INFO Thread-0 DBConnection:<init>:19 - Init default connection
+14:54:12,613  INFO Thread-0 DBConnection:<init>:24 - Default connection init
+14:54:12,613  INFO Thread-0 DBConnection:connect:34 - Calling connect() method for connection to a database
+14:54:12,850  INFO Thread-0 DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+14:54:13,961  INFO Thread-0 DBConnection:close:46 - Closing connection
+14:54:13,983  INFO Thread-0 DBConnection:close:48 - Connection is closed
+15:36:43,481  INFO Thread-0 DBConnection:<init>:19 - Init default connection
+15:36:43,483  INFO Thread-0 DBConnection:<init>:24 - Default connection init
+15:36:43,483  INFO Thread-0 DBConnection:connect:34 - Calling connect() method for connection to a database
+15:36:43,732  INFO Thread-0 DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+15:36:44,939  INFO Thread-0 DBConnection:close:46 - Closing connection
+15:36:44,954  INFO Thread-0 DBConnection:close:48 - Connection is closed
