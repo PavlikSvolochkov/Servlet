@@ -7593,3 +7593,27 @@ java.text.ParseException: Unparseable date: "2026-12-28 00:00:00.0"
 16:07:53,172  INFO Thread-0 DBConnection:<init>:24 - Default connection init
 16:07:53,172  INFO Thread-0 DBConnection:connect:34 - Calling connect() method for connection to a database
 16:07:53,426  INFO Thread-0 DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+16:09:13,860  INFO Thread-0 DBConnection:<init>:19 - Init default connection
+16:09:13,863  INFO Thread-0 DBConnection:<init>:24 - Default connection init
+16:09:13,863  INFO Thread-0 DBConnection:connect:34 - Calling connect() method for connection to a database
+16:09:14,111  INFO Thread-0 DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+16:09:45,245  INFO Thread-0 DBConnection:<init>:19 - Init default connection
+16:09:45,247  INFO Thread-0 DBConnection:<init>:24 - Default connection init
+16:09:45,247  INFO Thread-0 DBConnection:connect:34 - Calling connect() method for connection to a database
+16:09:45,495  INFO Thread-0 DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+16:10:34,135  INFO Thread-0 DBConnection:<init>:19 - Init default connection
+16:10:34,137  INFO Thread-0 DBConnection:<init>:24 - Default connection init
+16:10:34,137  INFO Thread-0 DBConnection:connect:34 - Calling connect() method for connection to a database
+16:10:34,379  INFO Thread-0 DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+16:11:06,969  INFO Thread-0 DBConnection:<init>:19 - Init default connection
+16:11:06,971  INFO Thread-0 DBConnection:<init>:24 - Default connection init
+16:11:06,971  INFO Thread-0 DBConnection:connect:34 - Calling connect() method for connection to a database
+16:11:07,221  INFO Thread-0 DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+16:14:23,840  INFO Thread-0 DBConnection:<init>:19 - Init default connection
+16:14:23,842  INFO Thread-0 DBConnection:<init>:24 - Default connection init
+16:14:23,843  INFO Thread-0 DBConnection:connect:34 - Calling connect() method for connection to a database
+16:14:24,082  INFO Thread-0 DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+16:20:45,899  INFO Thread-0 DBConnection:<init>:19 - Init default connection
+16:20:45,902  INFO Thread-0 DBConnection:<init>:24 - Default connection init
+16:20:45,903  INFO Thread-0 DBConnection:connect:34 - Calling connect() method for connection to a database
+16:20:46,162  INFO Thread-0 DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened

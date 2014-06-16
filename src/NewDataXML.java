@@ -80,9 +80,10 @@ public class NewDataXML implements Runnable {
         }
         id = cur_id;
       }
+      printClientList();
     } catch (SQLException e) {
       logger.debug("SQLException", e);
-    } catch (Exception e) {
+    } catch (ClassNotFoundException e) {
       logger.debug("NullPointer", e);
     }
   }
