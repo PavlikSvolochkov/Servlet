@@ -24,7 +24,7 @@ public class NewDataXML implements Runnable {
   private DBConnection conn = null;
   private ResultSet result = null;
 
-  public void NewDataXML() throws SQLException, ClassNotFoundException {
+  public void build() throws SQLException, ClassNotFoundException {
     clientList = new ArrayList<>();
     conn = new DBConnection();
     conn.connect();
@@ -49,6 +49,7 @@ public class NewDataXML implements Runnable {
     int rowCount = 0;
 
     try {
+      build();
       while (result.next()) {
         cur_id = result.getInt("ID");
         String name = result.getString("NAME");
@@ -81,6 +82,8 @@ public class NewDataXML implements Runnable {
       }
     } catch (SQLException e) {
       logger.debug("SQLException", e);
+    } catch (Exception e) {
+      logger.debug("NullPointer", e);
     }
   }
 

@@ -7589,3 +7589,7 @@ java.text.ParseException: Unparseable date: "2026-12-28 00:00:00.0"
 15:36:43,732  INFO Thread-0 DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
 15:36:44,939  INFO Thread-0 DBConnection:close:46 - Closing connection
 15:36:44,954  INFO Thread-0 DBConnection:close:48 - Connection is closed
+16:07:53,170  INFO Thread-0 DBConnection:<init>:19 - Init default connection
+16:07:53,172  INFO Thread-0 DBConnection:<init>:24 - Default connection init
+16:07:53,172  INFO Thread-0 DBConnection:connect:34 - Calling connect() method for connection to a database
+16:07:53,426  INFO Thread-0 DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
