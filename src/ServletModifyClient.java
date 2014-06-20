@@ -10,7 +10,7 @@ import org.apache.log4j.Logger;
 
 public class ServletModifyClient extends HttpServlet {
 
-  static Logger logger = Logger.getLogger(ServletModifyClient.class.getName());
+  private static final Logger logger = Logger.getLogger(ServletModifyClient.class);
 
   private String add_name;
   private String add_surname;

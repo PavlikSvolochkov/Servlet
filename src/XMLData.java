@@ -5,7 +5,7 @@ import org.apache.log4j.Logger;
 
 public class XMLData implements Runnable {
 
-  static Logger logger = Logger.getLogger(XMLData.class);
+  private static final Logger logger = Logger.getLogger(XMLData.class);
 
   private Queue1 queue;
   private QueryManager queryManager;

@@ -80458,3 +80458,31 @@ java.sql.SQLException: Invalid operation for forward only resultset : isLast
 18:45:21,824  INFO Thread-2 ToXML:run:44 - Get the list.
 18:45:21,953  INFO Thread-2 ToXML:toXML:103 - Clients count >>> 9234
 18:45:22,953  INFO Thread-2 ToXML:run:44 - Get the list.
+12:53:43,461  INFO main DBConnection:<init>:19 - Init default connection
+12:53:43,462  INFO main DBConnection:<init>:24 - Default connection init
+12:53:43,463  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+12:53:43,688  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+12:53:43,689  INFO main NewDataXML:<init>:37 - Creating statement...
+12:53:43,735  INFO main NewDataXML:<init>:40 - Set fetchsize for statement...
+12:53:43,735  INFO main NewDataXML:<init>:42 - Fetchsize: 50
+12:53:43,735  INFO main NewDataXML:<init>:44 - Get the resultset...
+12:53:44,593  INFO main ToXML:<init>:28 - Creating file: d:/temp/data/new_clients.xml
+12:53:44,594  INFO main ToXML:<init>:32 - Creating writer...
+12:53:44,610  INFO main ToXML:<init>:35 - writer was created.
+12:53:45,611  INFO Thread-2 ToXML:run:44 - Get the list.
+12:53:45,648  INFO Thread-1 NewDataXML:run:81 - Clients count >>> 18469
+13:10:37,572  INFO main DBConnection:<init>:19 - Init default connection
+13:10:37,575  INFO main DBConnection:<init>:24 - Default connection init
+13:10:37,575  INFO main DBConnection:connect:34 - Calling connect() method for connection to a database
+13:10:37,827  INFO main DBConnection:connect:37 - Connection to: jdbc:oracle:thin:@193.8.203.37:1522/PS is opened
+13:10:37,829  INFO main NewDataXML:<init>:37 - Creating statement...
+13:10:37,877  INFO main NewDataXML:<init>:40 - Set fetchsize for statement...
+13:10:37,877  INFO main NewDataXML:<init>:42 - Fetchsize: 50
+13:10:37,877  INFO main NewDataXML:<init>:44 - Get the resultset...
+13:10:38,002  INFO main ToXML:<init>:28 - Creating file: d:/temp/data/new_clients.xml
+13:10:38,002  INFO main ToXML:<init>:32 - Creating writer...
+13:10:38,006  INFO main ToXML:<init>:35 - writer was created.
+13:10:38,832  INFO Thread-1 NewDataXML:run:81 - Clients count >>> 18469
+13:10:39,006  INFO Thread-2 ToXML:run:44 - Get the list.
+13:10:39,192  INFO Thread-2 ToXML:toXML:103 - Clients count >>> 18469
+13:10:40,192  INFO Thread-2 ToXML:run:44 - Get the list.

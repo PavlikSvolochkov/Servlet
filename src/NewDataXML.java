@@ -8,7 +8,7 @@ import org.apache.log4j.Logger;
 
 public class NewDataXML implements Runnable {
 
-  static Logger logger = Logger.getLogger(NewDataXML.class);
+  private static final Logger logger = Logger.getLogger(NewDataXML.class);
 
   private int FETCH_SIZE = 50;
 
@@ -22,12 +22,14 @@ public class NewDataXML implements Runnable {
           + "LEFT JOIN CARDS ON CLIENTS.ID = CARDS.ID_CLIENT)\n"
           + "order by client_id";
 
-  private Client client = null;
-  private List<Client> clientList = null;
-  private Statement statement = null;
-  private DBConnection conn = null;
-  private ResultSet result = null;
-  private NewQueue queue = null;
+  private Client client;
+  private List<Client> clientList;
+  
+  private NewQueue queue;
+  
+  private Statement statement;
+  private DBConnection conn;
+  private ResultSet result;
 
   public NewDataXML(NewQueue queue) throws SQLException, ClassNotFoundException {
     clientList = new ArrayList<>();

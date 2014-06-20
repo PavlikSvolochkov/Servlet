@@ -5,10 +5,15 @@ import org.apache.log4j.Logger;
 
 public class NewQueue {
 
-  static Logger logger = Logger.getLogger(ToXML.class);
+  private static final Logger logger = Logger.getLogger(ToXML.class);
 
-  private int clientCount = 0;
-  private List<Client> list = new ArrayList<Client>();
+  private int clientCount;
+  private List<Client> list;
+
+  public NewQueue() {
+    this.clientCount = 0;
+    this.list = new ArrayList<>();
+  }
 
   public synchronized void put(Client c) throws InterruptedException {
     list.add(c);

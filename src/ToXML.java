@@ -2,7 +2,6 @@
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.List;
 import javax.xml.stream.XMLOutputFactory;
 import javax.xml.stream.XMLStreamException;
@@ -11,16 +10,13 @@ import org.apache.log4j.Logger;
 
 public class ToXML implements Runnable {
 
-  static Logger logger = Logger.getLogger(ToXML.class);
+  private static final Logger logger = Logger.getLogger(ToXML.class);
 
-  private String fileLocation = "d:/temp/data/new_clients.xml";
-  private String fileName = "new_clients.xml";
+  private List<Client> clientList;
+  private NewQueue queue;
 
-  private List<Client> clientList = new ArrayList<Client>();
-  private NewQueue queue = null;
-
-  private XMLOutputFactory outputFactory = null;
-  private XMLStreamWriter writer = null;
+  private XMLOutputFactory outputFactory;
+  private XMLStreamWriter writer;
 
   public ToXML(NewQueue queue, String filePath) throws IOException, XMLStreamException {
     this.queue = queue;

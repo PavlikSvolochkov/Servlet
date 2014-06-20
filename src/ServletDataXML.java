@@ -1,6 +1,5 @@
 
 import java.io.*;
-import java.io.FileInputStream;
 import java.io.IOException;
 import java.sql.SQLException;
 import java.util.logging.Level;
@@ -8,13 +7,12 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.Part;
 import javax.xml.stream.XMLStreamException;
 import org.apache.log4j.Logger;
 
 public class ServletDataXML extends HttpServlet {
 
-  static Logger logger = Logger.getLogger(XMLData.class.getName());
+  private static final Logger logger = Logger.getLogger(ServletDataXML.class);
 
   /**
    * Name of the directory where uploaded files will be saved, relative to the web application directory.

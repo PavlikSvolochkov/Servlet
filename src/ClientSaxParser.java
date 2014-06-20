@@ -14,13 +14,13 @@ import org.xml.sax.helpers.DefaultHandler;
 
 public class ClientSaxParser extends DefaultHandler implements Runnable {
 
-  static Logger logger = Logger.getLogger(ClientSaxParser.class);
+  private static final Logger logger = Logger.getLogger(ClientSaxParser.class);
 
   private String tmpValue;
   private String fileName;
 
-  private List<Client> clientList = null;
-  private Client client = null;
+  private List<Client> clientList;
+  private Client client;
 
   private Queue1 queue;
 

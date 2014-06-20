@@ -6,7 +6,7 @@ import org.apache.log4j.Logger;
 
 public class QueryManager {
 
-  static Logger logger = Logger.getLogger(QueryManager.class.getName());
+  private static final Logger logger = Logger.getLogger(QueryManager.class.getName());
 
   private Connection conn;
   private Client client;

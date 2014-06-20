@@ -6,14 +6,14 @@ import org.apache.log4j.Logger;
 
 public class DBConnection {
 
-  static Logger logger = Logger.getLogger(DBConnection.class.getName());
+  private static final Logger logger = Logger.getLogger(DBConnection.class.getName());
 
   private String url;
   private String user;
   private String pass;
   private String driver;
 
-  private Connection conn = null;
+  private Connection conn;
 
   public DBConnection() {
     logger.info("Init default connection");

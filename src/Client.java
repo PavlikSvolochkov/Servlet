@@ -4,7 +4,7 @@ import java.util.List;
 
 public class Client {
 
-  private int client_id;
+  private int clientId;
   private String name;
   private String surname;
   private String dateOfBirth;
@@ -17,11 +17,11 @@ public class Client {
   }
 
   public int getId() {
-    return client_id;
+    return clientId;
   }
 
   public void setId(int client_id) {
-    this.client_id = client_id;
+    this.clientId = client_id;
   }
 
   public String getName() {

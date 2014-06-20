@@ -12,7 +12,7 @@ import org.apache.log4j.Logger;
 
 public class DataXML {
 
-  static Logger logger = Logger.getLogger(DataXML.class);
+  private static final Logger logger = Logger.getLogger(DataXML.class);
 
   private String clientQuery = "SELECT * FROM CLIENTS";
   private String cardsQuery = "SELECT * FROM CARDS";
@@ -20,18 +20,18 @@ public class DataXML {
   private String fileLocation = "d:/temp/";
   private String fileName = "clients.xml";
 
-  private Connection conn = null;
+  private Connection conn;
 
-  private ResultSet clientRS = null;
-  private ResultSet cardsRS = null;
-  private ResultSet accountsRS = null;
+  private ResultSet clientRS;
+  private ResultSet cardsRS;
+  private ResultSet accountsRS;
 
-  private Statement stmtClient = null;
-  private Statement stmtCards = null;
-  private Statement stmtAccounts = null;
+  private Statement stmtClient;
+  private Statement stmtCards;
+  private Statement stmtAccounts;
 
-  XMLOutputFactory outputFactory = null;
-  XMLStreamWriter writer = null;
+  private XMLOutputFactory outputFactory;
+  private XMLStreamWriter writer;
 
   public DataXML(String loc, String name) throws XMLStreamException, IOException {
     logger.info("Set filelocation and filename");
