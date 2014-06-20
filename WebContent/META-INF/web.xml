@@ -3,7 +3,7 @@
     <context-param>
         <description>Location to store uploaded file</description>
         <param-name>file-upload</param-name>
-        <param-value>c:\apache-tomcat-7.0.50\webapps\data</param-value>
+        <param-value>c:\TEMP_DATA\</param-value>
     </context-param>
     <servlet>
         <servlet-name>AddClientServlet</servlet-name>

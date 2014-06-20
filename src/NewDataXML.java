@@ -10,88 +10,88 @@ public class NewDataXML implements Runnable {
 
   static Logger logger = Logger.getLogger(NewDataXML.class);
 
-  private String select
-          = "SELECT CLIENTS.ID, CLIENTS.NAME, CLIENTS.SURNAME, CLIENTS.DATEOFBIRTH, ACCOUNTS.ACCOUNT, ACCOUNTS.ID_CLIENT, CARDS.CARD\n"
+  private int FETCH_SIZE = 50;
+
+  private final String newSelect
+          = "select * from (SELECT CLIENTS.ID client_id, CLIENTS.NAME, CLIENTS.SURNAME, CLIENTS.DATEOFBIRTH, ACCOUNTS.ACCOUNT, NULL CARD\n"
           + "FROM CLIENTS\n"
           + "LEFT JOIN ACCOUNTS ON CLIENTS.ID = ACCOUNTS.ID_CLIENT\n"
-          + "LEFT JOIN CARDS ON CLIENTS.ID = CARDS.ID_CLIENT\n"
-          + "ORDER BY clients.id";
+          + "UNION\n"
+          + "SELECT CLIENTS.ID client_id, CLIENTS.NAME, CLIENTS.SURNAME, CLIENTS.DATEOFBIRTH, NULL, CARDS.CARD CARD\n"
+          + "FROM CLIENTS\n"
+          + "LEFT JOIN CARDS ON CLIENTS.ID = CARDS.ID_CLIENT)\n"
+          + "order by client_id";
 
   private Client client = null;
   private List<Client> clientList = null;
-
   private Statement statement = null;
   private DBConnection conn = null;
   private ResultSet result = null;
+  private NewQueue queue = null;
 
-  public void build() throws SQLException, ClassNotFoundException {
+  public NewDataXML(NewQueue queue) throws SQLException, ClassNotFoundException {
     clientList = new ArrayList<>();
     conn = new DBConnection();
     conn.connect();
 
-    logger.debug("Creating statement...");
+    logger.info("Creating statement...");
     statement = conn.getConnection().createStatement();
 
-    logger.debug("Set fetchsize for statement...");
-    statement.setFetchSize(10);
-    logger.debug("Fetchsize: " + statement.getFetchSize());
+    logger.info("Set fetchsize for statement...");
+    statement.setFetchSize(FETCH_SIZE);
+    logger.info("Fetchsize: " + statement.getFetchSize());
 
-    logger.debug("Get the resultset...");
-    result = statement.executeQuery(select);
+    logger.info("Get the resultset...");
+    result = statement.executeQuery(newSelect);
+
+    this.queue = queue;
   }
 
   @Override
   public void run() {
 
     int id = 0;
-    int cur_id = 1;
-    String curr_acc = "";
-    int rowCount = 0;
+    int curId = 1;
+    int clientCount = 0;
 
     try {
-      build();
       while (result.next()) {
-        cur_id = result.getInt("ID");
-        String name = result.getString("NAME");
-        String surname = result.getString("SURNAME");
-        String date = result.getString("DATEOFBIRTH");
+        curId = result.getInt("CLIENT_ID");
         String card = result.getString("CARD");
         String account = result.getString("ACCOUNT");
 
-        if (id != cur_id) {
+        if (id != curId) {
           client = new Client();
-          client.setId(cur_id);
-          client.setName(name);
-          client.setSurname(surname);
-          client.setDateOfBirth(date);
-          client.setCard(card);
-          client.setAcc(account);
-          curr_acc = account;
-        }
-        if (id == cur_id) {
-          client.setCard(card);
-          if (account == curr_acc) {
-            client.setAcc(account);
-          }
+          client.setId(curId);
+          client.setName(result.getString("NAME"));
+          client.setSurname(result.getString("SURNAME"));
+          client.setDateOfBirth(result.getString("DATEOFBIRTH"));
+          setNotNull(card, "CARD");
+          setNotNull(account, "ACC");
+          id = curId;
+//          clientList.add(client);
+          queue.put(client);
+          clientCount++;
         } else {
-          clientList.add(client);
-          logger.debug(client.toString());
-          rowCount++;
+          setNotNull(card, "CARD");
+          setNotNull(account, "ACC");
         }
-        id = cur_id;
+        id = curId;
       }
-      printClientList();
+      logger.info("Clients count >>> " + clientCount);
     } catch (SQLException e) {
-      logger.debug("SQLException", e);
-    } catch (ClassNotFoundException e) {
-      logger.debug("NullPointer", e);
+      logger.info("SQLException", e);
+    } catch (InterruptedException ex) {
+      logger.info("InterruptedException", ex);
     }
   }
 
-  public void printClientList() {
-    logger.debug("Print clientlist.");
-    for (Client c : clientList) {
-      logger.debug(c.toString());
+  private void setNotNull(String str, String key) {
+    if (str != null && "CARD".equals(key)) {
+      client.setCard(str);
+    }
+    if (str != null && "ACC".equals(key)) {
+      client.setAcc(str);
     }
   }
 
