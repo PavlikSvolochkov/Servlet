@@ -8,5 +8,9 @@ public class SemDemo {
     Semaphore sem = new Semaphore(1);
     new IncThread(sem, "A");
     new DecThread(sem, "B");
+    
+    Q q = new Q();
+    new Consumer(q);
+    new Producer(q);
   }
 }

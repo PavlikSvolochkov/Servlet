@@ -2,12 +2,10 @@
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
 import org.apache.log4j.Logger;
-
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
@@ -30,14 +28,12 @@ public class ClientSaxParser extends DefaultHandler implements Runnable {
     clientList = new ArrayList<>();
   }
 
-//----------------------------------------------------------------------------------------------------------------------
   public ClientSaxParser(Queue1 q, String xmlFile) {
     logger.info("SAXParser created for file: " + xmlFile);
     this.queue = q;
     this.fileName = xmlFile;
     clientList = new ArrayList<>();
   }
-//----------------------------------------------------------------------------------------------------------------------  
 
   @Override
   public void run() {
@@ -46,7 +42,6 @@ public class ClientSaxParser extends DefaultHandler implements Runnable {
     //printData();
     System.out.println("//----------------------------------------------------------------------------------------------------------------------");
   }
-//----------------------------------------------------------------------------------------------------------------------  
 
   public void parseDocument() {
     SAXParserFactory factory = SAXParserFactory.newInstance();
@@ -59,30 +54,11 @@ public class ClientSaxParser extends DefaultHandler implements Runnable {
       logger.error("ERROR PARSE DOCUMENT", e);
     }
   }
-//----------------------------------------------------------------------------------------------------------------------  
-
-  public void printData() {
-    for (Client tmpClient : clientList) {
-      System.out.println(tmpClient.toString());
-    }
-  }
-//----------------------------------------------------------------------------------------------------------------------  
-
-  public List<Client> getClientList() {
-    return clientList;
-  }
-//----------------------------------------------------------------------------------------------------------------------  
-
-  public void setQueue(Queue1 queue) {
-    this.queue = queue;
-  }
-//----------------------------------------------------------------------------------------------------------------------  
-
+  
   @Override
   public void startDocument() throws SAXException {
     System.out.println("START DOCUMENT PARSING");
   }
-//----------------------------------------------------------------------------------------------------------------------  
 
   @Override
   public void startElement(String uri, String localName, String qName, Attributes attributes) throws SAXException {
@@ -96,13 +72,11 @@ public class ClientSaxParser extends DefaultHandler implements Runnable {
       }
     }
   }
-//----------------------------------------------------------------------------------------------------------------------  
 
   @Override
   public void characters(char[] ch, int start, int length) throws SAXException {
     tmpValue = new String(ch, start, length);
   }
-//----------------------------------------------------------------------------------------------------------------------  
 
   @Override
   public void endElement(String uri, String localName, String qName) throws SAXException {
@@ -127,11 +101,24 @@ public class ClientSaxParser extends DefaultHandler implements Runnable {
       client.getAccounts().add(tmpValue);
     }
   }
-//----------------------------------------------------------------------------------------------------------------------  
-
+  
   @Override
   public void endDocument() throws SAXException {
     System.out.println("END DOCUMENT PARSING");
     System.out.println("Clients inserted in queue: " + Queue1.clientCount);
+  }
+
+  public void printData() {
+    for (Client tmpClient : clientList) {
+      System.out.println(tmpClient.toString());
+    }
+  }
+
+  public List<Client> getClientList() {
+    return clientList;
+  }
+
+  public void setQueue(Queue1 queue) {
+    this.queue = queue;
   }
 }
