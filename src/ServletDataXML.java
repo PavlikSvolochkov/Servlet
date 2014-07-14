@@ -1,8 +1,10 @@
 
+import temp.ToXML;
+import temp.NewQueue;
+import temp.NewDataXML;
 import java.io.*;
 import java.io.IOException;
 import java.sql.SQLException;
-import java.util.logging.Level;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -42,13 +44,13 @@ public class ServletDataXML extends HttpServlet {
 
       t1.start();
       t2.start();
-      
+
     } catch (SQLException ex) {
-      java.util.logging.Logger.getLogger(ServletDataXML.class.getName()).log(Level.SEVERE, null, ex);
+      logger.info("SQLException", ex);
     } catch (ClassNotFoundException ex) {
-      java.util.logging.Logger.getLogger(ServletDataXML.class.getName()).log(Level.SEVERE, null, ex);
+      logger.info("ClassNotFoundException", ex);
     } catch (XMLStreamException ex) {
-      java.util.logging.Logger.getLogger(ServletDataXML.class.getName()).log(Level.SEVERE, null, ex);
+      logger.info("XMLStreamException", ex);
     }
   }
 

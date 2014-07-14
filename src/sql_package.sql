@@ -1,3 +1,17 @@
+select * from (SELECT CLIENTS.ID client_id, CLIENTS.NAME, CLIENTS.SURNAME, CLIENTS.DATEOFBIRTH, ACCOUNTS.ACCOUNT, NULL CARD
+FROM CLIENTS
+LEFT JOIN ACCOUNTS ON CLIENTS.ID = ACCOUNTS.ID_CLIENT
+UNION
+SELECT CLIENTS.ID client_id, CLIENTS.NAME, CLIENTS.SURNAME, CLIENTS.DATEOFBIRTH, NULL, CARDS.CARD CARD
+FROM CLIENTS
+LEFT JOIN CARDS ON CLIENTS.ID = CARDS.ID_CLIENT)
+order by client_id;
+
+
+------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
+
+
 create or replace PACKAGE MY_TEST_PACKAGE AS
 
   PROCEDURE INSERT_CLIENT(nameVal IN CLIENTS.NAME%TYPE, surnameVal IN CLIENTS.SURNAME%TYPE, dateofbirth IN CLIENTS.DATEOFBIRTH%TYPE);
