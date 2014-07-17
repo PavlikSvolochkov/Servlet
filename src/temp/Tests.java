@@ -2,6 +2,8 @@ package temp;
 
 import java.io.IOException;
 import java.sql.SQLException;
+import java.util.List;
+import java.util.concurrent.Exchanger;
 import javax.xml.stream.XMLStreamException;
 
 class Tests {
@@ -9,15 +11,12 @@ class Tests {
   public static void main(String[] args) throws InterruptedException, XMLStreamException, IOException, SQLException, ClassNotFoundException {
 
     String fileLocation = "d:/temp/data/new_clients.xml";
+    
+    Exchanger<List<NewClient>> exgr = new Exchanger<List<NewClient>>();
     NewQueue queue = new NewQueue();
 
-    NewDataXML dataXML = new NewDataXML(queue);
-    ToXML toXML = new ToXML(queue, fileLocation);
-
-    Thread t1 = new Thread(dataXML);
-    Thread t2 = new Thread(toXML);
-
-    t1.start();
-    t2.start();
+    ToXML toXML = new ToXML(exgr, fileLocation);
+    NewDataXML dataXML = new NewDataXML(toXML, exgr);
+    
   }
 }
