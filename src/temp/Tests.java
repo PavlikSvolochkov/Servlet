@@ -10,13 +10,10 @@ class Tests {
 
   public static void main(String[] args) throws InterruptedException, XMLStreamException, IOException, SQLException, ClassNotFoundException {
 
-    String fileLocation = "d:/temp/data/new_clients.xml";
+    Exchanger<List<NewClient>> exchanger = new Exchanger();
     
-    Exchanger<List<NewClient>> exgr = new Exchanger<List<NewClient>>();
-    NewQueue queue = new NewQueue();
+    ToXML toXML = new ToXML(exchanger);
+    NewDataXML dataXML = new NewDataXML(toXML, exchanger);
 
-    ToXML toXML = new ToXML(exgr, fileLocation);
-    NewDataXML dataXML = new NewDataXML(toXML, exgr);
-    
   }
 }

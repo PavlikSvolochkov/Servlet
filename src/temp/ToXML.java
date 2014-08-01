@@ -11,33 +11,38 @@ import javax.xml.stream.XMLStreamException;
 import javax.xml.stream.XMLStreamWriter;
 import org.apache.log4j.Logger;
 
-public class ToXML implements Runnable {
+public class ToXML extends Thread {
 
   private static final Logger logger = Logger.getLogger(ToXML.class);
 
-  int count = 0;
+  private int count;
+  private String filePath;
+  private boolean checkLast;
 
   private List<NewClient> clientList;
-//  private NewQueue queue;
-  private boolean checkLast;
+
+  private File file;
 
   private XMLOutputFactory outputFactory;
   private XMLStreamWriter writer;
 
   private Exchanger<List<NewClient>> ex;
 
-  public ToXML(Exchanger<List<NewClient>> exList, String filePath) throws IOException, XMLStreamException {
-//    this.queue = queue;
+  public ToXML(Exchanger<List<NewClient>> exList) throws IOException, XMLStreamException {
     this.checkLast = true;
+    this.filePath = "d:\\temp\\data\\new_clients.xml";
+//    this.filePath = "/output.xml";
+    this.count = 0;
 
-    logger.info("Creating file: " + filePath);
-    File file = new File(filePath);
+    logger.debug("Creating file: " + filePath);
+    file = new File(filePath);
     file.createNewFile();
+    System.out.println(file.getAbsoluteFile());
 
-    logger.info("Creating writer...");
+    logger.debug("Creating writer...");
     this.outputFactory = XMLOutputFactory.newInstance();
     this.writer = outputFactory.createXMLStreamWriter(new FileWriter(filePath));
-    logger.info("writer was created.");
+    logger.debug("writer was created.");
     ex = exList;
     new Thread(this).start();
   }
@@ -46,12 +51,12 @@ public class ToXML implements Runnable {
   public void run() {
 
     try {
-//      Thread.sleep(1000);
       writer.writeStartElement("clients");
 
-      while (checkLast) {
+      while (true) {
+
         clientList = ex.exchange(new ArrayList<NewClient>());
-        logger.info("ClientList.size(): " + clientList.size());
+        logger.debug("ClientList.size(): " + clientList.size());
         System.out.println("Hello, List!");
 
         for (NewClient c : clientList) {
@@ -93,16 +98,25 @@ public class ToXML implements Runnable {
           writer.flush();
           count++;
         }
+        if (checkLast == false) {
+          break;
+        }
       }
-      logger.info("Clients count from ToXML.class: " + count);
+      logger.debug("Clients count from ToXML.class: " + count);
       writer.writeEndElement();
       writer.writeEndDocument();
       writer.close();
+      logger.debug("ToXML.class finished.");
     } catch (XMLStreamException ex) {
-      logger.info("XMLStreamException", ex);
+      logger.debug("XMLStreamException", ex);
     } catch (InterruptedException ex) {
-      logger.info("InterruptedException", ex);
+      logger.debug("InterruptedException", ex);
     }
+  }
+
+  public File getFile() {
+    logger.debug("ToXML.getFile() method return xml file: " + file.getName() + " length: " + file.length());
+    return file;
   }
 
   public void setClientList(List<NewClient> clientList) {

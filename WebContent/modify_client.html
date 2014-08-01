@@ -29,5 +29,34 @@
         <input type="submit" name="del" value="Delete"/>
       </form><br/>
     </div>
+
+    <div align="center">
+      <form action="CreateXMLServlet" method="get">
+        <input type="file" name="createFile"/>
+        <input type="submit" name="Submit"/>
+      </form>
+      <br/>
+      <FORM action="ServletFormTest" method=POST> 
+        <H3>Название проекта:</H3>
+        <INPUT type="text" name="Имя проекта" value="-задать!-"><br/>
+        Технологии: 
+        <TABLE BORDER=1>
+          <tr>
+            <td>JSPX</td>
+            <td><INPUT type="radio" name="Технология" value="JSP в формате XML"></td>
+            <td>JSTL</td>
+            <td><INPUT type="radio" name="Технология" value="Библиотека тегов JSTL"></td>
+          </tr>
+        </TABLE>
+        Язык программирования:
+        <TABLE BORDER=1>
+          <tr>
+            <td>Java 6<INPUT type="radio" name="Язык" value="Java SE 6"></td>
+            <td>Java 5<INPUT type="radio" name="Язык" value="Java 1.5.0" checked></td>
+          </tr>
+        </TABLE>
+        <INPUT type="submit" value="Принять"> <BR> 
+      </FORM>
+    </div>
   </body>
 </html>

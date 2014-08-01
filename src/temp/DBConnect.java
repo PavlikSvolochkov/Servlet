@@ -17,12 +17,12 @@ public class DBConnect {
   private Connection conn;
 
   public DBConnect() {
-    logger.info("Init default connection");
+    logger.debug("Init default connection");
     this.url = "jdbc:oracle:thin:@193.8.203.37:1522/PS";
     this.user = "monservice";
     this.pass = "monservice";
     this.driver = "oracle.jdbc.driver.OracleDriver";
-    logger.info("Default connection init");
+    logger.debug("Default connection init");
   }
 
   public DBConnect(String dbUrl, String user, String password) {
@@ -32,10 +32,10 @@ public class DBConnect {
   }
 
   public void connect() throws SQLException, ClassNotFoundException {
-    logger.info("Calling connect() method for connection to a database");
+    logger.debug("Calling connect() method for connection to a database");
     Class.forName(driver);
     this.conn = DriverManager.getConnection(url, user, pass);
-    logger.info("Connection to: " + url + " is opened");
+    logger.debug("Connection to: " + url + " is opened");
     System.out.println("//----------------------------------------------------------------------------------------------------------------------");
   }
 
@@ -44,9 +44,9 @@ public class DBConnect {
   }
 
   public void close() throws SQLException {
-    logger.info("Closing connection");
+    logger.debug("Closing connection");
     this.conn.close();
-    logger.info("Connection is closed");
+    logger.debug("Connection is closed");
   }
 
   public void setUrl(String url) {
