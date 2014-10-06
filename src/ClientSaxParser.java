@@ -71,6 +71,10 @@ public class ClientSaxParser extends DefaultHandler implements Runnable {
         logger.info("ClientList is created");
       }
     }
+    
+    if (qName.equalsIgnoreCase("client")) {
+      client.setId(attributes.getValue(0));
+    }
   }
 
   @Override

@@ -43,7 +43,6 @@ public class ClientParserHandler extends DefaultHandler {
   public void endElement(String uri, String localName, String qName) throws SAXException {
     if (qName.equals("client")) {
       clientList.add(client);
-//      queue.put(client);
     }
     if (qName.equalsIgnoreCase("name")) {
       client.setName(tmpValue);

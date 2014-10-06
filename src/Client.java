@@ -4,7 +4,7 @@ import java.util.List;
 
 public class Client {
 
-  private int clientId;
+  private String clientId;
   private String name;
   private String surname;
   private String dateOfBirth;
@@ -16,11 +16,11 @@ public class Client {
     accounts = new ArrayList<>();
   }
 
-  public int getId() {
+  public String getId() {
     return clientId;
   }
 
-  public void setId(int client_id) {
+  public void setId(String client_id) {
     this.clientId = client_id;
   }
 
